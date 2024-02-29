@@ -1,0 +1,21 @@
+number: 32
+tags:
+  - news
+title: Hono v4, Storybook 8, and and update on Apple PWAs
+date: 2024-02-26
+description: |
+  Paige: Hono v4 takes aim at full-stack frameworks
+  Jack: Storybook 8
+  TJ: An update on Apple breaking PWAs in the EU
+duration: "34:58"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+# this will only be used for interviews
+# guests:
+spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
+# clips are ~15–45 seconds. I have the raw video for all these.
+clip: https://twitter.com/front_end_fire/status/1759581809560428763
+# unused for now, but eventually we plan to put these on YouTube
+youtube: ""

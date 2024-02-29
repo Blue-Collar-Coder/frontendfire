@@ -1,0 +1,75 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  episode: CollectionEntry<"episodes">;
+}
+
+const { episode } = Astro.props;
+---
+
+<article class="episode-card">
+  <h2 class="episode-title">
+    <a href={"/episodes/" + episode.id}>{episode.data.title}</a>
+  </h2>
+
+  <time datetime={episode.data.date.toISOString()} class="episode-date">
+    {
+      episode.data.date.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })
+    }
+  </time>
+
+  <ul class="episode-tag-list">
+    {episode.data.tags.map((tag) => <li class="episode-tag">{tag}</li>)}
+  </ul>
+
+  <span class="episode-number">#{episode.data.number}</span>
+
+  <p class="episode-description">{episode.data.description}</p>
+</article>
+
+<style>
+  .episode-card {
+    margin: 2em 0;
+  }
+
+  .episode-title {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .episode-date,
+  .episode-number {
+    color: var(--base-color-dark);
+    font-weight: 400;
+  }
+
+  .episode-description {
+    margin: 0.25em 0;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+  }
+
+  .episode-tag-list {
+    list-style: none;
+    display: inline-flex;
+    padding: 0 0.5em;
+    margin: 0;
+    gap: 0.5em;
+  }
+
+  .episode-tag {
+    display: inline-block;
+    padding: 0 0.5em;
+    background-color: #dfdfdf;
+    border-radius: 1em;
+    line-height: 1.2;
+    color: var(--base-color-dark);
+  }
+</style>

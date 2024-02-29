@@ -1,0 +1,58 @@
+---
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+
+import Layout from "../layouts/Layout.astro";
+import EpisodeCard from "../components/EpisodeCard.astro";
+import Footer from "../components/Footer.astro";
+
+import logo from "../assets/images/logo-horizontal-white.png";
+
+const episodes = await getCollection("episodes");
+---
+
+<Layout
+  title="Front-End Fire - The weekly show that helps you stay up to date on the latest and greatest in the front-end world"
+>
+  <header>
+    <Image src={logo} alt="Front-End Fire Logo" class="logo" />
+    <h1 class="sr-only">Front-End Fire</h1>
+    <p class="tagline">
+      The weekly show that helps you stay up to date on the latest and greatest
+      in the front-end world.
+    </p>
+  </header>
+  <main>
+    {episodes.reverse().map((entry) => <EpisodeCard episode={entry} />)}
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    padding: 1em;
+    background: #3d3c40 linear-gradient(#161619, #3d3c40);
+    color: var(--off-white);
+  }
+
+  .logo,
+  .tagline {
+    width: var(--content-width);
+  }
+
+  .logo {
+    height: auto;
+  }
+
+  .tagline {
+    margin: 0;
+    font-size: clamp(1.25rem, 4vw, 2.625rem);
+    line-height: 1.25;
+    font-weight: 200;
+  }
+</style>

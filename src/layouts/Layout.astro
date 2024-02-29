@@ -1,0 +1,89 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --base-color: #3d3c40;
+    --base-color-dark: #161619;
+    --primary-color-light: #f48b45;
+    --primary-color: #e7823f;
+    --primary-color-dark: #bc5008;
+    --off-white: #f5f5f5;
+    --content-width: clamp(300px, 80vw, 900px);
+  }
+
+  html {
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.5;
+    background-color: var(--off-white);
+    color: var(--base-color);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    font-size: clamp(100%, 1.25vw, 150%);
+  }
+
+  main {
+    width: var(--content-width);
+    margin: 0 auto;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: var(--primary-color-dark);
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    margin-bottom: -0.1em;
+    color: var(--primary-color-light);
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+    text-decoration-thickness: 1px;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+</style>

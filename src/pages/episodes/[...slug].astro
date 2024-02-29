@@ -1,0 +1,26 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("episodes");
+  return entries.map((episode) => ({
+    params: { slug: episode.id },
+    props: { episode },
+  }));
+}
+const { episode } = Astro.props;
+const title = `${episode.data.number}: ${episode.data.title}`;
+---
+
+<Layout title={title}>
+  <main>
+    <h1>{title}</h1>
+  </main>
+</Layout>
+
+<style>
+  h1 {
+    color: var(--primary-color);
+  }
+</style>

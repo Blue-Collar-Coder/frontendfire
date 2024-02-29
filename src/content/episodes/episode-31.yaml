@@ -1,0 +1,19 @@
+number: 31
+tags:
+  - interview
+title: The Boring JavaScript Stack with Kelvin Omereshone
+date: 2024-02-22
+description: Kelvin Omereshone is the lead maintainer of Sails.js and creator of The Boring JavaScript Stack
+duration: "33:55"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+# this will only be used for interviews
+guests:
+  - Kelvin Omereshone
+spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
+# clips are ~15–45 seconds. I have the raw video for all these.
+clip: https://twitter.com/front_end_fire/status/1759581809560428763
+# unused for now, but eventually we plan to put these on YouTube
+youtube: ""

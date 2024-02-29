@@ -1,0 +1,23 @@
+number: 30
+tags:
+  - news
+title: Monorepos with Nx, Simple Stack Streaming,
+  and Apple's App-ocalypse
+date: 2024-02-19
+description: |
+  Paige: Powering Up Monorepos with Nx's Project Crystal
+  Jack: Astro's Simple Stack Streaming
+  TJ: Apple breaking PWAs in the EU
+  Bonus News: Mozilla downsizes as it refocuses on Firefox and AI
+duration: "36:23"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+# this will only be used for interviews
+# guests:
+spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
+# clips are ~15–45 seconds. I have the raw video for all these.
+clip: https://twitter.com/front_end_fire/status/1759581809560428763
+# unused for now, but eventually we plan to put these on YouTube
+youtube: ""
