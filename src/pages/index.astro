@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
 import Layout from "../layouts/Layout.astro";
+import PlatformActions from "../components/PlatformActions.astro";
 import EpisodeCard from "../components/EpisodeCard.astro";
 import Footer from "../components/Footer.astro";
 
@@ -21,6 +22,9 @@ const episodes = await getCollection("episodes");
       The weekly show that helps you stay up to date on the latest and greatest
       in the front-end world.
     </p>
+    <div class="subscribe-bar">
+      <PlatformActions />
+    </div>
   </header>
   <main>
     {episodes.reverse().map((entry) => <EpisodeCard episode={entry} />)}
@@ -31,18 +35,22 @@ const episodes = await getCollection("episodes");
 
 <style>
   header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5em;
     padding: 1em;
     background: #3d3c40 linear-gradient(#161619, #3d3c40);
     color: var(--off-white);
   }
 
   .logo,
-  .tagline {
+  .tagline,
+  .subscribe-bar {
+    display: block;
     width: var(--content-width);
+    margin: 0.25rem auto;
+  }
+
+  .subscribe-bar {
+    margin-top: 1em;
+    text-align: center;
   }
 
   .logo {
@@ -50,7 +58,6 @@ const episodes = await getCollection("episodes");
   }
 
   .tagline {
-    margin: 0;
     font-size: clamp(1.25rem, 4vw, 2.625rem);
     line-height: 1.25;
     font-weight: 200;

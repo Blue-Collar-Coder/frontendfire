@@ -1,0 +1,72 @@
+---
+import { Image } from "astro:assets";
+import apple from "../assets/images/apple-icon.svg?raw";
+import spotify from "../assets/images/spotify-icon.svg?raw";
+import google from "../assets/images/google-icon.svg?raw";
+import discord from "../assets/images/discord-icon.svg?raw";
+import rss from "../assets/images/rss-icon.svg?raw";
+---
+
+<a
+  href="https://podcasts.apple.com/us/podcast/front-end-fire/id1700169000"
+  class="platform-action"
+  aria-label="View on Apple Podcasts"
+>
+  <Fragment set:html={apple} />
+  <!-- <Image src={apple} alt="Apple Podcast Icon" /> -->
+  Apple
+</a>
+<a
+  href="https://open.spotify.com/show/0MFC3eW0j1U9HC5U1dUZ0Y"
+  class="platform-action"
+  aria-label="Listen on Spotify"
+>
+  <Fragment set:html={spotify} />
+  Spotify
+</a>
+<a
+  href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMjI2NDk5LnJzcw=="
+  class="platform-action"
+  aria-label="Listen on Google Podcasts"
+>
+  <Fragment set:html={google} />
+  Google
+</a>
+
+<a
+  href="https://discord.com/invite/sae4SWPAFN"
+  class="platform-action"
+  aria-label="Join our Discord Channel"
+>
+  <Fragment set:html={discord} />
+  Discord
+</a>
+
+<a href="https://feeds.buzzsprout.com/2226499.rss" class="platform-action">
+  <Fragment set:html={rss} />
+  RSS Feed
+</a>
+
+<style>
+  .platform-action {
+    color: inherit;
+    font-size: 0.8em;
+    opacity: 0.8;
+
+    img,
+    svg {
+      height: 1.25em;
+      width: 1.25em;
+      vertical-align: text-bottom;
+    }
+  }
+
+  .platform-action + .platform-action {
+    margin-left: 1em;
+  }
+
+  .platform-action:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+</style>
