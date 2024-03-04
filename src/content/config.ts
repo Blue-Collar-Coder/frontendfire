@@ -18,8 +18,8 @@ const episodes = defineCollection({
       })
     ),
     spotify: z.string(),
-    clip: z.string(),
-    youtube: z.string(),
+    clip: z.string().optional(),
+    youtube: z.string().optional(),
   }),
 });
 

@@ -3,7 +3,7 @@ type: news
 title: npm Has Competition, Parcel Adds Macros, and BrowserStack Gets Sued
 date: 2024-03-04
 description:
-  We discuss jsr, the new package registry from Deno, and whether it can
+  We discuss JSR, the new package registry from Deno, and whether it can
   compete with npm. Next, we talk about Parcel’s new support for macros, which is
   a handy way to embed build-time logic into your code. After that we some get
   into some BrowserStack legal drama, and wrap up with some BREAKING NEWS about
@@ -36,6 +36,4 @@ links:
     url: https://blues.com/notecard-lora/
   - text: White House urges developers to dump C and C++
     url: https://www.infoworld.com/article/3713203/white-house-urges-developers-to-dump-c-and-c.html
-spotify: ""
-clip: ""
-youtube: ""
+spotify: https://open.spotify.com/episode/7abF63KbcsnW3wMoGy7v94?si=67dca1e71d2e4e22
