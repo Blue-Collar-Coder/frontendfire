@@ -17,6 +17,7 @@ const episodes = defineCollection({
         url: z.string(),
       })
     ),
+    apple: z.string(),
     spotify: z.string(),
     clip: z.string().optional(),
     youtube: z.string().optional(),
