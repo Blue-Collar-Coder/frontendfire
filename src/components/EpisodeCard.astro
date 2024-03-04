@@ -24,7 +24,7 @@ const { episode } = Astro.props;
   </time>
 
   <ul class="episode-tag-list">
-    {episode.data.tags.map((tag) => <li class="episode-tag">{tag}</li>)}
+    <li class="episode-tag">{episode.data.type}</li>
   </ul>
 
   <span class="episode-number">#{episode.data.number}</span>

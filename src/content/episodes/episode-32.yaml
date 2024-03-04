@@ -1,21 +1,33 @@
 number: 32
-tags:
-  - news
-title: Hono v4, Storybook 8, and and update on Apple PWAs
+type: news
+title: Hono v4, Storybook 8, and an Update on Apple PWAs
 date: 2024-02-26
-description: |
-  Paige: Hono v4 takes aim at full-stack frameworks
-  Jack: Storybook 8
-  TJ: An update on Apple breaking PWAs in the EU
+description:
+  "Hono is a framework with a cool logo, cool name, and a cool new release
+  that we discuss in detail. Next, we talk about Storybook 8, which has some
+  exciting new support for React server components. Finally, we wrap up with an
+  update on Apple breaking PWAs in the EU. (Hint: If you think it is good news,
+  you are not correct.)"
 duration: "34:58"
 hosts:
   - Jack Herrington
   - Paige Niedringhaus
   - TJ VanToll
-# this will only be used for interviews
-# guests:
+links:
+  - text: Hono v4 takes aim at full-stack frameworks
+    url: https://github.com/honojs/hono/releases/tag/v4.0.0
+  - text: Storybook 8
+    url: https://storybook.js.org/blog/storybook-8-beta/
+  - text: An update on Apple breaking PWAs in the EU
+    url: https://www.theverge.com/2024/2/15/24074182/apple-drops-support-iphone-web-apps-eu-dma
+  - text: Google cut a deal with Reddit for AI training data
+    url: https://www.theverge.com/2024/2/22/24080165/google-reddit-ai-training-data
+  - text: Node.js unveils its new mascot Rocket Turtle
+    url: https://twitter.com/nodejs/status/1759953849849167878
+  - text: The Fourth Wing
+    url: https://www.rebeccayarros.com/books/fourth-wing/
+  - text: Drive to Survive Season 6
+    url: https://www.netflix.com/title/80204890
 spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
-# clips are ~15–45 seconds. I have the raw video for all these.
 clip: https://twitter.com/front_end_fire/status/1759581809560428763
-# unused for now, but eventually we plan to put these on YouTube
 youtube: ""

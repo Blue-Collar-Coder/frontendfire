@@ -1,0 +1,41 @@
+number: 33
+type: news
+title: npm Has Competition, Parcel Adds Macros, and BrowserStack Gets Sued
+date: 2024-03-04
+description:
+  We discuss jsr, the new package registry from Deno, and whether it can
+  compete with npm. Next, we talk about Parcel’s new support for macros, which is
+  a handy way to embed build-time logic into your code. After that we some get
+  into some BrowserStack legal drama, and wrap up with some BREAKING NEWS about
+  Apple, PWAs, and the EU. Drama!
+duration: "34:26"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: JSR - Deno’s New JavaScript Package Registry
+    url: https://jsr.io/
+  - text: Parcel v2.12 supports macros
+    url: https://parceljs.org/blog/v2-12-0/#macros
+  - text: Deque Systems Sues BrowserStack for Intellectual Property Theft
+    url: https://www.deque.com/blog/deque-systems-sues-browserstack-for-intellectual-property-theft/
+  - text: So what exactly did Apple break in the EU?
+    url: https://blog.tomayac.com/2024/02/28/so-what-exactly-did-apple-break-in-the-eu/
+  - text: Apple says iOS 17.4 won’t remove Home Screen web apps in the EU after all
+    url: https://9to5mac.com/2024/03/01/apple-home-screen-web-apps-ios-17-eu/
+  - text: React 19’s useOptimistic hook
+    url: https://react.dev/reference/react/useOptimistic
+  - text: House of Ninjas series on Netflix
+    url: https://www.netflix.com/title/81465101
+  - text: Dune 2
+    url: https://www.dunemovie.com/
+  - text: Avatar The Last Airbender on Netflix
+    url: https://www.netflix.com/title/80237957
+  - text: Notecard LoRa
+    url: https://blues.com/notecard-lora/
+  - text: White House urges developers to dump C and C++
+    url: https://www.infoworld.com/article/3713203/white-house-urges-developers-to-dump-c-and-c.html
+spotify: ""
+clip: ""
+youtube: ""

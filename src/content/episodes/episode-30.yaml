@@ -1,23 +1,32 @@
 number: 30
-tags:
-  - news
-title: Monorepos with Nx, Simple Stack Streaming,
-  and Apple's App-ocalypse
+type: news
+title: Nx’s Project Crystal, Simple Streaming for Astro, and Apple's App-ocalypse
 date: 2024-02-19
-description: |
-  Paige: Powering Up Monorepos with Nx's Project Crystal
-  Jack: Astro's Simple Stack Streaming
-  TJ: Apple breaking PWAs in the EU
-  Bonus News: Mozilla downsizes as it refocuses on Firefox and AI
+description:
+  If you’re adding a new feature to your project consider naming it something awesome
+  like Project Crystal. That’s what Nx did, so we were morally required to cover what
+  it actually does. After that we talked about an interesting new streaming utility for
+  Astro, and wrapped up with some major Apple drama in the EU.
 duration: "36:23"
 hosts:
   - Jack Herrington
   - Paige Niedringhaus
   - TJ VanToll
-# this will only be used for interviews
-# guests:
+links:
+  - text: Nx Project Crystal
+    url: https://dev.to/nx/what-if-nx-plugins-were-more-like-vscode-extensions-4oh0
+  - text: Astro Simple Stream
+    url: https://simple-stack.dev/stream
+  - text: Apple breaking PWAs in the EU
+    url: https://simple-stack.dev/stream
+  - text: Mozilla downsizes as it refocuses on Firefox and AI
+    url: https://techcrunch.com/2024/02/13/mozilla-downsizes-as-it-refocuses-on-firefox-and-ai-read-the-memo/
+  - text: Mr. & Mrs. Smith TV series
+    url: https://en.wikipedia.org/wiki/Mr._%26_Mrs._Smith_(2024_TV_series)
+  - text: The Murderbot Diaries book series
+    url: https://en.wikipedia.org/wiki/The_Murderbot_Diaries
+  - text: Casey Neistat’s video on the Apple Vision Pro
+    url: https://www.youtube.com/watch?v=UvkgmyfMPks
 spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
-# clips are ~15–45 seconds. I have the raw video for all these.
 clip: https://twitter.com/front_end_fire/status/1759581809560428763
-# unused for now, but eventually we plan to put these on YouTube
 youtube: ""

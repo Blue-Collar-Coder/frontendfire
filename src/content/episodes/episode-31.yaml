@@ -1,19 +1,43 @@
 number: 31
-tags:
-  - interview
+type: interview
 title: The Boring JavaScript Stack with Kelvin Omereshone
 date: 2024-02-22
-description: Kelvin Omereshone is the lead maintainer of Sails.js and creator of The Boring JavaScript Stack
+description:
+  Kelvin Omereshone wants to make JavaScript boring. As the lead maintainer of
+  Sails.js and creator of The Boring JavaScript Stack, Kelvin aims to build a
+  suite of stable tools that developers can rely on and avoid having to worry
+  about chasing the latest and greatest. We ask him how The Boring Stack works,
+  who’s using it, how to get started, and more.
 duration: "33:55"
 hosts:
   - Jack Herrington
   - Paige Niedringhaus
   - TJ VanToll
-# this will only be used for interviews
 guests:
   - Kelvin Omereshone
+links:
+  - text: The Boring Stack on GitHub
+    url: https://github.com/sailscastshq/boring-stack
+  - text: The Boring Stack docs
+    url: https://docs.sailscasts.com/boring-stack
+  - text: Kelvin on Twitter
+    url: https://twitter.com/Dominus_Kelvin
+  - text: Kelvin on YouTube
+    url: https://youtube.com/@dominuskelvin
+  - text: Kelvin’s Website
+    url: https://dominuskelvin.dev/
+  - text: Sailsconf keynote announcing The Boring Stack
+    url: https://youtu.be/qX69jEyAIc0?si=v89WbjHbNQJdR9Dt
+  - text: Why the name?
+    url: https://docs.sailscasts.com/boring-stack/why-the-name
+  - text: Who is boring for?
+    url: https://docs.sailscasts.com/boring-stack/who-is-it-for
+  - text: Sails.js
+    url: https://sailsjs.com/
+  - text: Inertia.js
+    url: https://inertiajs.com/
+  - text: Sailscasts
+    url: https://sailscasts.com/
 spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
-# clips are ~15–45 seconds. I have the raw video for all these.
 clip: https://twitter.com/front_end_fire/status/1759581809560428763
-# unused for now, but eventually we plan to put these on YouTube
 youtube: ""
