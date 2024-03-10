@@ -1,0 +1,31 @@
+number: 1
+type: news
+title: Dan Abramov leaves Meta, GitHub Copilot Chat, and Native Browser View Transitions
+date: 2023-07-30
+description:
+  In our very first episode, we introduce ourselves to listeners, and dive right
+  into the latest news in the web development world. Dan Abramov shocks the React
+  community by announcing his departure from Meta and the React core team. That segues
+  into GitHub Copilot Chat being released for enterprise dev teams, and finally, Astro's
+  zero-JavaScript page transitions. There's rarely a dull moment when it comes to new in the
+  web dev world!
+duration: "34:28"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Dan Abramov leaves meta
+    url: https://twitter.com/dan_abramov/status/1682029195843739649
+  - text: GitHub Copilot Chat is now available for enterprise dev teams
+    url: https://github.blog/2023-07-20-github-copilot-chat-beta-now-available-for-every-organization/
+  - text: Zero-JavaScript page transitions coming to Astro
+    url: https://docs.astro.build/en/guides/view-transitions/
+  - text: The Witcher Season 3 on Netflix
+    url: https://www.netflix.com/title/80189685
+  - text: Star Trek Strange New Worlds on Paramount+
+    url: https://www.imdb.com/title/tt12327578/
+  - text: Pokemon Sleep
+    url: https://www.pokemon.com/us/app/pokemon-sleep/
+apple: https://podcasts.apple.com/gb/podcast/dan-abramov-leaves-meta-github-copilot-chat-and/id1700169000?i=1000622871664
+spotify: https://open.spotify.com/episode/2IImi3V12GUTqeeYCC3ymW

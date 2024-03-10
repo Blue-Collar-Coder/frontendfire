@@ -1,0 +1,32 @@
+number: 2
+type: news
+title: The Death of Jamstack, the Rise of HTMX, and Another AI Assistant
+date: 2023-08-07
+description:
+  This episode, we start with the news of StackOverflow's new AI assistant, Overflow AI, and
+  discuss how it could change the way developers find answers. Then we talk about the rise of HTMX
+  - is it going to supplant traditional HTML? Finally, we discuss the future of Jamstack and whether
+  it's officially over. And we have a bit of bonus news as Vercel intorduces React Tweet, a performant way
+  to embed tweets in your React apps.
+duration: "26:15"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: StackOverflow launches Overflow AI
+    url: https://stackoverflow.blog/2023/07/27/announcing-overflowai/?ck_subscriber_id=1812147965
+  - text: HTMX
+    url: https://htmx.org/
+  - text: Is Jamstack Officially Finished?
+    url: https://remotesynthesis.com/blog/goodbye-jamstack/
+  - text: Introducing react-tweet
+    url: https://vercel.com/blog/introducing-react-tweet
+  - text: Roller coasters
+    url: https://www.sixflags.com/overgeorgia/things-to-do/all-rides
+  - text: The Barbie Movie
+    url: https://www.barbie-themovie.com/
+  - text: Algolia search
+    url: https://www.algolia.com/
+apple: https://podcasts.apple.com/gb/podcast/the-death-of-jamstack-the-rise-of/id1700169000?i=1000623664956
+spotify: https://open.spotify.com/episode/313Fh4NvJBT9JZHQbexjUm

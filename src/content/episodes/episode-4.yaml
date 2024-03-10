@@ -1,0 +1,31 @@
+number: 4
+type: news
+title: Faster React apps with Million.js, more new CSS features, and Bun 1.0
+date: 2023-08-21
+description:
+  We talk about Million.js, a library that can help speed up your React apps automatically.
+  Next, we discuss what a great year it's been for CSS with 4 new CSS features that Chrome has
+  introduced for entry/exit animations. And we wrap up the news with the launch of Bun 1.0,
+  an incredibly fast JavaScript runtime, transpiler bundler, and npm package manager all-in-one.
+duration: "27:43"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Chrome introduces 4 new CSS features for entry/exit animations
+    url: https://developer.chrome.com/blog/entry-exit-animations/
+  - text: Million.js auto mode
+    url: https://twitter.com/aidenybai/status/1689773623827943424
+  - text: Bun 1.0 launch event
+    url: https://lu.ma/cqk31rvl?from=embed
+  - text: CodePen site
+    url: https://codepen.io/
+  - text: The Weird Al Yankovic Movie
+    url: https://www.imdb.com/title/tt17076046/
+  - text: Miracle Workers season 4
+    url: https://www.tbs.com/shows/miracle-workers
+  - text: GitHub Copilot Chat
+    url: https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat
+apple: https://podcasts.apple.com/gb/podcast/faster-react-apps-with-million-js-more-new-css/id1700169000?i=1000625115401
+spotify: https://open.spotify.com/episode/1ClMHwAsh7X2EoIWUcUISz

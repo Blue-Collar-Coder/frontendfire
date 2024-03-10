@@ -1,0 +1,30 @@
+number: 3
+type: news
+title: A new React Component Library, Google’s Cloud IDE, and an RSC Debugger
+date: 2023-08-14
+description:
+  Today we've got news about Google's latest offering in the cloud-based IDE race,
+  Project IDX, a slick new open source component library for React apps called
+  Radix UI, and a helpful debugger for React Server Components.
+duration: "26:14"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Radix UI themes - an OS component library for React
+    url: https://www.radix-ui.com/
+  - text: RSC Parser
+    url: https://rsc-parser.vercel.app/
+  - text: Google announces Project IDX
+    url: https://idx.dev/
+  - text: Meater BBQ Oven Mitts
+    url: https://store-us.meater.com/products/mitts
+  - text: XP Pen
+    url: https://www.amazon.com/dp/B0B1MBSX8Z
+  - text: Screenbrush
+    url: https://apps.apple.com/us/app/screenbrush/id1233965871?mt=12
+  - text: Michigan’s Upper Peninsula
+    url: https://www.uptravel.com/
+apple: https://podcasts.apple.com/gb/podcast/a-new-react-component-library-googles-cloud-based/id1700169000?i=1000624376963
+spotify: https://open.spotify.com/episode/1tlRCyRFnYQ53XhWTNzA5q
