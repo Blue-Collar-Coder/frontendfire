@@ -1,0 +1,30 @@
+number: 6
+type: news
+title: Astro partners with Vercel, Lightning CSS gets adopted by Tailwind, and ChatGPT goes Enterprise Edition
+date: 2023-09-04
+description:
+  Today we discuss how the Lightning CSS framework continues to gain wider spread
+  support as Tailwind adopts it as part of the core Oxide Engine powering Tailwind CSS. Vercel announces
+  it is Astro's official hosting partner, and ChatGPT Enterprise debuts which offers enterprise-grade
+  security and privacy, higher-speed GPT-4 access, advanced data analysis capabilities, customization options,
+  and more.
+duration: "27:34"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Lightning CSS gains wid(er) spread adoption
+    url: https://lightningcss.dev/
+  - text: Vercel becomes official hosting partner for Astro
+    url: https://astro.build/blog/vercel-official-hosting-partner/
+  - text: ChatGPT Enterprise is out now
+    url: https://openai.com/blog/introducing-chatgpt-enterprise
+  - text: "Star Trek: Strange New Worlds"
+    url: https://www.imdb.com/title/tt12327578/
+  - text: Chip War
+    url: https://www.amazon.com/Chip-War-Worlds-Critical-Technology/dp/1982172002
+  - text: M2 Macbook Pro
+    url: https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-apple-m2-pro-with-10-core-cpu-and-16-core-gpu-512gb
+apple: https://podcasts.apple.com/gb/podcast/astro-partners-with-vercel-lightning-css-gets-adopted/id1700169000?i=1000626684537
+spotify: https://open.spotify.com/episode/0sLoDmqAn8qq08VZ98FSql

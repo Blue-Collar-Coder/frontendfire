@@ -1,0 +1,29 @@
+number: 8
+type: news
+title: "It’s a Bun-anza! A Bun-apalooza! Bun-tastic, with a dash of AI"
+date: 2023-09-18
+description:
+  This episode is chock full of Bun, bread and bakery-related puns because Bun is
+  the star of the show! We talk about the launch of Bun 1.0 and support for JS macros, a new
+  generative UI tool from Vercel Labs using AI to build React UI/Tailwind code. Brace
+  yourselves, developers - AI generated code is on its way!
+duration: "32:35"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Vercel Labs presents generative UI tool v0
+    url: https://v0.dev/faq
+  - text: Bun Macros
+    url: https://bun.sh/blog/bun-macros
+  - text: Bun 1.0 is here
+    url: https://www.youtube.com/watch?v=BsnCpESUEqM
+  - text: What We Do in the Shadows TV show
+    url: https://www.imdb.com/title/tt7908628/
+  - text: Making stuff
+  - text: Tears of the Kingdom game on Nintendo
+    url: https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/
+apple: https://podcasts.apple.com/gb/podcast/its-a-bun-anza-a-bun-apalooza-bun-tastic-with-a-dash-of-ai/id1700169000?i=1000628238939
+spotify: https://open.spotify.com/episode/2R7Qt3Xs0riDkaKWy1xnm6
+clip: https://twitter.com/front_end_fire/status/1703764356222107849
