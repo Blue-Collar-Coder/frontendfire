@@ -1,0 +1,35 @@
+number: 34
+type: news
+title: Vercel’s New AI SDK 3.0, Tailwind CSS Goes Open Source, and Safari 17.4
+date: 2024-03-11
+description:
+  "Today we discuss Vercel’s latest offering: AI SDK 3.0, which streams React
+  components from LLMs to deliver richer user experiences than text-only chatbots.
+  Then we dive into the world of modern styling as Tailwind CSS drops its latest gem
+  - version 4.0, now open source for community exploration. And then finally we
+  talk about the latest improvements in Safari 17.4. Plus, stay tuned for Elon Musk’s
+  legal saga with OpenAI and the Indian government’s new stance on AI model updates."
+duration: "34:03"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Tailwind CSS v4 goes open source
+    url: https://tailwindcss.com/blog/tailwindcss-v4-alpha
+  - text: Vercel’s AI SDK 3.0 with Generative UI support
+    url: https://vercel.com/blog/ai-sdk-3-generative-ui
+  - text: Safari 17.4 upgrades
+    url: https://webkit.org/blog/15063/webkit-features-in-safari-17-4/
+  - text: Elon Musk Suing OpenAI
+    url: https://www.theverge.com/2024/3/1/24087937/elon-musk-suing-openai-nightmare-1l-contracts-exam
+  - text: India requiring government approval for AI model updates
+    url: https://techcrunch.com/2024/03/03/india-reverses-ai-stance-requires-government-approval-for-model-launches/
+  - text: Springtime is coming
+  - text: Warrior TV series
+    url: https://www.imdb.com/title/tt5743796/
+  - text: Dune movie
+    url: https://www.warnerbros.com/movies/dune
+apple: https://podcasts.apple.com/gb/podcast/news-vercels-new-ai-sdk-3-0-tailwind-css-goes-open/id1700169000?i=1000648749102
+spotify: https://open.spotify.com/episode/77KNWAPrdigGO63iDfxtG1
+clip: https://twitter.com/front_end_fire/status/1767177165261459802
