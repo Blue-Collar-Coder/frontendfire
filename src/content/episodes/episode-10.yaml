@@ -1,0 +1,31 @@
+number: 10
+type: news
+title: ChatGPT for JS Devs, HTML Elements Beyond Divs, and Parallel CI Made Easy with NX
+date: 2023-10-02
+description:
+  "We knew it was only a matter of time before ChatGPT made its way fully into the JavaScript
+  ecosystem, and this week it finally happened: introducing ChatGPT.js! Plus, the Nx team
+  is back with some exciting updates for large-scale monorepos, including a new parallel
+  CI feature to speed up CI tasks. And we discuss the State of HTML Survey (and learn there's
+  a lot more to HTML than just divs). A whole lot more."
+duration: "29:53"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: ChatGPT.js
+    url: https://chatgpt.js.org/#/
+  - text: Nx updates
+    url: https://nx.dev/
+  - text: State of HTML Survey
+    url: https://survey.devographics.com/en-US/survey/state-of-html/2023
+  - text: Dune novel
+    url: https://en.wikipedia.org/wiki/Dune_(novel)
+  - text: Egg rolls
+  - text: Anker USB Outlet
+    url: https://www.amazon.com/gp/product/B09Q52CXX1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
+  - text: The Detroit Lions winning streak
+apple: https://podcasts.apple.com/gb/podcast/chatgpt-for-js-devs-html-elements-beyond-divs-and/id1700169000?i=1000629887845
+spotify: https://open.spotify.com/episode/4JMdjt4Dfcv6dWDeYCgt3d
+clip: https://twitter.com/front_end_fire/status/1708848218031686094

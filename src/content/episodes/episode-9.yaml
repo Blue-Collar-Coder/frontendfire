@@ -1,0 +1,33 @@
+number: 9
+type: news
+title: The TS Origin Story, Svelte 5, and Meta’s CSS-in-JS library Stylex
+date: 2023-09-25
+description:
+  "This week's episode is all about revisiting tech's past. A high quality documentary
+  showcases TypeScript's cinematic origin story at Microsoft in a similar vein to the
+  React documentary. Svelte 5 takes cues from Knockout.js as it teases what devs can
+  expect in the next major version release, and Meta attempts to revive the CSS-in-JS
+  hype train with its styling library StyleX."
+duration: "31:03"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: The first look at Svelte 5
+    url: https://svelte.dev/blog/runes
+  - text: StyleX Css-in-JS library
+    url: https://github.com/ladifire-opensource/stylex
+  - text: "TypeScript Origins: The Documentary"
+    url: https://www.youtube.com/watch?v=U6s2pdxebSo
+  - text: "Men in Kilts: A Roadtrip with Sam and Graham TV show"
+    url: https://www.starz.com/us/en/series/men-in-kilts-a-roadtrip-with-sam-and-graham/60275
+  - text: Foundation TV series
+    url: https://tv.apple.com/us/show/foundation/umc.cmc.5983fipzqbicvrve6jdfep4x3
+  - text: Scorpio Races book
+    url: https://www.amazon.com/Scorpio-Races-Maggie-Stiefvater/dp/0545224918
+  - text: Libby library app
+    url: https://www.overdrive.com/apps/libby
+apple: https://podcasts.apple.com/gb/podcast/typescripts-origin-story-svelte-5-references-knockout/id1700169000?i=1000629059345
+spotify: https://open.spotify.com/episode/3DoGEQqLHfsAJDvXs9upAA
+clip: https://twitter.com/front_end_fire/status/1706298684814643326
