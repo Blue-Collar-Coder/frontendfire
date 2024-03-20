@@ -1,0 +1,35 @@
+number: 12
+type: news
+title: React Aria Components, Optimized Barrel File Imports, and ActivityPub Support in WordPress
+date: 2023-10-16
+description:
+  In this episode, we share how the React Aria team has released a new library of unstyled
+  components which work seamlessly with vanilla CSS, Tailwind, Styled Components, and more. The
+  Next.js team blogged about how they optimized package imports to improve both local dev performance
+  and production cold starts through the use of barrel files; a way to group and export modules from a single file.
+  WordPress has announced official support for ActivityPub, the plug-in allowing social networks to talk
+  across platforms (the "fediverse"). And finally, Node.js 20.6.0 sounds the death knell for the
+  immensely popular dotenv package by introducing native support for loading environment variable files.
+duration: "31:08"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: React Aria's library of unstyled components
+    url: https://react-spectrum.adobe.com/react-aria/react-aria-components.html
+  - text: Barrel Files
+    url: https://vercel.com/blog/how-we-optimized-package-imports-in-next-js
+  - text: WordPress supports ActivityPub
+    url: https://www.theverge.com/2023/10/11/23913278/wordpress-activitypub-official-plugin-automattic-fediverse-mastodon
+  - text: Node.js 20 has killed dotenv
+    url: https://francoisbest.com/posts/2023/dotenv-is-dead
+  - text: Royal Theraphy Memory Foam Pillow
+    url: https://www.amazon.com/Royal-Therapy-Pharmonis-Adjustable-Orthopedic/dp/B07KBVS54W/ref=sr_1_34
+  - text: Godly Design Website
+    url: https://godly.website/
+  - text: Carawat Non-Stick Ceramic Baking Sheet
+    url: https://www.amazon.com/dp/B0B78DWPLJ/ref=twister_B0CDFQ5M9Q?_encoding=UTF8&th=1
+apple: https://podcasts.apple.com/gb/podcast/accelerate-your-web-dev-with-react-aria-components/id1700169000?i=1000631458533
+spotify: https://open.spotify.com/episode/1fqlYJQAzTIa2UF2nsl0VN
+clip: https://twitter.com/front_end_fire/status/1713909656743968887

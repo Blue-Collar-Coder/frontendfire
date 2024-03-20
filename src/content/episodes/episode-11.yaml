@@ -1,0 +1,40 @@
+number: 11
+type: interview
+title: The Future of SolidJS with Ryan Carniato
+date: 2023-10-09
+description:
+  Special guest alert! Ryan Carniato, creator of SolidJS, joins us to talk about the future of the framework.
+  Plus, Ryan weighs in on some of the news of the day like the release of web components library Lit 3.0,
+  and the arrival of Photoshop in the browser.
+duration: "56:33"
+hosts:
+  - Paige Niedringhaus
+  - TJ VanToll
+guests:
+  - Ryan Carniato
+links:
+  - text: Web components library Lit 3.0 is about to drop
+    url: https://lit.dev/blog/2023-09-27-lit-3.0-prerelease-2
+  - text: Photoshop is now on the web
+    url: https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a
+  - text: Future of SolidJS
+    url: https://www.solidjs.com/blog
+  - text: Ryan's X profile @RyanCarniato
+    url: https://twitter.com/RyanCarniato
+  - text: Ryan's YouTube channel
+    url: https://www.youtube.com/@ryansolid/featured
+  - text: SolidJS site
+    url: https://www.solidjs.com/
+  - text: SolidJS on Discord
+    url: https://discord.com/invite/solidjs
+  - text: Libby library app
+    url: https://www.overdrive.com/apps/libby
+  - text: All Creatures Great and Small book
+    url: https://www.amazon.com/All-Creatures-Great-Small-Memoirs/dp/1250057833
+  - text: Ember mug
+    url: https://ember.com/products/ember-mug-2
+  - text: Hiking in Sequoia National Park
+    url: https://www.nps.gov/seki/index.htm
+apple: https://podcasts.apple.com/gb/podcast/the-future-of-solidjs-with-ryan-carniato/id1700169000?i=1000630687500
+spotify: https://open.spotify.com/episode/1v86ei2ksxBK2pa2cdzQkR
+clip: https://twitter.com/front_end_fire/status/1711373799935869097
