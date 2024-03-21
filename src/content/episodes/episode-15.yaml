@@ -1,0 +1,34 @@
+number: 15
+type: news
+title: Remix joins the Vite Train, Docusaurus 3.0, and an Update on Vercel's AI Code Generator v0
+date: 2023-11-06
+description:
+  "In this episode, we cover the recent announcement that Remix has added support for Vite. It seems nothing can
+  stop Vite's popularity from growing. We also discuss the release of Docusaurus 3.0, a major update to the popular documentation
+  static site generator. And finally, we take a look at Vercel's AI code generator, v0, which has evolved a bit since
+  its initial release. We also muse about the cryptic post the Angular team has made on X: what could this big announcement be??
+  And we also touch on Svelte's continued ascendancy as well, as StackOverflow declares it plans to use Svelte to enhance
+  its UI."
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Remix announces Vite support
+    url: https://remix.run/blog/remix-heart-vite
+  - text: Docusaurus 3.0
+    url: https://docusaurus.io/blog/releases/3.0
+  - text: v0 update
+    url: https://v0.dev/
+  - text: Angular event
+    url: https://twitter.com/angular/status/1719025621425369267
+  - text: StackOverflow adopts Svelte to enhance their UI
+    url: https://stackoverflow.blog/2023/10/31/why-stack-overflow-is-embracing-svelte/
+  - text: F1 Racing on Sky TV
+    url: https://www.skysports.com/f1
+  - text: The Empire Strips Back burlesque show
+    url: https://theempirestripsback.com/portland/
+  - text: Major League Baseball playoffs
+apple: https://podcasts.apple.com/gb/podcast/web-dev-breakdown-remix-joins-the-vite-train/id1700169000?i=1000633835660
+spotify: https://open.spotify.com/episode/6ahdtngA29nRE34rhxrQMX
+clip: https://twitter.com/front_end_fire/status/1721532372783386844

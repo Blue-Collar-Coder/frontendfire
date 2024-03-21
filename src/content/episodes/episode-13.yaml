@@ -1,0 +1,29 @@
+number: 13
+type: news
+title: CodeSandbox's Dev Container Magic and TanStack Query V5 Unveiled
+date: 2023-10-23
+description:
+  With Jack away on assignment, TJ and Paige hold down the fort for this episode
+  of Front-end Fire. In it, they discuss the release of TanStack Query v5 which
+  brings a ton of new features including simplified optimistic updates, first
+  class suspense support, a brand new Devtools, and more. They also talk about the
+  new support for Dev Containers in CodeSandbox, a feature that allows users to set
+  up a full-featured dev environment in the cloud using a single configuration file.
+  Imagine using the same dev container to spin up a dev environment locally or on
+  any supporting cloud tool for a standardized development experience. The future is truly now.
+duration: "26:47"
+hosts:
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: TanStack Query hits v5
+    url: https://tanstack.com/blog/announcing-tanstack-query-v5
+  - text: Dev Container Support in CodeSandbox
+    url: https://codesandbox.io/blog/introducing-dev-container-support-in-codesandbox
+  - text: I Left My Stuff.com
+    url: https://www.ileftmystuff.com/
+  - text: YouTube TV multiview
+    url: https://tv.youtube.com/welcome/
+apple: https://podcasts.apple.com/gb/podcast/codesandboxs-dev-container-magic-tanstack-query-v5/id1700169000?i=1000632262982
+spotify: https://open.spotify.com/episode/33GHmdt4H1hIcBvw9cH4ye
+clip: https://twitter.com/front_end_fire/status/1716443210556280977

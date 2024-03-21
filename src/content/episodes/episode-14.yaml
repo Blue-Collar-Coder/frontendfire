@@ -1,0 +1,34 @@
+number: 14
+type: news
+title: Next.js v14, Angular’s new Analog.js, Plus Updates on React Forget
+date: 2023-10-30
+description:
+  The only constant in the world of web frameworks is change, and this week is no exception. Next.js
+  has released version 14, which includes speedier local development with the Turbopack
+  compiler, stable server actions, and a preview of partial pre-rendering. Angular has also announced a
+  new meta framework called Analog.js, which is a set of tools for building full stack web applications
+  similar to Next.js, SvelteKit, Nuxt, and others. And finally, the React core team shared more details
+  about React Forget, the new compiler they're working on to handle memoization automatically.
+duration: "34:56"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Next.js 14
+    url: https://nextjs.org/blog/next-14
+  - text: React Forget
+    url: https://portal.gitnation.org/contents/understanding-idiomatic-react
+  - text: AnalogJS
+    url: https://analogjs.org
+  - text: AnalogJS video from ViteConf 2023
+    url: https://viteconf.org/23/replay/analog
+  - text: Archer TV series
+    url: https://en.wikipedia.org/wiki/Archer_(2009_TV_series)
+  - text: Kinesis Freestyle2 keyboard
+    url: https://kinesis-ergo.com/shop/freestyle2-for-pc-us/
+  - text: GitHub Copilot (again)
+    url: https://github.com/features/copilot
+apple: https://podcasts.apple.com/gb/podcast/the-latest-in-web-frameworks-next-js-v14-angulars-new/id1700169000?i=1000633069127
+spotify: https://open.spotify.com/episode/4I465QBtTrirVlQsNrQaRD
+clip: https://twitter.com/front_end_fire/status/1718980974770377160
