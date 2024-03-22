@@ -1,0 +1,31 @@
+number: 17
+type: news
+title: Copilot Comes to gitHub.com, Blazing-er Faster Next.js, and a Bounty for Prettier
+date: 2023-11-20
+description:
+  GitHub, Next.js and Prettier are all in the news this week! GitHub Copilot Chat takes center stage
+  when it's announced it's coming to github.com. Next.js release partial prerendering as an
+  experimental feature to speed up sites by pre-rendering static portions of a route and only
+  streaming in the dynamic parts needed in a single HTTP request. And the Prettier team offers up
+  a $20,000 bounty to anyone who can rewrite the popular code formatter in Rust. Who do you
+  think will take home that prize? It remains to be seen, but get ready to work faster and smarter.
+duration: "40:00"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: GitHub brings Copilot Chat to github.com
+    url: https://github.blog/2023-11-08-universe-2023-copilot-transforms-github-into-the-ai-powered-developer-platform/
+  - text: Next.js partial prerendering
+    url: https://nextjs.org/docs/app/api-reference/next-config-js/partial-prerendering
+  - text: The $20k bounty for Prettier
+    url: https://twitter.com/Vjeux/status/1722733472522142022
+  - text: Blue Eye Samurai TV series
+    url: https://www.imdb.com/title/tt13309742/
+  - text: Hiking
+  - text: iPhone 15 USB-C power port
+    url: https://support.apple.com/en-us/105099
+apple: https://podcasts.apple.com/gb/podcast/copilot-comes-to-github-com-blazing-er-faster-next/id1700169000?i=1000635413974
+spotify: https://open.spotify.com/episode/5dBkIokpgM9paN1T5TNxGW
+clip: https://twitter.com/front_end_fire/status/1726608975041540143

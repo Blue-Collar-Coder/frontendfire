@@ -1,0 +1,52 @@
+number: 16
+type: interview
+title: The Angular Renaissance with Jessica Janiuk
+date: 2023-11-13
+description:
+  'These are exciting times in the Angular world! Jessica Janiuk, a Senior Software Engineer at Google,
+  joins us to talk about the "Angular Renaissance", including the recent release of Angular 17 and the
+  revamped Angular.dev website. Highlights on Angular 17 include deferrable views, up to 90% faster runtimes and
+  87% faster builds thanks to Vite and esbuild, revamped hybrid SSR/SSG, and brand news docs to help you get started.
+  We also discuss full-featured device mockup tool Shots.so, the release of Astro 3.5, and how CSS continues
+  to have a bang up year with support for the :has selector landing in Firefox and CSS nesting enjoying
+  widespread support. Get ready for a revolution in web development!'
+duration: "56:55"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+guests:
+  - Jessica Janiuk
+links:
+  - text: Shots.so
+    url: https://shots.so/
+  - text: Astro 3.5 release
+    url: https://astro.build/blog/astro-350
+  - text: :has selector in Firefox
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+  - text: CSS nesting widely supported
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+  - text: Angular 17
+    url: https://blog.angular.io/introducing-angular-v17-4d7033312e4b
+  - text: Jessica's website
+    url: https://jessicajaniuk.com/
+  - text: Jessica's personl GitHub
+    url: https://github.com/thePunderWoman
+  - text: Jessica's Google GitHub
+    url: https://github.com/jessicajaniuk
+  - text: Jessica's LinkedIn
+    url: https://www.linkedin.com/in/jessicajaniuk
+  - text: New Angular.dev site
+    url: https://angular.dev/
+  - text: Instant Pot cooker
+    url: https://www.instanthome.com/product/instant-pot/duo/8-quart-pressure-cooker-V5
+  - text: Kinesis Freestyle2 Split-Adjustable Keyboard
+    url: https://kinesis-ergo.com/shop/freestyle2-for-pc-us/
+  - text: Carrying on family traditions as the kids grow up
+  - text: Litter Robot 4
+    url: https://www.litter-robot.com/litter-robot-4.html
+  - text: Petkit Pura Max cat litter box
+    url: https://petkit.com/products/pura-max
+apple: https://podcasts.apple.com/gb/podcast/the-angular-renaissance-with-jessica-janiuk/id1700169000?i=1000634618071
+spotify: https://open.spotify.com/episode/1MZbJuq6aC3JPrDbbMD9rS
+clip: https://twitter.com/front_end_fire/status/1724068595649446279

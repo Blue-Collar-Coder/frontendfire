@@ -1,0 +1,32 @@
+number: 18
+type: news
+title: Vercel's AI Building UIs, Nested CSS Sans Sass, and the Annual State of JS Survey
+date: 2023-12-04
+description:
+  CSS continues to have the best year ever, as the Chrome developer team announces that CSS nesting is now
+  supported across all major browsers! The 2023 State of JavaScript survey is LIVE! And Vercel
+  is at it again, using AI to build UIs. Plus, we have updates on the Prettier bounty set out last week, AND
+  the OpenAI drama that happened over the weekend. This is not an episode to miss!
+duration: "29:46"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: CSS nesting
+    url: https://developer.chrome.com/articles/css-nesting/
+  - text: Streaming components from server actions using the Vercel AI SDK library
+    url: https://sdk.vercel.ai/docs
+  - text: State of JavaScript 2023 Survey
+    url: https://survey.devographics.com/en-US/survey/state-of-js/2023
+  - text: Update on the Prettier & Rust saga
+    url: https://biomejs.dev/blog/biome-wins-prettier-challenge
+  - text: Great Briish Baking Show series
+    url: https://www.imdb.com/title/tt1877368/
+  - text: Godzilla Minus One movie
+    url: https://www.imdb.com/title/tt23289160/
+  - text: Wordle board game
+    url: https://www.amazon.com/Wordle-Party-Players-Official-Inspired/dp/B0B5B9CP17
+apple: https://podcasts.apple.com/gb/podcast/vercels-ai-building-uis-nested-css-without-sass-and/id1700169000?i=1000637415964
+spotify: https://open.spotify.com/episode/5mPBpjxqGSE8lWUDaeqPk7
+clip: https://twitter.com/front_end_fire/status/1731680895843664344
