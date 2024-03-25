@@ -1,0 +1,46 @@
+number: 36
+type: news
+title: Google’s New Web Vitals, AnalogJS Reaches 1.0, and is CSS-from-JS a Thing?
+date: 2024-03-25
+description:
+  "CSS-in-JS has been around for years now, but have you tried JS-from-CSS? This week
+  we talk about the new alternative trend sweeping through the web development community:
+  writing only CSS to create a fully styled and typed React component. Two early
+  frontrunners in this race are MistCSS and Stylin, and we’ll keep an eye out for if this
+  new twist on writing JSX components catches on. AnalogJS, the meta-framework for Angular
+  we covered several months ago, announces release 1.0 with all the bells and whistles we’ve
+  come to expect from other meta frameworks: Vite integration, filesystem routing, SSR/SSG,
+  server routes, tRPC support, etc. and plans for future integrations with libraries like
+  Astro, Nx, Vitest and Storybook. Chrome officially replaces the First Input Delay (FID)
+  web vital metric with Interaction to Next Paint (INP) to try to do a better job of evaluating
+  a webpage’s performance beyond just the first user interaction. And to round the episode out,
+  an API that is pure fun to play with on the demo site: Emojispolsion. It’s worth a look just
+  to see how creative the demos get (hint: the very last one is extra far out)."
+duration: "37:29"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: AnalogJS 1.0
+    url: https://dev.to/analogjs/announcing-analogjs-10-19an
+  - text: MistCSS
+    url: https://typicode.github.io/mistcss/
+  - text: Stylin
+    url: https://discord.com/channels/@me/966368027169943572/1220389052470132817
+  - text: Interaction to Next Paint (INP) is a Core Web Vital
+    url: https://web.dev/blog/inp-cwv-launch
+  - text: Chrome Perf Tooling in 2024
+    url: https://developer.chrome.com/blog/perf-tooling-2024
+  - text: Emojisplosion API demo site
+    url: https://frontendfoc.us/link/152798/3624cef433
+  - text: iPhone 15 Pro
+    url: https://www.apple.com/iphone-15-pro/
+  - text: Dune: Part Two movie
+    url: https://www.dunemovie.com/
+  - text: "Downfall: The Case Against Boeing documentary"
+    url: https://www.netflix.com/title/81272421
+  - text: NCAA Tournament
+apple: https://podcasts.apple.com/gb/podcast/news-googles-new-web-vitals-analogjs-reaches-1-0-and/id1700169000?i=1000650348538
+spotify: https://open.spotify.com/episode/3jkjEZ96UJ0bcghpbNoNoB
+clip: https://twitter.com/front_end_fire/status/1772255108937437655

@@ -1,0 +1,33 @@
+number: 19
+type: news
+title: XState v5, Facebook Open Sources StyleX, and Cron Jobs Come to Deno
+date: 2023-12-11
+description:
+  After quite a while out of the public spotlight, the XState team is back in the
+  news with the release of version 5. This new version introduces the "actor model" which
+  allows for more complex state machines. Facebook has also open sourced StyleX, the CSS-in-JS
+  library they use internally. And Deno now has a cron job library that allows you to schedule
+  tasks in your Deno applications. Plus, we talk about the new floating editor windows in VS Code,
+  which is a feature that's been a long time coming for many developers.
+duration: "41:40"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: XState v5 debuts the actor model
+    url: https://stately.ai/blog/2023-12-01-xstate-v5
+  - text: StyleX
+    url: https://stylexjs.com/
+  - text: Deno Cron
+    url: https://deno.com/blog/cron
+  - text: VS Code floating editor windows
+    url: https://code.visualstudio.com/updates/v1_85#_floating-editor-windows
+  - text: General good health
+  - text: CO2 detectors
+    url: https://www.amazon.com/dp/B0CF26PLJR
+  - text: Twinkly Christmas lights
+    url: https://www.balsamhill.com/p/twinkly-christmas-light-string
+apple: https://podcasts.apple.com/gb/podcast/xstates-back-with-v5-facebook-open-sources-stylex-and/id1700169000?i=1000638171380
+spotify: https://open.spotify.com/episode/5P07FBnnkz4fZ7CyzBxXeG
+clip: https://twitter.com/front_end_fire/status/1734225575999369281
