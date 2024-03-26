@@ -1,0 +1,31 @@
+number: 21
+type: news
+title: End of Year Wrap Up and Predictions for Web Dev in 2024
+date: 2023-12-25
+description:
+  As with many podcasts around this time of year, we're wrapping up the year with predictions for what
+  the world of web development will look like in 2024. Before we dive into our predictions,
+  we touch on the Adobe Figma merger, which made headlines for falling apart after regulators
+  pressured Adobe to abandon the deal citing its near-monopoly in the design software market. Then
+  we envision a future with even more native JavaScript APIs, a return to simpler JS frameworks that
+  "just work", and AI that's integrated throughout the entire code base. Will our predictions come true?
+  Will they be way off the mark? We'll have to wait unitl next year to find out!
+duration: "23:59"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: The Adobe Figma merger crumbled
+    url: https://www.theverge.com/2023/12/18/24005996/adobe-figma-acquisition-abandoned-termination-fee
+  - text: More Native JS APIs
+  - text: A return to simpler JS frameworks
+  - text: AI in the whole code base
+  - text: The Morning Show TV series
+    url: https://www.imdb.com/title/tt7203552/
+  - text: Twinkly Christmas lights
+    url: https://www.balsamhill.com/p/twinkly-christmas-light-string
+  - text: Coffee advent calendar from Brew Company
+    url: https://brew-company.com/products/coffee-advent-calendar
+apple: https://podcasts.apple.com/gb/podcast/end-of-year-wrap-up-and-predictions-for-web-dev-in-2024/id1700169000?i=1000639651538
+spotify: https://open.spotify.com/episode/6fPtK4hgl51Rp7UoXWP6KA
