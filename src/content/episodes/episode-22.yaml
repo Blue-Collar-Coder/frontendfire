@@ -1,0 +1,33 @@
+number: 22
+type: news
+title: Tanstack Router 1.0, Catalyst UI from Tailwind, and date-fns Hits v3
+date: 2024-01-08
+description:
+  Back in 2024 after the holidays with more news and updates from the world of web development. In today's
+  episode, we discuss the release of TanStack Router 1.0 which includes such features as 100% type safety, state
+  manager-grade search param APIs, built-in data fetching and caching, SSR support, and more. We also cover
+  Catalyst UI Kit, a modern starter kit for building your own component systems with React, designed and developed
+  by the Tailwind CSS team. And we wrap up the news with the release of date-fns v3. The popular date utility library
+  has been a favorite of developers for years now, and the latest version boasts new features like the fact that it's
+  100% TypeScript, offers ESM support for Node.js, decreased its overall bundle size, and exports all functions as
+  named exports. The year's certainly off to a great start with these exciting updates!
+duration: "24:56"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: TanStack Router 1.0
+    url: https://tanstack.com/router/v1
+  - text: Catalyst UI Kit
+    url: https://catalyst.tailwindui.com/docs
+  - text: date-fns v3
+    url: https://blog.date-fns.org/v3-is-out/
+  - text: "Money Heist: Berlin TV series"
+    url: https://www.imdb.com/title/tt16288804/
+  - text: Personalized art and wine experience
+  - text: Fourth Wing book
+    url: https://www.goodreads.com/book/show/61431922-fourth-wing
+apple: https://podcasts.apple.com/gb/podcast/tanstack-router-1-0-catalyst-ui-from-the-makers/id1700169000?i=1000640892594
+spotify: https://open.spotify.com/episode/0lq0y3Xb3Y91Vzkrag8Pd7
+clip: https://twitter.com/front_end_fire/status/1744368020971991256
