@@ -3,15 +3,15 @@ type: news
 title: Exploring Next-Gen Web Components, New Code Hike Highlighter, and Apple Vision
 date: 2024-01-29
 description:
-  'In this episode, we dive into the new web component features from the W3C like the declarative Shadow DOM gaining 
-  full cross-browser support as of Firefox 123, scoped element registries allowing for multiple custom element 
-  definitions within a single tag name, and CSS style queries that let you query a CSS property for a container 
-  and style the child based on it. Startup Code Hike joins the syntax highlighting race with a new code highlighter 
+  'In this episode, we dive into the new web component features from the W3C like the declarative Shadow DOM gaining
+  full cross-browser support as of Firefox 123, scoped element registries allowing for multiple custom element
+  definitions within a single tag name, and CSS style queries that let you query a CSS property for a container
+  and style the child based on it. Startup Code Hike joins the syntax highlighting race with a new code highlighter
   that takes it to a whole other level, offering things like focus within a code block, spotlighting a line of code,
-  and more. It's got some very slick features that make it worth checking out. We discuss the release this week of
-  the Apple Vision Pro headset, its hefty initial price tag of $3,500, and if Apple will be the one to finally make 
-  "spatial computing" mainstream. And we wrap up the episode with a footnote about Bun Shell, a new experimental feature 
-  from the Bun team to make running shell scripts in JavaScript and TypeScript code less of a pain.''
+  and more. It''s got some very slick features that make it worth checking out. We discuss the release this week of
+  the Apple Vision Pro headset, its hefty initial price tag of $3,500, and if Apple will be the one to finally make
+  "spatial computing" mainstream. And we wrap up the episode with a footnote about Bun Shell, a new experimental feature
+  from the Bun team to make running shell scripts in JavaScript and TypeScript code less of a pain.'
 duration: "39:43"
 hosts:
   - Jack Herrington
