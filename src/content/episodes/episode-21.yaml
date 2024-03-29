@@ -18,9 +18,6 @@ hosts:
 links:
   - text: The Adobe Figma merger crumbled
     url: https://www.theverge.com/2023/12/18/24005996/adobe-figma-acquisition-abandoned-termination-fee
-  - text: More Native JS APIs
-  - text: A return to simpler JS frameworks
-  - text: AI in the whole code base
   - text: The Morning Show TV series
     url: https://www.imdb.com/title/tt7203552/
   - text: Twinkly Christmas lights
