@@ -57,9 +57,11 @@ const latestEpisode = (episodes ?? []).shift();
   }
 
   h2 {
-    margin: 2em 0 1em;
+    margin: 2rem 0;
     color: var(--base-color-dark);
+    font-size: 1em;
     text-decoration: underline;
+    text-decoration-thickness: 0.15em;
     text-underline-offset: 0.2em;
     text-decoration-color: var(--primary-color);
     text-transform: uppercase;
@@ -100,17 +102,18 @@ const latestEpisode = (episodes ?? []).shift();
   }
 
   .latest-episode {
-    max-width: 45em;
+    max-width: 40em;
     margin: 2em auto;
-    padding: 1em 2em;
+    padding: 0.75em;
     box-shadow: 0 0 3px var(--primary-color-dark);
     border-radius: 4px;
+    font-size: 1.25em;
   }
 
   .past-episodes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 25em), 1fr));
     grid-gap: 4rem;
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 </style>
