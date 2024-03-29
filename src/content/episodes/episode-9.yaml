@@ -16,7 +16,7 @@ hosts:
 links:
   - text: The first look at Svelte 5
     url: https://svelte.dev/blog/runes
-  - text: StyleX Css-in-JS library
+  - text: StyleX CSS-in-JS library
     url: https://github.com/ladifire-opensource/stylex
   - text: "TypeScript Origins: The Documentary"
     url: https://www.youtube.com/watch?v=U6s2pdxebSo

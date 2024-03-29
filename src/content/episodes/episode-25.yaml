@@ -1,0 +1,37 @@
+number: 24
+type: news
+title: Exploring Next-Gen Web Components, New Code Hike Highlighter, and Apple Vision
+date: 2024-01-29
+description:
+  'In this episode, we dive into the new web component features from the W3C like the declarative Shadow DOM gaining 
+  full cross-browser support as of Firefox 123, scoped element registries allowing for multiple custom element 
+  definitions within a single tag name, and CSS style queries that let you query a CSS property for a container 
+  and style the child based on it. Startup Code Hike joins the syntax highlighting race with a new code highlighter 
+  that takes it to a whole other level, offering things like focus within a code block, spotlighting a line of code,
+  and more. It's got some very slick features that make it worth checking out. We discuss the release this week of
+  the Apple Vision Pro headset, its hefty initial price tag of $3,500, and if Apple will be the one to finally make 
+  "spatial computing" mainstream. And we wrap up the episode with a footnote about Bun Shell, a new experimental feature 
+  from the Bun team to make running shell scripts in JavaScript and TypeScript code less of a pain.''
+duration: "39:43"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: New Web Components features from the W3C
+    url: https://eisenbergeffect.medium.com/web-components-2024-winter-update-445f27e7613a
+  - text: Code Hike
+    url: https://codehike.org/
+  - text: Apple Vision Pro
+    url: https://www.apple.com/apple-vision-pro/
+  - text: Apple Vision Pro drama
+    url: https://stratechery.com/2024/the-apple-vision-pros-missing-apps/
+  - text: Bun Shell
+    url: https://bun.sh/blog/the-bun-shell
+  - text: ColorIt Mandalas coloring book
+    url: https://www.colorit.com/products/mandala-coloring-book
+  - text: Brothers Sun TV series
+    url: https://www.imdb.com/title/tt17632862/
+apple: https://podcasts.apple.com/gb/podcast/news-exploring-next-gen-web-components-new-code-hike/id1700169000?i=1000643362931
+spotify: https://open.spotify.com/episode/5eu05qjYBbhzF4v9CYFIFL
+clip: https://twitter.com/front_end_fire/status/1751974779202990118
