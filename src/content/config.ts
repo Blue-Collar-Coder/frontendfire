@@ -14,16 +14,17 @@ const episodes = defineCollection({
     links: z.array(
       z.object({
         text: z.string(),
-        url: z.string(),
+        url: z.string()
       })
     ),
+    audio: z.string().optional(),
     apple: z.string(),
     spotify: z.string(),
     clip: z.string().optional(),
-    youtube: z.string().optional(),
-  }),
+    youtube: z.string().optional()
+  })
 });
 
 export const collections = {
-  episodes,
+  episodes
 };

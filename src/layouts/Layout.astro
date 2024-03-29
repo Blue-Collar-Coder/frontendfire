@@ -24,11 +24,12 @@ const { title } = Astro.props;
   :root {
     --base-color: #3d3c40;
     --base-color-dark: #161619;
+    --base-color-light: #86828d;
     --primary-color-light: #f48b45;
     --primary-color: #e7823f;
     --primary-color-dark: #bc5008;
     --off-white: #f5f5f5;
-    --content-width: clamp(300px, 80vw, 900px);
+    --content-width: 90vw;
   }
 
   html {
@@ -49,7 +50,7 @@ const { title } = Astro.props;
 
   body {
     margin: 0;
-    font-size: clamp(100%, 1.25vw, 150%);
+    font-size: clamp(1rem, 1.25vw, 1.5rem);
   }
 
   main {

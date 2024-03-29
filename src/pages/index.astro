@@ -8,8 +8,12 @@ import EpisodeCard from "../components/EpisodeCard.astro";
 import Footer from "../components/Footer.astro";
 
 import logo from "../assets/images/logo-horizontal-white.png";
+import type { CollectionEntry } from "astro:content";
 
 const episodes = await getCollection("episodes");
+episodes.sort((a, b) => b.data.number - a.data.number);
+
+const latestEpisode = (episodes ?? []).shift();
 ---
 
 <Layout
@@ -27,7 +31,19 @@ const episodes = await getCollection("episodes");
     </div>
   </header>
   <main>
-    {episodes.reverse().map((entry) => <EpisodeCard episode={entry} />)}
+    {
+      latestEpisode && (
+        <div class="latest-episode">
+          <EpisodeCard episode={latestEpisode} />
+          <audio controls src={latestEpisode.data.audio} />
+        </div>
+      )
+    }
+
+    <h2>More Episodes</h2>
+    <div class="past-episodes">
+      {episodes.map((entry) => <EpisodeCard episode={entry} />)}
+    </div>
   </main>
 
   <Footer />
@@ -40,11 +56,31 @@ const episodes = await getCollection("episodes");
     color: var(--off-white);
   }
 
+  h2 {
+    margin: 2em 0 1em;
+    color: var(--base-color-dark);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  audio {
+    width: 25rem;
+    max-width: 100%;
+  }
+
+  audio::-webkit-media-controls-enclosure {
+    background: var(--primary-color);
+    border-radius: 4px;
+  }
+
   .logo,
   .tagline,
   .subscribe-bar {
     display: block;
     width: var(--content-width);
+    max-width: 53rem;
     margin: 0.25rem auto;
   }
 
@@ -61,5 +97,20 @@ const episodes = await getCollection("episodes");
     font-size: clamp(1.25rem, 4vw, 2.625rem);
     line-height: 1.25;
     font-weight: 200;
+  }
+
+  .latest-episode {
+    max-width: 45em;
+    margin: 2em auto;
+    padding: 1em 2em;
+    box-shadow: 0 0 3px var(--primary-color-dark);
+    border-radius: 4px;
+  }
+
+  .past-episodes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 25em), 1fr));
+    grid-gap: 4rem;
+    margin: 3rem 0;
   }
 </style>
