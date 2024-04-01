@@ -1,0 +1,51 @@
+number: 37
+type: news
+title: Wangular, RedwoodJS on the RSC Bandwagon, Modern CSS
+date: 2024-04-01
+description:
+  It turns out we had a lot of news to cover in this week’s episode. We kicked it off
+  discussing how RedwoodJS is the latest framework to support React Server Components,
+  and has some pretty nice illustrated docs to help devs get started. Then, there was a
+  rapid fire of interesting topics including a great new article about modern CSS from
+  Mr. CSS Tricks himself, Chris Coyier, a new documentary film on the origin story of
+  Node.js from the team that created the React and Ruby on Rails documentaries as well,
+  and a footnote about a new antitrust case the US Department of Justice has leveraged
+  against Apple. At NG Conf earlier in the week, it was announced Google’s internal
+  framework Wiz might be combining with Angular after the two teams successfully worked
+  together to launch Angular signals primitives for 100% of YouTube’s mobile web traffic
+  to great effect. We can only hope the resulting combined framework is renamed to Wangular.
+  And to round it all out, yet another CSS framework has popped up claiming to have all
+  the answers to the ever pervasive feeling that CSS is hard. Will Nue CSS have the good
+  to back up its claim? We’ll have to wait and see, and give the new Promise.withResolvers
+  a spin in the meantime.
+duration: "42:16"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Wiz and Angular combine forces
+    url: https://www.youtube.com/watch?v=nIBseTi6RVk&ab_channel=ng-conf
+  - text: RedwoodJS supports RSCs
+    url: https://redwoodjs.com/blog/rsc-now-in-redwoodjs
+  - text: What You Need to Know About Modern CSS article
+    url: https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition/
+  - text: DOJ antitrust case against Apple
+    url: https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates
+  - text: "Node.js: The Documentary | An Origin Story"
+    url: https://www.youtube.com/watch?v=LB8KwiiUGy0
+  - text: Nue CSS
+    url: https://nuejs.org/blog/introducing-nue-css/
+  - text: Promise.withResolvers() MDN docs
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers
+  - text: Promise.withResolvers() explainer tweet from Web Bos
+    url: https://twitter.com/wesbos/status/1773358135668838582
+  - text: Masters of the Air TV series
+    url: https://www.imdb.com/title/tt2640044/
+  - text: Learning new things, like vector DBs
+    url: https://www.pinecone.io/learn/vector-database/
+  - text: Booking tours of the US Capitol and White House through local state reps
+    url: https://www.uscp.gov/visiting-capitol-hill/visitor-information/book-tour
+apple: https://podcasts.apple.com/gb/podcast/wangular-redwoodjs-on-the-rsc-bandwagon-modern-css/id1700169000?i=1000651054856
+spotify: https://open.spotify.com/episode/13jKpoAEDGUWXm38izwuxA
+clip: https://twitter.com/front_end_fire/status/1774789007861293137
