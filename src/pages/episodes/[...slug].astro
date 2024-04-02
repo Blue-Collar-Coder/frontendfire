@@ -11,6 +11,7 @@ import logo from "../../assets/images/logo-horizontal-white.png";
 
 export async function getStaticPaths() {
   const entries = await getCollection("episodes");
+  entries.sort((a, b) => a.data.number - b.data.number);
 
   return entries.map((episode, index, arr) => ({
     params: { slug: episode.id },
