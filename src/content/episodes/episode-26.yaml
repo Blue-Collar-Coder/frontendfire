@@ -18,8 +18,8 @@ hosts:
   - Paige Niedringhaus
   - TJ VanToll
 guests:
-  - Aiden Bai
-  - Tobiloba Adedeji
+  - name: Aiden Bai
+  - name: Tobiloba Adedeji
 links:
   - text: Million.js site
     url: https://million.dev

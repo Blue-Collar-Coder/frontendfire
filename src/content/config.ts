@@ -10,7 +10,15 @@ const episodes = defineCollection({
     description: z.string(),
     duration: z.string(),
     hosts: z.array(z.string()),
-    guests: z.array(z.string()).optional(),
+    guests: z
+      .array(
+        z.object({
+          name: z.string(),
+          url: z.string().optional(),
+          intro: z.string().optional()
+        })
+      )
+      .optional(),
     links: z.array(
       z.object({
         text: z.string(),

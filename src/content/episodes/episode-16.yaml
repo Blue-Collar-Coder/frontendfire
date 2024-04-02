@@ -16,7 +16,7 @@ hosts:
   - Paige Niedringhaus
   - TJ VanToll
 guests:
-  - Jessica Janiuk
+  - name: Jessica Janiuk
 links:
   - text: Shots.so
     url: https://shots.so/

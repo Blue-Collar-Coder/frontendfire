@@ -4,35 +4,44 @@ import spotify from "../assets/images/spotify-icon.svg?raw";
 import google from "../assets/images/google-icon.svg?raw";
 import discord from "../assets/images/discord-icon.svg?raw";
 import rss from "../assets/images/rss-icon.svg?raw";
+
+interface Props {
+  showText?: boolean;
+}
+
+const { showText = true } = Astro.props;
 ---
 
 <a
   href="https://podcasts.apple.com/us/podcast/front-end-fire/id1700169000"
   target="_blank"
   class="platform-action"
-  aria-label="View on Apple Podcasts"
+  aria-label="Listen on Apple Podcasts"
+  title={showText ? "" : "Listen on Apple Podcasts"}
 >
   <Fragment set:html={apple} />
   <!-- <Image src={apple} alt="Apple Podcast Icon" /> -->
-  Apple
+  {showText && "Apple"}
 </a>
 <a
   href="https://open.spotify.com/show/0MFC3eW0j1U9HC5U1dUZ0Y"
   target="_blank"
   class="platform-action"
   aria-label="Listen on Spotify"
+  title={showText ? "" : "Listen on Spotify"}
 >
   <Fragment set:html={spotify} />
-  Spotify
+  {showText && "Spotify"}
 </a>
 <a
   href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMjI2NDk5LnJzcw=="
   target="_blank"
   class="platform-action"
   aria-label="Listen on Google Podcasts"
+  title={showText ? "" : "Listen on Google Podcasts"}
 >
   <Fragment set:html={google} />
-  Google
+  {showText && "Google"}
 </a>
 
 <a
@@ -40,18 +49,20 @@ import rss from "../assets/images/rss-icon.svg?raw";
   target="_blank"
   class="platform-action"
   aria-label="Join our Discord Channel"
+  title={showText ? "" : "Join our Discord Channel"}
 >
   <Fragment set:html={discord} />
-  Discord
+  {showText && "Discord"}
 </a>
 
 <a
   href="https://feeds.buzzsprout.com/2226499.rss"
   target="_blank"
   class="platform-action"
+  title={showText ? "" : "RSS Feed"}
 >
   <Fragment set:html={rss} />
-  RSS Feed
+  {showText && "RSS Feed"}
 </a>
 
 <style>

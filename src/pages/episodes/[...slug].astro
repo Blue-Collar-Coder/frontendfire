@@ -1,26 +1,196 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
+
+import Layout from "../../layouts/Layout.astro";
+import PlatformActions from "../../components/PlatformActions.astro";
+import EpisodeCard from "../../components/EpisodeCard.astro";
+import Footer from "../../components/Footer.astro";
+
+import logo from "../../assets/images/logo-horizontal-white.png";
 
 export async function getStaticPaths() {
   const entries = await getCollection("episodes");
-  return entries.map((episode) => ({
+
+  return entries.map((episode, index, arr) => ({
     params: { slug: episode.id },
-    props: { episode },
+    props: { episode, previous: arr[index - 1], next: arr[index + 1] }
   }));
 }
-const { episode } = Astro.props;
+
+const { episode, previous, next } = Astro.props;
 const title = `${episode.data.number}: ${episode.data.title}`;
 ---
 
 <Layout title={title}>
+  <header>
+    <div class="header-content">
+      <a href="/">
+        <Image src={logo} alt="Front-End Fire Logo" class="logo" />
+        <h1 class="sr-only">Front-End Fire</h1>
+      </a>
+      <div>
+        <PlatformActions showText={false} />
+      </div>
+    </div>
+  </header>
+
   <main>
-    <h1>{title}</h1>
+    <div class="episode-info">
+      <span class="tag">{episode.data.type}</span>
+      <span class="episode-number">Episode {episode.data.number}</span>
+    </div>
+    <h1 class="episode-header">{episode.data.title}</h1>
+
+    {episode.data.audio && <audio controls src={episode.data.audio} />}
+
+    <time datetime={episode.data.date.toISOString()} class="episode-date">
+      {
+        episode.data.date.toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric"
+        })
+      }
+    </time>
+
+    <p class="episode-description">{episode.data.description}</p>
   </main>
+
+  <nav class="episode-nav">
+    {
+      previous && (
+        <a href={"/episodes/" + previous.id} class="previous-episode-link">
+          <span>
+            ep. {previous.data.number}: {previous.data.title}
+          </span>
+        </a>
+      )
+    }
+    {
+      next && (
+        <a href={"/episodes/" + next.id} class="next-episode-link">
+          <span>
+            ep. {next.data.number}: {next.data.title}
+          </span>
+        </a>
+      )
+    }
+  </nav>
+  <Footer />
 </Layout>
 
 <style>
-  h1 {
+  header {
+    background: #3d3c40 linear-gradient(#161619, #3d3c40);
+    color: var(--off-white);
+    padding: 0.5em 0;
+    font-size: 1.125em;
+    margin-bottom: 1em;
+  }
+
+  main,
+  nav,
+  footer,
+  .header-content {
+    width: var(--content-width);
+    margin: auto;
+  }
+
+  nav {
+    margin-top: 3em;
+  }
+
+  audio {
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  audio::-webkit-media-controls-enclosure {
+    background: var(--primary-color);
+    border-radius: 4px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 9em;
+    height: auto;
+    vertical-align: middle;
+    margin-right: auto;
+  }
+
+  .episode-info {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: clamp(0.875rem, 0.6em, 0.6em);
+    color: var(--base-color-light);
+  }
+
+  .episode-header {
+    margin: 0 0 0.25em;
     color: var(--primary-color);
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .episode-date {
+    font-weight: 400;
+    color: var(--base-color-dark);
+  }
+
+  .episode-description {
+    font-size: clamp(1rem, 0.875em, 0.875em);
+  }
+
+  .episode-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  [class$="episode-link"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    width: 33%;
+    font-weight: 400;
+    text-decoration: none;
+
+    &::before,
+    &::after {
+      display: inline-block;
+      vertical-align: 0.1em;
+      font-weight: 500;
+      font-size: 2em;
+      font-family: monospace;
+    }
+
+    span {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+  }
+
+  .previous-episode-link::before {
+    content: "\2190";
+  }
+
+  .next-episode-link {
+    margin-left: auto;
+
+    &::after {
+      content: "\2192";
+    }
   }
 </style>

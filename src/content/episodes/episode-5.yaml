@@ -13,7 +13,7 @@ hosts:
   - Jack Herrington
   - Paige Niedringhaus
 guests:
-  - Fred K. Schott
+  - name: Fred K. Schott
 links:
   - text: Supabase enhancements
     url: https://supabase.com/blog/supabase-local-dev

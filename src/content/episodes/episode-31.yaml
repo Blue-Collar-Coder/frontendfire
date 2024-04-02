@@ -8,13 +8,13 @@ description:
   suite of stable tools that developers can rely on and avoid having to worry
   about chasing the latest and greatest. We ask him how The Boring Stack works,
   who’s using it, how to get started, and more.
-duration: '33:55'
+duration: "33:55"
 hosts:
   - Jack Herrington
   - Paige Niedringhaus
   - TJ VanToll
 guests:
-  - Kelvin Omereshone
+  - name: Kelvin Omereshone
 links:
   - text: The Boring Stack on GitHub
     url: https://github.com/sailscastshq/boring-stack
@@ -38,5 +38,6 @@ links:
     url: https://inertiajs.com/
   - text: Sailscasts
     url: https://sailscasts.com/
+audio: https://www.buzzsprout.com/2226499/14551228-interview-the-boring-javascript-stack-with-kelvin-omereshone.mp3
 apple: https://podcasts.apple.com/gb/podcast/interview-the-boring-javascript-stack-with/id1700169000?i=1000646382452
 spotify: https://open.spotify.com/episode/6Y7RCXFJQtUxYGNXqemFw7
