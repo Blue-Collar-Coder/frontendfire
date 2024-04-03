@@ -1,0 +1,39 @@
+number: 27
+type: news
+title: Apple’s EU Browser Drama, Voice Powered Copilot Chat, and Zed OSS
+date: 2024-02-05
+description:
+  'Lately, Apple's been making headlines in the EU for all the wrong reasons, and it's starting to come of a head with 
+  changes announced to iOS, Safari, and the App Store in the European Union. Although Apple appears to be complying 
+  with directives from the EU to open up iOS to alternative browsers, Mozilla says the it's placing an undue burden 
+  on competitor browsers to build and maintain two separate browser implementations - one for EU-specific apps and one 
+  for everyone else, which Apple themselves will not have to do. In other news, VS Code introduces new voice commands 
+  like "Hey code" to start a voice session with Copilot Chat, and the Zed code editor (a competitor to VS Code) goes 
+  open source in an effort to increase its market share, and boost the number of plugins and extensions available from 
+  users in the community. Finally, we round out the episode with a brief look at Open Props, a low-level framework, 
+  built entirely on CSS variables so it's highly customizable, and can be adapted to fit any design system.'
+duration: "41:28"
+hosts:
+  - Jack Herrington
+  - Paige Niedringhaus
+  - TJ VanToll
+links:
+  - text: Code editor Zed goes open source
+    url: https://zed.dev/blog/zed-is-now-open-source
+  - text: "Hey Code" in VS Code
+    url: https://code.visualstudio.com/updates/v1_86#_accessibility
+  - text: Apple changes to iOS, Safari, and the App Store in the EU
+    url: https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/
+  - text: Mozilla says Apple's new browser rules are "as painful as possible" for Firefox
+    url: https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox
+  - text: Open Props
+    url: https://open-props.style/
+  - text: Kindle Paperwhite
+    url: https://www.amazon.com/dp/B08KTZ8249/ref=fcatpage_shoveler_2
+  - text: Oura smart ring
+    url: https://ouraring.com/
+  - text: One Piece live-action TV series
+    url: https://www.netflix.com/title/80217863
+apple: https://podcasts.apple.com/gb/podcast/news-apples-browser-drama-in-the-eu-voice-powered/id1700169000?i=1000644201469
+spotify: https://open.spotify.com/episode/78pJ861rps6Y18ReDRKwR0
+clip: https://twitter.com/front_end_fire/status/1754511966444359782
