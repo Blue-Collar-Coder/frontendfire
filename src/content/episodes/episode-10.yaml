@@ -10,9 +10,9 @@ description:
   a lot more to HTML than just divs). A whole lot more."
 duration: "29:53"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: ChatGPT.js
     url: https://chatgpt.js.org/#/

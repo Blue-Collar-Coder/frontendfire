@@ -11,9 +11,9 @@ description:
   about React Forget, the new compiler they're working on to handle memoization automatically.
 duration: "34:56"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Next.js 14
     url: https://nextjs.org/blog/next-14

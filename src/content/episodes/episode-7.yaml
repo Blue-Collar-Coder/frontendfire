@@ -11,9 +11,9 @@ description:
   DB databases.
 duration: "32:35"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Ruby on Rails creator DHH removing TypeScript from Turbo 8, which supports Hotwire
     url: https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01

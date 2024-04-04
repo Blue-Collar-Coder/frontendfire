@@ -10,9 +10,9 @@ description:
   to embed tweets in your React apps.
 duration: "26:15"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: StackOverflow launches Overflow AI
     url: https://stackoverflow.blog/2023/07/27/announcing-overflowai/?ck_subscriber_id=1812147965

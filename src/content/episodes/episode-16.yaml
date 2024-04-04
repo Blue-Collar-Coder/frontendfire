@@ -12,11 +12,12 @@ description:
   widespread support. Get ready for a revolution in web development!'
 duration: "56:55"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 guests:
   - name: Jessica Janiuk
+    url: https://jessicajaniuk.com/
 links:
   - text: Shots.so
     url: https://shots.so/

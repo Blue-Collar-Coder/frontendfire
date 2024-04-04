@@ -11,9 +11,9 @@ description:
   which is a feature that's been a long time coming for many developers.
 duration: "41:40"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: XState v5 debuts the actor model
     url: https://stately.ai/blog/2023-12-01-xstate-v5

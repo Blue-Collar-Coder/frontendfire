@@ -11,9 +11,9 @@ description:
   think will take home that prize? It remains to be seen, but get ready to work faster and smarter.
 duration: "40:00"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: GitHub brings Copilot Chat to github.com
     url: https://github.blog/2023-11-08-universe-2023-copilot-transforms-github-into-the-ai-powered-developer-platform/

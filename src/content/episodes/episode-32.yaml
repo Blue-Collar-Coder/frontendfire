@@ -10,9 +10,9 @@ description:
   you are not correct.)"
 duration: "34:58"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Hono v4 takes aim at full-stack frameworks
     url: https://github.com/honojs/hono/releases/tag/v4.0.0

@@ -18,9 +18,9 @@ description:
   to see how creative the demos get (hint: the very last one is extra far out)."
 duration: "37:29"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: AnalogJS 1.0
     url: https://dev.to/analogjs/announcing-analogjs-10-19an

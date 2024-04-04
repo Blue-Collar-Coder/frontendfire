@@ -13,9 +13,9 @@ description:
   Coyier’s honest thoughts about what happened to his CSS Tricks site after it was acquired.
 duration: "35:23"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Astro DB
     url: https://astro.build/db/

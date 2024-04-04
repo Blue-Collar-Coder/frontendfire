@@ -9,9 +9,9 @@ description:
   yourselves, developers - AI generated code is on its way!
 duration: "32:35"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Vercel Labs presents generative UI tool v0
     url: https://v0.dev/faq

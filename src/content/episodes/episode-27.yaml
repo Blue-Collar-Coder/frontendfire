@@ -14,9 +14,9 @@ description:
   built entirely on CSS variables so it's highly customizable, and can be adapted to fit any design system.
 duration: "41:28"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Code editor Zed goes open source
     url: https://zed.dev/blog/zed-is-now-open-source

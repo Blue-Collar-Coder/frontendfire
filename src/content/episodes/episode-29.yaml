@@ -18,9 +18,9 @@ description:
   be sure to update you as we learn more.
 duration: "31:12"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Vite 5.1
     url: https://vitejs.dev/blog/announcing-vite5-1

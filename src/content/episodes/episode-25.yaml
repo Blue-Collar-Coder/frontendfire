@@ -14,9 +14,9 @@ description:
   from the Bun team to make running shell scripts in JavaScript and TypeScript code less of a pain.'
 duration: "39:43"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: New Web Components features from the W3C
     url: https://eisenbergeffect.medium.com/web-components-2024-winter-update-445f27e7613a

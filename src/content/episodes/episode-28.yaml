@@ -19,12 +19,15 @@ description:
   a clearer path in React.'
 duration: "51:22"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
+  - jack
+  - paige
 guests:
   - name: Rachel Nabors
+    url: https://nearestnabors.com/
   - name: Evan Bacon
+    url: https://evanbacon.dev/
   - name: Matt Carroll
+    url: mattcarrollcode.com
 links:
   - text: The Two Reacts blog post by Dan Abramov
     url: https://overreacted.io/the-two-reacts/

@@ -13,9 +13,9 @@ description:
   named exports. The year's certainly off to a great start with these exciting updates!
 duration: "24:56"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: TanStack Router 1.0
     url: https://tanstack.com/router/v1

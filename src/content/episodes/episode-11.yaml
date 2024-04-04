@@ -8,10 +8,11 @@ description:
   and the arrival of Photoshop in the browser.
 duration: "56:33"
 hosts:
-  - Paige Niedringhaus
-  - TJ VanToll
+  - paige
+  - tj
 guests:
   - name: Ryan Carniato
+    url: dev.to/ryansolid
 links:
   - text: Web components library Lit 3.0 is about to drop
     url: https://lit.dev/blog/2023-09-27-lit-3.0-prerelease-2

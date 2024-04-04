@@ -16,9 +16,9 @@ description:
   GPT Store, so users can find useful and popular GPTs developed by partners and the community."
 duration: "36:22"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: ReScript 11.0 - a TypeScript competitor
     url: https://rescript-lang.org/blog/release-11-0-0

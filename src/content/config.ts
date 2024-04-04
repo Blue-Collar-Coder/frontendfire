@@ -1,4 +1,12 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection, reference, z } from "astro:content";
+
+const hosts = defineCollection({
+  type: "data",
+  schema: z.object({
+    name: z.string(),
+    website: z.string()
+  })
+});
 
 const episodes = defineCollection({
   type: "data",
@@ -9,12 +17,12 @@ const episodes = defineCollection({
     date: z.date(),
     description: z.string(),
     duration: z.string(),
-    hosts: z.array(z.string()),
+    hosts: z.array(reference("hosts")),
     guests: z
       .array(
         z.object({
           name: z.string(),
-          url: z.string().optional(),
+          url: z.string(),
           intro: z.string().optional()
         })
       )
@@ -34,5 +42,6 @@ const episodes = defineCollection({
 });
 
 export const collections = {
-  episodes
+  episodes,
+  hosts
 };

@@ -11,9 +11,9 @@ description:
   legal saga with OpenAI and the Indian government’s new stance on AI model updates."
 duration: "34:03"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Tailwind CSS v4 goes open source
     url: https://tailwindcss.com/blog/tailwindcss-v4-alpha

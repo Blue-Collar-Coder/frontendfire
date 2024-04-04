@@ -10,9 +10,9 @@ description:
   hype train with its styling library StyleX."
 duration: "31:03"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: The first look at Svelte 5
     url: https://svelte.dev/blog/runes

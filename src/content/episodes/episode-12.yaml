@@ -12,9 +12,9 @@ description:
   immensely popular dotenv package by introducing native support for loading environment variable files.
 duration: "31:08"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: React Aria's library of unstyled components
     url: https://react-spectrum.adobe.com/react-aria/react-aria-components.html

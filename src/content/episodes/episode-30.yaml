@@ -9,9 +9,9 @@ description:
   Astro, and wrapped up with some major Apple drama in the EU.
 duration: "36:23"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Nx Project Crystal
     url: https://dev.to/nx/what-if-nx-plugins-were-more-like-vscode-extensions-4oh0

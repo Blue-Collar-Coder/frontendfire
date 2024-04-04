@@ -13,9 +13,9 @@ description:
   in your apps to keep them cleaner and more maintainable.
 duration: "33:03"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Superglue - Rails with React & Redux framework
     url: https://thoughtbot.com/blog/introducing-superglue

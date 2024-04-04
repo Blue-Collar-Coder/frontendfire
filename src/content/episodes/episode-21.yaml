@@ -12,9 +12,9 @@ description:
   Will they be way off the mark? We'll have to wait unitl next year to find out!
 duration: "23:59"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: The Adobe Figma merger crumbled
     url: https://www.theverge.com/2023/12/18/24005996/adobe-figma-acquisition-abandoned-termination-fee

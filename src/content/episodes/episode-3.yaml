@@ -8,9 +8,9 @@ description:
   Radix UI, and a helpful debugger for React Server Components.
 duration: "26:14"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Radix UI themes - an OS component library for React
     url: https://www.radix-ui.com/

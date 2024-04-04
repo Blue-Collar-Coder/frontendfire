@@ -55,6 +55,14 @@ const { title } = Astro.props;
     min-height: 100%;
     margin: 0;
     font-size: clamp(1rem, 1.25vw, 1.5rem);
+    background-image: repeating-linear-gradient(
+      45deg,
+      #f4ede5 0,
+      #f4ede5 1px,
+      #f5f5f5 0,
+      #f5f5f5 50%
+    );
+    background-size: 7px 7px;
   }
 
   main {
@@ -82,7 +90,7 @@ const { title } = Astro.props;
   }
 
   .section-heading {
-    margin: 2rem 0;
+    margin: 2rem 0 1rem;
     color: var(--base-color-dark);
     font-size: 1em;
     text-decoration: underline;

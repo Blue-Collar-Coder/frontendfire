@@ -17,14 +17,15 @@ const { episode } = Astro.props;
         episode.data.date.toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",
-          day: "numeric"
+          day: "numeric",
+          timeZone: "UTC"
         })
       }
     </time>
     <span class="episode-number">#{episode.data.number}</span>
   </div>
   <h3 class="episode-title">
-    <a href={"/episodes/" + episode.id}>{episode.data.title}</a>
+    <a href={"/episodes/" + episode.data.number}>{episode.data.title}</a>
   </h3>
 
   <p class="episode-description">{episode.data.description}</p>

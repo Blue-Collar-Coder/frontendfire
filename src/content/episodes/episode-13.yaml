@@ -13,8 +13,8 @@ description:
   any supporting cloud tool for a standardized development experience. The future is truly now.
 duration: "26:47"
 hosts:
-  - Paige Niedringhaus
-  - TJ VanToll
+  - paige
+  - tj
 links:
   - text: TanStack Query hits v5
     url: https://tanstack.com/blog/announcing-tanstack-query-v5

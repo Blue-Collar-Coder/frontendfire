@@ -10,9 +10,9 @@ description:
   and more.
 duration: "27:34"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Lightning CSS gains wid(er) spread adoption
     url: https://lightningcss.dev/

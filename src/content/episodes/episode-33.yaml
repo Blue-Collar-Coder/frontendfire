@@ -10,9 +10,9 @@ description:
   Apple, PWAs, and the EU. Drama!
 duration: "34:26"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: JSR - Deno’s New JavaScript Package Registry
     url: https://jsr.io/

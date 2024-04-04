@@ -10,10 +10,11 @@ description: The very first guest to join us on the podcast is none other than
   enhancements to Supabase and React visual IDE, Codux.
 duration: "42:33"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
+  - jack
+  - paige
 guests:
   - name: Fred K. Schott
+    url: https://fredkschott.com/about/
 links:
   - text: Supabase enhancements
     url: https://supabase.com/blog/supabase-local-dev

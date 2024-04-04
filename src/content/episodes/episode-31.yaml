@@ -10,11 +10,12 @@ description:
   who’s using it, how to get started, and more.
 duration: "33:55"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 guests:
   - name: Kelvin Omereshone
+    url: https://dominuskelvin.dev/
 links:
   - text: The Boring Stack on GitHub
     url: https://github.com/sailscastshq/boring-stack

@@ -4,23 +4,24 @@ import { getCollection } from "astro:content";
 
 import Layout from "../../layouts/Layout.astro";
 import PlatformActions from "../../components/PlatformActions.astro";
-import EpisodeCard from "../../components/EpisodeCard.astro";
 import Footer from "../../components/Footer.astro";
 
 import logo from "../../assets/images/logo-horizontal-white.png";
+import { getEntries } from "astro:content";
 
 export async function getStaticPaths() {
   const entries = await getCollection("episodes");
   entries.sort((a, b) => a.data.number - b.data.number);
 
   return entries.map((episode, index, arr) => ({
-    params: { slug: episode.id },
+    params: { slug: episode.data.number },
     props: { episode, previous: arr[index - 1], next: arr[index + 1] }
   }));
 }
 
 const { episode, previous, next } = Astro.props;
 const title = `${episode.data.number}: ${episode.data.title}`;
+const hosts = await getEntries(episode.data.hosts);
 ---
 
 <Layout title={title}>
@@ -37,31 +38,84 @@ const title = `${episode.data.number}: ${episode.data.title}`;
   </header>
 
   <main>
-    <div class="episode-info">
-      <span class="tag">{episode.data.type}</span>
-      <span class="episode-number">Episode {episode.data.number}</span>
+    <div class="episode-container">
+      <div class="episode-content">
+        <div class="episode-info">
+          <span class="tag">{episode.data.type}</span>
+          <span class="episode-number">Episode {episode.data.number}</span>
+        </div>
+
+        <h1 class="episode-header">{episode.data.title}</h1>
+
+        {episode.data.audio && <audio controls src={episode.data.audio} />}
+
+        <p class="episode-description">{episode.data.description}</p>
+      </div>
+      <div class="episode-details">
+        <!-- <h2 class="section-heading">Details</h2> -->
+        <time datetime={episode.data.date.toISOString()} class="episode-date">
+          {
+            episode.data.date.toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric"
+            })
+          }
+        </time>
+        <br />
+        Hosted by
+        <ul>
+          {
+            hosts.map((host) => (
+              <li>
+                <a href={host.data.website} target="_blank">
+                  {host.data.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+
+        {
+          episode.data.guests && (
+            <>
+              <h2 class="section-heading">Guests</h2>
+              <ul>
+                {episode.data.guests.map((guest) => (
+                  <li>
+                    <a href={guest.url} target="_blank">
+                      {guest.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )
+        }
+      </div>
     </div>
-    <h1 class="episode-header">{episode.data.title}</h1>
 
-    {episode.data.audio && <audio controls src={episode.data.audio} />}
-
-    <time datetime={episode.data.date.toISOString()} class="episode-date">
+    <h2 class="section-heading">Links</h2>
+    <ul class="episode-links">
       {
-        episode.data.date.toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "numeric"
-        })
+        episode.data.links.map((link) => (
+          <li>
+            <a href={link.url} target="_blank">
+              {link.text}
+            </a>
+          </li>
+        ))
       }
-    </time>
-
-    <p class="episode-description">{episode.data.description}</p>
+    </ul>
   </main>
 
   <nav class="episode-nav">
     {
       previous && (
-        <a href={"/episodes/" + previous.id} class="previous-episode-link">
+        <a
+          href={"/episodes/" + previous.data.number}
+          class="previous-episode-nav-link"
+        >
           <span>
             ep. {previous.data.number}: {previous.data.title}
           </span>
@@ -70,7 +124,7 @@ const title = `${episode.data.number}: ${episode.data.title}`;
     }
     {
       next && (
-        <a href={"/episodes/" + next.id} class="next-episode-link">
+        <a href={"/episodes/" + next.data.number} class="next-episode-nav-link">
           <span>
             ep. {next.data.number}: {next.data.title}
           </span>
@@ -95,6 +149,7 @@ const title = `${episode.data.number}: ${episode.data.title}`;
   footer,
   .header-content {
     width: var(--content-width);
+    max-width: 85rem;
     margin: auto;
   }
 
@@ -113,6 +168,12 @@ const title = `${episode.data.number}: ${episode.data.title}`;
     border-radius: 4px;
   }
 
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .header-content {
     display: flex;
     justify-content: space-between;
@@ -124,6 +185,20 @@ const title = `${episode.data.number}: ${episode.data.title}`;
     height: auto;
     vertical-align: middle;
     margin-right: auto;
+  }
+
+  .episode-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .episode-content {
+    max-width: 40em;
+    margin-right: 5%;
+  }
+
+  .episode-details {
+    margin-top: 2em;
   }
 
   .episode-info {
@@ -144,12 +219,16 @@ const title = `${episode.data.number}: ${episode.data.title}`;
   }
 
   .episode-date {
+    display: inline-block;
     font-weight: 400;
     color: var(--base-color-dark);
+    margin-bottom: 0.5rem;
   }
 
-  .episode-description {
+  .episode-description,
+  .episode-links {
     font-size: clamp(1rem, 0.875em, 0.875em);
+    margin-bottom: 0;
   }
 
   .episode-nav {
@@ -158,7 +237,7 @@ const title = `${episode.data.number}: ${episode.data.title}`;
     align-items: center;
   }
 
-  [class$="episode-link"] {
+  [class$="episode-nav-link"] {
     display: inline-flex;
     align-items: center;
     gap: 0.35em;
@@ -171,7 +250,7 @@ const title = `${episode.data.number}: ${episode.data.title}`;
       display: inline-block;
       vertical-align: 0.1em;
       font-weight: 500;
-      font-size: 2em;
+      font-size: 1.5em;
       font-family: monospace;
     }
 
@@ -183,15 +262,17 @@ const title = `${episode.data.number}: ${episode.data.title}`;
     }
   }
 
-  .previous-episode-link::before {
+  .previous-episode-nav-link::before {
     content: "\2190";
+    margin-left: -0.85em;
   }
 
-  .next-episode-link {
+  .next-episode-nav-link {
     margin-left: auto;
 
     &::after {
       content: "\2192";
+      margin-right: -0.85em;
     }
   }
 </style>

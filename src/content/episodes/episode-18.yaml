@@ -9,9 +9,9 @@ description:
   the OpenAI drama that happened over the weekend. This is not an episode to miss!
 duration: "29:46"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: CSS nesting
     url: https://developer.chrome.com/articles/css-nesting/

@@ -11,9 +11,9 @@ description:
   its UI."
 duration: "40:24"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Remix announces Vite support
     url: https://remix.run/blog/remix-heart-vite

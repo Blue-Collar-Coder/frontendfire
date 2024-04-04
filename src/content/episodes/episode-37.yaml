@@ -20,9 +20,9 @@ description:
   a spin in the meantime.
 duration: "42:16"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Wiz and Angular combine forces
     url: https://www.youtube.com/watch?v=nIBseTi6RVk&ab_channel=ng-conf

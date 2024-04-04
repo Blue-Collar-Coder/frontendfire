@@ -9,9 +9,9 @@ description:
   an incredibly fast JavaScript runtime, transpiler bundler, and npm package manager all-in-one.
 duration: "27:43"
 hosts:
-  - Jack Herrington
-  - Paige Niedringhaus
-  - TJ VanToll
+  - jack
+  - paige
+  - tj
 links:
   - text: Chrome introduces 4 new CSS features for entry/exit animations
     url: https://developer.chrome.com/blog/entry-exit-animations/
