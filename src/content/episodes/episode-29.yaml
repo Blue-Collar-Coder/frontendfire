@@ -2,6 +2,9 @@ number: 29
 type: news
 title: Amazon’s JS Runtime LLRT, Vite 5.1, and Interop 2024 Browser Initiatives
 date: 2024-02-12
+teaser: 🌟 Vite 5.1, LLRT Amazon’s new JavaScript runtime, and a glimpse into the future 
+of browsers at Interop 2024! Join us for experimental runtime APIs, new serverless 
+magic, and fresh web standards. 🌐
 description:
   The early trend of 2024 seems to be browser initiatives, with Amazon announcing their new JavaScript runtime, LLRT
   (low latency runtime), an experimental, lightweight JS runtime designed to address the growing demand for fast and

@@ -2,6 +2,9 @@ number: 33
 type: news
 title: npm Has Competition, Parcel Adds Macros, and BrowserStack Gets Sued
 date: 2024-03-04
+teaser: 🎙️Join us today as we delve into the Deno team’s next-gen package registry 
+JSR, Parcel v2’s macro support, Browserstack being sued for IP theft, and Apple’s 
+PWA pivot in the EU. 🎧✨
 description:
   We discuss JSR, the new package registry from Deno, and whether it can
   compete with npm. Next, we talk about Parcel’s new support for macros, which is

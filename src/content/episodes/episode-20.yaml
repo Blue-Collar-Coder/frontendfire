@@ -2,6 +2,10 @@ number: 20
 type: news
 title: New React Framework Waku, Agile 2 in Action, and Big Updates in Safari 17.2
 date: 2023-12-18
+teaser: 🔍 Calling all tech enthusiasts! Get the inside scoop on Waku, Dai Shi's 
+(creator of Zustand and Jotai) newest brainchild for React RSCs, delve into Agile 
+2's new take on agile development, and catch the Safari 17.2 wave for a smoother 
+browsing experience!
 description:
   'Today, we discuss the new framework Waku, which is designed to support React Server Components,
   from Daishi Kato (the creator of popular state management libraries Zustand and Jotai). We also delve

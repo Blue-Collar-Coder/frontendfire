@@ -2,6 +2,9 @@ number: 24
 type: news
 title: ReScript 11.0 Takes on TS, RSCs Explained with Donuts, and OpenAI’s GPT Store
 date: 2024-01-22
+teaser: 🍩 What do donuts and React server components have in common? Listen to our 
+latest episode to find out! Plus, Rescript 11.0 challenges TypeScript's throne, 
+and OpenAI shakes things up with a GPT Store. 🏪
 description:
   "In today's episode, we cover the release of ReScript 11.0, a TypeScript language competitor that offers an
   alternative to TS by focusing on a subset of JS instead of the entire JavaScript feature set which equates

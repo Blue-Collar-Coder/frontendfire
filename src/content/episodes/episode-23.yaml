@@ -2,6 +2,9 @@ number: 23
 type: news
 title: The Superglue Framework, Svelte 5’s Arrival, and OpenAI’s NY Times Legal Battle
 date: 2024-01-15
+teaser: 🔥 The tech scene is heating up! Superglue's arrival aims to transform 
+Rails by adding React & Redux to the mix, Svelte 5 is making waves, and the courtroom 
+drama unfolds – OpenAI’s being sued by the NY Times.
 description:
   The tech scene is heating up with the release of Superglue, an experimental new framework from Johnny Ho and
   the team at Thoughtbot. Superglue combines the best of Rails with React and Redux,sending JSON props to the
