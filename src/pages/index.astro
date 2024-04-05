@@ -7,7 +7,7 @@ import PlatformActions from "../components/PlatformActions.astro";
 import EpisodeCard from "../components/EpisodeCard.astro";
 import Footer from "../components/Footer.astro";
 
-import logo from "../assets/images/logo-horizontal-white.png";
+import logo from "../assets/images/logo-horizontal.svg";
 
 const episodes = await getCollection("episodes");
 episodes.sort((a, b) => b.data.number - a.data.number);
