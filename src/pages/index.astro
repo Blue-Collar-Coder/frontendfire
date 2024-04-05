@@ -33,7 +33,7 @@ const latestEpisode = (episodes ?? []).shift();
     {
       latestEpisode && (
         <div class="latest-episode">
-          <EpisodeCard episode={latestEpisode} />
+          <EpisodeCard episode={latestEpisode} showClip={false} />
           {latestEpisode.data.audio && (
             <audio controls src={latestEpisode.data.audio} />
           )}
@@ -60,6 +60,7 @@ const latestEpisode = (episodes ?? []).shift();
   audio {
     width: 25rem;
     max-width: 100%;
+    margin-top: 0.25em;
   }
 
   audio::-webkit-media-controls-enclosure {

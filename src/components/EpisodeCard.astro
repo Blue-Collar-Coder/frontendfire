@@ -3,9 +3,10 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   episode: CollectionEntry<"episodes">;
+  showClip?: boolean;
 }
 
-const { episode } = Astro.props;
+const { episode, showClip = true } = Astro.props;
 ---
 
 <article class="episode-card">
@@ -24,7 +25,7 @@ const { episode } = Astro.props;
     </time>
     <span class="episode-number">#{episode.data.number}</span>
     {
-      episode.data.clip && (
+      episode.data.clip && showClip && (
         <a href={episode.data.clip} target="_blank">
           [ Clip ]
         </a>
