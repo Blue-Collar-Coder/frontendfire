@@ -2,6 +2,9 @@ number: 26
 type: interview
 title: Million.js v3 Debuts with Aiden Bai and Tobiloba Adedeji
 date: 2024-02-02
+teaser:
+  Brace yourselves React fans! ⚛️✨ In this special interview Aiden Bai &  Tobiloba unveil
+  Million.js v3, promising turbocharged performance. Get ready to supercharge your apps! 🚀
 description:
   Aiden Bai and Tobiloba Adedeji join us on the podcast to talk about the latest
   release of Million.js - a virtual DOM replacement for React projects that can
@@ -39,6 +42,7 @@ links:
     url: https://twitter.com/toby_solutions
   - text: Tobiloba's LinkedIn
     url: https://www.linkedin.com/in/tobiloba-adedeji
+audio: https://www.buzzsprout.com/2226499/14425891-interview-million-js-v3-debuts-with-aiden-bai-and-tobiloba-adedeji.mp3
 apple: https://podcasts.apple.com/gb/podcast/interview-million-js-v3-debuts-with-aiden-bai-and/id1700169000?i=1000643923454
 spotify: https://open.spotify.com/episode/3PQjx0ajzu8lGaIPxyZdBK
 clip: https://twitter.com/front_end_fire/status/1753447888649072923
