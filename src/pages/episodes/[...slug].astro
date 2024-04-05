@@ -7,6 +7,10 @@ import PlatformActions from "../../components/PlatformActions.astro";
 import Footer from "../../components/Footer.astro";
 
 import logo from "../../assets/images/logo-horizontal.svg";
+import emailIcon from "../../assets/images/email-icon.svg";
+import facebookIcon from "../../assets/images/facebook-icon.svg";
+import twitterIcon from "../../assets/images/twitter-icon.svg";
+import linkIcon from "../../assets/images/link-icon.svg";
 import { getEntries } from "astro:content";
 
 export async function getStaticPaths() {
@@ -103,6 +107,44 @@ const hosts = await getEntries(episode.data.hosts);
           </>
         )
       }
+
+      <p>
+        <strong>Share this episode</strong><br />
+        <a
+          title="Share via email"
+          href={`mailto:?subject=${encodeURIComponent(episode.data.title)}&body=Check out this episode from the Front-End Fire podcast%0D%0A%0D%0AApple Podcasts:%0D%0A${encodeURIComponent(episode.data.apple)}%0D%0A%0D%0ASpotify:%0D%0A${encodeURIComponent(episode.data.spotify)}`}
+          class="share-action"
+        >
+          <Image src={emailIcon} alt="Share via email" />
+        </a>
+        &nbsp;
+        <a
+          title="Share on Facebook"
+          target="_blank"
+          href={`https://www.facebook.com/sharer/sharer.php?u=${episode.data.spotify}`}
+          class="share-action"
+        >
+          <Image src={facebookIcon} alt="Share on Facebook" />
+        </a>
+        &nbsp;
+        <a
+          title="Tweet this episode"
+          target="_blank"
+          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(episode.data.title)}%0D%0A${encodeURIComponent(episode.data.spotify)}`}
+          class="share-action"
+        >
+          <Image src={twitterIcon} alt="Tweet this episode" />
+        </a>
+        &nbsp;
+        <button
+          title="Copy Episode Link"
+          popovertarget="copied-popover"
+          class="share-action copy-episode-link-action"
+        >
+          <Image src={linkIcon} alt="Copy Episode Link" />
+        </button>
+        <div popover id="copied-popover">Copied!</div>
+      </p>
     </div>
 
     <div class="episode-extras">
@@ -124,33 +166,49 @@ const hosts = await getEntries(episode.data.hosts);
         }
       </ul>
     </div>
+
+    <nav class="episode-nav">
+      {
+        previous && (
+          <a
+            href={"/episodes/" + previous.data.number}
+            class="previous-episode-nav-link"
+          >
+            <span>
+              ep. {previous.data.number}: {previous.data.title}
+            </span>
+          </a>
+        )
+      }
+      {
+        next && (
+          <a
+            href={"/episodes/" + next.data.number}
+            class="next-episode-nav-link"
+          >
+            <span>
+              ep. {next.data.number}: {next.data.title}
+            </span>
+          </a>
+        )
+      }
+    </nav>
   </main>
+
+  <Footer />
 </Layout>
 
-<nav class="episode-nav">
-  {
-    previous && (
-      <a
-        href={"/episodes/" + previous.data.number}
-        class="previous-episode-nav-link"
-      >
-        <span>
-          ep. {previous.data.number}: {previous.data.title}
-        </span>
-      </a>
-    )
-  }
-  {
-    next && (
-      <a href={"/episodes/" + next.data.number} class="next-episode-nav-link">
-        <span>
-          ep. {next.data.number}: {next.data.title}
-        </span>
-      </a>
-    )
-  }
-</nav>
-<Footer />
+<script>
+  document
+    .querySelector(".copy-episode-link-action")
+    ?.addEventListener("click", () => {
+      navigator.clipboard.writeText(location.href);
+      window.setTimeout(
+        () => document.getElementById("copied-popover")?.hidePopover(),
+        5000
+      );
+    });
+</script>
 
 <style>
   header {
@@ -194,6 +252,19 @@ const hosts = await getEntries(episode.data.hosts);
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  [popover] {
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 4px;
+    box-shadow: 0 0 3px var(--primary-color-dark);
+
+    &:popover-open {
+      position: absolute;
+      inset: unset;
+      right: 1em;
+      bottom: 1em;
+    }
   }
 
   .header-content {
@@ -244,6 +315,25 @@ const hosts = await getEntries(episode.data.hosts);
     font-weight: 400;
     color: var(--base-color-dark);
     margin-bottom: 0.5rem;
+  }
+
+  .share-action {
+    text-decoration: none;
+
+    & img {
+      height: 1.25em;
+      width: 1.25em;
+    }
+  }
+
+  button.share-action {
+    height: 1.25em;
+    width: 1.25em;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: inherit;
   }
 
   .episode-description,
