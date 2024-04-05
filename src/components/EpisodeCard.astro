@@ -23,12 +23,21 @@ const { episode } = Astro.props;
       }
     </time>
     <span class="episode-number">#{episode.data.number}</span>
+    {
+      episode.data.clip && (
+        <a href={episode.data.clip} target="_blank">
+          [ Clip ]
+        </a>
+      )
+    }
   </div>
   <h3 class="episode-title">
     <a href={"/episodes/" + episode.data.number}>{episode.data.title}</a>
   </h3>
 
-  <p class="episode-description">{episode.data.description}</p>
+  <p class="episode-description">
+    {episode.data.teaser ?? episode.data.description}
+  </p>
 </article>
 
 <style>
@@ -59,7 +68,6 @@ const { episode } = Astro.props;
     overflow: hidden;
 
     margin: 0.25em 0;
-    white-space: pre-wrap;
     font-size: clamp(1rem, 0.875em, 0.875em);
   }
 </style>

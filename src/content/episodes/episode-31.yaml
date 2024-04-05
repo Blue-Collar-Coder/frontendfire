@@ -2,6 +2,9 @@ number: 31
 type: interview
 title: The Boring JavaScript Stack with Kelvin Omereshone
 date: 2024-02-22
+teaser: "🎙 Special guest alert: Kelvin Omereshone, maintainer for Sails.js & creator of 
+The Boring JavaScript Stack, joins us on the podcast! Learn about the opinionated full-stack JS 
+project starter with battle-tested tech like Inertia.js, Tailwind CSS, & more! ✨"
 description:
   Kelvin Omereshone wants to make JavaScript boring. As the lead maintainer of
   Sails.js and creator of The Boring JavaScript Stack, Kelvin aims to build a

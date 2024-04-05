@@ -38,102 +38,119 @@ const hosts = await getEntries(episode.data.hosts);
   </header>
 
   <main>
-    <div class="episode-container">
-      <div class="episode-content">
-        <div class="episode-info">
-          <span class="tag">{episode.data.type}</span>
-          <span class="episode-number">Episode {episode.data.number}</span>
-        </div>
-
-        <h1 class="episode-header">{episode.data.title}</h1>
-
-        {episode.data.audio && <audio controls src={episode.data.audio} />}
-
-        <p class="episode-description">{episode.data.description}</p>
+    <div class="episode-content">
+      <div class="episode-info">
+        <span class="tag">{episode.data.type}</span>
+        <span class="episode-number">Episode {episode.data.number}</span>
       </div>
-      <div class="episode-details">
-        <!-- <h2 class="section-heading">Details</h2> -->
-        <time datetime={episode.data.date.toISOString()} class="episode-date">
-          {
-            episode.data.date.toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric"
-            })
-          }
-        </time>
-        <br />
-        Hosted by
-        <ul>
-          {
-            hosts.map((host) => (
-              <li>
-                <a href={host.data.website} target="_blank">
-                  {host.data.name}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
 
-        {
-          episode.data.guests && (
-            <>
-              <h2 class="section-heading">Guests</h2>
-              <ul>
-                {episode.data.guests.map((guest) => (
-                  <li>
-                    <a href={guest.url} target="_blank">
-                      {guest.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </>
-          )
-        }
-      </div>
+      <h1 class="episode-header">{episode.data.title}</h1>
+
+      {
+        episode.data.teaser && (
+          <p class="episode-teaser">{episode.data.teaser}</p>
+        )
+      }
+      {episode.data.audio && <audio controls src={episode.data.audio} />}
     </div>
 
-    <h2 class="section-heading">Links</h2>
-    <ul class="episode-links">
+    <div class="episode-details">
+      <!-- <h2 class="section-heading">Details</h2> -->
+      <time datetime={episode.data.date.toISOString()} class="episode-date">
+        {
+          episode.data.date.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric"
+          })
+        }
+      </time>
       {
-        episode.data.links.map((link) => (
-          <li>
-            <a href={link.url} target="_blank">
-              {link.text}
+        episode.data.clip && (
+          <p>
+            <a href={episode.data.clip} target="_blank">
+              View Clip
             </a>
-          </li>
-        ))
+          </p>
+        )
       }
-    </ul>
-  </main>
+      <strong>Hosted by</strong>
+      <ul>
+        {
+          hosts.map((host) => (
+            <li>
+              <a href={host.data.website} target="_blank">
+                {host.data.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
 
-  <nav class="episode-nav">
-    {
-      previous && (
-        <a
-          href={"/episodes/" + previous.data.number}
-          class="previous-episode-nav-link"
-        >
-          <span>
-            ep. {previous.data.number}: {previous.data.title}
-          </span>
-        </a>
-      )
-    }
-    {
-      next && (
-        <a href={"/episodes/" + next.data.number} class="next-episode-nav-link">
-          <span>
-            ep. {next.data.number}: {next.data.title}
-          </span>
-        </a>
-      )
-    }
-  </nav>
-  <Footer />
+      {
+        episode.data.guests && (
+          <>
+            <h2 class="section-heading">Guests</h2>
+            <ul>
+              {episode.data.guests.map((guest) => (
+                <li>
+                  <a href={guest.url} target="_blank">
+                    {guest.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )
+      }
+    </div>
+
+    <div class="episode-extras">
+      <h2 class="section-heading">Full Description</h2>
+      <p class="episode-description">
+        {episode.data.description}
+      </p>
+
+      <h2 class="section-heading">Links</h2>
+      <ul class="episode-links">
+        {
+          episode.data.links.map((link) => (
+            <li>
+              <a href={link.url} target="_blank">
+                {link.text}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </main>
 </Layout>
+
+<nav class="episode-nav">
+  {
+    previous && (
+      <a
+        href={"/episodes/" + previous.data.number}
+        class="previous-episode-nav-link"
+      >
+        <span>
+          ep. {previous.data.number}: {previous.data.title}
+        </span>
+      </a>
+    )
+  }
+  {
+    next && (
+      <a href={"/episodes/" + next.data.number} class="next-episode-nav-link">
+        <span>
+          ep. {next.data.number}: {next.data.title}
+        </span>
+      </a>
+    )
+  }
+</nav>
+<Footer />
 
 <style>
   header {
@@ -151,6 +168,11 @@ const hosts = await getEntries(episode.data.hosts);
     width: var(--content-width);
     max-width: 85rem;
     margin: auto;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   nav {
@@ -187,11 +209,6 @@ const hosts = await getEntries(episode.data.hosts);
     margin-right: auto;
   }
 
-  .episode-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .episode-content {
     max-width: 40em;
     margin-right: 5%;
@@ -199,6 +216,10 @@ const hosts = await getEntries(episode.data.hosts);
 
   .episode-details {
     margin-top: 2em;
+  }
+
+  .episode-extras {
+    width: 100%;
   }
 
   .episode-info {
@@ -227,8 +248,13 @@ const hosts = await getEntries(episode.data.hosts);
 
   .episode-description,
   .episode-links {
+    max-width: 40em;
     font-size: clamp(1rem, 0.875em, 0.875em);
     margin-bottom: 0;
+  }
+
+  .episode-description {
+    white-space: pre-line;
   }
 
   .episode-nav {
@@ -254,7 +280,7 @@ const hosts = await getEntries(episode.data.hosts);
       font-family: monospace;
     }
 
-    span {
+    & span {
       display: -webkit-box;
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 3;

@@ -2,6 +2,9 @@ number: 35
 type: news
 title: Astro Adds Databases, Pigment CSS, and Speedometer 3.0 Browser Testing
 date: 2024-03-18
+teaser: 🚀 Dive into the latest innovations in web development with Astro
+  unveiling Astro DB, Pigment CSS offering zero-runtime CSS-in-JS, and Speedometer 3.0 setting new
+  benchmarks for web app performance! ⚡️
 description:
   In this episode, we explore the latest in web development with Astro unveiling Astro DB,
   a fully managed, blazing fast SQL-based database that is “ridiculously easy to use.”

@@ -15,6 +15,7 @@ const episodes = defineCollection({
     type: z.enum(["news", "interview"]),
     title: z.string(),
     date: z.date(),
+    teaser: z.string().optional(),
     description: z.string(),
     duration: z.string(),
     hosts: z.array(reference("hosts")),
