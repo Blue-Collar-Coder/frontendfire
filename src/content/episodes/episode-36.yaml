@@ -17,7 +17,7 @@ description:
   we covered several months ago, announces release 1.0 with all the bells and whistles we’ve
   come to expect from other meta frameworks: Vite integration, filesystem routing, SSR/SSG,
   server routes, tRPC support, etc. and plans for future integrations with libraries like
-  Astro, Nx, Vitest and Storybook. \n
+  Astro, Nx, Vitest and Storybook.\n
 
   Chrome officially replaces the First Input Delay (FID)
   web vital metric with Interaction to Next Paint (INP) to try to do a better job of evaluating

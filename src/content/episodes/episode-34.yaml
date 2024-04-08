@@ -9,9 +9,9 @@ description:
   "Today we discuss Vercel’s latest offering: AI SDK 3.0, which streams React
   components from LLMs to deliver richer user experiences than text-only chatbots.
   Then we dive into the world of modern styling as Tailwind CSS drops its latest gem
-  - version 4.0, now open source for community exploration. And then finally we
-  talk about the latest improvements in Safari 17.4. Plus, stay tuned for Elon Musk’s
-  legal saga with OpenAI and the Indian government’s new stance on AI model updates."
+  - version 4.0, now open source for community exploration. And we wrap up talking 
+  about the latest improvements in Safari 17.4.Plus, stay tuned for Elon Musk’s legal 
+  saga with OpenAI and the Indian government’s new stance on AI model updates."
 duration: "34:03"
 hosts:
   - jack

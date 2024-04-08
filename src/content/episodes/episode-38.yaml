@@ -1,0 +1,58 @@
+number: 38
+type: news
+title: Signals in JS, RSCs in Storybook 8, and Bun Hits Windows in v1.1
+date: 2024-04-08
+teaser:
+  🌟 Exciting news for JavaScript devs! TC39 considers adding signals to the
+  native JS ecosystem, StoryBook 8 has experimental support for RSCs, and JS
+  runtime Bun v1.1 is now compatible with Windows 🍞.
+description:
+  "Signals have been around in the JavaScript world as early as 2010 when Knockout.js
+  first introduced them, but the past few years they’ve been picking up steam among JS
+  frameworks as a way to effectively manage application state so that developers can focus
+  on the business logic parts of their apps. Now there’s a proposal to make Signals part
+  of the native JavaScript ecosystem, and it’s being backed by some well-known frameworks
+  like Angular, Svelte, Vue, and more.\n
+
+  Storybook 8 has introduced experimental support for React Server Components. It is noted
+  that server side actions are still only available in Next.js, but it’s great to see
+  RSCs continuing to gain more traction in the world.\n
+
+  Bun reached v1.1 recently, and while this isn’t usually a big milestone, for Bun it is,
+  because it now supports Windows (and boasts impressive speeds for performance test metrics
+  we’ve come to expect from JS runtimes) and offers a slew of improved Node.js compatibilities.
+  As Bun says itself, it aims to be a drop-in replacement for Node, and if it keeps adding
+  features, support, and speed gains like this, it very well might win that battle.\n
+
+  Finally, the discussion wraps up with some smaller news stories like Angular and Wiz
+  officially announcing they’ll become one, a lesser known Redux hook that can stand in
+  for complicated useEffect calls, and a crazy, years-long Linux hack that almost made
+  it into the major Linux distributions before it was caught."
+duration: "42:05"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Proposed signals in JS
+    url: https://github.com/proposal-signals/proposal-signals
+  - text: RSC support in Storybook 8
+    url: https://storybook.js.org/blog/storybook-8/
+  - text: Bun 1.1
+    url: https://bun.sh/blog/bun-v1.1
+  - text: Redux createListenerMiddleware avoids useEffect
+    url: https://redux-toolkit.js.org/api/createListenerMiddleware
+  - text: Official Angular and Wiz unification announcement
+    url: https://blog.angular.io/angular-and-wiz-are-better-together-91e633d8cd5a
+  - text: The crazy XZ Linux hack
+    url: https://thehackernews.com/2024/04/malicious-code-in-xz-utils-for-linux.html
+  - text: Daylight Uno Table Lamp
+    url: https://www.dickblick.com/products/daylight-uno-table-lamp/
+  - text: Govee Warm White LED Strip Lights
+    url: https://www.amazon.com/Govee-Dimmable-Lighting-Christmas-Decoration/dp/B07XGKX327/ref=dealz_tdc_t1_d_sccl_3_5/140-0192289-5936423?
+  - text: Open source software! And Paige's asset tracker repo in particular
+    url: https://github.com/paigen11/react-gps-asset-tracker-dashboard
+audio: https://www.buzzsprout.com/2226499/14839501-news-signals-in-js-rscs-in-storybook-8-and-bun-hits-windows-in-v1-1.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-signals-in-js-rscs-in-storybook-8-and-bun-hits/id1700169000?i=1000651762447
+spotify: https://open.spotify.com/episode/2UwyZzZypwKa6B9XsDGk25
+clip: https://twitter.com/front_end_fire/status/1777323620215263422
