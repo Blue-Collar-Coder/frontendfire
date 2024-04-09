@@ -2,6 +2,9 @@ number: 8
 type: news
 title: "It’s a Bun-anza! A Bun-apalooza! Bun-tastic, with a dash of AI"
 date: 2023-09-18
+teaser: Get ready for a lot of Bun uns in this week's podcast. 🍞 Bun is 
+aking headlines with the release of 1.0 and support for JS macros, and we 
+also cover Vercel Labs' new AI for building React UI/Tailwind code.
 description:
   This episode is chock full of Bun, bread and bakery-related puns because Bun is
   the star of the show! We talk about the launch of Bun 1.0 and support for JS macros, a new
@@ -23,6 +26,7 @@ links:
     url: https://www.imdb.com/title/tt7908628/
   - text: Tears of the Kingdom game on Nintendo
     url: https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/
+audio: https://www.buzzsprout.com/2226499/13608530-it-s-a-bun-anza-a-bun-apalooza-bun-tastic-with-a-dash-of-ai.mp3
 apple: https://podcasts.apple.com/gb/podcast/its-a-bun-anza-a-bun-apalooza-bun-tastic-with-a-dash-of-ai/id1700169000?i=1000628238939
 spotify: https://open.spotify.com/episode/2R7Qt3Xs0riDkaKWy1xnm6
 clip: https://twitter.com/front_end_fire/status/1703764356222107849

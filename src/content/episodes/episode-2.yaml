@@ -2,6 +2,8 @@ number: 2
 type: news
 title: The Death of Jamstack, the Rise of HTMX, and Another AI Assistant
 date: 2023-08-07
+teaser: Is Jamstack dead? Is HTML over in favor of HTMX? Do we need another coding AI assistant? 
+Listen to our latest episode where we talk about all these web dev news topics and more.
 description:
   This episode, we start with the news of StackOverflow's new AI assistant, Overflow AI, and
   discuss how it could change the way developers find answers. Then we talk about the rise of HTMX
@@ -28,5 +30,6 @@ links:
     url: https://www.barbie-themovie.com/
   - text: Algolia search
     url: https://www.algolia.com/
+audio: https://www.buzzsprout.com/2226499/13352286-the-death-of-jamstack-the-rise-of-htmx-and-another-ai-assistant.mp3
 apple: https://podcasts.apple.com/gb/podcast/the-death-of-jamstack-the-rise-of/id1700169000?i=1000623664956
 spotify: https://open.spotify.com/episode/313Fh4NvJBT9JZHQbexjUm

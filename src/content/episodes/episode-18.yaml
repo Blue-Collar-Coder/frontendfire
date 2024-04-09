@@ -2,6 +2,9 @@ number: 18
 type: news
 title: Vercel's AI Building UIs, Nested CSS Sans Sass, and the Annual State of JS Survey
 date: 2023-12-04
+teaser: Web developers, rejoice! CSS nesting support across all major browsers is a stylesheet game-changer.
+🎨 The 2023 State of JavaScript survey is LIVE! And Vercel is at it again using AI to build UIs? 
+🤯 Plus, updates on the Prettier bounty and OpenAI drama.
 description:
   CSS continues to have the best year ever, as the Chrome developer team announces that CSS nesting is now
   supported across all major browsers! The 2023 State of JavaScript survey is LIVE! And Vercel
@@ -27,6 +30,7 @@ links:
     url: https://www.imdb.com/title/tt23289160/
   - text: Wordle board game
     url: https://www.amazon.com/Wordle-Party-Players-Official-Inspired/dp/B0B5B9CP17
+audio: https://www.buzzsprout.com/2226499/14082259-vercel-s-ai-building-uis-nested-css-without-sass-and-the-annual-state-of-js-survey-is-live.mp3     
 apple: https://podcasts.apple.com/gb/podcast/vercels-ai-building-uis-nested-css-without-sass-and/id1700169000?i=1000637415964
 spotify: https://open.spotify.com/episode/5mPBpjxqGSE8lWUDaeqPk7
 clip: https://twitter.com/front_end_fire/status/1731680895843664344

@@ -1,7 +1,10 @@
 number: 17
 type: news
-title: Copilot Comes to gitHub.com, Blazing-er Faster Next.js, and a Bounty for Prettier
+title: Copilot Comes to GitHub.com, Blazing-er Faster Next.js, and a Bounty for Prettier
 date: 2023-11-20
+teaser: 🌐 GitHub, Next.js and the Prettier revolution - all in one podcast episode! GitHub Copilot Chat 
+takes center stage at github.com, Next.js supercharges web performance with partial prerendering, and 
+💰 $20k on the line to rewrite Prettier in Rust!?
 description:
   GitHub, Next.js and Prettier are all in the news this week! GitHub Copilot Chat takes center stage
   when it's announced it's coming to github.com. Next.js release partial prerendering as an
@@ -25,6 +28,7 @@ links:
     url: https://www.imdb.com/title/tt13309742/
   - text: iPhone 15 USB-C power port
     url: https://support.apple.com/en-us/105099
+audio: https://www.buzzsprout.com/2226499/14001055-copilot-comes-to-github-com-blazing-er-faster-next-js-and-a-bounty-for-code-formatter-prettier.mp3
 apple: https://podcasts.apple.com/gb/podcast/copilot-comes-to-github-com-blazing-er-faster-next/id1700169000?i=1000635413974
 spotify: https://open.spotify.com/episode/5dBkIokpgM9paN1T5TNxGW
 clip: https://twitter.com/front_end_fire/status/1726608975041540143

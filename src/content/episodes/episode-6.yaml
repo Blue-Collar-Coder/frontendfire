@@ -2,6 +2,9 @@ number: 6
 type: news
 title: Astro partners with Vercel, Lightning CSS gets adopted by Tailwind, and ChatGPT goes Enterprise Edition
 date: 2023-09-04
+teaser: "In this week's episode, frameworks and tools are hitting the big time. Astro continues its rise in 
+popularity with a new partnership, Lightning CSS will be bundled into Tailwind CSS's upcoming Oxide Engine, 
+and ChatGPT goes Enterprise Edition"
 description:
   Today we discuss how the Lightning CSS framework continues to gain wider spread
   support as Tailwind adopts it as part of the core Oxide Engine powering Tailwind CSS. Vercel announces
@@ -26,5 +29,6 @@ links:
     url: https://www.amazon.com/Chip-War-Worlds-Critical-Technology/dp/1982172002
   - text: M2 Macbook Pro
     url: https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-apple-m2-pro-with-10-core-cpu-and-16-core-gpu-512gb
+audio: https://www.buzzsprout.com/2226499/13521453-astro-partners-with-vercel-lightning-css-gets-adopted-by-tailwind-and-chatgpt-goes-enterprise-edition.mp3
 apple: https://podcasts.apple.com/gb/podcast/astro-partners-with-vercel-lightning-css-gets-adopted/id1700169000?i=1000626684537
 spotify: https://open.spotify.com/episode/0sLoDmqAn8qq08VZ98FSql

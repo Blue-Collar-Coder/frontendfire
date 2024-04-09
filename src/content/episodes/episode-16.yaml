@@ -2,6 +2,9 @@ number: 16
 type: interview
 title: The Angular Renaissance with Jessica Janiuk
 date: 2023-11-13
+teaser: 🚀 Exciting times in the Angular community! Join us for the “Angular Renaissance” with the much-anticipated 
+release of Angular v17 as we dive into all the details Jessica Janiuk from the Angular team. 🎉 Get ready for a 
+revolution in web development!
 description:
   'These are exciting times in the Angular world! Jessica Janiuk, a Senior Software Engineer at Google,
   joins us to talk about the "Angular Renaissance", including the recent release of Angular 17 and the
@@ -47,6 +50,7 @@ links:
     url: https://www.litter-robot.com/litter-robot-4.html
   - text: Petkit Pura Max cat litter box
     url: https://petkit.com/products/pura-max
+audio: https://www.buzzsprout.com/2226499/13958201-the-angular-renaissance-with-jessica-janiuk.mp3
 apple: https://podcasts.apple.com/gb/podcast/the-angular-renaissance-with-jessica-janiuk/id1700169000?i=1000634618071
 spotify: https://open.spotify.com/episode/1MZbJuq6aC3JPrDbbMD9rS
 clip: https://twitter.com/front_end_fire/status/1724068595649446279

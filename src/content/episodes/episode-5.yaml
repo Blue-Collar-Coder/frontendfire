@@ -2,6 +2,9 @@ number: 5
 type: interview
 title: Announcing Astro 3.0 with Fred K. Schott
 date: 2023-08-30
+teaser: The very first guest to join us on the podcast is none other than Fred K. Schott 
+himself to talk about the cool, new features shipping in Astro 3.0! Hear how Astro's about 
+to get even better in our latest episode!
 description: The very first guest to join us on the podcast is none other than
   Fred K. Schott, the creator of Astro. Fred joins us to talk about
   the cool, new features shipping in Astro 3.0! Support for the View Transitions API,
@@ -36,5 +39,6 @@ links:
     url: https://twitter.com/jlengstorf
   - text: "Factorio: Space Age game"
     url: https://factorio.com/blog/post/fff-373
+audio: https://www.buzzsprout.com/2226499/13495884-announcing-astro-3-0-with-fred-k-schott.mp3
 apple: https://podcasts.apple.com/gb/podcast/announcing-astro-3-0-with-fred-k-schott/id1700169000?i=1000626187434
 spotify: https://open.spotify.com/episode/0MIMgnKZycnPivkx0Z242Y

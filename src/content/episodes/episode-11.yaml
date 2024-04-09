@@ -2,6 +2,9 @@ number: 11
 type: interview
 title: The Future of SolidJS with Ryan Carniato
 date: 2023-10-09
+teaser: 🎙️ Special Guest Alert! 🚀 Join us as we dive into the future of SolidJS with its creator Ryan Carniato! 
+💡 Hear Ryan's insights on the release of Lit 3.0 & how he sees the web transforming with Photoshop now in 
+the browser. Don't miss this episode! 🔥
 description:
   Special guest alert! Ryan Carniato, creator of SolidJS, joins us to talk about the future of the framework.
   Plus, Ryan weighs in on some of the news of the day like the release of web components library Lit 3.0,
@@ -36,6 +39,7 @@ links:
     url: https://ember.com/products/ember-mug-2
   - text: Hiking in Sequoia National Park
     url: https://www.nps.gov/seki/index.htm
+audio: https://www.buzzsprout.com/2226499/13742265-the-future-of-solidjs-with-ryan-carniato.mp3
 apple: https://podcasts.apple.com/gb/podcast/the-future-of-solidjs-with-ryan-carniato/id1700169000?i=1000630687500
 spotify: https://open.spotify.com/episode/1v86ei2ksxBK2pa2cdzQkR
 clip: https://twitter.com/front_end_fire/status/1711373799935869097

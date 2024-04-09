@@ -2,6 +2,8 @@ number: 4
 type: news
 title: Faster React apps with Million.js, more new CSS features, and Bun 1.0
 date: 2023-08-21
+teaser: Use Million.js to speed up your React apps ⚡️, new CSS animation features to 
+add to your toolkit ✨, Bun launches v1 🍞, and so much more.
 description:
   We talk about Million.js, a library that can help speed up your React apps automatically.
   Next, we discuss what a great year it's been for CSS with 4 new CSS features that Chrome has
@@ -27,5 +29,6 @@ links:
     url: https://www.tbs.com/shows/miracle-workers
   - text: GitHub Copilot Chat
     url: https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat
+audio: https://www.buzzsprout.com/2226499/13433508-faster-react-apps-with-million-js-more-new-css-features-and-bun-1-0.mp3
 apple: https://podcasts.apple.com/gb/podcast/faster-react-apps-with-million-js-more-new-css/id1700169000?i=1000625115401
 spotify: https://open.spotify.com/episode/1ClMHwAsh7X2EoIWUcUISz

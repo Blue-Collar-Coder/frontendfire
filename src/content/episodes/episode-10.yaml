@@ -2,6 +2,8 @@ number: 10
 type: news
 title: ChatGPT for JS Devs, HTML Elements Beyond Divs, and Parallel CI Made Easy with NX
 date: 2023-10-02
+teaser: The State of HTML survey reveals plenty of useful elements beyond <divs>, NX makes 
+parallel CI steps easy, and ChatGPT reaches its inevitable peak as a JS library. 🚀
 description:
   "We knew it was only a matter of time before ChatGPT made its way fully into the JavaScript
   ecosystem, and this week it finally happened: introducing ChatGPT.js! Plus, the Nx team
@@ -24,6 +26,7 @@ links:
     url: https://en.wikipedia.org/wiki/Dune_(novel)
   - text: Anker USB Outlet
     url: https://www.amazon.com/gp/product/B09Q52CXX1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
+audio: https://www.buzzsprout.com/2226499/13694312-chatgpt-for-js-devs-html-elements-beyond-divs-and-parallel-ci-tasks-made-easy-with-nx.mp3
 apple: https://podcasts.apple.com/gb/podcast/chatgpt-for-js-devs-html-elements-beyond-divs-and/id1700169000?i=1000629887845
 spotify: https://open.spotify.com/episode/4JMdjt4Dfcv6dWDeYCgt3d
 clip: https://twitter.com/front_end_fire/status/1708848218031686094

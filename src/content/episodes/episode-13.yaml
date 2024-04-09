@@ -2,6 +2,9 @@ number: 13
 type: news
 title: CodeSandbox's Dev Container Magic and TanStack Query V5 Unveiled
 date: 2023-10-23
+teaser: Developers, brace yourselves! TanStack Query V5 just dropped with a ton of cool new features. 
+🎉 And, as if that wasn't enough, CodeSandbox now natively supports Dev Containers. 
+Your development process is about to get a serious upgrade! 🚀💡
 description:
   With Jack away on assignment, TJ and Paige hold down the fort for this episode
   of Front-end Fire. In it, they discuss the release of TanStack Query v5 which
@@ -24,6 +27,7 @@ links:
     url: https://www.ileftmystuff.com/
   - text: YouTube TV multiview
     url: https://tv.youtube.com/welcome/
+audio: https://www.buzzsprout.com/2226499/13825715-codesandbox-s-dev-container-magic-tanstack-query-v5-unveiled.mp3
 apple: https://podcasts.apple.com/gb/podcast/codesandboxs-dev-container-magic-tanstack-query-v5/id1700169000?i=1000632262982
 spotify: https://open.spotify.com/episode/33GHmdt4H1hIcBvw9cH4ye
 clip: https://twitter.com/front_end_fire/status/1716443210556280977

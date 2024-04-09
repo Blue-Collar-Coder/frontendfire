@@ -2,6 +2,9 @@ number: 12
 type: news
 title: React Aria Components, Optimized Barrel File Imports, and ActivityPub Support in WordPress
 date: 2023-10-16
+teaser: 🌐 Faster web, here we come! React Aria's unstyled components bring simplicity to design. Next.js is turbocharging 
+build times by optimizing barrel file imports. Plus, WordPress sites join the open social web with ActivityPub! 
+It's a tech trifecta! 💻⚡️
 description:
   In this episode, we share how the React Aria team has released a new library of unstyled
   components which work seamlessly with vanilla CSS, Tailwind, Styled Components, and more. The
@@ -30,6 +33,7 @@ links:
     url: https://godly.website/
   - text: Carawat Non-Stick Ceramic Baking Sheet
     url: https://www.amazon.com/dp/B0B78DWPLJ/ref=twister_B0CDFQ5M9Q?_encoding=UTF8&th=1
+audio: https://www.buzzsprout.com/2226499/13782641-accelerate-your-web-dev-with-react-aria-components-optimized-barrel-file-imports-and-activitypub-support-in-wordpress.mp3
 apple: https://podcasts.apple.com/gb/podcast/accelerate-your-web-dev-with-react-aria-components/id1700169000?i=1000631458533
 spotify: https://open.spotify.com/episode/1fqlYJQAzTIa2UF2nsl0VN
 clip: https://twitter.com/front_end_fire/status/1713909656743968887

@@ -2,6 +2,9 @@ number: 1
 type: news
 title: Dan Abramov leaves Meta, GitHub Copilot Chat, and Native Browser View Transitions
 date: 2023-07-30
+teaser: Want to keep up with frontend development news fast? Check out the new Front-end Fire 
+podcast with hosts Jack Herrington, TJ VanToll, and Paige Niedringhaus where we cover three 
+frontend news topics each week! We'll even bring on a guest now and again to talk about new releases!
 description:
   In our very first episode, we introduce ourselves to listeners, and dive right
   into the latest news in the web development world. Dan Abramov shocks the React
@@ -27,5 +30,6 @@ links:
     url: https://www.imdb.com/title/tt12327578/
   - text: Pokemon Sleep
     url: https://www.pokemon.com/us/app/pokemon-sleep/
+audio: https://www.buzzsprout.com/2226499/13317787-dan-abramov-leaves-meta-github-copilot-chat-and-native-browser-view-transitions.mp3
 apple: https://podcasts.apple.com/gb/podcast/dan-abramov-leaves-meta-github-copilot-chat-and/id1700169000?i=1000622871664
 spotify: https://open.spotify.com/episode/2IImi3V12GUTqeeYCC3ymW
