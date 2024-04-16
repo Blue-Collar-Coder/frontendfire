@@ -2,10 +2,11 @@ number: 1
 type: news
 title: Dan Abramov leaves Meta, GitHub Copilot Chat, and Native Browser View Transitions
 date: 2023-07-30
-teaser: Want to keep up with frontend development news fast? Check out the new Front-end Fire 
-podcast with hosts Jack Herrington, TJ VanToll, and Paige Niedringhaus where we cover three 
-frontend news topics each week! We'll even bring on a guest now and again to talk about new releases!
-description:
+teaser: >
+  Want to keep up with frontend development news fast? Check out the new Front-end Fire
+  podcast with hosts Jack Herrington, TJ VanToll, and Paige Niedringhaus where we cover three
+  frontend news topics each week! We'll even bring on a guest now and again to talk about new releases!
+description: >
   In our very first episode, we introduce ourselves to listeners, and dive right
   into the latest news in the web development world. Dan Abramov shocks the React
   community by announcing his departure from Meta and the React core team. That segues

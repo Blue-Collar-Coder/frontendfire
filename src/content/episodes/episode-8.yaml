@@ -2,10 +2,11 @@ number: 8
 type: news
 title: "It’s a Bun-anza! A Bun-apalooza! Bun-tastic, with a dash of AI"
 date: 2023-09-18
-teaser: Get ready for a lot of Bun uns in this week's podcast. 🍞 Bun is 
-aking headlines with the release of 1.0 and support for JS macros, and we 
-also cover Vercel Labs' new AI for building React UI/Tailwind code.
-description:
+teaser: >
+  Get ready for a lot of Bun uns in this week's podcast. 🍞 Bun is making headlines with the release
+  of 1.0 and support for JS macros, and we also cover Vercel Labs' new AI for building React
+  UI/Tailwind code.
+description: >
   This episode is chock full of Bun, bread and bakery-related puns because Bun is
   the star of the show! We talk about the launch of Bun 1.0 and support for JS macros, a new
   generative UI tool from Vercel Labs using AI to build React UI/Tailwind code. Brace

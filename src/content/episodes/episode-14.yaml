@@ -2,11 +2,11 @@ number: 14
 type: news
 title: Next.js v14, Angular’s new Analog.js, Plus Updates on React Forget
 date: 2023-10-30
-teaser:
-  "In the world of web frameworks, change is constant. 🚀 Join us as we explore the latest updates:
+teaser: >
+  In the world of web frameworks, change is constant. 🚀 Join us as we explore the latest updates:
   Next.js v14, the meta framework for Angular Analog.js, and the ever-evolving React landscape with
-  React Forget. Stay informed, stay ahead! 🌟"
-description:
+  React Forget. Stay informed, stay ahead! 🌟
+description: >
   The only constant in the world of web frameworks is change, and this week is no exception. Next.js
   has released version 14, which includes speedier local development with the Turbopack
   compiler, stable server actions, and a preview of partial pre-rendering. Angular has also announced a

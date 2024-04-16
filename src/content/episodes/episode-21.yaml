@@ -2,10 +2,11 @@ number: 21
 type: news
 title: End of Year Wrap Up and Predictions for Web Dev in 2024
 date: 2023-12-25
-teaser: 🔮 Unlock the secrets of 2024's web development landscape with our latest 
-podcast episode! 🎧 Dive deep into the predictions—more AI intelligence in your code, 
-cutting-edge native JavaScript APIs, and simpler frameworks redefining the game. 🚀
-description:
+teaser: >
+  🔮 Unlock the secrets of 2024's web development landscape with our latest
+  podcast episode! 🎧 Dive deep into the predictions—more AI intelligence in your code,
+  cutting-edge native JavaScript APIs, and simpler frameworks redefining the game. 🚀
+description: >
   As with many podcasts around this time of year, we're wrapping up the year with predictions for what
   the world of web development will look like in 2024. Before we dive into our predictions,
   we touch on the Adobe Figma merger, which made headlines for falling apart after regulators

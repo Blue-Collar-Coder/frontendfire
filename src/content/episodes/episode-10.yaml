@@ -2,14 +2,15 @@ number: 10
 type: news
 title: ChatGPT for JS Devs, HTML Elements Beyond Divs, and Parallel CI Made Easy with NX
 date: 2023-10-02
-teaser: The State of HTML survey reveals plenty of useful elements beyond <divs>, NX makes 
-parallel CI steps easy, and ChatGPT reaches its inevitable peak as a JS library. 🚀
-description:
-  "We knew it was only a matter of time before ChatGPT made its way fully into the JavaScript
+teaser: >
+  The State of HTML survey reveals plenty of useful elements beyond <divs>, NX makes
+  parallel CI steps easy, and ChatGPT reaches its inevitable peak as a JS library. 🚀
+description: >
+  We knew it was only a matter of time before ChatGPT made its way fully into the JavaScript
   ecosystem, and this week it finally happened: introducing ChatGPT.js! Plus, the Nx team
   is back with some exciting updates for large-scale monorepos, including a new parallel
   CI feature to speed up CI tasks. And we discuss the State of HTML Survey (and learn there's
-  a lot more to HTML than just divs). A whole lot more."
+  a lot more to HTML than just divs). A whole lot more.
 duration: "29:53"
 hosts:
   - jack

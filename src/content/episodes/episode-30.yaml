@@ -2,11 +2,12 @@ number: 30
 type: news
 title: Nx’s Project Crystal, Simple Streaming for Astro, and Apple's App-ocalypse
 date: 2024-02-19
-teaser: 🧩 Nx's Project Crystal promises simplicity and power for monorepo projects. 
-Astro's Simple Stack Streaming adds its own flavor to the React Server Components game. 
-And in the midst of innovation, Apple's iOS update creates chaos for progressive web 
-apps in the EU. 🌐📲
-description:
+teaser: >
+  🧩 Nx's Project Crystal promises simplicity and power for monorepo projects. 
+  Astro's Simple Stack Streaming adds its own flavor to the React Server Components game. 
+  And in the midst of innovation, Apple's iOS update creates chaos for progressive web 
+  apps in the EU. 🌐📲
+description: >
   If you’re adding a new feature to your project consider naming it something awesome
   like Project Crystal. That’s what Nx did, so we were morally required to cover what
   it actually does. After that we talked about an interesting new streaming utility for

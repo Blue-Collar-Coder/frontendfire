@@ -2,9 +2,10 @@ number: 2
 type: news
 title: The Death of Jamstack, the Rise of HTMX, and Another AI Assistant
 date: 2023-08-07
-teaser: Is Jamstack dead? Is HTML over in favor of HTMX? Do we need another coding AI assistant? 
-Listen to our latest episode where we talk about all these web dev news topics and more.
-description:
+teaser: >
+  Is Jamstack dead? Is HTML over in favor of HTMX? Do we need another coding AI assistant?
+  Listen to our latest episode where we talk about all these web dev news topics and more.
+description: >
   This episode, we start with the news of StackOverflow's new AI assistant, Overflow AI, and
   discuss how it could change the way developers find answers. Then we talk about the rise of HTMX
   - is it going to supplant traditional HTML? Finally, we discuss the future of Jamstack and whether

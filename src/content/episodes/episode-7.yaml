@@ -2,9 +2,10 @@ number: 7
 type: news
 title: TypeScript Drama, Open Props, and the End of Rome
 date: 2023-09-11
-teaser: The latest news in the web dev world was spicy this week! 🔥 Removing TypeScript from a 
-popular OSS library, a new beginning for Biome (fka Rome), and a dash of supercharged CSS.
-description:
+teaser: >
+  The latest news in the web dev world was spicy this week! 🔥 Removing TypeScript from a
+  popular OSS library, a new beginning for Biome (fka Rome), and a dash of supercharged CSS.
+description: >
   The latest news in the web dev world was spicy this week! We start off with news of the decision
   to remove TypeScript from popular OSS library Hotwire and how it signals a potential shift (at
   least amongst library authors that the effort of using TS isn't worth it). There's also a new

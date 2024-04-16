@@ -2,22 +2,24 @@ number: 26
 type: interview
 title: Million.js v3 Debuts with Aiden Bai and Tobiloba Adedeji
 date: 2024-02-02
-teaser:
+teaser: >
   Brace yourselves React fans! ⚛️✨ In this special interview Aiden Bai and Tobiloba Adedeji unveil
   Million.js v3, promising turbocharged performance. Get ready to supercharge your apps! 🚀
-description:
-  "Aiden Bai and Tobiloba Adedeji join us on the podcast to talk about the latest
+description: >
+  Aiden Bai and Tobiloba Adedeji join us on the podcast to talk about the latest
   release of Million.js - a virtual DOM replacement for React projects that can
-  make them run up to 70% faster.\n
+  make them run up to 70% faster.
+
 
   Born out of a desire to speed up data-heavy React UIs, Million 3 improves on the
   performance even more with a new hydration system that only traverses parts of the
   component that are dynamic, completely rewrote the compiler to offer better TS support,
   multiple returns, conditional support, etc., and updated the docs with a new i18n system,
-  so they're available in multiple languages.\n
+  so they're available in multiple languages.
+
 
   Aiden and Tobiloba share their experiences working on the project, what the future might
-  hold for Million.js, and how you can get involved in the Million.js community."
+  hold for Million.js, and how you can get involved in the Million.js community.
 duration: "18:48"
 hosts:
   - jack

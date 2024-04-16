@@ -2,9 +2,10 @@ number: 4
 type: news
 title: Faster React apps with Million.js, more new CSS features, and Bun 1.0
 date: 2023-08-21
-teaser: Use Million.js to speed up your React apps ⚡️, new CSS animation features to 
-add to your toolkit ✨, Bun launches v1 🍞, and so much more.
-description:
+teaser: >
+  Use Million.js to speed up your React apps ⚡️, new CSS animation features to
+  add to your toolkit ✨, Bun launches v1 🍞, and so much more.
+description: >
   We talk about Million.js, a library that can help speed up your React apps automatically.
   Next, we discuss what a great year it's been for CSS with 4 new CSS features that Chrome has
   introduced for entry/exit animations. And we wrap up the news with the launch of Bun 1.0,

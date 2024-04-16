@@ -2,19 +2,20 @@ number: 39
 type: news
 title: Smaller images via Jpegli, Val Town Raises $5.5M, and Declarative Routing in Next.js
 date: 2024-04-15
-teaser:
+teaser: >
   🔥 Attention devs! Google introduces Jpegli, a new JPEG coding library. 🎉 Online code
   platform Val Town raises $5.5M to run serverless functions in the browser, and
   Jack Herrington’s latest creation Declarative Routing, aims to make Next.js
   routes easier than ever. 🛠️
-description:
-  "The group dives into the week’s news right away, starting off with a new open source
+description: >
+  The group dives into the week’s news right away, starting off with a new open source
   project from Google called Jpegli. Jpepgli is a new JPEG coding library, which claims
   to compress images up to 35% smaller while also being able to deliver JPEGs in even
   higher quality than what is currently available today. The GitHub repo the article links
   to still looks to be in the early stages of development, but this could be a new
   solution for JPEGs, which traditionally can take quite a bit to load in the browser
-  depending on their size and resolution.\n
+  depending on their size and resolution.
+
 
   The next topic for discussion is a company called Val Town that’s raised $5.5M in funding.
   The premise is that users can write small snippets of code in Val Town’s online platform
@@ -22,7 +23,8 @@ description:
   run scheduled cron jobs, send emails, and users of the platform can see the “vals” and comment
   on them, like them, etc. It remains to be seen how much traction this will generate in the
   web development world, but it seems like an interesting concept lowering the barrier to entry
-  for folks who aren’t coding professionals.\n
+  for folks who aren’t coding professionals.
+
 
   Jack shares his new declarative routing library for Next.js as another interesting bit of
   news for the week. Type safe routing in packages like React Router and Tanstack Router are
@@ -30,7 +32,8 @@ description:
   a lot of autocompletion and input validation that we’ve come to expect in TypeScript code today,
   and the Declarative Routing library aims to bring that same level of comfort and coding niceties
   to routes in Next.js. It’s also OSS, so if you’re interested in contributing to open source,
-  check it out!\n
+  check it out!
+
 
   Finally, Cloudflare made the announcement that they’ve acquired OSS platform PartyKit.
   PartyKit, started by former Cloudflare employee Sunil Pai, is focused on making real-time,
@@ -38,7 +41,7 @@ description:
   the use of Cloudflare Durable Objects and Cloudflare Workers, so that developers can focus on
   the logic that makes their apps unique, and it seems like a well-made match to bring PartyKit
   under the official Cloudflare umbrella. The future roadmap is focused on integrations with
-  popular frameworks like React, Vue, and Angular, so expect to hear more about this in the future."
+  popular frameworks like React, Vue, and Angular, so expect to hear more about this in the future.
 duration: "30:04"
 hosts:
   - jack

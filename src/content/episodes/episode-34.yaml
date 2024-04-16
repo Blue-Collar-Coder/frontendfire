@@ -2,16 +2,17 @@ number: 34
 type: news
 title: Vercel’s New AI SDK 3.0, Tailwind CSS Goes Open Source, and Safari 17.4
 date: 2024-03-11
-teaser: 🤖 Vercel’s AI SDK 3.0 takes the spotlight, streaming React components from LLMs 
-for dynamic UX, Tailwind CSS v4 goes open source 🎨, Safari 17.4 is chock full of new 
-dev features, and AI garners scrutiny from Elon Musk and the Indian government 🔎.
-description:
-  "Today we discuss Vercel’s latest offering: AI SDK 3.0, which streams React
+teaser: >
+  🤖 Vercel’s AI SDK 3.0 takes the spotlight, streaming React components from LLMs
+  for dynamic UX, Tailwind CSS v4 goes open source 🎨, Safari 17.4 is chock full of new
+  dev features, and AI garners scrutiny from Elon Musk and the Indian government 🔎.
+description: >
+  Today we discuss Vercel’s latest offering: AI SDK 3.0, which streams React
   components from LLMs to deliver richer user experiences than text-only chatbots.
   Then we dive into the world of modern styling as Tailwind CSS drops its latest gem
-  - version 4.0, now open source for community exploration. And we wrap up talking 
-  about the latest improvements in Safari 17.4.Plus, stay tuned for Elon Musk’s legal 
-  saga with OpenAI and the Indian government’s new stance on AI model updates."
+  - version 4.0, now open source for community exploration. And we wrap up talking
+  about the latest improvements in Safari 17.4.Plus, stay tuned for Elon Musk’s legal
+  saga with OpenAI and the Indian government’s new stance on AI model updates.
 duration: "34:03"
 hosts:
   - jack

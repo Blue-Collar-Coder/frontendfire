@@ -2,10 +2,12 @@ number: 5
 type: interview
 title: Announcing Astro 3.0 with Fred K. Schott
 date: 2023-08-30
-teaser: The very first guest to join us on the podcast is none other than Fred K. Schott 
-himself to talk about the cool, new features shipping in Astro 3.0! Hear how Astro's about 
-to get even better in our latest episode!
-description: The very first guest to join us on the podcast is none other than
+teaser: >
+  The very first guest to join us on the podcast is none other than Fred K. Schott
+  himself to talk about the cool, new features shipping in Astro 3.0! Hear how Astro's about
+  to get even better in our latest episode!
+description: >
+  The very first guest to join us on the podcast is none other than
   Fred K. Schott, the creator of Astro. Fred joins us to talk about
   the cool, new features shipping in Astro 3.0! Support for the View Transitions API,
   faster rendering performance, and SSR and HMR enhancements are just a few

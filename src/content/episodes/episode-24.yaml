@@ -2,24 +2,27 @@ number: 24
 type: news
 title: ReScript 11.0 Takes on TS, RSCs Explained with Donuts, and OpenAI’s GPT Store
 date: 2024-01-22
-teaser: 🍩 What do donuts and React server components have in common? Listen to our 
-latest episode to find out! Plus, Rescript 11.0 challenges TypeScript's throne, 
-and OpenAI shakes things up with a GPT Store. 🏪
-description:
-  "In today's episode, we cover the release of ReScript 11.0, a TypeScript language competitor that offers an
+teaser: >
+  🍩 What do donuts and React server components have in common? Listen to our
+  latest episode to find out! Plus, Rescript 11.0 challenges TypeScript's throne,
+  and OpenAI shakes things up with a GPT Store. 🏪
+description: >
+  In today's episode, we cover the release of ReScript 11.0, a TypeScript language competitor that offers an
   alternative to TS by focusing on a subset of JS instead of the entire JavaScript feature set which equates
-  to simpler types, faster compilation, and no type annocations because the types are always inferred.\n 
-  
+  to simpler types, faster compilation, and no type annocations because the types are always inferred.
+
+
   We also cover a unique approach to understanding React Server Components (RSCs) through an analogy of donuts, which is
   both highly entertaining and educational. This new addition to the world of articles aimed at helping devs
   understand RSCs spurs extra comment that's been percolating in the broader React community about how complex
   it's getting to learn React and keep adapting to the times. More than a few well known React devs have penned
   open letter and blogs about their discontent with the current state of the framework and its increasingly close
   ties with Vercel amongst other things. Will the complaints fall on deaf ears, or will the peoples' dissent make
-  a different remains to be seen.\n 
-  
-  And to round out our news recap today: OpenAI takes its next step by opening a GPT Store, so users can find useful 
-  and popular GPTs developed by partners and the community."
+  a different remains to be seen.
+
+
+  And to round out our news recap today: OpenAI takes its next step by opening a GPT Store, so users can find useful
+  and popular GPTs developed by partners and the community.
 duration: "36:22"
 hosts:
   - jack
@@ -44,7 +47,7 @@ links:
     url: https://en.wikipedia.org/wiki/The_Marvels
   - text: Paprika app
     url: https://apps.apple.com/us/app/paprika-recipe-manager-3/id1303222868
-audio: https://www.buzzsprout.com/2226499/14351441-rescript-11-0-takes-on-typescript-rscs-explained-with-donuts-and-openai-s-gpt-store-debut.mp3     
+audio: https://www.buzzsprout.com/2226499/14351441-rescript-11-0-takes-on-typescript-rscs-explained-with-donuts-and-openai-s-gpt-store-debut.mp3
 apple: https://podcasts.apple.com/gb/podcast/rescript-11-0-takes-on-typescript-rscs-explained-with/id1700169000?i=1000642480035
 spotify: https://open.spotify.com/episode/3tvynqRGQxfq7TxyoHKM3z
 clip: https://twitter.com/front_end_fire/status/1749437380807848127

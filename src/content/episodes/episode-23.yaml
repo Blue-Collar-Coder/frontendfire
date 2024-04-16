@@ -2,10 +2,10 @@ number: 23
 type: news
 title: The Superglue Framework, Svelte 5’s Arrival, and OpenAI’s NY Times Legal Battle
 date: 2024-01-15
-teaser: 🔥 The tech scene is heating up! Superglue's arrival aims to transform 
-Rails by adding React & Redux to the mix, Svelte 5 is making waves, and the courtroom 
-drama unfolds – OpenAI’s being sued by the NY Times.
-description:
+teaser: >
+  🔥 The tech scene is heating up! Superglue's arrival aims to transform Rails by adding React &
+  Redux to the mix, Svelte 5 is making waves, and the courtroom drama unfolds – OpenAI’s being sued by the NY Times.
+description: >
   The tech scene is heating up with the release of Superglue, an experimental new framework from Johnny Ho and
   the team at Thoughtbot. Superglue combines the best of Rails with React and Redux,sending JSON props to the
   React Redux app and swapping page components while still keeping the Rails goodness of form helpers, tag
@@ -34,6 +34,6 @@ links:
     url: https://en.wikipedia.org/wiki/What_If...%3F_(season_2)
   - text: CES
     url: https://www.ces.tech/
-audio: https://www.buzzsprout.com/2226499/14310017-exploring-the-superglue-framework-svelte-5-s-arrival-and-the-openai-s-ny-times-legal-battle.mp3     
+audio: https://www.buzzsprout.com/2226499/14310017-exploring-the-superglue-framework-svelte-5-s-arrival-and-the-openai-s-ny-times-legal-battle.mp3
 apple: https://podcasts.apple.com/gb/podcast/exploring-the-superglue-framework-svelte-5s-arrival/id1700169000?i=1000641697243
 spotify: https://open.spotify.com/episode/216q1S89Zhbx39IyeboXgZ

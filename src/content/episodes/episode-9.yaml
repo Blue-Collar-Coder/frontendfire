@@ -2,15 +2,16 @@ number: 9
 type: news
 title: The TS Origin Story, Svelte 5, and Meta’s CSS-in-JS library Stylex
 date: 2023-09-25
-teaser: This week's episode was all about revisiting tech's past. There's a high quality 
-documentary about TypeScript's origin story at Microsoft, Svelte 5 taking cues from 
-Knockout.js, and a resurgence of Meta's open source CSS-in-JS tool StyleX.
-description:
-  "This week's episode is all about revisiting tech's past. A high quality documentary
+teaser: >
+  This week's episode was all about revisiting tech's past. There's a high quality
+  documentary about TypeScript's origin story at Microsoft, Svelte 5 taking cues from
+  Knockout.js, and a resurgence of Meta's open source CSS-in-JS tool StyleX.
+description: >
+  This week's episode is all about revisiting tech's past. A high quality documentary
   showcases TypeScript's cinematic origin story at Microsoft in a similar vein to the
   React documentary. Svelte 5 takes cues from Knockout.js as it teases what devs can
   expect in the next major version release, and Meta attempts to revive the CSS-in-JS
-  hype train with its styling library StyleX."
+  hype train with its styling library StyleX.
 duration: "31:03"
 hosts:
   - jack

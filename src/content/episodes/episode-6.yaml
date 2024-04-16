@@ -2,10 +2,11 @@ number: 6
 type: news
 title: Astro partners with Vercel, Lightning CSS gets adopted by Tailwind, and ChatGPT goes Enterprise Edition
 date: 2023-09-04
-teaser: "In this week's episode, frameworks and tools are hitting the big time. Astro continues its rise in 
-popularity with a new partnership, Lightning CSS will be bundled into Tailwind CSS's upcoming Oxide Engine, 
-and ChatGPT goes Enterprise Edition"
-description:
+teaser: >
+  In this week's episode, frameworks and tools are hitting the big time. Astro continues its rise in
+  popularity with a new partnership, Lightning CSS will be bundled into Tailwind CSS's upcoming Oxide Engine,
+  and ChatGPT goes Enterprise Edition
+description: >
   Today we discuss how the Lightning CSS framework continues to gain wider spread
   support as Tailwind adopts it as part of the core Oxide Engine powering Tailwind CSS. Vercel announces
   it is Astro's official hosting partner, and ChatGPT Enterprise debuts which offers enterprise-grade

@@ -2,10 +2,11 @@ number: 22
 type: news
 title: Tanstack Router 1.0, Catalyst UI from Tailwind, and date-fns Hits v3
 date: 2024-01-08
-teaser: 🛠️ Dive into the latest tools shaping the future of web development! 🌟 Get 
-ready for the release of Tanstack Router 1.0, Catalyst UI's stunning React component 
-system from the makers of Tailwind, and the much-anticipated date-fns 3! 
-description:
+teaser: >
+  🛠️ Dive into the latest tools shaping the future of web development! 🌟 Get
+  ready for the release of Tanstack Router 1.0, Catalyst UI's stunning React component
+  system from the makers of Tailwind, and the much-anticipated date-fns 3!
+description: >
   Back in 2024 after the holidays with more news and updates from the world of web development. In today's
   episode, we discuss the release of TanStack Router 1.0 which includes such features as 100% type safety, state
   manager-grade search param APIs, built-in data fetching and caching, SSR support, and more. We also cover
@@ -30,7 +31,7 @@ links:
     url: https://www.imdb.com/title/tt16288804/
   - text: Fourth Wing book
     url: https://www.goodreads.com/book/show/61431922-fourth-wing
-audio: https://www.buzzsprout.com/2226499/14267693-tanstack-router-1-0-catalyst-ui-from-the-makers-of-tailwind-and-date-fns-hits-v3.mp3     
+audio: https://www.buzzsprout.com/2226499/14267693-tanstack-router-1-0-catalyst-ui-from-the-makers-of-tailwind-and-date-fns-hits-v3.mp3
 apple: https://podcasts.apple.com/gb/podcast/tanstack-router-1-0-catalyst-ui-from-the-makers/id1700169000?i=1000640892594
 spotify: https://open.spotify.com/episode/0lq0y3Xb3Y91Vzkrag8Pd7
 clip: https://twitter.com/front_end_fire/status/1744368020971991256

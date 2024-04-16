@@ -2,10 +2,11 @@ number: 19
 type: news
 title: XState v5, Facebook Open Sources StyleX, and Cron Jobs Come to Deno
 date: 2023-12-11
-teaser: Exciting times in the world of Xstate! 🔄 V5 unlocks new possibilities for state machines,
-Facebook open sources the StyleX design library🎨, and brace yourselves for a Deno upgrade 🦕! 
-The runtime is even more powerful with the addition of cron jobs.
-description:
+teaser: >
+  Exciting times in the world of Xstate! 🔄 V5 unlocks new possibilities for state machines,
+  Facebook open sources the StyleX design library🎨, and brace yourselves for a Deno upgrade 🦕!
+  The runtime is even more powerful with the addition of cron jobs.
+description: >
   After quite a while out of the public spotlight, the XState team is back in the
   news with the release of version 5. This new version introduces the "actor model" which
   allows for more complex state machines. Facebook has also open sourced StyleX, the CSS-in-JS
@@ -30,7 +31,7 @@ links:
     url: https://www.amazon.com/dp/B0CF26PLJR
   - text: Twinkly Christmas lights
     url: https://www.balsamhill.com/p/twinkly-christmas-light-string
-audio: https://www.buzzsprout.com/2226499/14123776-xstate-s-back-with-v5-facebook-open-sources-stylex-and-cron-jobs-come-to-deno.mp3     
+audio: https://www.buzzsprout.com/2226499/14123776-xstate-s-back-with-v5-facebook-open-sources-stylex-and-cron-jobs-come-to-deno.mp3
 apple: https://podcasts.apple.com/gb/podcast/xstates-back-with-v5-facebook-open-sources-stylex-and/id1700169000?i=1000638171380
 spotify: https://open.spotify.com/episode/5P07FBnnkz4fZ7CyzBxXeG
 clip: https://twitter.com/front_end_fire/status/1734225575999369281
