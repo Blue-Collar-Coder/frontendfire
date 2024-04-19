@@ -24,11 +24,12 @@ export async function getStaticPaths() {
 }
 
 const { episode, previous, next } = Astro.props;
-const title = `${episode.data.number}: ${episode.data.title}`;
+const title = `Front-End Fire | ${episode.data.number}: ${episode.data.title}`;
+const description = episode.data.teaser;
 const hosts = await getEntries(episode.data.hosts);
 ---
 
-<Layout title={title}>
+<Layout title={title} description={description}>
   <header>
     <div class="header-content">
       <a href="/">
