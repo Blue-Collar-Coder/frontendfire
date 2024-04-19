@@ -1,7 +1,6 @@
 ---
 import apple from "../assets/images/apple-icon.svg?raw";
 import spotify from "../assets/images/spotify-icon.svg?raw";
-import google from "../assets/images/google-icon.svg?raw";
 import discord from "../assets/images/discord-icon.svg?raw";
 import rss from "../assets/images/rss-icon.svg?raw";
 
@@ -32,16 +31,6 @@ const { showText = true } = Astro.props;
 >
   <Fragment set:html={spotify} />
   {showText && "Spotify"}
-</a>
-<a
-  href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMjI2NDk5LnJzcw=="
-  target="_blank"
-  class="platform-action"
-  aria-label="Listen on Google Podcasts"
-  title={showText ? "" : "Listen on Google Podcasts"}
->
-  <Fragment set:html={google} />
-  {showText && "Google"}
 </a>
 
 <a
