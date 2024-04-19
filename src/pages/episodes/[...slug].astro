@@ -24,8 +24,8 @@ export async function getStaticPaths() {
 }
 
 const { episode, previous, next } = Astro.props;
-const title = `Front-End Fire | ${episode.data.number}: ${episode.data.title}`;
-const description = episode.data.teaser;
+const title = `${episode.data.number}: ${episode.data.title} | Front-End Fire`;
+const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
 const hosts = await getEntries(episode.data.hosts);
 ---
 
