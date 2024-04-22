@@ -1,0 +1,60 @@
+number: 40
+type: news
+title: Figma’s Code Connect, Next.js 14.2, and New APIs in Chrome 124
+date: 2024-04-22
+teaser: >
+  🎨 Exciting news from @figma! Introducing Code Connect, a game-changer in design-to-code workflows. 
+  🚀 @nextofficial’s 14.2 release upgrades Turbopack to RC stage, and @googlechrome 124 brings 
+  powerful new APIs to the table! ✨
+description: >
+  The episode starts off with news about Figma’s new Code Connect feature. Code Connect is the 
+  bridge between a design system’s component code and Figma, so when viewing components in Figma’s 
+  Dev Mode, they’ll have the same real world code that the design system relies on, and Code 
+  Connect can also map properties from code to Figma, enabling dynamic and correct snippets. 
+  The catch? This sweet new feature is only available to users who are on Figma’s Organization 
+  and Enterprise plans.
+
+  We continue the news with the release of Next.js 14.2, which has moved Next’s Turbopack (the 
+  speedier successor to Webpack) into the release candidate stage with 99.8% of integration 
+  tests passing, and all Next.js examples working with it. Other improvements include tree-shaking, 
+  optimized CSS, better caching, and improved readability of error messages and stack traces in 
+  local development.
+
+  The Google Chrome team is back with new updates packed into Chrome v124. There’s two new APIs 
+  for handling HTML when a declarative shadow DOM is included in the(primarily used for encapsulation 
+  and component-based development). A new websocket stream API designed to make it easier for 
+  web sockets to handle a large volume of incoming messages without getting overwhelmed. And 
+  the view transitions API gets two new helper functions as well: view transition momentum and 
+  document render blocking. After its breakout year last year, the view transitions API seems 
+  to have some unstoppable forward momentum.
+
+  And to wrap it up, we have another newcomer to the JavaScript package management games: VLT. 
+  There’s not a lot to share about VLT so far (there’s a waitlist sign up now for early access), 
+  but it’s helmed by some folks who played key roles in the creation of npm, Node.js and the GitHub 
+  CLI, and backed by some very big names in the JS world. It’s early days yet, but we’ll 
+  keep you posted as more details around VLT emerge.
+duration: "37:17"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Chrome 124 updates
+    url: https://www.youtube.com/watch?v=Io5d28IETrg&ab_channel=ChromeforDevelopers
+  - text: Figma releases Code Connect
+    url: https://www.figma.com/developers/code-connect
+  - text: Next.js 14.2
+    url: https://nextjs.org/blog/next-14-2
+  - text: VLT enter the JavaScript package management fray
+    url: https://www.vlt.sh/
+  - text: Hamilton Beach crock pot
+    url: https://www.amazon.com/Hamilton-Beach-Programmable-Temperature-33969A/dp/B00EZI26GO/ref=sr_1_7
+  - text: Civil War movie
+    url: https://www.imdb.com/title/tt17279496/
+  - text: Fallout TV series
+    url: https://www.imdb.com/title/tt12637874/
+  - text: Blues Starnote (satellite enabled Notecard)
+    url: https://blues.com/starnote/
+audio: https://www.buzzsprout.com/2226499/14930169-news-figma-s-code-connect-next-js-14-2-and-new-apis-in-chrome-124.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-figmas-code-connect-next-js-14-2-and-new-apis-in/id1700169000?i=1000653190667
+spotify: https://open.spotify.com/episode/1qi2zXJAdKiCVOhB20JPV3
