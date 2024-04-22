@@ -9,6 +9,7 @@ import Footer from "../components/Footer.astro";
 
 import logo from "../assets/images/logo-horizontal.svg";
 
+const hosts = await getCollection("hosts");
 const episodes = await getCollection("episodes");
 episodes.sort((a, b) => b.data.number - a.data.number);
 
@@ -25,6 +26,18 @@ const latestEpisode = (episodes ?? []).shift();
     <p class="tagline">
       The weekly show that helps you stay up to date on the latest and greatest
       in the front-end world.
+    </p>
+    <p class="byline">
+      Hosted by
+      {
+        hosts.map((host, index, arr) => (
+          <span>
+          {index === arr.length - 1 ? "and " : ""}
+            <a href={host.data.website} target="_blank">{host.data.name}</a><!--
+            -->{index < arr.length - 1 ? ", " : ""}
+          </span>
+        ))
+      }. 
     </p>
     <div class="subscribe-bar">
       <PlatformActions />
@@ -78,9 +91,25 @@ const latestEpisode = (episodes ?? []).shift();
     margin: 0.25rem auto;
   }
 
+  .byline,
   .subscribe-bar {
     margin-top: 1em;
     text-align: center;
+  }
+
+  .byline {
+    a:visited {
+      color: var(--primary-color)
+    }
+
+    /* This is meant to prevent odd line breaks. "and TJ VanToll" should break to new line, not "VanToll" */
+    > span {
+      display: inline-block;
+    }
+    
+    > span + span {
+      margin-left: 0.35em;
+    }
   }
 
   .logo {
