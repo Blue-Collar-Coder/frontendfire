@@ -109,6 +109,35 @@ const { title, description } = Astro.props;
     text-transform: uppercase;
   }
 
+  .media-action {
+    color: inherit;
+    font-size: clamp(1rem, 0.875em, 0.875em);
+    opacity: 0.8;
+    white-space: nowrap;
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: inherit;
+      opacity: 1;
+      text-decoration: none;
+    }
+
+    & svg {
+      height: 1.25em;
+      width: 1.25em;
+      vertical-align: text-bottom;
+    }
+
+    & + .media-action {
+      margin-left: 0.5em;
+    }
+  }
+
   .tag {
     display: inline-block;
     padding: 0 0.35em;

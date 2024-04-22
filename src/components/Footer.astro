@@ -3,8 +3,18 @@ import PlatformActions from "./PlatformActions.astro";
 ---
 
 <footer>
-  <p>© 2024 Front-End Fire</p>
   <PlatformActions />
+  <p>
+    <a class="media-action" href="mailto:frontendfirepodcast@gmail.com">
+      frontendfirepodcast@gmail.com
+    </a>
+    <a
+      class="media-action"
+      href="https://twitter.com/front_end_fire"
+      target="_blank">@front_end_fire</a
+    >
+  </p>
+  <p>© 2024 Front-End Fire</p>
 </footer>
 
 <style>
@@ -15,6 +25,6 @@ import PlatformActions from "./PlatformActions.astro";
   }
 
   p {
-    margin: 0;
+    margin: 0.25em 0;
   }
 </style>

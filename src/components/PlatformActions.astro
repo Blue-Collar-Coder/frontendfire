@@ -14,7 +14,7 @@ const { showText = true } = Astro.props;
 <a
   href="https://podcasts.apple.com/us/podcast/front-end-fire/id1700169000"
   target="_blank"
-  class="platform-action"
+  class="media-action"
   aria-label="Listen on Apple Podcasts"
   title={showText ? "" : "Listen on Apple Podcasts"}
 >
@@ -25,7 +25,7 @@ const { showText = true } = Astro.props;
 <a
   href="https://open.spotify.com/show/0MFC3eW0j1U9HC5U1dUZ0Y"
   target="_blank"
-  class="platform-action"
+  class="media-action"
   aria-label="Listen on Spotify"
   title={showText ? "" : "Listen on Spotify"}
 >
@@ -36,7 +36,7 @@ const { showText = true } = Astro.props;
 <a
   href="https://discord.com/invite/sae4SWPAFN"
   target="_blank"
-  class="platform-action"
+  class="media-action"
   aria-label="Join our Discord Channel"
   title={showText ? "" : "Join our Discord Channel"}
 >
@@ -47,33 +47,9 @@ const { showText = true } = Astro.props;
 <a
   href="https://feeds.buzzsprout.com/2226499.rss"
   target="_blank"
-  class="platform-action"
+  class="media-action"
   title={showText ? "" : "RSS Feed"}
 >
   <Fragment set:html={rss} />
   {showText && "RSS Feed"}
 </a>
-
-<style>
-  .platform-action {
-    color: inherit;
-    font-size: 0.875em;
-    opacity: 0.8;
-    white-space: nowrap;
-
-    &:hover {
-      opacity: 1;
-      text-decoration: none;
-    }
-
-    & :global(svg) {
-      height: 1.25em;
-      width: 1.25em;
-      vertical-align: text-bottom;
-    }
-
-    & + .platform-action {
-      margin-left: 0.5em;
-    }
-  }
-</style>
