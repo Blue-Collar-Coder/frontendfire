@@ -1,0 +1,52 @@
+number: 43
+type: news
+title: const v. let & Effect 3.0 w/Special Guest Jason Lengstorf
+date: 2024-05-13
+teaser: >
+  This week we were joined by the awesome Jason Lengstorf! We discussed the latest in the const 
+  v. let debate, the first stable release of Effect, and the logistics of how Jason records 
+  four devs building apps at the same time 📹 Check it out 🎙️
+description: >
+  On this episode of Front-End Fire we welcomed special guest Jason Lengstorf to chat about the news 
+  with us. We opened with a follow-up discussion of the let versus const debate from last week. 
+  Jack made a video (see below for link), and we had a bit of fun talking about the controversy.
+
+
+  After that we introduced Effect, a library that dubs itself the missing standard library for TypeScript. 
+  Effect just had its first stable release, so we discussed what the library does, what sort of apps 
+  it works well in, and how in the world they raised over 2 million dollars in VC money.
+
+
+  Finally, Jason walked us through his latest creative venture: 4 Web Devs 1 App. The concept, 
+  as the name implies, is getting four web developers together to build apps using the same technology. 
+  The behind the scenes though, involves a full production team, over four terrabytes of files per video, 
+  and a ton of logistics.
+duration: "53:44"
+hosts:
+  - jack
+  - tj
+guests:
+  - name: Jason Lengstorf
+    url: https://jason.energy/
+links:
+  - text: const vs. let
+    url: https://www.youtube.com/watch?v=UiUPb-SYDxM
+  - text: Effect 3.0
+    url: https://effect.website
+  - text: 4 Web Devs 1 App
+    url: https://lwj.dev/4d1a
+  - text: Jason's X profile @jlengstorf
+    url: https://twitter.com/jlengstorf
+  - text: Jason's YouTube channel
+    url: https://www.youtube.com/@learnwithjason
+  - text: Learn with Jason website
+    url: https://www.learnwithjason.dev/
+  - text: Lightroom
+    url: https://www.adobe.com/products/photoshop-lightroom/mobile.html
+  - text: Firefox power user kept over 7,500 tabs open for two years
+    url: https://www.techspot.com/news/102871-zero-regrets-firefox-power-user-kept-7500-tabs.html
+  - text: Node.js
+    url: http://Node.js
+audio: https://www.buzzsprout.com/2226499/15054659-news-const-v-let-effect-3-0-w-special-guest-jason-lengstorf.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-const-v-let-effect-3-0-w-special-guest-jason-lengstorf/id1700169000?i=1000655399813
+spotify: https://open.spotify.com/episode/5zW4DckpIdxxgHuTX2AuK4
