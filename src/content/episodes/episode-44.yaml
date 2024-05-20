@@ -1,0 +1,73 @@
+number: 44
+type: news
+title: React Conf Highlights, Vercel Raises Another $250m, and Astro Adds Actions
+date: 2024-05-20
+teaser: >
+  🚀 Big news from React Conf: The new React Compiler will make useMemo a thing of the past! 🤑 Vercel 
+  hits a milestone with $250M in new funding and a $3.25B valuation! 🌌 And Astro steps up its game 
+  with experimental Astro Actions in 4.8. Can’t wait to try it out!
+description: >
+  We’ve got an exciting episode with our co-host Jack Herrington fresh from his trip to React Conf where 
+  the React core team and close collaborators unveiled all the cool things they’ve been working on, 
+  including the much anticipated React Compiler and some exciting new features for React Native Expo.
+
+
+  React Compiler is a new Babel-enabled plugin that will allow React apps to handle the memoization 
+  and re-rendering of components in an application so that developers won’t have to use the useMemo() 
+  and useCallback() hooks themselves. It will essentially save devs from having to think about it 
+  (and save them from the foot guns of implementing it incorrectly), and it is completely optional 
+  (not built in to React 19) and can be done via incremental adoption across an already existing application. 
+  If you want to give it a try before adding it to your own app, check out the React Compiler Playground, 
+  paste in one of your own components and see what gets memoized and what doesn’t. And watch Jack's new video 
+  on YouTube where he goes in-depth on the React Compiler.
+
+
+  In related news, Vercel (the creators of Next.js, the most popular React framework in the world) announced 
+  it has raised $250m in funding, and the company is currently valued at $3.25b. Just wow! While we can only 
+  assume some of that funding will go towards continuing to improve Next.js and its core business of web hosting, 
+  it also said it will continue to invest heavily in its v0 generative UI system, which currently generates 
+  copy-and-paste friendly React code using shadcn/ui and Tailwind CSS that people can use in their projects. 
+  With that much funding the sky will be the limit for Vercel, and we’re excited to see what it does next.
+
+
+  Another popular JavaScript framework, Astro, made a splash as well with its release of Astro 4.8. In addition 
+  to the usual performance enhancements and bug fixes, it added experimental support for Astro Actions with 
+  niceties like full type-safety, a single global action file that any client component can access, automatically 
+  parsing form request objects using a Zod schema, and progressive enhancement on forms. Astro’s been a go-to 
+  when devs need a static site, but it’s now venturing into the realm of lightweight JavaScript interactivity 
+  with actions, and for devs who’ve used Remix or SvelteKit actions in the past, this should feel very familiar 
+  in Astro.
+
+
+  Finally, the news wraps up with some new features that came out in the Safari 17.5 release. For the web designers 
+  out there, new CSS features like text-wrap balance are now supported, and the helpful light-dark() CSS color 
+  function, which takes two colors for a property and returns one by detecting if a user has set a light or dark 
+  preferred color scheme. It’s simply amazing how tailored we’re able to make web interfaces nowadays based on 
+  user preferences.
+duration: "47:03"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Astro Actions in 4.8
+    url: https://astro.build/blog/astro-480
+  - text: React Compiler
+    url: https://react.dev/learn/react-compiler
+  - text: React Compiler Playground
+    url: https://playground.react.dev/
+  - text: Jack's in-depth video on React Compiler
+    url: https://www.youtube.com/watch?v=PYHBHK37xlE&ab_channel=JackHerrington
+  - text: Vercel raises $250m; valued at $3.25b
+    url: https://www.reuters.com/technology/vercel-completes-250-mln-series-e-round-325-bln-valuation-2024-05-16/
+  - text: Safari 17.5 release notes
+    url: https://webkit.org/blog/15383/webkit-features-in-safari-17-5/
+  - text: Parks and Recreation TV series
+    url: https://www.imdb.com/title/tt1266020/
+  - text: How to ADHD book
+    url: https://www.amazon.com/How-ADHD-Insiders-Working-Against/dp/0593578945
+  - text: New York Times games
+    url: https://www.nytimes.com/crosswords
+audio: https://www.buzzsprout.com/2226499/15098305-react-conf-highlights-vercel-raises-another-250m-and-astro-adds-actions.mp3
+apple: https://podcasts.apple.com/gb/podcast/react-conf-highlights-vercel-raises-another-$250m-and/id1700169000?i=1000656128173
+spotify: https://open.spotify.com/episode/2m2jun8hROx7s2vrXNg48G
