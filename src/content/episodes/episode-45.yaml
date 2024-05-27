@@ -1,0 +1,64 @@
+number: 45
+type: news
+title: Next.js 15, Google Search Rolls Out AI to All, and SolidStart 1.0 Debuts
+date: 2024-05-27
+teaser: >
+  💡 Major releases alert! Next.js 15 supports React 19 and introduces opt-in caching. 
+  Google Search AI overviews in Chrome could shake up SEO, and Solid.js introduces the 
+  flexible SolidStart framework for customizable integration! 🌐🔧
+description: >
+  Conference season is in full swing, and this week Vercel showed off the new goods they’ve got for developers 
+  to get excited about.
+
+
+  During Vercel Ship, the Next.js 15 RC (release candidate) was officially announced. Next.js 15 includes 
+  benefits like: support for React 19 and the React Compiler (Experimental), plus hydration error improvements. 
+  It also offers experimental support for partial pre-rendering, a new API to execute code after a response has 
+  finished streaming, and new config options for the App and Pages Router. But the biggest thing to note in this 
+  release is the change to caching: in Next 15, fetch requests, GET route handlers, and client navigation are no 
+  longer cached by default (a confusing default in Next.js, which caused a lot of confusion for devs why they were 
+  seeing the new data in local dev, but not in prod). Next has reversed course on this aggressive caching, and now 
+  requires teams that need it to opt in instead of having to opt out.
+
+
+  Not to be outdone, Google search rolled out AI overviews to all Chrome users with its latest browser update. 
+  While initial reviews of the AI’s accuracy and truthfulness are mixed, it’s a strong indicator that the AI hype train 
+  continues to go strong, and every major tech company must have an AI offering to compete. What’s less clear is how 
+  Google will monetize this offering, how SEO and website traffic will fare now that users may never need to leave the 
+  Google search engine to get the answers they seek, and if this will cause a decline in the amount of time and energy 
+  people put into writing articles and posting useful information if no one besides the LLM training models will consume 
+  it. It’s a brave new world we’re facing, and it will be interesting to see who survives and how it continues to evolve.
+
+
+  Last but not least, the team behind the popular JavaScript framework Solid.js debuts the meta framework SolidStart 1.0. 
+  The thinking behind SolidStart is that it integrates multiple separate packages to provide complete functionality, but 
+  each of these pieces can be replaced with a user’s own custom implementation if desired. Out of the box, SolidStart is 
+  built on Vinxi (a Vite + Nitro-based bundler and runtime), the Seroval serializer, and the Solid Router. It offers all 
+  the things we’ve come to expect from a good meta framework: file-based routing, streaming, server functions and actions, 
+  data pre-loading, API routes, and more, and it can be deployed on every platform that has a Nitro preset (25+ 
+  platforms and counting).
+
+
+  The Solid team has been good at reading the room: pioneering signals in 2019 and adding server functions in 2022, so there’s 
+  a good chance they’ll continue to make smart bets going forward, and we wish SolidStart the best of luck.
+duration: "43:04"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: SolidStart 1.0
+    url: https://start.solidjs.com/
+  - text: Next.js 15
+    url: https://nextjs.org/blog/next-15-rc
+  - text: Google search's AI overview
+    url: https://www.wired.com/story/google-io-end-of-google-search/
+  - text: Relax Meditation mobile app
+    url: https://www.ipnos.com/apps/relax-meditation/
+  - text: Fourth Wing book
+    url: https://www.goodreads.com/book/show/61431922-fourth-wing
+  - text: Apple Vision Pro
+    url: https://www.apple.com/apple-vision-pro/
+audio: https://www.buzzsprout.com/2226499/15142641-next-js-15-google-search-rolls-out-ai-to-all-and-solidstart-1-0-debuts.mp3
+apple: https://podcasts.apple.com/gb/podcast/next-js-15-google-search-rolls-out-ai-to-all-and/id1700169000?i=1000656905391
+spotify: https://open.spotify.com/episode/6dBvYy2HWZo9EDfQVAbemS
