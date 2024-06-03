@@ -1,0 +1,68 @@
+number: 46
+type: news
+title: New SSG Framework VitePress, Component Libraries Based on shadcn/ui, and Angular 18 Drops
+date: 2024-01-03
+teaser: >
+  🌟 From VitePress to Angular v18! Evan You’s new static site generator makes waves, while 
+  JollyUI & Ark UI redefine component libraries. Angular's shift from zone.js promises speed & 
+  better DX. Let’s dive in!  🔥
+description: >
+  This is a rapid fire episode of news topics today because (as always) there’s plenty going on in 
+  the front-end development world.
+
+
+  Evan You, the creator of the popular Vue.js framework and Vite build tool, is back with a new static 
+  site generator named VitePress. VitePress allows users to build fast, content-centric websites with 
+  Markdown, a fully customizable theme, and Vue-enhancements for greater interactivity, and it will 
+  generate static HTML pages that can be deployed anywhere.
+
+
+  There’s also two new component library frameworks taking a page from the shadcn/ui open source component 
+  library: JollyUI and Ark UI. JollyUI provides shadcn/ui compatible, react aria components that you can copy 
+  and paste into your apps. They’re accessible, customizable, open source, and look darn good at first 
+  glance. Ark UI takes a slightly different approach billing itself as a headless library for building reusable, 
+  scalable design systems that work for a wide range of JS frameworks.
+
+
+  And the Angular team is back at it again with the twice a year release of a new major version of Angular. 
+  We’re up to v18 now, and Angular is encouraging users to move away from zone.js for change detection. It’s 
+  been a staple of Angular for years, but the library came with a number of developer experience and performance 
+  downsides and so the Angular team’s been hard at work building new APIs that don’t rely on zone.js and they’re 
+  ready for devs to try them out.
+
+
+  In bonus news, Google now offers its Gemini AI in Chrome DevTools to help developers better understand the errors 
+  and warnings that pop up in the console, Kyle Shevlin shares a very well written design system retrospective 
+  based off his own experiences building cross platform design systems for clients and dev teams, and IBM watsonx 
+  brings its own Code Assistant AI tool to the table. A unique twist with Code Assistant is that it offers not 
+  only code generation, but also code modernization (i.e. refactoring legacy code or translating code from one 
+  language to another).
+duration: "35:37"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: VitePress SSG framework
+    url: https://vitepress.dev/
+  - text: Ark UI 3.0
+    url: https://ark-ui.com/
+  - text: JollyUI react aria compatible components
+    url: https://www.jollyui.dev/
+  - text: Angular 18 is now available
+    url: https://blog.angular.dev/angular-v18-is-now-available-e79d5ac0affe
+  - text: Google Gemini AI in Chrome DevTools
+    url: https://developer.chrome.com/docs/devtools/console/understand-messages
+  - text: Design System Retrospective article by Kyle Shevlin
+    url: https://kyleshevlin.com/design-system-retrospective/
+  - text: IBM watsonx Code Assistant AI tool
+    url: https://www.ibm.com/products/watsonx-code-assistant
+  - text: BUBM double layer cable travel bag
+    url: https://www.amazon.com/BUBM-Electronic-Accessories-Organizer-Perfect/dp/B014R4IGHS/ref=sr_1_4
+  - text: Creo Chocolate tour
+    url: https://creochocolate.com/pages/experiences
+  - text: Sharp Tech podcast
+    url: https://sharptech.fm
+audio: https://www.buzzsprout.com/2226499/15181253-news-new-ssg-framework-vitepress-component-libraries-based-on-shadcn-ui-and-angular-18-drops.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-new-ssg-framework-vitepress-component-libraries/id1700169000?i=1000657653964
+spotify: https://open.spotify.com/episode/5EdJ5So839ML0oBKuGywbj
