@@ -1,7 +1,7 @@
 number: 46
 type: news
 title: New SSG Framework VitePress, Component Libraries Based on shadcn/ui, and Angular 18 Drops
-date: 2024-01-03
+date: 2024-06-03
 teaser: >
   🌟 From VitePress to Angular v18! Evan You’s new static site generator makes waves, while 
   JollyUI & Ark UI redefine component libraries. Angular's shift from zone.js promises speed & 
@@ -66,3 +66,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/15181253-news-new-ssg-framework-vitepress-component-libraries-based-on-shadcn-ui-and-angular-18-drops.mp3
 apple: https://podcasts.apple.com/gb/podcast/news-new-ssg-framework-vitepress-component-libraries/id1700169000?i=1000657653964
 spotify: https://open.spotify.com/episode/5EdJ5So839ML0oBKuGywbj
+clip: https://x.com/front_end_fire/status/1797625247820292437
