@@ -1,0 +1,58 @@
+number: 47
+type: interview
+title: ADHD and Web Development with Chris Ferdinandi
+date: 2024-06-10
+teaser: >
+  🎧 Exciting episode! Chris Ferdinandi, the mind behind the Vanilla JS series, 
+  joins us to discuss the unique challenges and advantages of being a web developer 
+  with ADHD. Insightful and empowering, it’s a must-listen for all devs!  🎉💡
+description: >
+  Vanilla JS author Chris Ferdinandi joins the podcast this week to talk about how having 
+  ADHD has affected his career in web development.
+
+
+  Chris shares his own diagnosis of ADHD as a child, then proceeds to discuss how it can be 
+  both a positive and a negative depending on the situation and how different individuals 
+  can have ADHD to varying degrees. 
+
+
+  He covers strategies he’s developed over the years to be most effective at his job; things 
+  like sending follow up emails after meetings with lists of deliverables or blocking off chunks 
+  of time on the calendar during the workday for focus work like coding. And he also makes 
+  recommendations for coworkers or managers of neurodivergent folks on how to support them 
+  so they can do their best work. Finally, he offers advice for listeners who may relate to 
+  many of the symptoms described during the show, and what they can do if they want to learn 
+  more about getting diagnosed.
+
+
+  It’s a very enlightening episode, and fascinating to hear about the progress being made in the 
+  field of ADHD as well as the growing destigmatization around the diagnosis: many listeners may 
+  even pick up tips to help them manage their own work days better after listening in.
+duration: "54:14"
+hosts:
+  - jack
+  - paige
+  - tj
+guests:
+  - name: Chris Ferdinandi
+    url: https://gomakethings.com/
+links:
+  - text: Chris on Twitter @ChrisFerdinandi
+    url: https://twitter.com/ChrisFerdinandi
+  - text: Chris's website Go Make Things
+    url: https://gomakethings.com/
+  - text: Chris's other website ADHD ftw!
+    url: https://adhdftw.com/
+  - text: Chris on GitHub
+    url: https://github.com/cferdinandi
+  - text: The Paris Apartment novel
+    url: https://www.goodreads.com/book/show/58468990-the-paris-apartment
+  - text: AI tools to help writing like ChatGPT
+    url: https://chatgpt.com/
+  - text: Gardening
+    url: https://www.gardendesign.com/how-to/
+  - text: Web components
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
+audio: https://www.buzzsprout.com/2226499/15222075-interview-adhd-and-web-development-with-chris-ferdinandi.mp3
+apple: https://podcasts.apple.com/gb/podcast/interview-adhd-and-web-development-with-chris-ferdinandi/id1700169000?i=1000658439495
+spotify: https://open.spotify.com/episode/5tPAIa32y9QvfpJVyhrXLJ

@@ -9,18 +9,18 @@ teaser: >
   in the React world. 🔍💡
 description: >
   Three thought leaders in the React community join us on the podcast today for a very special
-  episode where we dive into what is being dubbed 'the two Reacts'.
+  episode where we dive into what is being dubbed "the two Reacts".
 
 
   Rachel Nabors, formerly of React at Meta known for their work on reactnative.dev and react.dev,
   Evan Bacon, Engineering Manager at Expo, and Matt Carroll, Developer Advocate React at Meta,
-  share their thoughts on the current feelings in the React community that are essentially 'two Reacts':
+  share their thoughts on the current feelings in the React community that are essentially "two Reacts":
   client side React and server side React.
 
 
   As React swings more and more towards doing work on the server, where does that leave React Native?
   Is it the last bastion of frontend dev? The group discusses the lack of options for service providers
-  that provide a 'first class React experience' (i.e. Vercel and Next.js being the only real options
+  that provide a "first class React experience" (i.e. Vercel and Next.js being the only real options
   support React Server Components at the moment), and debate if RSCs should have been baked into the React
   core library.
 
@@ -30,7 +30,7 @@ description: >
   covers a lot of ground in a very thoughtful manner.
 
 
-  This is a must-listen for developers seeking a clearer path in React."
+  This is a must-listen for developers seeking a clearer path in React.
 duration: "51:22"
 hosts:
   - jack
