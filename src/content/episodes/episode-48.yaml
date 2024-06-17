@@ -1,0 +1,67 @@
+number: 48
+type: news
+title: GH Copilot Workspace Review, the Latest in Web UI, and React Suspense Drama
+date: 2024-06-17
+teaser: >
+  🛠️ On today’s show: TJ shares his experiences using GitHub Copilot Workspace, 
+  which shows promise but needs improvement. Google I/O wows with new web UI 
+  features. And new React drama: major changes to Suspense in React 19 spark debate! 
+  Stay tuned! 🎙️🔥
+description: >
+  Today’s episode covers a slew of hot topics making headlines in the web development and 
+  general technology world.
+
+
+  TJ kicks off the show with his firsthand experience of GitHub Copilot Workspace (available 
+  to users by invite only). He tested Copilot Workspace with a relatively simple issue in one 
+  of his repos, and while the plan Copilot came up with seemed sound, the implementation 
+  didn’t end up working. It took Copilot several minutes each time he asked it to try and 
+  code a working solution again too, which wasn’t the best experience. While it’s still 
+  extremely early days for Copilot Workspace, it still has a ways to go before it will 
+  replace developers at this rate.
+
+
+  The next topic is around a talk at Google I/O: the latest in web UI. In the talk, Google 
+  DevRel Lead, Una Kravets, highlights some of the best new features out like native scroll 
+  driven animations and view transitions, the introduction of the popover API and anchor 
+  positioning in CSS, and CSS container queries and nesting and layout, typography, and color 
+  improvements. Her talk is accompanied by slick visual demos and is definitely worth a watch.
+
+
+  Next up is some new drama in the React world: the React team is solidly considering fundamentally 
+  changing the way Suspense works in React 19, and the general React public is not happy about 
+  it. Hopefully their concerns are heard before it gets finalized.
+
+
+  And there’s a bit of bonus news as well: Apple’s annual Worldwide Developers Conference 
+  (WWDC) unveiled “Apple Intelligence”, Apple’s answer to AI, which will include Siri 
+  interfacing with Chat GPT 4o when it doesn’t know the answer, custom, AI-generated emojis, 
+  and the new Safari 18 beta version. Jack also recommends a cool CSS browser extension called 
+  Design GUI for managing colors in CSS variables.
+duration: "56:40"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: The latest in Web UI (Google I/O '24) talk
+    url: https://www.youtube.com/watch?v=_-6LgEjEyzE&ab_channel=ChromeforDevelopers
+  - text: React Suspense drama in React 19
+    url: https://twitter.com/TkDodo/status/1800769987558436925
+  - text: GitHub Copilot Workspace
+    url: https://github.blog/2024-04-29-github-copilot-workspace/
+  - text: Safari 18 Beta is live
+    url: https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/
+  - text: Apple unveils Apple Intelligence at WWDC
+    url: https://www.apple.com/apple-intelligence/
+  - text: Design GUI CSS browser extension
+    url: https://www.designgui.io/
+  - text: Substack newsletters
+    url: https://substack.com/
+  - text: "Godzilla x Kong: The New Empire movie"
+    url: https://en.wikipedia.org/wiki/Godzilla_x_Kong:_The_New_Empire
+  - text: A Brief History of Intelligence book
+    url: https://www.goodreads.com/book/show/62050269-a-brief-history-of-intelligence
+audio: https://www.buzzsprout.com/2226499/15260131-news-gh-copilot-workspace-review-the-latest-in-web-ui-and-react-suspense-drama.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-gh-copilot-workspace-review-the-latest-in-web-ui/id1700169000?i=1000659253025
+spotify: https://open.spotify.com/episode/2M1YS5mVeuIlEXiCUZnTL2
