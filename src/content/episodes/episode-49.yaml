@@ -1,0 +1,65 @@
+number: 49
+type: news
+title: State of JS 2023 Survey Results, React Drama Updates, and Adobe Sued by FTC
+date: 2024-06-24
+teaser: >
+  📰 New winners emerge in the State of JS 2023 survey results. 😲 React Suspense 
+  updates: the team backs off drastic changes in v19 after community backlash. 🚨 
+  And Adobe's in hot water as the US FTC sue over hard-to-cancel subscriptions. 
+  Stay tuned for the details! 🍿
+description: >
+  Although we’re already halfway through 2024, this week the State of JavaScript survey 
+  for 2023 dropped, and the hosts weighed in and discussed the results they found most 
+  interesting.
+
+
+  This year the survey provided a lot more write in options instead of predefined lists, 
+  which made extrapolating clear answers in many cases more difficult than it otherwise 
+  would have been, but there were still some clear winners in terms of usage and popularity 
+  among respondents. React and Next.js continued to dominate in the framework wars, Vite 
+  was beloved by most everyone, and the new category of AI tools was dominated by ChatGPT. 
+  There’s lots of interesting data here to peruse, but also some questions about the accuracy 
+  of results with having to normalize so many written responses.  
+
+
+  Another topic of discussion was the new release of htmx 2.0. It’s dropping support for Internet 
+  Explorer,  breaking out all the previously built-in extensions from the main project, and 
+  (most exciting of all) now offers a dark-mode version of the website.
+
+
+  We get an update on the React Suspense drama that began last week when the React team fundamentally 
+  wanted to change how Suspense is handled in React 19, and many library maintainers who rely on 
+  Suspense under the hood voiced concerns that it would severely impact how their libraries work. 
+  The React team has since backed off changing Suspense, and agreed to find a solution that works 
+  better for everyone, and we’ll update you on what that solution might be as soon as we know more.
+
+
+  And finally, Adobe continues to make headlines this year as the US Federal Trade Commission 
+  sues it over confusing and hard-to-cancel subscription plans. For a company as big and successful 
+  as Adobe, the fact that it uses confusing and obfuscated terms and conditions to penalize users who 
+  try to cancel subscriptions is shameful, and the US FTC is taking a stand against it.
+duration: "47:01"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: htmx 2.0 release notes
+    url: https://htmx.org/posts/2024-06-17-htmx-2-0-0-is-released/
+  - text: State of JavaScript 2023 results are in
+    url: https://2023.stateofjs.com/en-US
+  - text: The US FTC sues Adobe (full complaint)
+    url: https://www.nytimes.com/2024/06/17/technology/us-adobe-subscription-lawsuit.html
+  - text: The React team reverses course on proposed suspense changes
+    url: https://twitter.com/en_JS/status/1803480672327311425
+  - text: Dominik Dorfmeister's (aka Tkdodo) summary of the suspense drama
+    url: https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts
+  - text: Three Body Problem novel
+    url: https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)
+  - text: Cascadia JS conference
+    url: https://cascadiajs.com/
+  - text: Yellow Altra running shoes
+    url: https://www.amazon.com/ALTRA-AL0A7R6Y-Rivera-Running-Yellow/dp/B09Y7CSD2Q
+audio: https://www.buzzsprout.com/2226499/15298611-news-state-of-js-2023-survey-results-react-drama-updates-and-adobe-sued-by-ftc.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-state-of-js-2023-survey-results-react-drama/id1700169000?i=1000660038481
+spotify: https://open.spotify.com/episode/23yiMoky1FeSojbbKZHwZq
