@@ -50,6 +50,10 @@ links:
     url: https://www.theverge.com/2024/6/24/24184629/apple-dma-steering-infringement-ruling
   - text: GitHub Copilot Extensions
     url: https://github.blog/2024-05-21-introducing-github-copilot-extensions/
+  - text: window.ai Chrome proposal
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfZXeiwj9KO9jMctffHPym88ln12xNWCrVkMY_u06WfSTulQg/viewform
+  - text: Chrome AI - Vercel AI SDK
+    url: https://ai-sdk-chrome-ai.vercel.app/
   - text: The Hunting Party book
     url: https://www.goodreads.com/book/show/37642030-the-hunting-party
   - text: Bridgerton on Netflix
@@ -59,3 +63,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/15338550-news-coding-reality-tv-ai-companies-crawl-excluded-content-and-apple-violates-more-eu-laws.mp3
 apple: https://podcasts.apple.com/gb/podcast/news-coding-reality-tv-ai-companies-crawl-excluded/id1700169000?i=1000660777152
 spotify: https://open.spotify.com/episode/5evptAvblrRfbMS1im94lj
+clip: https://x.com/front_end_fire/status/1807768561248620560
