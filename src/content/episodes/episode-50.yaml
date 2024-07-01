@@ -1,0 +1,61 @@
+number: 50
+type: news
+title: Coding Reality TV, AI Companies Crawl Excluded Content, and Apple Violates More EU Laws
+date: 2024-07-01
+teaser: >
+  🎥 Ever wondered what a reality TV coding show would look like? Jack shares his experience on 
+  an episode of "Learn with Jason”! 🤖 Perplexity faces backlash for ignoring robots.txt 
+  files while training AI models. 🍏 Apple under fire again for EU Digital Markets Act violations.
+description: >
+  In a rare turn of events, it was a slightly quieter week in terms of actual web development 
+  news, so the hosts round up some technology-adjacent news and drama to share.
+
+
+  Jack kicks off the show recounting his experience of being one of four developers in a reality 
+  show-type scenario that his friend Jason Lengstorf (host of the YouTube show “Learn with Jason”) 
+  put together. The four competitors had about 4 hours to build something unique using a 
+  vector database while cameras rolled and producers asked questions in one-on-ones outside the studio. 
+  The episode, which is out now, was a blast to participate in, and makes for some quality code viewing. 
+  Maybe Jason’s found a new niche in the web development video world: reality TV coding??
+
+
+  Next up is more drama around how AI companies are training their LLMs. Up and coming AI company 
+  Perplexity’s getting some heat for ignoring the robots.txt files on websites banning AI companies 
+  from crawling the content to teach their models. While there’s no legal ramifications (yet) for 
+  companies who ignore these instructions, reputable companies have respected the Robots Exclusion Protocol 
+  since they came into use in the ‘90s.
+
+
+  And Apple is once more accused of violating the EU’s Digital Markets Act in regards to its lackluster 
+  support for alternative iOS marketplaces in Europe. In retaliation, Apple has announced it will delay rolling 
+  out some of the cornerstone iOS 18 features to European users due to “interoperability requirements that could 
+  undermine user privacy and data security.”
+
+
+  Finally, TypeScript 5.5, previously in beta stage (in episode 42), has now reached release candidate stage. 
+  It brings with it inferred type predicates, regex syntax checking, and 33% smaller package size.
+duration: "47:59"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: TypeScript 5.5 RC
+    url: https://devblogs.microsoft.com/typescript/announcing-typescript-5-5-rc/
+  - text: Don't build another effin' chatbot - Web Dev Challenge S1E1 (Learn with Jason)
+    url: https://www.youtube.com/watch?v=8RCL5neas_M&list=PLz8Iz-Fnk_eTkZvSNWXW_TKZ2UwVirT2M&index=2&ab_channel=LearnWithJason
+  - text: Perplexity AI and robots.txt drama
+    url: https://www.theverge.com/2024/6/27/24187405/perplexity-ai-twitter-lie-plagiarism
+  - text: Apple is the first company charged with violating the EU's DMA rules
+    url: https://www.theverge.com/2024/6/24/24184629/apple-dma-steering-infringement-ruling
+  - text: GitHub Copilot Extensions
+    url: https://github.blog/2024-05-21-introducing-github-copilot-extensions/
+  - text: The Hunting Party book
+    url: https://www.goodreads.com/book/show/37642030-the-hunting-party
+  - text: Bridgerton on Netflix
+    url: https://www.netflix.com/title/80232398
+  - text: The Paris Apartment book
+    url: https://www.goodreads.com/book/show/58468990-the-paris-apartment
+audio: https://www.buzzsprout.com/2226499/15338550-news-coding-reality-tv-ai-companies-crawl-excluded-content-and-apple-violates-more-eu-laws.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-coding-reality-tv-ai-companies-crawl-excluded/id1700169000?i=1000660777152
+spotify: https://open.spotify.com/episode/5evptAvblrRfbMS1im94lj
