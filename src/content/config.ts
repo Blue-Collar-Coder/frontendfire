@@ -12,7 +12,7 @@ const episodes = defineCollection({
   type: "data",
   schema: z.object({
     number: z.number(),
-    type: z.enum(["news", "interview"]),
+    type: z.enum(["news", "interview", "topic"]),
     title: z.string(),
     date: z.date(),
     teaser: z.string().optional(),
