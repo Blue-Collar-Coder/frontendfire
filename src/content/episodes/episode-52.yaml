@@ -1,0 +1,76 @@
+number: 52
+type: news
+title: AI Model Runner ONNX and JS Framework Maker Vinxi w/Returning Guest Jason Lengstorf
+date: 2024-07-15
+teaser: >
+  🍽️ From AI models to fine dining, Jason Lengstorf joins us again to chat about web dev, new React 
+  framework react-server, how to build your own JS framework with Vinxi, and even some favorite 
+  restaurants. Tune in for tech insights and tasty recs! 🎧
+description: >
+  Friend of the podcast (and previous guest host), Jason Lengstorf, joins Jack and Paige today to talk 
+  about the latest happenings in the web dev world - and wax poetic at the end about favorite restaurants 
+  and fine dining.
+
+
+  First up, is AI model runner ONNX, which Jack’s been digging into recently. ONNX offers many pre-trained 
+  models which can run locally or in the browser and integrates well with many different programming languages. 
+  It leads to a more general discussion around vector databases, offline approaches to LLMs to protect user 
+  privacy, and how Jack will be giving a talk on this very topic at the upcoming Chain React Conf in Portland.
+
+
+  After that is new Lodash library competitor es-toolkit. It’s smaller, faster, relies heavily on native browser 
+  APIs, and wants to supplant Lodash for all those useful helper functions so many JS apps still rely heavily on. 
+  Favorite linting tool, ESLint, has also shared a post outlining its future plans. Think: a core rewrite which 
+  will include a new npm package, ESM support, a composable API, a new CLI, and more. No dates have been set yet, 
+  but the team’s got an ambitious project ahead of them.
+
+
+  There’s a new React project framework named react-server that claims to be the easiest way to build React apps 
+  with server-side rendering. It’s a refreshingly simple way to get started with a React project that uses RSCs 
+  without using Next.js, and definitely worth a look for those smaller side projects devs like to spin up.
+
+
+  Finally, Jason shares his experience with full stack JavaScript SDK Vinxi, which makes it easy for devs to build 
+  JavaScript apps and even frameworks. It’s powered by Vite, Nitro, and Rollup, and provides a collection of primitives 
+  that allow users to compose their own full stack apps and frameworks be they static sites, SPAs, APIs, or SSR-driven. 
+  The sky’s the limit, and while documentation on the site is still a little slim, it shows lots of potential and a 
+  small shallow learning curve.
+duration: "54:59"
+hosts:
+  - jack
+  - tj
+guests:
+  - name: Jason Lengstorf
+    url: https://jason.energy/
+links:
+  - text: es-toolkit
+    url: https://es-toolkit.slash.page/
+  - text: What's next for ESLint
+    url: https://eslint.org/blog/2024/07/whats-coming-next-for-eslint/
+  - text: ONNA (Open Neural Network Exchange) AI model runner
+    url: https://onnx.ai/
+  - text: React Server
+    url: https://react-server.dev/
+  - text: Vinxi
+    url: https://vinxi.vercel.app/
+  - text: Dev Agrawalk on LWJ teaching Vinxi
+    url: https://www.learnwithjason.dev/build-your-own-metaframework-with-vinxi
+  - text: Nikhil on Vinxi at Vite Conf
+    url: https://www.youtube.com/watch?v=B9kpdyoKxcY
+  - text: Jason's X profile @jlengstorf
+    url: https://twitter.com/jlengstorf
+  - text: Jason's YouTube channel
+    url: https://www.youtube.com/@learnwithjason
+  - text: Learn with Jason website
+    url: https://www.learnwithjason.dev/
+  - text: The Bear TV series
+    url: https://www.imdb.com/title/tt14452776/
+  - text: Inside Out 2 movie
+    url: https://www.imdb.com/title/tt22022452/
+  - text: Chef movie
+    url: https://www.imdb.com/title/tt2883512/
+  - text: The Chef Show
+    url: https://www.imdb.com/title/tt10359446/
+audio: https://www.buzzsprout.com/2226499/15414206-news-ai-model-runner-onnx-and-js-framework-maker-vinxi-w-returning-guest-jason-lengstorf.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-ai-model-runner-onnx-and-js-framework-maker/id1700169000?i=1000662278816
+spotify: https://open.spotify.com/episode/5mnri24LW7MXLJCut31KHE
