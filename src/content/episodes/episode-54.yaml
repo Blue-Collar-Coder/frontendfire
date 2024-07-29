@@ -1,0 +1,50 @@
+number: 54
+type: news
+title: State of React and Stack Overflow Developer Surveys
+date: 2024-07-29
+teaser: >
+  Web dev survey season results are in! 📊 React devs love MUI, Zustand, and TanStack Query. 📈 From Svelte 
+  enthusiasm to Python popularity, the 2024 Stack Overflow Developer Survey offers a fascinating look at dev 
+  trends. Listen in for all the insights and surprises!
+description: >
+  Web development survey results season is upon us, so this week’s episode covers two of the newly released 
+  survey results: the State of React survey 2023 and Stack Overflow Developer Survey 2024.
+
+
+  Just over 13,000 developers filled out the State of React survey, and the results were quite interesting. 
+  React devs are fans of component libraries like MUI (Material UI) and shadc/n, state management libraries 
+  like Zustand, and data fetching libraries like TanStack Query. They gripe about well-known Hook footguns 
+  like useEffect(), useMemo(), and useCallback(). And features like React Server Components and the use() 
+  Hook are still largely untested by the community, although many devs have heard of them.
+
+
+  The more all encompassing development survey from Stack Overflow received 65,000 responses this year, 
+  providing some very cool insights about the larger developer world beyond the bounds of React. Overall 
+  use of AI technologies like ChatGPT and GitHub Copilot is already quite high among devs, PostgreSQL continues 
+  to be the most popular database for the second year in a row, devs who’ve used Svelte in the past want to 
+  keep working with it in the future, and although JavaScript, Python, and SQL are all highly used languages, 
+  Rust continues to be the most admired programming language of the year.
+
+
+  It’s fascinating to watch the trends starting to catch on or die down in the web development space year over 
+  year, and we highly encourage everyone to take a look at the survey results. There will probably be some 
+  surprises in store.
+duration: "49:24"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: State of React survey 2023
+    url: https://2023.stateofreact.com/en-US
+  - text: Stack Overflow Developer Survey 2024
+    url: https://survey.stackoverflow.co/2024/
+  - text: NeilMed Sinus Rinse kit
+    url: https://shop.neilmed.com/products/sinus-rinse-kit-with-50-packets
+  - text: Logitech Spotlight Presentation Remote
+    url: https://www.logitech.com/en-us/products/presenters/spotlight-presentation-remote.910-004654.html
+  - text: Electric fly swatter
+    url: https://www.amazon.com/Electric-Swatter-Handheld-Zapper-Outdoor/dp/B0B29M763L/ref=asc_df_B0B29M763L/
+audio: https://www.buzzsprout.com/2226499/15490773-news-state-of-react-and-stack-overflow-developer-surveys.mp3
+apple: https://podcasts.apple.com/gb/podcast/news-state-of-react-and-stack-overflow-developer-surveys/id1700169000?i=1000663671145
+spotify: https://open.spotify.com/episode/3dnIIAnhYewKiU22LvLUXZ
