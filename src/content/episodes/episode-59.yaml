@@ -1,0 +1,64 @@
+number: 59
+type: news
+title: "JavaScript Edition! Build Tools, Date Handling APIs, and SSR Benchmark Wars"
+date: 2024-09-02
+teaser: >
+  🎙️ New episode alert! We’re diving into the continued rust-ification of JS build tools with Rspack’s 
+  rise, JS date handling with the Temporal API, and those hotly debated SSR benchmarks. Who’s the fastest? 
+  ⚡ Tune in and find out!
+description: >
+  We’ve got a good show for you today! It’s chock full of new build tools, better date handling in JavaScript, 
+  and SSR benchmarks to prove which framework is truly the fastest.
+
+
+  The rust-ification of JavaScript build tools continues, as next generation build tool Rspack hits v1 and claims 
+  it’s ready for primetime. Rspack boasts (almost) complete compatibility with the webpack API while also being 10x 
+  faster. All the features we know and love from webpack-powered projects are there: tree shaking, code splitting, 
+  scope hoisting, and support for Module Federation 2.0, and with companies like ByteDance, Microsoft, Amazon using 
+  Rspack, it’s a pretty good bet that Rspack is one to keep an eye on.
+
+
+  JS dates are about to be fixed thanks to the new Temporal API proposal, which is currently in stage 3 of the TC39 
+  process of adding new features to the JavaScript language. Dates in any programming language are always painful 
+  (time zones, leap years, daylight savings time) and as such, lots of libraries have arisen to make working with them 
+  easier, but these libraries can add a lot of extra size to a project. The Temporal API aims to fundamentally change 
+  how time is handled in JS, making it one of the few languages to address the issue comprehensively. Although the 
+  proposal isn’t out yet, there is a polyfill from the FullCalendar team you can use now to get a feel for how the 
+  API will be in the future.
+
+
+  A new benchmark war has erupted online: this time benchmarking which JavaScript SSR frameworks are the fastest. 
+  Benchmarking results are dubious at best because everyone’s application is different, and has different requirements, 
+  but this one got a lot of heat due to the author using an LLM to generate the code to run in these different frameworks 
+  (React, Vue, Svelte, Solid, Fastify, etc). While it is entertaining to see which framework could be faster, take the 
+  results with a grain of salt, and do your own due diligence when it comes to deciding which JavaScript framework to 
+  build a new application. Chances are, all of them are fast enough for what you’re trying to achieve.
+
+
+  Finally, the CSS Survey 2024 is out now! Fill it out, be amazed at how much more there is to CSS than you previously 
+  thought, and write in Front-end Fire in the podcast section of the survey if you like our show. We greatly appreciate it!
+duration: "39:56"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Rspack v1.0 release
+    url: https://rspack.dev/blog/announcing-1-0
+  - text: The SSR benchmark wars of 2024 begin
+    url: https://blog.platformatic.dev/ssr-performance-showdown
+  - text: Temporal dates coming to JavaScript
+    url: https://docs.timetime.in/blog/js-dates-finally-fixed/
+  - text: Temporal polyfill
+    url: https://github.com/fullcalendar/temporal-polyfill
+  - text: CSS Survey 2024 (Write in Front-end Fire!)
+    url: https://survey.devographics.com/en-US/survey/state-of-css/2024
+  - text: Photoroom photo editing app
+    url: https://www.photoroom.com/
+  - text: 1password password manager
+    url: https://1password.com/
+  - text: Bench power supply
+    url: https://www.amazon.com/dp/B0C17NLZNH
+audio: https://www.buzzsprout.com/2226499/15679858-news-javascript-edition-build-tools-date-handling-apis-and-ssr-benchmark-wars.mp3
+spotify: https://open.spotify.com/episode/74Gcjt5A96puZnAhh68lea
+apple: https://podcasts.apple.com/gb/podcast/news-javascript-edition-build-tools-date-handling-apis/id1700169000?i=1000668036456
