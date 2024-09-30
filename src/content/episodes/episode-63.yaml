@@ -1,0 +1,74 @@
+number: 63
+type: news
+title: Deno 2.0, Web Components on the Server, and WordPress Drama
+date: 2024-09-30
+teaser: >
+  Deno 2 is here with better dependency management and CJS support, and updates to the CLI! ✨ Web Components go server side with the Declarative Shadow 
+  DOM. 😱 It’s a drama-fueled showdown between WordPress and WP Engine! Trademark disputes, cease and desist letters, and community uproar. Get your 
+  popcorn ready, folks! 🍿
+description: >
+  This episode kicks off with the new Deno 2 release candidate. Deno is an open source JavaScript runtime with native TypeScript support, a built-in 
+  toolchain (think linters, code formatters, test runners, and more), and backwards compatible with Node.js and npm. Just one month prior Deno released 
+  v1.46, and now v2 is out and better than ever. V2 boasts improved dependency management, updates to the APIs and CLI, and improved CommonJS support 
+  because even though ESM is the future, so much good stuff in the JS ecosystem still runs on CJS. There’s a lot to be excited about in this new version 
+  of Deno, and the team hopes users will let them know they think.
+
+
+  Web Components take a big step forward in terms of wider spread adoption with the adoption of the Declarative Shadow DOM by all major browsers back in 
+  August. The Shadow DOM (a Web Components standard) provides a way to scope CSS styles to a specific DOM subtree and isolate the subtree so the element 
+  can be reused without fear of script conflicts or unexpected CSS cascades. But it only worked on the client side. The Declarative Shadow DOM removes 
+  this limitation and now things like SSR, streaming data, and server rendering styles are possible. SSR has always been a sticking point for the adoption 
+  of Web Components, but now it doesn’t have to be. Here’s to WC’s best year yet.
+
+
+  Because the web development world can never be without some good drama going down, we now present for your viewing pleasure: the drama between WordPress 
+  and WP Engine. Earlier in the week, Matt Mullenweg, creator of open source CMS WordPress and CEO of WordPress hosting company Automattic, took aim at 
+  competitor company WP Engine, and essentially tried to drag WP Engine through the mud saying it should pay a significant amount of money for using the 
+  WP trademark and that it doesn’t contribute enough back to the open source WP community. He did this at a WordPress conference, on X, and even posted it 
+  on the WordPress.org site. WP Engine refused to cave to what seemed like blackmail and fired back with a cease and desist letter against Mullenweg and 
+  Automattic. In response, Automattic sent its own cease and desist letter to WP Engine, and banned WP Engine from accessing the resource of WordPress.org. 
+  To say that the WordPress community is worried and upset is an understatement, but we’ll have to see how this plays out because it’s not over yet. 
+  We’ll keep you posted.
+
+
+  In other news, three of OpenAI’s company leaders left after CEO Sam Altman called an “abrupt” reorganization. The CTO, chief research officer, and VP of 
+  post training all exited almost a year after the boardroom coup that temporarily ousted Altman. On its face everyone says the decisions to leave were 
+  amicable, but only time will tell if that’s truly the case.
+
+
+  And our Fire Starters portion of the show where we learn a bit more about a bit of less publicized HTML, CSS or JS info from around the web is about the 
+  autocomplete attribute. Inspired by taking the State of HTML survey, the autocomplete attribute lets developers specify what if any permission the user 
+  agent has to provide automated assistance in filling out form field values. Think things like “given-name” or “family-name” for a form with first name 
+  and last name inputs or “shipping street-address” for an address input. There are some nifty values that can be applied to forms, inputs, selects, and 
+  textareas, and we guarantee it will make for a better user experience in the end.
+duration: "43:46"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Declarative Shadow DOM for Web Components
+    url: https://web.dev/articles/declarative-shadow-dom
+  - text: Deno 2 release candidate
+    url: https://deno.com/blog/v2.0-release-candidate
+  - text: Wordpress vs WP Engine drama
+    url: https://x.com/wpengine/status/1838350670564377051
+  - text: Cloudflare AI Audit
+    url: https://www.cloudflare.com/press-releases/2024/cloudflare-helps-content-creators-regain-control-of-content-from-ai
+  - text: OpenAI departures
+    url: https://www.theverge.com/2024/9/25/24254431/openai-cto-mira-murati-leaving
+  - text: State of HTML survey
+    url: https://survey.devographics.com/en-US/survey/state-of-html/2024
+  - text: We’re on Bluesky now @front-end-fire.com! Follow us!
+    url: https://bsky.app/profile/front-end-fire.com
+  - text: autocomplete attribute
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete
+  - text: Stuff You Should Know podcast
+    url: https://stuffyoushouldknow.com/
+  - text: Actual typewriters at The Type Space store
+    url: https://thetype.space/
+  - text: Detroit Tigers
+    url: https://www.mlb.com/tigers
+audio: https://www.buzzsprout.com/2226499/episodes/15838535-news-deno-2-0-web-components-on-the-server-and-wordpress-drama.mp3
+spotify: https://open.spotify.com/episode/4uXRjEYUJtKxJqQudujc7Z
+apple: https://podcasts.apple.com/gb/podcast/news-deno-2-0-web-components-on-the-server-and/id1700169000?i=1000671276091
