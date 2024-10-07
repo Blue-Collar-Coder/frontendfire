@@ -1,0 +1,50 @@
+number: 64
+type: news
+title: WordPress Wars Continue, React Server Functions, and Web Component Backlash
+date: 2024-10-07
+teaser: >
+  🔥 WP Engine is taking WordPress to court, and it’s getting ugly! 📜 React 19’s Server Actions are now called… Server Functions? 🤔 And JS framework 
+  creators speak out against the state of Web Components and SSR. Is it innovation or just friction? 🔄
+description: >
+  WP Engine is taking Automattic and Matt Mullenweg to court. The complaints are numerous and juicy: extortion, libel, slander, and include screenshots 
+  of text messages, tweets, and emails that look pretty damning against Automattic. The whole story has “Made for TV documentary” written all over it.
+
+  In slightly less controversial news, React 19 has renamed its Server Actions to Server Functions. This name change brings React’s server functions more 
+  in line with other frameworks who support the same sort of functionality like SolidJS, Astro, TanStack Start, and others.
+
+  Also in a follow up from the last episode where we talked about a new addition to the Web Components world allowing for web components with SSR via the 
+  Declarative Shadow DOM, a good number of JavaScript framework creators shared their misgivings about the creation of Web Components. Ryan Carniato and 
+  Rich Harris were two of the most vocal, and basically said WCs have made their work writing frameworks harder, not easier, and WCs are not the future.
+
+  Our Fire Starter for today is a blast from the past: the marquee HTML element. For the youngsters out there, the marquee element existed since the 
+  earliest days of the web and was used to insert a scrolling area of text. It presented many accessibility issues, and has since been deprecated in 
+  favor of better ways to animate elements but it still exists in the wild. Check out the example in the MDN docs if you want, but don’t subject anyone to it.
+duration: "45:07"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Web components are not the future from Ryan Carniato
+    url: https://dev.to/ryansolid/web-components-are-not-the-future-48bh
+  - text: Rich Harris agrees that web components have not been the boon we thought they'd be
+    url: https://twitter.com/Rich_Harris/status/1839484645194277111
+  - text: Server Actions become Server Functions in React 19
+    url: https://19.react.dev/reference/rsc/server-functions#noun-labs-1201738-(2)
+  - text: Wordpress vs. WP Engine drama continues
+    url: https://x.com/wpengine/status/1841643374090031461
+  - text: OpenAI raises $6.6 billion
+    url: https://www.theverge.com/2024/10/2/24260457/openai-funding-round-thrive-capital-6-billion
+  - text: Waymo coming to Austin and Atlanta
+    url: https://waymo.com/blog/2024/09/waymo-and-uber-expand-partnership/
+  - text: <marquee> HTML element
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee
+  - text: The Tourist TV series
+    url: https://www.netflix.com/title/81602821
+  - text: The Wild Robot movie
+    url: https://www.imdb.com/title/tt29623480/
+  - text: Adafruit sensors
+    url: https://www.adafruit.com/
+audio: https://www.buzzsprout.com/2226499/episodes/15880154-wordpress-wars-continue-react-server-functions-and-web-component-backlash.mp3
+spotify: https://open.spotify.com/episode/1MyeiEx7hhfTMr0HyiE7ob
+apple: https://podcasts.apple.com/gb/podcast/wordpress-wars-continue-react-server-functions-and/id1700169000?i=1000672039605
