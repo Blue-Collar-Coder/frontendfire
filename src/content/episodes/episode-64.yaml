@@ -9,12 +9,15 @@ description: >
   WP Engine is taking Automattic and Matt Mullenweg to court. The complaints are numerous and juicy: extortion, libel, slander, and include screenshots 
   of text messages, tweets, and emails that look pretty damning against Automattic. The whole story has “Made for TV documentary” written all over it.
 
+
   In slightly less controversial news, React 19 has renamed its Server Actions to Server Functions. This name change brings React’s server functions more 
   in line with other frameworks who support the same sort of functionality like SolidJS, Astro, TanStack Start, and others.
+
 
   Also in a follow up from the last episode where we talked about a new addition to the Web Components world allowing for web components with SSR via the 
   Declarative Shadow DOM, a good number of JavaScript framework creators shared their misgivings about the creation of Web Components. Ryan Carniato and 
   Rich Harris were two of the most vocal, and basically said WCs have made their work writing frameworks harder, not easier, and WCs are not the future.
+
 
   Our Fire Starter for today is a blast from the past: the marquee HTML element. For the youngsters out there, the marquee element existed since the 
   earliest days of the web and was used to insert a scrolling area of text. It presented many accessibility issues, and has since been deprecated in 
