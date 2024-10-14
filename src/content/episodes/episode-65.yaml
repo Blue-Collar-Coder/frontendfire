@@ -1,0 +1,64 @@
+number: 65
+type: news
+title: Bye-bye .IO, void(0)’s Next Gen JS Toolchain, and StackBlitz’s AI platform bolt.new
+date: 2024-10-14
+teaser: >
+  🚨 .IO domains are about to disappear! If your site is rocking a .io, you need to start making new plans. Evan You is back with VoidZero Inc., set to build 
+  the next-gen JavaScript toolchain! 🚀 And StackBlitz’s new AI-powered dev tool, bolt.new, is here to shake up web dev! 🧠⚡ Listen in for all the hot takes.
+description: >
+  .io domains have been in vogue for over a decade, but now that the British government has decided to give up sovereignty over the small set of islands 
+  in the Indian Ocean that owned that country code on the Internet, it will soon cease to exist. 
+
+
+  Evan You, of Vue JS and Vite fame, has started a new company VoidZero Inc. to build the next generation toolchain for JavaScript. While trying to make 
+  Vite even better, Evan realized he needed a full-time team and funding to build the best toolchain around, and the engineers and investors agreed. Already 
+  delivering on their lofty goals, void(0) is poised to own the JS toolchain ecosystem in the not too distant future. World domination should follow quickly.
+
+
+  StackBlitz enters the AI arena as well with its bolt.new offering, AI-powered software development allowing users to prompt, run, edit, and deploy full-stack 
+  web apps directly in the browser.
+
+
+  WordPress drama reaches new levels of pettiness with a new checkbox that users must check before signing into their WP accounts swearing they are not affiliated 
+  with WP Engine in any way. 
+
+
+  In happier news, Sentry doubles down on its support for open source software (and the maintainers) by creating the Open Source Pledge 
+  where companies who use OSS for profit are encouraged to commit to paying the maintainers of the software they use so that burnout and related security issues can 
+  be better addressed.
+
+
+  Finally, there’s a new HTTP method on the horizon: HTTP QUERY for those safe, idempotent requests that are just too large for query params. If you’ve ever had a list 
+  that’s too long for the browser to handle you know what we’re talking about, and QUERY wants to be the request body GET methods never had. This is still in the proposal 
+  stage, but it’s going to be a boon to many developers when it does get implemented in the browser.
+duration: "52:43"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: void(0) JavaScript tooling
+    url: https://voidzero.dev/posts/announcing-voidzero-inc
+  - text: StackBlitz’s AI platform bolt.new
+    url: https://github.com/stackblitz/bolt.new/blob/main/CONTRIBUTING.md
+  - text: The end of .IO domains
+    url: https://every.to/p/the-disappearance-of-an-internet-domain
+  - text: WordPress vs. WP Engine updates
+    url: https://x.com/rauchg/status/1844167329913110667
+  - text: Sentry launches Open Source Pledge
+    url: https://opensourcepledge.com/
+  - text: Sentry itself gave $500k to OS maintainers this year
+    url: https://blog.sentry.io/we-just-gave-500-000-dollars-to-open-source-maintainers/
+  - text: Deno 2 is officially out!
+    url: https://www.youtube.com/watch?v=d35SlRgVxT8
+  - text: HTTP QUERY
+    url: https://httpwg.org/http-extensions/draft-ietf-httpbis-safe-method-w-body.html
+  - text: "The Lord of the Rings: The Rings of Power season 2"
+    url: https://www.amazon.com/Lord-Rings-Power-Season/dp/B0CXGQPRFP
+  - text: The Substance movie
+    url: https://www.imdb.com/title/tt17526714/
+  - text: Cider mills
+    url: https://www.michigan.org/farms-and-cider-mills
+audio: https://www.buzzsprout.com/2226499/episodes/15918360-bye-bye-io-void-0-s-next-gen-js-toolchain-and-stackblitz-s-ai-platform-bolt-new.mp3
+spotify: https://open.spotify.com/episode/10T7ZlzBnP8y1nyCVbHlP2
+apple: https://podcasts.apple.com/us/podcast/bye-bye-io-void-0-s-next-gen-js-toolchain-and/id1700169000?i=1000673009553
