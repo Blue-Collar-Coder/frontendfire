@@ -1,0 +1,60 @@
+number: 66
+type: news
+title: One Framework, Astro Server Islands, and WordPress Steals a WP Engine Plugin
+date: 2024-10-21
+teaser: >
+  🎱 Meet One, a new Vite-powered framework to unify React web and React Native dev. 🌠 Astro’s Server Islands offer a refined way to handle server data. 🔥 And 
+  WordPress strikes again, taking control of WP Engine’s plugin and rebranding it as their own. 😲 Is this public safety or a power move? Hear the latest in the drama! 🎙️
+description: >
+  In the new frameworks based on React, we introduce you to One. It is a Vite-powered project claiming to support React web apps and React Native apps all in one. 
+  Built by the Tamagui team (a React OSS UI kit and design system), One boasts universal, typed routing, offline support, and a partnership with Zero, a 
+  “general purpose sync engine for the web”, to give users a default data storage solution from the start. 
+
+
+  Host Jack Herrington shares an update on how Astro’s Server Islands work after trying them out for himself. Similar to React’s Suspense components, Astro’s Server 
+  Islands allow any component that relies on server data to render with a “fallback” (like a loader or skeleton component) in the browser until the data is returned 
+  and the full HTML can render.
+
+
+  As we cannot go a week without talking about the latest WordPress and WP Engine drama (listen to our last 3 episodes for full details), the latest kerfuffle involves 
+  WordPress seizing control of one of WP Engine’s most popular plugins hosted on the WordPress Plugin Directory and pushing a forked version of the plugin that WordPress 
+  is in control of under the same name. So WP Engine’s Advanced Custom Fields Plugin is now WordPress’s Secure Custom Fields plugin under the same URL “in the name of 
+  public safety”, according to WordPress founder Matt Mullenweg.
+
+
+  For extra news: both Express and Zustand debuted v5 this week. Neither comes with major upgrades despite the jump in version number, but rather lots of under-the-hood 
+  work to be more modern and ready for the future of JavaScript. And Google has signed a first-of-its-kind deal to purchase nuclear energy for its data centers. AI 
+  computing needs lots of power, and AWS and Microsoft are also looking to use nuclear power to meet these needs. What could go wrong?
+
+
+  Our Fire Starter for the week is the humble <blockquote> element. Around since the earliest days of the Internet the blockquote is meant to highlight enclosed text in an 
+  extended quotation, and offers such attributes as cite (for proper URL source citing). Now you know a little more about the blockquote.
+duration: "49:07"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: One, the new React framework built on Vite
+    url: https://onestack.dev/
+  - text: Astro Server Islands (take 2)
+    url: https://astro.build/blog/astro-4120/
+  - text: WordPress starts taking over WP Engine plugins
+    url: https://www.theverge.com/2024/10/12/24268637/wordpress-org-matt-mullenweg-acf-fork-secure-custom-fields-wp-engine
+  - text: Google inks nuclear deal for next-generation reactors
+    url: https://www.theverge.com/2024/10/15/24270645/google-nuclear-energy-deal-small-modular-reactor-kairos
+  - text: Express 5
+    url: https://expressjs.com/2024/10/15/v5-release.html
+  - text: Zustand 5
+    url: https://zustand.docs.pmnd.rs/migrations/migrating-to-v5
+  - text: <blockquote>
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+  - text: "Trying new things: like a voiceover workshop"
+    url: https://atlantavoiceoverstudio.com/what-we-offer-workshops-intro-to-voiceover-workshop/
+  - text: Hue smart plugs
+    url: https://www.philips-hue.com/en-us/p/hue-smart-plug/046677552343
+  - text: Only Murders in the Building, season 4
+    url: https://www.imdb.com/title/tt11691774/episodes/?season=4
+audio: https://www.buzzsprout.com/2226499/episodes/15959967-one-framework-astro-server-islands-and-wordpress-steals-a-wp-engine-plugin.mp3
+spotify: https://open.spotify.com/episode/4WQTmKOYlq1SGxlVoruE3W
+apple: https://podcasts.apple.com/us/podcast/one-framework-astro-server-islands-and-wordpress/id1700169000?i=1000673827706
