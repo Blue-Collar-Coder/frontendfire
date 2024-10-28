@@ -1,0 +1,64 @@
+number: 67
+type: news
+title: "Next.js 15 & Svelte 5: Major Upgrades Hit the Web Dev World"
+date: 2024-10-28
+teaser: >
+  Frontend news is buzzing with Next.js 15 bringing React 19 support, and Svelte 5 debuting Runes. 🪄 Plus, Jack's on stage at React Advanced diving deep into the "Is React Really 
+  Dying?" debate. 🍿 Here’s what’s hot in web dev this week.
+description: >
+  Jack is away this week speaking at the React Advanced conference in London, so be sure to check out his recorded talk (and all the others) about if React is really dying.
+
+
+  For the news this week, we’ve got a bunch of interesting topics, the first of which is the latest release of Next.js: Next 15. It’s stable and production ready offering React 
+  19 and React Compiler (experimental) support, Turbopack Dev, improvements to caching, and a change to async Request APIs that will allow for simplified rendering and caching 
+  in the future. 
+
+
+  Svelte 5 is also officially stable and production ready, debuting the new Runes system which offers Svelte users fine-grained reactivity control via Signals. Svelte previously 
+  relied on the compiler for reactivity, which could begin to break down for larger apps, so it was rewritten from the ground up and Runes was born. 
+
+
+  Bonus news: China is taking Microsoft’s underwater server cooling proof of concept and attempting to submerge a server farm the size of 10 football fields. Apple announced it’s 
+  slowing the production of Apple Vision Pro headsets. The Browser Company who built the popular Arc browser just a few years ago has announced it’s now building another new browser 
+  for more mainstream users, and Arc will go into maintenance mode. Apple Intelligence is (sorta) being released in iOS 18.1: basic features like message summaries and email writing, 
+  but 18.2 (still in beta) looks to have more substantial capabilities. Stay tuned for our updates.
+
+
+  Finally, vote for this podcast in the State of React survey out now! We’re under the Resources > Podcasts section and would greatly appreciate your support.
+
+
+  The Fire Starters topic of the week is the CSS property backdrop-filter. Newly supported across all major browsers it lets you apply graphical effects such as blurring or color shifting 
+  to the area behind an element. Think glassmorphic design or inverted color behind a company’s logo over an image, and you know what we’re talking about. Backdrop-filter makes all sorts 
+  of cool CSS effects super easy to do (and can combine multiple effects together). Play around in the browser or MDN site for a taste of what’s possible.
+duration: "47:21"
+hosts:
+  - paige
+  - tj
+links:
+  - text: Svelte 5 is alive
+    url: https://svelte.dev/blog/svelte-5-is-alive
+  - text: Next.js 15 is here
+    url: https://nextjs.org/blog/next-15
+  - text: Jack's React Advanced talk
+    url: https://www.youtube.com/live/FAkFJ7Mp6Jk?si=rsFPIiW4Cm_7Tcm6&t=12293
+  - text: Vote for us in the State of React survey (Resources > Podcasts)
+    url: https://survey.devographics.com/en-US/survey/state-of-react/2024
+  - text: The Browser Company who built Arc is building another new browser
+    url: https://www.theverge.com/2024/10/24/24279020/browser-company-ai-browser-arc
+  - text: Underwater servers update
+    url: https://www.theverge.com/2020/9/14/21436746/microsoft-project-natick-data-center-server-underwater-cooling-reliability
+  - text: Apple Vision Pro manufacturing cutback
+    url: https://www.theverge.com/2024/10/23/24277584/apple-vision-pro-manufacturing-cutback
+  - text: The confusing state of Apple Intelligence
+    url: https://www.theverge.com/2024/10/25/24279264/apple-intelligence-ipad-mini-perplexity-ai-vergecast
+  - text: Anthropic's latest AI update can use a computer on its own
+    url: https://www.theverge.com/2024/10/22/24276822/anthopic-claude-3-5-sonnet-computer-use-ai
+  - text: backdrop-filter CSS property
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
+  - text: MacBook M3 Pro 16"
+    url: https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-black-apple-m3-pro-with-12-core-cpu-and-18-core-gpu-36gb-memory-512gb
+  - text: The Will of the Many novel
+    url: https://www.goodreads.com/book/show/58416952-the-will-of-the-many
+audio: https://www.buzzsprout.com/2226499/episodes/16001073-next-js-15-svelte-5-major-upgrades-hit-the-web-dev-world.mp3
+spotify: https://open.spotify.com/episode/5mZvETcBPC99LFPJVUG9xJ
+apple: https://podcasts.apple.com/us/podcast/next-js-15-svelte-5-major-upgrades-hit-the-web-dev-world/id1700169000?i=1000674694539
