@@ -1,0 +1,52 @@
+number: 69
+type: news
+title: "GitHub's AI-Driven Future: Copilot Models, Micro Apps, and More!"
+date: 2024-11-11
+teaser: >
+  🚀 GitHub is stepping up the AI game! Customize Copilot’s AI, smarter code reviews, and even entire micro apps generated via natural language! The future of coding just got a lot more AI-driven.
+description: >
+  The AI race continues with lots of new updates straight from the GitHub Universe conference!
+
+
+  New features from GitHub include: the ability to choose different AI models for GitHub Copilot Chat to use (OpenAI, Claude, Gemini, etc.), Copilot Workspaces reviewing PRs, suggesting code changes, and validating fixes, GitHub AI Models to test, experiment, and build with different AI models (OpenAI, Llama, Mistral, etc.), and GitHub Spark using natural language processing alone to generate “micro apps” that GitHub will host. 
+
+
+  In addition to the GH Universe announcements, the October VS Code release has a bunch of new Copilot additions like: Copilot Edits to change multiple files at once, Copilot Chat in a secondary sidebar, and Copilot code reviews before committing to GitHub.
+
+
+  Next.js’s caching, which defaulted to very aggressive in the past, has been updated big time in Next.js 15. Now, when devs add a request that fetches external data, they’ll be prompted to either wrap it in a Suspense tag or explicitly mark the module or function with the “use cache” directive. This gives devs more fine grained cache control allowing some routes to have dynamic, Suspense-supported data, while others have static, cached data.
+
+
+  In bonus news, the open source Flutter community decided to fork the project because it feels Google’s core Flutter team doesn’t have enough resources internally and isn't fast enough at reviewing PRs and implementing new features. “Flock” aims to add the bug fixes, popular community features, and generally be faster and more agile than Flutter.
+
+
+  And today’s Fire Starter is about HTTP/3: the newest revision of the HTTP which offers better speed, security, and reliability. HTTP/3 runs on QUIC, a transport protocol that supports rapidly switching between networks.
+duration: "47:54"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: GitHub Universe updates
+    url: https://github.blog/news-insights/product-news/universe-2024-previews-releases/
+  - text: GitHub Spark
+    url: https://githubnext.com/projects/github-spark
+  - text: VS Code 1.95
+    url: https://code.visualstudio.com/updates/v1_95
+  - text: use cache changes in Next.js 15
+    url: https://www.youtube.com/watch?v=OWmRn74CQKY
+  - text: Flutter gets forked to Flock
+    url: https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/
+  - text: HTTP/3
+    url: https://www.cloudflare.com/learning/performance/what-is-http3/
+  - text: "All Recipe's Trends page"
+    url: https://www.allrecipes.com/food-news-trends/trends/
+  - text: The Will of the Many book series
+    url: https://www.goodreads.com/en/book/show/58416952-the-will-of-the-many
+  - text: Kindle e-reader
+    url: https://www.amazon.com/dp/B0CFPJYX7P
+  - text: Phone anti-theft cords
+    url: https://www.amazon.com/phone-anti-theft/s?k=phone+anti+theft
+audio: https://www.buzzsprout.com/2226499/episodes/16081902-github-s-ai-driven-future-copilot-models-micro-apps-and-more.mp3
+spotify: https://open.spotify.com/episode/3ciKpXo8rjyVUJ9wVps847
+apple: https://podcasts.apple.com/us/podcast/githubs-ai-driven-future-copilot-models-micro-apps-and-more/id1700169000?i=1000676483180
