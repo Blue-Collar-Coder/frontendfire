@@ -20,7 +20,7 @@ description: >
   In bonus news, the open source Flutter community decided to fork the project because it feels Google’s core Flutter team doesn’t have enough resources internally and isn't fast enough at reviewing PRs and implementing new features. “Flock” aims to add the bug fixes, popular community features, and generally be faster and more agile than Flutter.
 
 
-  And today’s Fire Starter is about HTTP/3: the newest revision of the HTTP which offers better speed, security, and reliability. HTTP/3 runs on QUIC, a transport protocol that supports rapidly switching between networks.
+  And today’s Fire Starter is about HTTP/3: the newest revision of the HTTP which offers better speed, security, and reliability.
 duration: "47:54"
 hosts:
   - jack
@@ -50,3 +50,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/16081902-github-s-ai-driven-future-copilot-models-micro-apps-and-more.mp3
 spotify: https://open.spotify.com/episode/3ciKpXo8rjyVUJ9wVps847
 apple: https://podcasts.apple.com/us/podcast/githubs-ai-driven-future-copilot-models-micro-apps-and-more/id1700169000?i=1000676483180
+clip: https://x.com/front_end_fire/status/1855980095116132679
