@@ -5,7 +5,7 @@ date: 2024-11-18
 teaser: >
   🚨 Big news for React Native! Expo has a dev preview of RSCs. 👀 Amazon’s RTO policy raises eyebrows. Is this just a clever way to reduce headcount? 🏗️ The wait for CSS Masonry is almost over, but there's drama in the spec world! Should it reuse Grid or not?
 description: >
-  We kick off this week’s episode with news that React Native framework Expo now has a developer preview of universal React Server Components. For the first time ever, you can use React Server Components & Server Actions in native apps. Production exports are not supported yet, but give the RSCs a spin and tell the Expo team what you think.
+  We kick off this week’s episode with news that React Native framework Expo now has a developer preview of universal React Server Components. For the first time ever, you can use React Server Components & Server Actions in native apps.
 
 
   In a controversial move, Amazon has mandated all employees must return to offices by Jan 2025. The hosts discuss the pros and cons of working from the office vs remote, and speculate this is just another way for Amazon to conduct layoffs without actually laying more employees off.
@@ -14,7 +14,7 @@ description: >
   CSS masonry, a long yearned for feature, gets closer to reality. The Google Chrome and Apple WebKit teams have differing opinions about how CSS masonry’s syntax should be added to the spec (reuse CSS grid or create a whole new layout property for masonry), and they want devs to weigh in to help make the final decision.
 
 
-  In bonus news, the CSS shield logo of years ago gets a glow up! Based on community feedback the new logo is sleek, Rebecca Purple, and more general use than the CSS 3 shield logo that’s been around for over a decade now. Hat tip to Adam Argyle for the nice write up and link to GitHub repo with all the logo details including colors, font, usage, and more.
+  In bonus news, the CSS shield logo of years ago gets a glow up! Based on community feedback the new logo is sleek, Rebecca Purple, and more general use than the CSS 3 shield logo that’s been around for over a decade now. Hat tip to Adam Argyle for the nice write up and link to GitHub repo with all the logo details.
 
 
   This wouldn’t be a complete episode without a short update on WordPress’s latest petty move against WP Engine. There’s now a site in existence that claims to track the number of sites that have moved off of WP Engine hosting since the battle began.
@@ -53,3 +53,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/16123886-expo-unlocks-rscs-amazon-s-rto-mandate-and-css-masonry-layouts-debate.mp3
 spotify: https://open.spotify.com/episode/3zy3qJKXQdKnaFonfVYg2p
 apple: https://podcasts.apple.com/us/podcast/expo-unlocks-rscs-amazons-rto-mandate-and-css-masonry/id1700169000?i=1000677309816
+clip: https://x.com/front_end_fire/status/1858519195052384396

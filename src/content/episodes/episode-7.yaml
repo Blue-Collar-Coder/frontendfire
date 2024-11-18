@@ -3,15 +3,9 @@ type: news
 title: TypeScript Drama, Open Props, and the End of Rome
 date: 2023-09-11
 teaser: >
-  The latest news in the web dev world was spicy this week! 🔥 Removing TypeScript from a
-  popular OSS library, a new beginning for Biome (fka Rome), and a dash of supercharged CSS.
+  The latest news in the web dev world was spicy this week! 🔥 Removing TypeScript from a popular OSS library, a new beginning for Biome (fka Rome), and a dash of supercharged CSS.
 description: >
-  The latest news in the web dev world was spicy this week! We start off with news of the decision
-  to remove TypeScript from popular OSS library Hotwire and how it signals a potential shift (at
-  least amongst library authors that the effort of using TS isn't worth it). There's also a new
-  company rising from the ashes of Rome known now as Biome. CSS gets supercharged with open props,
-  and we also talk about the launch of Astro Studio, a new portal to manage remote hosted Astro
-  DB databases.
+  The latest news in the web dev world was spicy this week! We start off with news of the decision to remove TypeScript from popular OSS library Hotwire and how it signals a potential shift (at least amongst library authors that the effort of using TS isn't worth it). There's also a new company rising from the ashes of Rome known now as Biome. CSS gets supercharged with open props, and we also talk about the launch of Astro Studio, a new portal to manage remote hosted Astro DB databases.
 duration: "32:35"
 hosts:
   - jack
