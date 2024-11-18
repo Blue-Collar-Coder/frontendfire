@@ -3,13 +3,9 @@ type: news
 title: A new React Component Library, Google’s Cloud IDE, and an RSC Debugger
 date: 2023-08-14
 teaser: >
-  Today we've got news about Google's latest offering in the cloud-based IDE race,
-  a slick new open source component library for React apps, and a helpful debugger for
-  React Server Components.
+  Today we've got news about Google's latest offering in the cloud-based IDE race, a slick new open source component library for React apps, and a helpful debugger for React Server Components.
 description: >
-  Today we've got news about Google's latest offering in the cloud-based IDE race,
-  Project IDX, a slick new open source component library for React apps called
-  Radix UI, and a helpful debugger for React Server Components.
+  Today we've got news about Google's latest offering in the cloud-based IDE race, Project IDX, a slick new open source component library for React apps called Radix UI, and a helpful debugger for React Server Components.
 duration: "26:14"
 hosts:
   - jack
