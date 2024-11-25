@@ -1,0 +1,49 @@
+number: 71
+type: news
+title: TanStack Start Beta, Framer Motion Goes Vanilla, and the US vs. Google
+date: 2024-11-25
+teaser: >
+  🔥 Fresh from React Summit! Jack breaks down TanStack Start's beta launch and its big potential with Tanner Linsley's full-time focus. Framer Motion spins off into open-source Motion—animations for all JS projects. 🎥✨ Plus Google faces legal heat as the US pushes for Chrome to be sold off in an antitrust battle. 👨‍⚖️
+description: >
+  Co-host Jack Herrington is just back from the React Summit conference in New York and he shares some of the highlights of the conf, including the announcement that TanStack Start is now in beta status and Tanner Linsely (the creator of the TanStack products) will be working on it full time.
+
+
+  Additionally, React-based animation library Framer Motion announces it has spun off into open source library Motion. Going forward, Motion will provide vanilla JS APIs so every JavaScript project can take advantage of the smooth, easy-to-use animations that were previously only available to React applications. 
+
+
+  The US government’s taken aim at Google, asking Google’s antitrust trial judge to force the company to sell off its Chrome browser after the judge ruled Google’s maintained an illegal search monopoly. These are the dramatic opening shots that will, most likely, become much less contentious than Google actually divesting itself of Chrome when a deal with the DOJ is reached, but it’s definitely a warning to other large tech companies to watch their market share.
+
+
+  In bonus news, AI tool calling is the next big thing when it comes to using AI in applications. Jack shares how he built a video game ecomm demo that uses AI tools to check his own video game inventory and make recommendations to shoppers based on that inventory and their preferences. Many AI model providers like OpenAI, Ollama, and Vercel provide this functionality now and it’s worth looking into.
+
+
+  And finally, our Fire Starter topic for this episode is the scrollIntoView() method. scrollIntoView() is supported across all major browsers and will scroll an element into view, with a variety of different options, when called. Handy!
+
+  As a final note, we won’t be recording a show next week due to the Thanksgiving holiday in the US, but will be back after that with all the latest news.
+duration: "38:32"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Framer Motion becomes just Motion
+    url: https://motion.dev/blog/framer-motion-is-now-independent-introducing-motion
+  - text: TanStack Start is in beta status
+    url: https://tanstack.com/start/latest
+  - text: US proposes breakup of Google to fix search monopoly
+    url: https://www.theverge.com/2024/11/18/24300033/doj-google-monopoly-remedies-search-chrome-android-ai
+  - text: The State of JS survey 2024 is now open
+    url: https://survey.devographics.com/en-US/survey/state-of-js/2024
+  - text: AI tool calling is the next being things
+    url: https://youtu.be/zsHYbiPQR98
+  - text: scrollIntoView()
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+  - text: Stubby car drying nozzle leaf blower attachment
+    url: https://www.amazon.com/Stubby-Nozzle-Co-Drying-DCBL722B/dp/B0BBZN7X9Z?th=1
+  - text: Air tag-enabled water bottle lid
+    url: https://www.amazon.com/Versafactor-WaterLink-MagSafe-Rambler-Magnetic/dp/B0D2BPGQKM/ref=sr_1_8
+  - text: Silver Bells in Lansing, MI
+    url: https://silverbellsinthecity.com/
+audio: https://www.buzzsprout.com/2226499/episodes/16167706-tanstack-start-beta-framer-motion-goes-vanilla-and-the-us-vs-google.mp3
+spotify: https://open.spotify.com/episode/0299YBClBl3kZdtLdjCTd8
+apple: https://podcasts.apple.com/us/podcast/expo-unlocks-rscs-amazons-rto-mandate-and-css-masonry/id1700169000?i=1000677309816

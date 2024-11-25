@@ -3,37 +3,21 @@ type: interview
 title: Web Components at Scale with Rob Eisenberg
 date: 2024-11-04
 teaser: >
-  🧐 Curious if web components are more than just hype? Join us and Rob Eisenberg, former 
-  chief architect of Microsoft’s FAST tech stack, as he shares insights on their role in 
-  bridging JS frameworks and advice for incorporating them into real-world apps. 🌐 Listen now!
+  🧐 Curious if web components are more than just hype? Join us and Rob Eisenberg, former chief architect of Microsoft’s FAST tech stack, as he shares insights on their role in bridging JS frameworks and advice for incorporating them into real-world apps. 🌐 Listen now!
 description: >
-  In a special guest episode, Rob Eisenberg joins the podcast to talk about the role web 
-  components play in today’s web development ecosystem. Rob is uniquely qualified to discuss 
-  web components, as the former architect for Microsoft’s web component tech stack, FAST, 
-  used by about 1,500 internal MSFT teams, and creator of the Web Component Engineering course. 
+  In a special guest episode, Rob Eisenberg joins the podcast to talk about the role web components play in today’s web development ecosystem. Rob is uniquely qualified to discuss web components, as the former architect for Microsoft’s web component tech stack, FAST, used by about 1,500 internal MSFT teams, and creator of the Web Component Engineering course. 
 
 
-  The episode starts with Rob sharing the basic ideas behind web components, and their evolution 
-  from when he helped build FAST in 2020 - Microsoft’s agnostic tech stack built on Web Components 
-  and modern Web Standards. He discusses the importance of choosing the right tools to solve 
-  the problem, and how web components can serve as a sort of “glue” to help connect apps built 
-  with different frameworks in a company, or even different JS frameworks within the same app.
+  The episode starts with Rob sharing the basic ideas behind web components, and their evolution from when he helped build FAST in 2020 - Microsoft’s agnostic tech stack built on Web Components and modern Web Standards. He discusses the importance of choosing the right tools to solve the problem, and how web components can serve as a sort of “glue” to help connect apps built with different frameworks in a company, or even different JS frameworks within the same app.
 
 
-  Not everyone views web components as beneficial to the web dev world though. There’s a tension 
-  between JavaScript framework authors and web components advocates because all parties have 
-  opinions on how things should be done based on the use cases they’re trying to solve. 
+  Not everyone views web components as beneficial to the web dev world though. There’s a tension between JavaScript framework authors and web components advocates because all parties have opinions on how things should be done based on the use cases they’re trying to solve. 
 
 
-  Rob manages to see both sides of the issue, having previously been a framework author himself, 
-  then later building FAST to work with any JS framework. He recommends the framework authors 
-  get more involved in the W3C working groups and discussions to share their opinions, understand 
-  the problems others are trying to solve, and shape solutions that will support all parties involved. 
+  Rob manages to see both sides of the issue, having previously been a framework author himself, then later building FAST to work with any JS framework. He recommends the framework authors get more involved in the W3C working groups and discussions to share their opinions, understand the problems others are trying to solve, and shape solutions that will support all parties involved. 
 
 
-  A fascinating episode with so much good information on how far web components have come in just a 
-  few short years, definitely worth a listen for anyone contemplating incorporating web components into 
-  their own applications.
+  A fascinating episode with so much good information on how far web components have come in just a few short years, definitely worth a listen for anyone contemplating incorporating web components into their own applications.
 duration: "1:00:59"
 hosts:
   - paige
