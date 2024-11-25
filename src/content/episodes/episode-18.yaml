@@ -3,14 +3,9 @@ type: news
 title: Vercel's AI Building UIs, Nested CSS Sans Sass, and the Annual State of JS Survey
 date: 2023-12-04
 teaser: >
-  Web developers, rejoice! CSS nesting support across all major browsers is a stylesheet game-changer.
-  🎨 The 2023 State of JavaScript survey is LIVE! And Vercel is at it again using AI to build UIs?
-  🤯 Plus, updates on the Prettier bounty and OpenAI drama.
+  Web developers, rejoice! CSS nesting support across all major browsers is a stylesheet game-changer. 🎨 The 2023 State of JavaScript survey is LIVE! And Vercel is at it again using AI to build UIs? 🤯 Plus, updates on the Prettier bounty and OpenAI drama.
 description: >
-  CSS continues to have the best year ever, as the Chrome developer team announces that CSS nesting is now
-  supported across all major browsers! The 2023 State of JavaScript survey is LIVE! And Vercel
-  is at it again, using AI to build UIs. Plus, we have updates on the Prettier bounty set out last week, AND
-  the OpenAI drama that happened over the weekend. This is not an episode to miss!
+  CSS continues to have the best year ever, as the Chrome developer team announces that CSS nesting is now supported across all major browsers! The 2023 State of JavaScript survey is LIVE! And Vercel is at it again, using AI to build UIs. Plus, we have updates on the Prettier bounty set out last week, AND the OpenAI drama that happened over the weekend. This is not an episode to miss!
 duration: "29:46"
 hosts:
   - jack

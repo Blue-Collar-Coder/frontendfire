@@ -3,17 +3,9 @@ type: interview
 title: The Angular Renaissance with Jessica Janiuk
 date: 2023-11-13
 teaser: >
-  🚀 Exciting times in the Angular community! Join us for the “Angular Renaissance” with the much-anticipated
-  release of Angular v17 as we dive into all the details Jessica Janiuk from the Angular team. 🎉 Get ready for a
-  revolution in web development!
+  🚀 Exciting times in the Angular community! Join us for the “Angular Renaissance” with the much-anticipated release of Angular v17 as we dive into all the details Jessica Janiuk from the Angular team. 🎉 Get ready for a revolution in web development!
 description: >
-  These are exciting times in the Angular world! Jessica Janiuk, a Senior Software Engineer at Google,
-  joins us to talk about the "Angular Renaissance", including the recent release of Angular 17 and the
-  revamped Angular.dev website. Highlights on Angular 17 include deferrable views, up to 90% faster runtimes and
-  87% faster builds thanks to Vite and esbuild, revamped hybrid SSR/SSG, and brand news docs to help you get started.
-  We also discuss full-featured device mockup tool Shots.so, the release of Astro 3.5, and how CSS continues
-  to have a bang up year with support for the :has selector landing in Firefox and CSS nesting enjoying
-  widespread support. Get ready for a revolution in web development!
+  These are exciting times in the Angular world! Jessica Janiuk, a Senior Software Engineer at Google, joins us to talk about the "Angular Renaissance", including the recent release of Angular 17 and the revamped Angular.dev website. Highlights on Angular 17 include deferrable views, up to 90% faster runtimes and 87% faster builds thanks to Vite and esbuild, revamped hybrid SSR/SSG, and brand news docs to help you get started. We also discuss full-featured device mockup tool Shots.so, the release of Astro 3.5, and how CSS continues to have a bang up year with support for the :has selector landing in Firefox and CSS nesting enjoying widespread support. Get ready for a revolution in web development!
 duration: "56:55"
 hosts:
   - jack

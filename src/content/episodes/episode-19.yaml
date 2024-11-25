@@ -3,16 +3,9 @@ type: news
 title: XState v5, Facebook Open Sources StyleX, and Cron Jobs Come to Deno
 date: 2023-12-11
 teaser: >
-  Exciting times in the world of Xstate! 🔄 V5 unlocks new possibilities for state machines,
-  Facebook open sources the StyleX design library🎨, and brace yourselves for a Deno upgrade 🦕!
-  The runtime is even more powerful with the addition of cron jobs.
+  Exciting times in the world of Xstate! 🔄 V5 unlocks new possibilities for state machines, Facebook open sources the StyleX design library🎨, and brace yourselves for a Deno upgrade 🦕! The runtime is even more powerful with the addition of cron jobs.
 description: >
-  After quite a while out of the public spotlight, the XState team is back in the
-  news with the release of version 5. This new version introduces the "actor model" which
-  allows for more complex state machines. Facebook has also open sourced StyleX, the CSS-in-JS
-  library they use internally. And Deno now has a cron job library that allows you to schedule
-  tasks in your Deno applications. Plus, we talk about the new floating editor windows in VS Code,
-  which is a feature that's been a long time coming for many developers.
+  After quite a while out of the public spotlight, the XState team is back in the news with the release of version 5. This new version introduces the "actor model" which allows for more complex state machines. Facebook has also open sourced StyleX, the CSS-in-JS library they use internally. And Deno now has a cron job library that allows you to schedule tasks in your Deno applications. Plus, we talk about the new floating editor windows in VS Code, which is a feature that's been a long time coming for many developers.
 duration: "41:40"
 hosts:
   - jack

@@ -3,18 +3,9 @@ type: news
 title: CodeSandbox's Dev Container Magic and TanStack Query V5 Unveiled
 date: 2023-10-23
 teaser: >
-  Developers, brace yourselves! TanStack Query V5 just dropped with a ton of cool new features.
-  🎉 And, as if that wasn't enough, CodeSandbox now natively supports Dev Containers.
-  Your development process is about to get a serious upgrade! 🚀💡
+  Developers, brace yourselves! TanStack Query V5 just dropped with a ton of cool new features. 🎉 And, as if that wasn't enough, CodeSandbox now natively supports Dev Containers. Your development process is about to get a serious upgrade! 🚀💡
 description: >
-  With Jack away on assignment, TJ and Paige hold down the fort for this episode
-  of Front-end Fire. In it, they discuss the release of TanStack Query v5 which
-  brings a ton of new features including simplified optimistic updates, first
-  class suspense support, a brand new Devtools, and more. They also talk about the
-  new support for Dev Containers in CodeSandbox, a feature that allows users to set
-  up a full-featured dev environment in the cloud using a single configuration file.
-  Imagine using the same dev container to spin up a dev environment locally or on
-  any supporting cloud tool for a standardized development experience. The future is truly now.
+  With Jack away on assignment, TJ and Paige hold down the fort for this episode of Front-end Fire. In it, they discuss the release of TanStack Query v5 which brings a ton of new features including simplified optimistic updates, first class suspense support, a brand new Devtools, and more. They also talk about the new support for Dev Containers in CodeSandbox, a feature that allows users to set up a full-featured dev environment in the cloud using a single configuration file. Imagine using the same dev container to spin up a dev environment locally or on any supporting cloud tool for a standardized development experience. The future is truly now.
 duration: "26:47"
 hosts:
   - paige

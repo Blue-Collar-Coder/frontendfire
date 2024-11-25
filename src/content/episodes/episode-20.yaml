@@ -3,18 +3,9 @@ type: news
 title: New React Framework Waku, Agile 2 in Action, and Big Updates in Safari 17.2
 date: 2023-12-18
 teaser: >
-  🔍 Calling all tech enthusiasts! Get the inside scoop on Waku, Dai Shi's (creator of Zustand and
-  Jotai) newest brainchild for React RSCs, delve into Agile 2's new take on agile development, and
-  catch the Safari 17.2 wave for a smoother browsing experience!
+  🔍 Calling all tech enthusiasts! Get the inside scoop on Waku, Dai Shi's (creator of Zustand and Jotai) newest brainchild for React RSCs, delve into Agile 2's new take on agile development, and catch the Safari 17.2 wave for a smoother browsing experience!
 description: >
-  Today, we discuss the new framework Waku, which is designed to support React Server Components,
-  from Daishi Kato (the creator of popular state management libraries Zustand and Jotai). We also delve
-  into Agile 2, a new take on agile development because the original Agile Manifesto has, in the words of
-  the author, "The Agile experiment was only a partial success: Agile now needs to pivot!" Safari 17.2
-  promises a smoother browsing experience with lots of small improvements, and Pantone has announced the
-  color of 2024 is "Peach Fuzz." Have you ever wanted to trace your network requests in local development?
-  Envy might be just the tool for you. And if you're looking for a code assistant, Cody AI is here to help.
-  Lots of good stuff to cover in this episode!
+  Today, we discuss the new framework Waku, which is designed to support React Server Components, from Daishi Kato (the creator of popular state management libraries Zustand and Jotai). We also delve into Agile 2, a new take on agile development because the original Agile Manifesto has, in the words of the author, "The Agile experiment was only a partial success: Agile now needs to pivot!" Safari 17.2 promises a smoother browsing experience with lots of small improvements, and Pantone has announced the color of 2024 is "Peach Fuzz." Have you ever wanted to trace your network requests in local development? Envy might be just the tool for you. And if you're looking for a code assistant, Cody AI is here to help. Lots of good stuff to cover in this episode!
 duration: "38:25"
 hosts:
   - jack

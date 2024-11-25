@@ -3,16 +3,9 @@ type: news
 title: Copilot Comes to GitHub.com, Blazing-er Faster Next.js, and a Bounty for Prettier
 date: 2023-11-20
 teaser: >
-  🌐 GitHub, Next.js and the Prettier revolution - all in one podcast episode! GitHub Copilot Chat
-  takes center stage at github.com, Next.js supercharges web performance with partial prerendering, and
-  💰 $20k on the line to rewrite Prettier in Rust!?
+  🌐 GitHub, Next.js and the Prettier revolution - all in one podcast episode! GitHub Copilot Chat takes center stage at github.com, Next.js supercharges web performance with partial prerendering, and 💰 $20k on the line to rewrite Prettier in Rust!?
 description: >
-  GitHub, Next.js and Prettier are all in the news this week! GitHub Copilot Chat takes center stage
-  when it's announced it's coming to github.com. Next.js release partial prerendering as an
-  experimental feature to speed up sites by pre-rendering static portions of a route and only
-  streaming in the dynamic parts needed in a single HTTP request. And the Prettier team offers up
-  a $20,000 bounty to anyone who can rewrite the popular code formatter in Rust. Who do you
-  think will take home that prize? It remains to be seen, but get ready to work faster and smarter.
+  GitHub, Next.js and Prettier are all in the news this week! GitHub Copilot Chat takes center stage when it's announced it's coming to github.com. Next.js release partial prerendering as an experimental feature to speed up sites by pre-rendering static portions of a route and only streaming in the dynamic parts needed in a single HTTP request. And the Prettier team offers up a $20,000 bounty to anyone who can rewrite the popular code formatter in Rust. Who do you think will take home that prize? It remains to be seen, but get ready to work faster and smarter.
 duration: "40:00"
 hosts:
   - jack

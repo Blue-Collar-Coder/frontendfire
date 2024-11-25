@@ -3,15 +3,9 @@ type: news
 title: Remix joins the Vite Train, Docusaurus 3.0, and an Update on Vercel's AI Code Generator v0
 date: 2023-11-06
 teaser: >
-  🔥 Remix + Vite = Next-level web performance! Discover what's new with Docusaurus 3.0 and we
-  tried Vercel’s AI code generator v0 to give you the real scoop. Your frontend game is about to level up! 💻✨
+  🔥 Remix + Vite = Next-level web performance! Discover what's new with Docusaurus 3.0 and we tried Vercel’s AI code generator v0 to give you the real scoop. Your frontend game is about to level up! 💻✨
 description: >
-  In this episode, we cover the recent announcement that Remix has added support for Vite. It seems nothing can
-  stop Vite's popularity from growing. We also discuss the release of Docusaurus 3.0, a major update to the popular documentation
-  static site generator. And finally, we take a look at Vercel's AI code generator, v0, which has evolved a bit since
-  its initial release. We also muse about the cryptic post the Angular team has made on X: what could this big announcement be?
-  And we also touch on Svelte's continued ascendancy as well, as StackOverflow declares it plans to use Svelte to enhance
-  its UI.
+  In this episode, we cover the recent announcement that Remix has added support for Vite. It seems nothing can stop Vite's popularity from growing. We also discuss the release of Docusaurus 3.0, a major update to the popular documentation static site generator. And finally, we take a look at Vercel's AI code generator, v0, which has evolved a bit since its initial release. We also muse about the cryptic post the Angular team has made on X: what could this big announcement be? And we also touch on Svelte's continued ascendancy as well, as StackOverflow declares it plans to use Svelte to enhance its UI.
 duration: "40:24"
 hosts:
   - jack
