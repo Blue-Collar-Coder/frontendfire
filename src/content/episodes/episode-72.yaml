@@ -1,6 +1,6 @@
 number: 72
 type: news
-title: Triple Thread: vlt, Vite 6, and Astro 5
+title: "Triple Thread: vlt, Vite 6, and Astro 5"
 date: 2024-12-09
 teaser: >
   🧩 This week: vlt reinvents JS package management, Vite 6 adds a game-changing Environment API, and Astro 5 simplifies static-dynamic site creation. Catch all the details in this episode!
@@ -9,7 +9,7 @@ description: >
 
 
   Vite 6.0 released this week, and its biggest improvement is the new experimental Environment API. The Environment API is designed so that framework authors can create as many environments as they need within a single Vite server so they can map the way their apps work in production. This allows Vite to now run on Bun, Deno, and edge runtimes, and work for specialized runtimes like React Native and Electron.
- 
+
 
   Astro 5.0 also enters primetime with Astro Content Layers that loads content from any source, Server Islands to combine cached, static content with dynamic content, simplified prerendering, and Vite 6 support (using the new Environment API, mentioned in the last paragraph).
 
@@ -30,7 +30,7 @@ links:
     url: https://astro.build/blog/astro-5/
   - text: vlt Client and Serverless registry
     url: https://blog.vlt.sh/blog/introducing-vlt-and-vsr
-  - text: 'Deno v. Oracle: Canceling the JavaScript Trademark'
+  - text: "Deno v. Oracle: Canceling the JavaScript Trademark"
     url: https://deno.com/blog/deno-v-oracle
   - text: GenAIScript
     url: https://microsoft.github.io/genaiscript/
@@ -43,7 +43,7 @@ links:
   - text: Everyone in My Family Has Killed Someone
     url: https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone
   - text: Storygraph book tracker website
-    url: https://thestorygraph.com/  
+    url: https://thestorygraph.com/
 audio: https://www.buzzsprout.com/2226499/episodes/16243365-triple-threat-vlt-vite-6-and-astro-5.mp3
 spotify: https://open.spotify.com/episode/13VImVrseaXujQymqFdNub
 apple: https://podcasts.apple.com/us/podcast/triple-threat-vlt-vite-6-and-astro-5/id1700169000?i=1000679738316
