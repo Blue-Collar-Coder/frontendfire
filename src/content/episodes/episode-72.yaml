@@ -3,10 +3,7 @@ type: news
 title: Triple Thread: vlt, Vite 6, and Astro 5
 date: 2024-12-09
 teaser: >
-  🧩 This week:
-  - vlt reinvents JS package management
-  - Vite 6 adds a game-changing Environment API
-  - Astro 5 simplifies static-dynamic site creation
+  🧩 This week: vlt reinvents JS package management, Vite 6 adds a game-changing Environment API, and Astro 5 simplifies static-dynamic site creation.
 Catch all the details in this episode:
 description: >
   The new JavaScript package manager and serverless registry vlt debuted recently, promising to be a drop-in replacement for existing package managers like npm with additional offerings like a dependency query syntax selector and GUI experience for dependency graphs. More interesting though is vlt’s serverless package registry, vsr, which allows for local, self-hosted or managed hosting instances and could be popular with enterprise orgs in the future.
