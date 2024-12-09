@@ -3,34 +3,21 @@ type: news
 title: Amazon’s JS Runtime LLRT, Vite 5.1, and Interop 2024 Browser Initiatives
 date: 2024-02-12
 teaser: >
-  🌟 Vite 5.1, LLRT Amazon’s new JavaScript runtime, and a glimpse into the future
-  of browsers at Interop 2024! Join us for experimental runtime APIs, new serverless
-  magic, and fresh web standards. 🌐
+  🌟 Vite 5.1, LLRT Amazon’s new JavaScript runtime, and a glimpse into the future of browsers at Interop 2024! Join us for experimental runtime APIs, new serverless magic, and fresh web standards. 🌐
 description: >
-  The early trend of 2024 seems to be browser initiatives, with Amazon announcing their new JavaScript runtime, LLRT
-  (low latency runtime), an experimental, lightweight JS runtime designed to address the growing demand for fast and
-  efficient serverless applications.
+  The early trend of 2024 seems to be browser initiatives, with Amazon announcing their new JavaScript runtime, LLRT (low latency runtime), an experimental, lightweight JS runtime designed to address the growing demand for fast and efficient serverless applications.
 
 
-  Vite 5.1 is also released, with a new experimental runtime VPI, improved support for CSS files as URLs,
-  better performance, and more.
+  Vite 5.1 is also released, with a new experimental runtime VPI, improved support for CSS files as URLs, better performance, and more.
 
 
-  Interop 2024 just wrapped up, and 16 new initiatives were chosen by the major browser engine teams,
-  including focus areas of accessibility, popovers, CSS nesting, and - something web
-  developers have wanted since CSS was a thing - scrollbar styling! If you're interested to see how the various browsers
-  stack up against one another, there's a handy web platform tests site dashboard that shows which tests each browser passed
-  and failed of the 1.8M tests WPT has created so far.
+  Interop 2024 just wrapped up, and 16 new initiatives were chosen by the major browser engine teams, including focus areas of accessibility, popovers, CSS nesting, and - something web developers have wanted since CSS was a thing - scrollbar styling! If you're interested to see how the various browsers stack up against one another, there's a handy web platform tests site dashboard that shows which tests each browser passed and failed of the 1.8M tests WPT has created so far.
 
 
-  We also touch on the React Native visionOS that the Callstack team released in record time after the Apple Vision Pro's
-  debut, specifically for building native visionOS apps, and tip our hat to jQuery for release jQuery v4, a mere 8
-  years after jQuery 3 debuted. Kudos to the team for sticking with it.
+  We also touch on the React Native visionOS that the Callstack team released in record time after the Apple Vision Pro's debut, specifically for building native visionOS apps, and tip our hat to jQuery for release jQuery v4, a mere 8 years after jQuery 3 debuted. Kudos to the team for sticking with it.
 
 
-  Last but not least, the team behind Million.js teases their newest offering Million Lint, an IDE extension designed to help
-  identify and fix slow React components. Details are still scarce, but we're excited to see what they come up with, and will
-  be sure to update you as we learn more.
+  Last but not least, the team behind Million.js teases their newest offering Million Lint, an IDE extension designed to help identify and fix slow React components. Details are still scarce, but we're excited to see what they come up with, and will be sure to update you as we learn more.
 duration: "31:12"
 hosts:
   - jack

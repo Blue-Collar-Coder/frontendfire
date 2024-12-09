@@ -3,23 +3,15 @@ type: news
 title: Apple’s EU Browser Drama, Voice Powered Copilot Chat, and Zed OSS
 date: 2024-02-05
 teaser: >
-  📰 Catch the latest in tech drama: Apple under EU scrutiny, VS Code's 'Hey Code' voice command 
-  making waves, and Zed Code Editor embraces open-source. 🍎🗣️🔓
+  📰 Catch the latest in tech drama: Apple under EU scrutiny, VS Code's 'Hey Code' voice command making waves, and Zed Code Editor embraces open-source. 🍎🗣️🔓
 description: >
-  Lately, Apple's been making headlines in the EU for all the wrong reasons, and it's starting to come of a head with
-  changes announced to iOS, Safari, and the App Store in the European Union. Although Apple appears to be complying
-  with directives from the EU to open up iOS to alternative browsers, Mozilla says the it's placing an undue burden
-  on competitor browsers to build and maintain two separate browser implementations - one for EU-specific apps and one
-  for everyone else, which Apple themselves will not have to do.
+  Lately, Apple's been making headlines in the EU for all the wrong reasons, and it's starting to come of a head with changes announced to iOS, Safari, and the App Store in the European Union. Although Apple appears to be complying with directives from the EU to open up iOS to alternative browsers, Mozilla says the it's placing an undue burden on competitor browsers to build and maintain two separate browser implementations - one for EU-specific apps and one for everyone else, which Apple themselves will not have to do.
 
 
-  In other news, VS Code introduces new voice commands like 'Hey code' to start a voice session with Copilot Chat,
-  and the Zed code editor (a competitor to VS Code) goes open source in an effort to increase its market share,
-  and boost the number of plugins and extensions available from users in the community.
+  In other news, VS Code introduces new voice commands like 'Hey code' to start a voice session with Copilot Chat, and the Zed code editor (a competitor to VS Code) goes open source in an effort to increase its market share, and boost the number of plugins and extensions available from users in the community.
 
 
-  Finally, we round out the episode with a brief look at Open Props, a low-level framework,
-  built entirely on CSS variables so it's highly customizable, and can be adapted to fit any design system.
+  Finally, we round out the episode with a brief look at Open Props, a low-level framework, built entirely on CSS variables so it's highly customizable, and can be adapted to fit any design system.
 duration: "41:28"
 hosts:
   - jack
