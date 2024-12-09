@@ -3,17 +3,9 @@ type: news
 title: The Superglue Framework, Svelte 5’s Arrival, and OpenAI’s NY Times Legal Battle
 date: 2024-01-15
 teaser: >
-  🔥 The tech scene is heating up! Superglue's arrival aims to transform Rails by adding React &
-  Redux to the mix, Svelte 5 is making waves, and the courtroom drama unfolds – OpenAI’s being sued by the NY Times.
+  🔥 The tech scene is heating up! Superglue's arrival aims to transform Rails by adding React & Redux to the mix, Svelte 5 is making waves, and the courtroom drama unfolds – OpenAI’s being sued by the NY Times.
 description: >
-  The tech scene is heating up with the release of Superglue, an experimental new framework from Johnny Ho and
-  the team at Thoughtbot. Superglue combines the best of Rails with React and Redux,sending JSON props to the
-  React Redux app and swapping page components while still keeping the Rails goodness of form helpers, tag
-  helpers, cookie authentication, etc. We also touch on the preview of Svelte 5, which is set to bring in the
-  hotly anticipated runes, and the legal drama OpenAI finds itself in as the New York Times brings a lawsuit
-  against it for copyright infringement claiming OpenAI trained its AI models of NYT content. Finally, we wrap up
-  the episode with the less controversial, and possibly more useful, Knip tool that helps detect unused code
-  in your apps to keep them cleaner and more maintainable.
+  The tech scene is heating up with the release of Superglue, an experimental new framework from Johnny Ho and the team at Thoughtbot. Superglue combines the best of Rails with React and Redux,sending JSON props to the React Redux app and swapping page components while still keeping the Rails goodness of form helpers, tag helpers, cookie authentication, etc. We also touch on the preview of Svelte 5, which is set to bring in the hotly anticipated runes, and the legal drama OpenAI finds itself in as the New York Times brings a lawsuit against it for copyright infringement claiming OpenAI trained its AI models of NYT content. Finally, we wrap up the episode with the less controversial, and possibly more useful, Knip tool that helps detect unused code in your apps to keep them cleaner and more maintainable.
 duration: "33:03"
 hosts:
   - jack
