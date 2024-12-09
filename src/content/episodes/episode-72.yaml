@@ -1,0 +1,53 @@
+number: 72
+type: news
+title: Triple Thread: vlt, Vite 6, and Astro 5
+date: 2024-12-09
+teaser: >
+  🧩 This week:
+  - vlt reinvents JS package management
+  - Vite 6 adds a game-changing Environment API
+  - Astro 5 simplifies static-dynamic site creation
+Catch all the details in this episode:
+description: >
+  The new JavaScript package manager and serverless registry vlt debuted recently, promising to be a drop-in replacement for existing package managers like npm with additional offerings like a dependency query syntax selector and GUI experience for dependency graphs. More interesting though is vlt’s serverless package registry, vsr, which allows for local, self-hosted or managed hosting instances and could be popular with enterprise orgs in the future.
+
+
+  Vite 6.0 released this week, and its biggest improvement is the new experimental Environment API. The Environment API is designed so that framework authors can create as many environments as they need within a single Vite server so they can map the way their apps work in production. This allows Vite to now run on Bun, Deno, and edge runtimes, and work for specialized runtimes like React Native and Electron.
+ 
+
+  Astro 5.0 also enters primetime with Astro Content Layers that loads content from any source, Server Islands to combine cached, static content with dynamic content, simplified prerendering, and Vite 6 support (using the new Environment API, mentioned in the last paragraph).
+
+
+  Deno files a legal petition to get Oracle to give up its trademark for JavaScript, as it argues Oracle has never done anything with the name except and it is so generic now, it should be available for use for the public good. We’ll keep you updated on if Oracle lawyers up to fight this battle or not.
+
+
+  Today’s Fire Starter is the <details> disclosure HTML element. Who knew the accordion element painstakingly built by so many component libraries and JS-wielding devs in years past is a legitimate HTML element with full support across all major browsers? A few simple open and closed states handle showing and hiding the details’ contents, and a toggle event can change the state when the title is clicked. Nice!
+duration: "41:22"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Vite 6.0 is out
+    url: https://vite.dev/blog/announcing-vite6.html
+  - text: Astro 5.0 released
+    url: https://astro.build/blog/astro-5/
+  - text: vlt Client and Serverless registry
+    url: https://blog.vlt.sh/blog/introducing-vlt-and-vsr
+  - text: 'Deno v. Oracle: Canceling the JavaScript Trademark'
+    url: https://deno.com/blog/deno-v-oracle
+  - text: GenAIScript
+    url: https://microsoft.github.io/genaiscript/
+  - text: <details> dislosure HTML element
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+  - text: The Diplomat TV series
+    url: https://www.netflix.com/title/81288983
+  - text: Retaining your thumbs thanks to SawStop
+    url: https://www.sawstop.com/
+  - text: Everyone in My Family Has Killed Someone
+    url: https://www.goodreads.com/book/show/60879779-everyone-in-my-family-has-killed-someone
+  - text: Storygraph book tracker website
+    url: https://thestorygraph.com/  
+audio: https://www.buzzsprout.com/2226499/episodes/16243365-triple-threat-vlt-vite-6-and-astro-5.mp3
+spotify: https://open.spotify.com/episode/13VImVrseaXujQymqFdNub
+apple: https://podcasts.apple.com/us/podcast/triple-threat-vlt-vite-6-and-astro-5/id1700169000?i=1000679738316
