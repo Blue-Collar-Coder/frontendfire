@@ -1,0 +1,52 @@
+number: 73
+type: news
+title: "OpenAI Goes Pro, React 19 is Stable, and Figma's New Competitor Onlook"
+date: 2024-12-16
+teaser: >
+  🎉 React 19 is finally stable and packed with features! 💰 OpenAI drops a $200/month ChatGPT Pro with coding superpowers. 🎨 Onlook makes designing in your own React apps as easy as Figma. It’s the news roundup you didn’t know you needed!
+description: >
+  In our last news episode of the year, we share that React 19 is declared stable, just in time for the holidays. It’s been a long road from release candidate in April to stability now, but it was well worth the wait. React 19 is packing a lot of features, including: Actions, hooks, form actions, the new use API, and of course, React Server Components and Server Actions.
+
+
+  OpenAI’s been busy as well, introducing ChatGPT Pro, its $200 a month subscription for unlimited access to OpenAI o1 (the “reasoning" model), GPT-4o, and Advanced Voice mode. Additionally, the startup announced the ChatGPT desktop app for macOS can now read code in a handful of developer-focused coding apps, like VS Code, XCode, Terminal, and iTerm2.
+
+
+  There’s a new challenger to Figma for styling React-based code bases called Onlook. Onlook is a browser-based product studio that lets you design React code with Tailwind CSS using an easy-to-use interface just like you would in Figma. Swap text, change fonts, increase padding, adjust typography, colors, opacity, etc. - even design new React apps from scratch in Onlook, and write your changes back to the code in real-time. 
+
+
+  Apple finally releases iOS 18.2 and more Apple Intelligence features like AI image generation and Siri querying OpenAI for questions, but the initial offerings are a little underwhelming after all the hype.
+
+
+  And today’s Fire Starter is all about customizable selects coming to browsers in the next year or two. A pain point for basically the entirety of the Internet, <select> elements will finally be able to be custom-styled with the help of pseudo-elements, but also fallback to traditional styling if the new styling’s not yet supported by the browser.
+duration: "50:17"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Onlook, the power Figma in your React app
+    url: https://onlook.dev/
+  - text: React 19 is stable
+    url: https://react.dev/blog/2024/12/05/react-19
+  - text: "OpenAI announcements: ChatGPT Pro"
+    url: https://react.dev/blog/2024/12/05/react-19
+  - text: ChatGPT Work with Apps
+    url: https://techcrunch.com/2024/11/14/chatgpt-can-now-read-some-of-your-macs-desktop-apps
+  - text: Quantum Computing Inches Closer to Reality
+    url: https://www.nytimes.com/2024/12/09/technology/google-quantum-computing.html
+  - text: iOS 18.2 and Apple Intelligence
+    url: https://www.theverge.com/2024/12/11/24317119/ios-18-2-apple-intelligence-chatgpt-genmoji
+  - text: Customizable Selects (Wes Bos video)
+    url: https://developer.chrome.com/blog/rfc-customizable-select
+  - text: Black Doves TV series
+    url: https://www.netflix.com/title/81682935
+  - text: The Midnight Feast book
+    url: https://www.goodreads.com/book/show/199743738-the-midnight-feast
+  - text: Seestar-S50 All-in-One smart telescope
+    url: https://www.amazon.com/ZWO-Seestar-Astronomical-Smart-Telescope/dp/B0C37KG6VD
+  - text: Christmas Village in Grand Rapids, MI
+    url: https://christkindlmarktgr.com/
+audio: https://www.buzzsprout.com/2226499/episodes/16284301-openai-goes-pro-react-19-is-stable-and-figma-s-new-competitor-onlook.mp3
+spotify: https://open.spotify.com/episode/53Qdu3iizJSSOMpJZVi8CO
+apple: https://podcasts.apple.com/us/podcast/openai-goes-pro-react-19-is-stable-and-figmas-new/id1700169000?i=1000680545961
+clip: https://x.com/front_end_fire/status/1868665585653154070
