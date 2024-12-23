@@ -1,0 +1,45 @@
+number: 74
+type: topic
+title: 2024 Holiday Wrap Up
+date: 2024-12-23
+teaser: >
+  🎉 React 19 is finally stable and packed with features! 💰 OpenAI drops a $200/month ChatGPT Pro with coding superpowers. 🎨 Onlook makes designing in your own React apps as easy as Figma. It’s the news roundup you didn’t know you needed!
+description: >
+  We wrap up the podcast with an end of year holiday spectacular episode! Instead of the usual news, the hosts share the biggest front end stories of 2024, the most fascinating developments, and the moments that made us happiest.
+
+
+  When it comes to the biggest stories, void(0)’s goal of a unified toolchain stands out, with Evan You leading the charge and JavaScript projects like Vite and Vitest continuing to gain serious momentum. The React community also played a key role this year, with feedback on Suspense delaying React 19’s journey from release candidate to stable—ultimately leading to a better product for everyone. And, of course, the rise of AI tools in coding has sparked conversations about how we’ll continue to integrate them into our workflows in 2025.
+
+
+  Some of the most intriguing stories centered on Apple’s missteps. The Vision Pro came and went in a flash, Apple faced continued legal battles in the EU over PWAs and marketplace monopolies, and Apple Intelligence failed to live up to the hype. AI made waves again with a flood of frontend app builders like v0, bolt.new, and GitHub Sparks—and there’s no sign of that trend slowing down next year. And for sheer drama, nothing beats Automattic vs. WP Engine—a public war so intense it’s ready for a Netflix docuseries.
+
+
+  On a personal note, the things that made us happiest were surprisingly simple: seeing this podcast grow, sharing conversations each week, and enjoying the rewards of consistent practice in our hobbies. We also found joy in rediscovering activities like reading and taking time for the little things that matter.
+
+
+  Thank you, Front-end Fire listeners! We couldn’t have done this without you. Wishing you a wonderful holiday season, and we can’t wait to bring you more frontend goodness in 2025.
+duration: "48:41"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Vite and void(0)
+    url: https://voidzero.dev/
+  - text: React 19 drama and delays
+    url: https://bytes.dev/archives/299
+  - text: The rise in AI tooling, and how we move forward with it
+    url: https://addyo.substack.com/p/the-70-problem-hard-truths-about
+  - text: "Apple’s not-so-great year: Apple Vision Pro"
+    url: https://www.theverge.com/2024/10/23/24277584/apple-vision-pro-manufacturing-cutback
+  - text: Apple's EU legal issues
+    url: https://www.reuters.com/technology/apple-set-face-fine-under-eus-landmark-digital-markets-act-sources-say-2024-11-05/
+  - text: Underwhelming Apple Intelligence
+    url: https://www.wsj.com/tech/personal-tech/apple-intelligence-3833c320
+  - text: "AI app builders: v0, bolt.new, etc."
+    url: https://v0.dev/
+  - text: Wordpress Drama
+    url: https://www.theverge.com/2024/9/27/24256361/wordpress-wp-engine-drama-explained-matt-mullenweg
+audio: https://www.buzzsprout.com/2226499/episodes/16326524-2024-holiday-spectacular.mp3
+spotify: https://open.spotify.com/episode/7bEw4uKVJvS4rQh7NQFazT
+apple: https://podcasts.apple.com/us/podcast/2024-holiday-spectacular/id1700169000?i=1000681404853
