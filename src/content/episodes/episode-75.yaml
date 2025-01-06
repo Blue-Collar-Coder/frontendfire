@@ -1,0 +1,47 @@
+number: 75
+type: news
+title: State of JS 2024 Results, Free GitHub Copilot, and Awesome Shadcn UI
+date: 2025-01-06
+teaser: >
+  2025 is here, and so are: 📊 JS survey results (React rules, Vite loved ❤️), 🤖 Free GitHub Copilot plans, 🎨 Shadcn’s epic UI resources, ✂️ Clipboard API tricks, …and even WordPress drama 🍿. Start your year right! 🎙️
+description: >
+  To start us off in 2025, the State of JS 2024 survey results were recently released, and there’s lots of interesting stats to share. Vite continues to be the most loved framework and build tool amongst all JS devs, React continues to be the most used framework amongst JS devs at work, and SvelteKit and Astro are the two meta frameworks JS devs are most interested in trying out. Fun fact: 67% of respondents say they use ChatGPT to help them write code, but estimate only 12 - 20% of their code in a project is AI-assisted.
+
+
+  In keeping with the AI trend, VS Code announces a fee plan for GitHub Copilot: no trial, no subscription, no credit card required. Limits apply, but it’s a great opportunity for devs who aren’t sure if Copilot is worth the cost to try it out.
+
+
+  Shadcn has also released its new resource site Awesome Shadcn UI. The site contains 13 categories, 200 resources, and lots of useful links to templates, UI libraries, components, color customizations, animations, and more. 
+
+
+  And the new year wouldn’t be complete without some new WordPress drama as well. On December 20th, Matt Mullenweg imposed a “holiday break” on the Wordpress.org site, which shut down new account registration, plugin, theme, and photo directory submissions, and plugin reviews, with no cited end date of when operations would resume. He then went on Reddit on December 24 to ask what drama he should create in 2025, and the Reddit community let him know just what they thought of his current actions up to this point.
+
+
+  Finally, our first Fire Starter for 2025 is around the Clipboard API. It provides the ability to cut, copy, and paste from the browser to a user’s local system clipboard, but did you also know it can do fancy things like retain formatting for text or even copy complicated objects like images? Pretty cool!
+duration: "48:23"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: State of JS 2024 survey results
+    url: https://2024.stateofjs.com/en-US
+  - text: Shadcn UI design system resources
+    url: https://shadcn.batchtool.com/design-system
+  - text: Announcing a free GitHub Copilot for VS Code
+    url: https://code.visualstudio.com/blogs/2024/12/18/free-github-copilot
+  - text: Matt Mullenweg imposes a “holiday break” on WordPress
+    url: https://wordpress.org/news/2024/12/holiday-break/
+  - text: Matt asks Redditors what other drama he should create in 2025
+    url: https://www.reddit.com/r/WPDrama/comments/1hlp08d/what_drama_should_i_create_in_2025/
+  - text: Clipboard API
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
+  - text: Tulsa King TV series
+    url: https://www.imdb.com/title/tt16358384/
+  - text: Hue Play HDMI sync box 8K
+    url: https://www.philips-hue.com/en-us/p/hue-philips-hue-play-hdmi-sync-box-8k/046677579753
+  - text: Updating my blog
+    url: https://www.tjvantoll.com/
+audio: https://www.buzzsprout.com/2226499/episodes/16386683-state-of-js-2024-results-free-github-copilot-and-awesome-shadcn-ui.mp3
+spotify: https://open.spotify.com/episode/7EhOzBlMbEhGoFec2mvIrm
+apple: https://podcasts.apple.com/us/podcast/state-of-js-2024-results-free-github-copilot-and/id1700169000?i=1000682856710
