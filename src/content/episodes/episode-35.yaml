@@ -3,24 +3,18 @@ type: news
 title: Astro Adds Databases, Pigment CSS, and Speedometer 3.0 Browser Testing
 date: 2024-03-18
 teaser: >
-  🚀 Dive into the latest innovations in web development with Astro
-  unveiling Astro DB, Pigment CSS offering zero-runtime CSS-in-JS, and Speedometer 3.0 setting new
-  benchmarks for web app performance! ⚡️
+  🚀 Dive into the latest innovations in web development with Astro unveiling Astro DB, Pigment CSS offering zero-runtime CSS-in-JS, and Speedometer 3.0 setting new benchmarks for web app performance! ⚡️
 description: >
-  In this episode, we explore the latest in web development with Astro unveiling Astro DB,
-  a fully managed, blazing fast SQL-based database that is “ridiculously easy to use.”
+  In this episode, we explore the latest in web development with Astro unveiling Astro DB, a fully managed, blazing fast SQL-based database that is “ridiculously easy to use.”
 
 
-  Next, you may not know the name, but Speedometer just released version 3.0, which further
-  solidifies its status as the browser benchmark for web app responsiveness.
+  Next, you may not know the name, but Speedometer just released version 3.0, which further solidifies its status as the browser benchmark for web app responsiveness.
 
 
-  Pigment CSS, a zero-runtime CSS-in-JS solution from the makers of the Material UI component
-  library that works with Next.js' app router and React Server Components.
+  Pigment CSS, a zero-runtime CSS-in-JS solution from the makers of the Material UI component library that works with Next.js' app router and React Server Components.
 
 
-  And to cap it all off, we’ve got new details about Rolldown, the Rust-based version of Rollup,
-  and Chris Coyier’s honest thoughts about what happened to his CSS Tricks site after it was acquired.
+  And to cap it all off, we’ve got new details about Rolldown, the Rust-based version of Rollup, and Chris Coyier’s honest thoughts about what happened to his CSS Tricks site after it was acquired.
 duration: "35:23"
 hosts:
   - jack

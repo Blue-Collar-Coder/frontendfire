@@ -3,16 +3,9 @@ type: news
 title: Hono v4, Storybook 8, and an Update on Apple PWAs
 date: 2024-02-26
 teaser: >
-  Hono v4 joins the meta framework battle royale with SSG and file-based routing,
-  Storybook v8 supports React Server Components, and Apple adds a single FAQ bombshell
-  discontinuing PWA support in the European Union. Join us as we discuss the future of
-  web experiences!
+  Hono v4 joins the meta framework battle royale with SSG and file-based routing, Storybook v8 supports React Server Components, and Apple adds a single FAQ bombshell discontinuing PWA support in the European Union. Join us as we discuss the future of web experiences!
 description: >
-  Hono is a framework with a cool logo, cool name, and a cool new release
-  that we discuss in detail. Next, we talk about Storybook 8, which has some
-  exciting new support for React server components. Finally, we wrap up with an
-  update on Apple breaking PWAs in the EU. (Hint: If you think it is good news,
-  you are not correct.)
+  Hono is a framework with a cool logo, cool name, and a cool new release that we discuss in detail. Next, we talk about Storybook 8, which has some exciting new support for React server components. Finally, we wrap up with an update on Apple breaking PWAs in the EU. (Hint: If you think it is good news, you are not correct.)
 duration: "34:58"
 hosts:
   - jack
