@@ -3,7 +3,7 @@ type: news
 title: State of JS 2024 Results, Free GitHub Copilot, and Awesome Shadcn UI
 date: 2025-01-06
 teaser: >
-  2025 is here, and so are: 📊 JS survey results (React rules, Vite loved ❤️), 🤖 Free GitHub Copilot plans, 🎨 Shadcn’s epic UI resources, ✂️ Clipboard API tricks, …and even WordPress drama 🍿. Start your year right! 🎙️
+  2025 is here, and so are: 📊 JS survey results (React rules, Vite loved ❤️), 🤖 Free GitHub Copilot plans, 🎨 Shadcn’s epic UI resources, ✂️ Clipboard API tricks ...and even WordPress drama 🍿. Start your year right! 🎙️
 description: >
   To start us off in 2025, the State of JS 2024 survey results were recently released, and there’s lots of interesting stats to share. Vite continues to be the most loved framework and build tool amongst all JS devs, React continues to be the most used framework amongst JS devs at work, and SvelteKit and Astro are the two meta frameworks JS devs are most interested in trying out. Fun fact: 67% of respondents say they use ChatGPT to help them write code, but estimate only 12 - 20% of their code in a project is AI-assisted.
 
@@ -45,3 +45,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/16386683-state-of-js-2024-results-free-github-copilot-and-awesome-shadcn-ui.mp3
 spotify: https://open.spotify.com/episode/7EhOzBlMbEhGoFec2mvIrm
 apple: https://podcasts.apple.com/us/podcast/state-of-js-2024-results-free-github-copilot-and/id1700169000?i=1000682856710
+clip: https://x.com/front_end_fire/status/1876276151645323542
