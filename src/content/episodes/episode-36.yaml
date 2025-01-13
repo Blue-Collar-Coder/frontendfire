@@ -3,29 +3,16 @@ type: news
 title: Google’s New Web Vitals, AnalogJS Reaches 1.0, and is CSS-from-JS a Thing?
 date: 2024-03-25
 teaser: >
-  Forget CSS-in-JS, it's all about JS-from-CSS! Imagine styled React components using only
-  CSS. 🎨 Analog v1.0 has Vite integration, SSR/SSG, and more. Goodbye FID, hello INP as Chrome starts
-  measuring perf beyond the first interaction. 📊
+  Forget CSS-in-JS, it's all about JS-from-CSS! Imagine styled React components using only CSS. 🎨 Analog v1.0 has Vite integration, SSR/SSG, and more. Goodbye FID, hello INP as Chrome starts measuring perf beyond the first interaction. 📊
 description: >
-  CSS-in-JS has been around for years now, but have you tried JS-from-CSS? This week
-  we talk about the new alternative trend sweeping through the web development community:
-  writing only CSS to create a fully styled and typed React component. Two early
-  frontrunners in this race are MistCSS and Stylin, and we’ll keep an eye out for if this
-  new twist on writing JSX components catches on.
+  CSS-in-JS has been around for years now, but have you tried JS-from-CSS? This week we talk about the new alternative trend sweeping through the web development community: writing only CSS to create a fully styled and typed React component. Two early frontrunners in this race are MistCSS and Stylin, and we’ll keep an eye out for if this new twist on writing JSX components catches on.
 
 
-  AnalogJS, the meta-framework for Angular
-  we covered several months ago, announces release 1.0 with all the bells and whistles we’ve
-  come to expect from other meta frameworks: Vite integration, filesystem routing, SSR/SSG,
-  server routes, tRPC support, etc. and plans for future integrations with libraries like
-  Astro, Nx, Vitest and Storybook.
+  AnalogJS, the meta-framework for Angular we covered several months ago, announces release 1.0 with all the bells and whistles we’ve
+  come to expect from other meta frameworks: Vite integration, filesystem routing, SSR/SSG, server routes, tRPC support, etc. and plans for future integrations with libraries like Astro, Nx, Vitest and Storybook.
 
 
-  Chrome officially replaces the First Input Delay (FID)
-  web vital metric with Interaction to Next Paint (INP) to try to do a better job of evaluating
-  a webpage’s performance beyond just the first user interaction. And to round the episode out,
-  an API that is pure fun to play with on the demo site: Emojispolsion. It’s worth a look just
-  to see how creative the demos get (hint: the very last one is extra far out).
+  Chrome officially replaces the First Input Delay (FID) web vital metric with Interaction to Next Paint (INP) to try to do a better job of evaluating a webpage’s performance beyond just the first user interaction. And to round the episode out, an API that is pure fun to play with on the demo site: Emojispolsion. It’s worth a look just to see how creative the demos get (hint: the very last one is extra far out).
 duration: "37:29"
 hosts:
   - jack

@@ -3,32 +3,18 @@ type: news
 title: Wangular, RedwoodJS on the RSC Bandwagon, Modern CSS
 date: 2024-04-01
 teaser: >
-  🚀 Devs brace yourselves: This week RedwoodJS leveled up with support for RSCs, Chris Coyier
-  releases a great article on modern CSS, and Google announces the Wiz & Angular teams
-  are joining forces 🤝. Please name the new framework Wangular? 😂
+  🚀 Devs brace yourselves: This week RedwoodJS leveled up with support for RSCs, Chris Coyier releases a great article on modern CSS, and Google announces the Wiz & Angular teams are joining forces 🤝. Please name the new framework Wangular? 😂
 description: >
-  It turns out we had a lot of news to cover in this week’s episode. We kicked it off
-  discussing how RedwoodJS is the latest framework to support React Server Components, 
-  and has some pretty nice illustrated docs to help devs get started. 
+  It turns out we had a lot of news to cover in this week’s episode. We kicked it off discussing how RedwoodJS is the latest framework to support React Server Components, and has some pretty nice illustrated docs to help devs get started. 
 
 
-  Then, there was a rapid fire of interesting topics including a great new article about modern CSS from
-  Mr. CSS Tricks himself, Chris Coyier, a new documentary film on the origin story of
-  Node.js from the team that created the React and Ruby on Rails documentaries as well,
-  and a footnote about a new antitrust case the US Department of Justice has leveraged
-  against Apple.
+  Then, there was a rapid fire of interesting topics including a great new article about modern CSS from Mr. CSS Tricks himself, Chris Coyier, a new documentary film on the origin story of Node.js from the team that created the React and Ruby on Rails documentaries as well, and a footnote about a new antitrust case the US Department of Justice has leveraged against Apple.
 
 
-  At NG Conf earlier in the week, it was announced Google’s internal
-  framework Wiz might be combining with Angular after the two teams successfully worked
-  together to launch Angular signals primitives for 100% of YouTube’s mobile web traffic
-  to great effect. We can only hope the resulting combined framework is renamed to Wangular.
+  At NG Conf earlier in the week, it was announced Google’s internal framework Wiz might be combining with Angular after the two teams successfully worked together to launch Angular signals primitives for 100% of YouTube’s mobile web traffic to great effect. We can only hope the resulting combined framework is renamed to Wangular.
 
 
-  And to round it all out, yet another CSS framework has popped up claiming to have all
-  the answers to the ever pervasive feeling that CSS is hard. Will Nue CSS have the good
-  to back up its claim? We’ll have to wait and see, and give the new Promise.withResolvers
-  a spin in the meantime.
+  And to round it all out, yet another CSS framework has popped up claiming to have all the answers to the ever pervasive feeling that CSS is hard. Will Nue CSS have the good to back up its claim? We’ll have to wait and see, and give the new Promise.withResolvers a spin in the meantime.
 duration: "42:16"
 hosts:
   - jack
