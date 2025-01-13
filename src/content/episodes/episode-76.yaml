@@ -1,0 +1,44 @@
+number: 76
+type: news
+title: Honey Extension Scandal, Deno vs. Oracle, and Ghostty Terminal Emulator
+date: 2025-01-13
+teaser: >
+  🛒💰 Discount deception, ⚖️📜 trademark wars, and a blazing new terminal 🚀—this episode dives into Honey’s coupon controversy, Deno vs. Oracle for the JavaScript trademark, and the buzz around Ghostty. 🎧🔥
+description: >
+  This episode begins with a cautionary tale to double check your browser extensions. Popular coupon browser extension Honey’s been caught replacing affiliate links with its own tracking codes right before checkout, as well as applying pre-selected discount codes from its business partners that aren’t always the best deals.
+
+
+  A few weeks ago we reported Deno is petitioning Oracle to release the JavaScript trademark as Oracle’s never used it since acquiring it when it bought Sun Microsystems. This week, Oracle has informed Deno they won’t voluntarily withdraw their trademark on JavaScript, and are lawyering up. Deno plans to continue the fight to show "JavaScript" is widely recognized as a generic term, and we wish them the best of luck in doing so.
+
+
+  The creator of HashiCorp has built a new terminal emulator called Ghostty that’s getting a lot of buzz lately. Ghostty is written in Zig and uses platform native UI and GPU acceleration for an ultra fast terminal experience. It’s got all the expected features like split screen, key commands, and support for programs like Neovim, and is worth a shot if you’re interested in trying a new terminal competitor.
+
+
+  And this week’s Fire Starter is about the Broadcast Channel API. The Broadcast Channel API allows basic communication between browsing contexts (windows, tabs, frames, or iframes) and workers on the same origin. Things like user state synchronization between tabs (logged in status) or real-time updates for live data are a couple of scenarios where this API could work well.
+duration: "43:14"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Ghostty terminal emulator
+    url: https://ghostty.org/
+  - text: Ghostty app settings GUI
+    url: https://ghostty.zerebos.com/settings/application
+  - text: Honey browser extension scandal
+    url: https://www.youtube.com/watch?v=4H4sScCB1cY&ab_channel=LegalEagle
+  - text: Oracle plans to fight Deno's petition for it to release the JavaScript trademark
+    url: https://x.com/deno_land/status/1876728474666217739
+  - text: Node's experimental type stripping is enabled by default in v23.6.0
+    url: https://github.com/nodejs/node/pull/56450
+  - text: Broadcast Channel API
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API
+  - text: The Lies of Locke Lamora novel
+    url: https://www.goodreads.com/book/show/29588376-the-lies-of-locke-lamora
+  - text: Home automation and the Hue lighting API
+    url: https://developers.meethue.com/develop/get-started-2/
+  - text: CES! Featuring things like the Swippitt
+    url: https://www.zdnet.com/article/this-viral-phone-toaster-at-ces-can-fully-charge-your-handset-in-under-5-seconds-sort-of/
+audio: https://www.buzzsprout.com/2226499/episodes/16426363-honey-extension-scandal-deno-vs-oracle-and-ghostty-terminal-emulator.mp3
+spotify: https://open.spotify.com/episode/5spLhVDfUuDqrtpkAdWKHC
+apple: https://podcasts.apple.com/us/podcast/honey-extension-scandal-deno-vs-oracle-and-ghostty/id1700169000?i=1000683770008
