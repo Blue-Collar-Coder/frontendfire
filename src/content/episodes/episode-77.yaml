@@ -1,0 +1,51 @@
+number: 77
+type: news
+title: Expo Unveils Hosting, Interop 2024 Highlights, and Automattic Cuts WP Contributions
+date: 2025-01-20
+teaser: >
+  The Expo team shakes up mobile app deployment with EAS Hosting! 🚀 The Interop project dramatically improves browser interoperability in 2024. 🎉 And big changes at WordPress as Automattic slashes its OS contributions. 🛠️ Find out more in our latest episode. 🔥
+description: >
+  The first topic of conversation this week is an unexpected new area the Expo team is tackling: Expo Application Service Hosting. EAS Hosting is a new service for quickly deploying web projects built using Expo and React Native apps. It makes it easy to compile and sign apps with custom native code, upload apps to the Play Store or App Store, and push live app updates directly to users. Mobile app hosting has yet to be simplified like web hosting so it’s great to see the Expo team offering a one-stop shop for all your mobile app needs.
+
+
+  The Interop project, which aims to improve interoperability between major browser engines, released its accomplishments from 2024 this week. The browsers took on 17 areas of focus in 2024, and went from 46% of tests passing in January, all the way to 95% of tests passing by the end of December. Big wins included URL standardization, increased accessibility, support for CSS Nesting, the declarative shadow DOM, the popover element, relative color syntax, and more. We look forward to hearing what the project will tackle in 2025.
+
+
+  WordPress makes headlines once more, as Autommatic, the WordPress hosting company owned by WP creator Matt Mullenweg cuts its contributions back on the WP open-source project from 4,000 hours per week to 45 hours per week. The cutbacks are blamed on the significant time and money related to the ongoing legal battle with WP Engine and the growing criticism from the larger WP community.
+
+
+  In bonus news, Vitest 3.0 is out with some minor upgrades like simpler multi-browser configuration and a redesigned public API, and there’s new rumors swirling that Apple could be releasing an iPhone Air in the fall.
+
+
+  The Fire Starter for this episode is the WebXR Device API. A still experimental API that supports rendering 3D scenes to hardware designed for VR or AR (think Apple Vision Pro, Oculus, or even phone-based AR). The API implements the core WebXR feature set to manage selection of output devices, rendering scenes at the appropriate frame rate, and managing motion vectors created using input controllers. Fascinating!
+duration: "50:59"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Interop 2024 highlights
+    url: https://www.webkit.org/blog/16413/the-success-of-interop-2024/
+  - text: Expo APIs (EAS Hosting)
+    url: https://docs.expo.dev/eas/hosting/introduction/
+  - text: Automattic cuts WordPress contribution hours
+    url: https://www.theverge.com/2025/1/10/24340717/automattic-wordpress-contribution-hours-cut-wp-engine
+  - text: WordPress Drama Timeline
+    url: https://gist.github.com/adrienne/aea9dd7ca19c8985157d9c42f7fc225d
+  - text: Vitest 3.0 is out
+    url: https://vitest.dev/blog/vitest-3
+  - text: Rumors an iPhone Air could be coming later this year
+    url: https://www.theverge.com/2025/1/12/24341960/apple-iphone-17-air-slim-foldable-wi-fi-cell-modem
+  - text: WebXR Device API
+    url: https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API
+  - text: Shrinking TV show
+    url: https://www.imdb.com/title/tt15677150/
+  - text: Browser-based Open API spec editor, SwaggerEditor
+    url: https://editor-next.swagger.io/
+  - text: fzf command-line fuzzy finder
+    url: https://junegunn.github.io/fzf/
+  - text: Nintendo Switch 2
+    url: https://www.youtube.com/watch?v=itpcsQQvgAQ
+audio: https://www.buzzsprout.com/2226499/episodes/16466832-expo-unveils-hosting-interop-2024-highlights-and-automattic-cuts-wp-contributions.mp3
+spotify: https://open.spotify.com/episode/1NidfXeBcovGsjashq5nPN
+apple: https://podcasts.apple.com/us/podcast/expo-unveils-hosting-interop-2024-highlights-and/id1700169000?i=1000684682753
