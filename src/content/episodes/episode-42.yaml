@@ -3,42 +3,18 @@ type: news
 title: React 19, TypeScript 5.5, and GitHub Copilot Workspace Wants to Code For You
 date: 2024-05-06
 teaser: >
-  ⚡️ Hot off the press: React 19 beta offers Actions for async functions, TypeScript 5.5 beta brings 
-  inferred type predicates for smarter types, and GitHub unveils Copilot Workspaces, an AI-powered 
-  tool to fix code issues and even write new features for you! AI in coding just got real! 🔥
+  ⚡️ Hot off the press: React 19 beta offers Actions for async functions, TypeScript 5.5 beta brings inferred type predicates for smarter types, and GitHub unveils Copilot Workspaces, an AI-powered tool to fix code issues and even write new features for you! AI in coding just got real! 🔥
 description: >
-  This week we’re all about beta releases and technical previews of AI that will make us even more 
-  productive coders.
+  This week we’re all about beta releases and technical previews of AI that will make us even more productive coders.
 
 
-  Since the release of React 18, just over 2 years ago, the React team’s been hard at work, and at the 
-  end of April, React 19 beta dropped on npm. This new version brings Server Components and Server Actions 
-  out from behind the canary channel, stating they are now stable and will not break between major 
-  versions going forward. In addition to this, v19 introduces Actions: hooks for supporting asynchronous 
-  functions in transitions like form submission, designed to handle pending, error and optimistic updates 
-  in the UI automatically. There’s also a new use API, which can use Suspense to wait for promises to 
-  resolve (or contexts to be available) before rendering, and it can be done conditionally (something that 
-  hooks cannot). Additionally, React 19 offers better hydration errors, support for documentation metadata, 
-  stylesheets, asynchronous scripts, preloading resources, and custom elements. It’s a lot to take in, but 
-  there are upgrade guides and code mods to help developers itching to get started trying out this latest 
-  version of React.
+  Since the release of React 18, just over 2 years ago, the React team’s been hard at work, and at the end of April, React 19 beta dropped on npm. This new version brings Server Components and Server Actions out from behind the canary channel, stating they are now stable and will not break between major versions going forward. In addition to this, v19 introduces Actions: hooks for supporting asynchronous functions in transitions like form submission, designed to handle pending, error and optimistic updates in the UI automatically. There’s also a new use API, which can use Suspense to wait for promises to resolve (or contexts to be available) before rendering, and it can be done conditionally (something that hooks cannot). Additionally React 19 offers better hydration errors, support for documentation metadata, stylesheets, asynchronous scripts, preloading resources, and custom elements. It’s a lot to take in, but there are upgrade guides and code mods to help developers itching to get started trying out this latest version of React.
 
 
-  Not to be outdone, TypeScript also released v5.5 beta as well! Highlights for this new release include: 
-  inferred type predicates (good for when you filter null values out of an array but TypeScript yells 
-  because it doesn’t realize you have), regular expression syntax checking (it can’t tell you if your 
-  regex will actually catch what you want it to, but will tell you if your expression is invalid), and 
-  type imports in JSDoc.
+  Not to be outdone, TypeScript also released v5.5 beta as well! Highlights for this new release include: inferred type predicates (good for when you filter null values out of an array but TypeScript yells because it doesn’t realize you have), regular expression syntax checking (it can’t tell you if your regex will actually catch what you want it to, but will tell you if your expression is invalid), and type imports in JSDoc.
 
 
-  And GitHub expands on the capabilities of Copilot with the announcement of GitHub Copilot Workspaces: 
-  a Copilot-native development environment. Within Copilot Workspaces, developers can brainstorm, plan, 
-  build, test, and run code in natural language. Inside of a GitHub repo or issue, devs can tell Copilot 
-  agents to formulate a plan to fix the error or build a new feature, Copilot Workspaces offers a plan 
-  based on its understanding of the entire codebase, issue replies, and more, and everything from its 
-  plan to the code is entirely editable. Once a user likes the plan, they can run the code directly in 
-  Copilot Workspace and tweak until happy with the final result. It’s a lofty goal to be sure (and won’t 
-  be perfect right off the bat), but in a few years time this could be the new way we all code.
+  And GitHub expands on the capabilities of Copilot with the announcement of GitHub Copilot Workspaces: a Copilot-native development environment. Within Copilot Workspaces, developers can brainstorm, plan, build, test, and run code in natural language. Inside of a GitHub repo or issue, devs can tell Copilot agents to formulate a plan to fix the error or build a new feature, Copilot Workspaces offers a plan based on its understanding of the entire codebase, issue replies, and more, and everything from its plan to the code is entirely editable. Once a user likes the plan, they can run the code directly in Copilot Workspace and tweak until happy with the final result. It’s a lofty goal to be sure (and won’t be perfect right off the bat), but in a few years time this could be the new way we all code.
 duration: "36:28"
 hosts:
   - jack

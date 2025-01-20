@@ -3,39 +3,21 @@ type: news
 title: Node 22, Hydrogen gets Remix(ed), and Vercel Backs Away from the Edge
 date: 2024-04-29
 teaser: >
-  🎉 Shopify's Hydrogen framework is getting a power-up thanks to a boost from Remix, Node.js 
-  v22 has landed 🚀 with some exciting new features, and 🔄 Vercel shifts back to rendering via 
-  Node after exploring the edge. We discuss all that and more in this latest episode.
+  🎉 Shopify's Hydrogen framework is getting a power-up thanks to a boost from Remix, Node.js v22 has landed 🚀 with some exciting new features, and 🔄 Vercel shifts back to rendering via Node after exploring the edge. We discuss all that and more in this latest episode.
 description: >
   There’s rarely a dull moment in the web development world and this week is no exception to that rule. 
 
 
-  The episode kicks off with an update on Shopify’s meta framework Hydrogen, which is now built on top 
-  of the open source framework, Remix, which Shopify acquired back in October of 2022. Hydrogen now has 
-  full Vite support and integration with the Vite plugins ecosystem, an overhaul of its SEO (now powered 
-  by Remix), full page caching, and a decrease in the CLI bundle size of 60%. Listeners may wonder why 
-  Shopify continues to develop both Hydrogen and Remix, and the general thought is that Hydrogen is 
-  targeted specifically to bigger ecommerce companies that need modern routing, data fetching, SSR, and 
-  easy to work with Shopify APIs.
+  The episode kicks off with an update on Shopify’s meta framework Hydrogen, which is now built on top of the open source framework, Remix, which Shopify acquired back in October of 2022. Hydrogen now has full Vite support and integration with the Vite plugins ecosystem, an overhaul of its SEO (now powered by Remix), full page caching, and a decrease in the CLI bundle size of 60%. Listeners may wonder why Shopify continues to develop both Hydrogen and Remix, and the general thought is that Hydrogen is targeted specifically to bigger ecommerce companies that need modern routing, data fetching, SSR, and easy to work with Shopify APIs.
 
 
-  Node.js also released its latest version this month, and we’ve already reached v22. Amongst the improvements 
-  this version boasts, the most exciting one is probably the support for ESM through an experimental flag, 
-  which will eventually become the default. Long live ESM.
+  Node.js also released its latest version this month, and we’ve already reached v22. Amongst the improvements this version boasts, the most exciting one is probably the support for ESM through an experimental flag, which will eventually become the default. Long live ESM.
 
 
-  In a surprising reversal of course, Vercel announced it’s reverting all edge rendering back to Node.js. 
-  Vercel first acknowledges it had too many different “Edge” products, which made it hard for developers to keep 
-  straight, but then also it became apparent that even when running a site itself “on the edge”, if the site needed 
-  to access a database, it most likely had to go back to a region farther away to fetch the data. Turns out, using 
-  Vercel’s original Node.js runtime resulted in faster startups, cheaper costs, and better security than edge 
-  functions. Who knew?? 
+  In a surprising reversal of course, Vercel announced it’s reverting all edge rendering back to Node.js. Vercel first acknowledges it had too many different “Edge” products, which made it hard for developers to keep straight, but then also it became apparent that even when running a site itself “on the edge”, if the site needed to access a database, it most likely had to go back to a region farther away to fetch the data. Turns out, using Vercel’s original Node.js runtime resulted in faster startups, cheaper costs, and better security than edge functions. Who knew?? 
 
 
-  Today’s episode winds down with a few extra interesting bits of news: the FTC has announced a new rule to ban non compete 
-  agreements in the US, and a new feature from the popular React component collection shadcn called “Lift Mode”. 
-  “Lift Mode” essentially lets users pick and choose what code to copy from one of shadcn’s “blocks” (pre-made collections 
-  of components) for use in their own project. Pretty cool!
+  Today’s episode winds down with a few extra interesting bits of news: the FTC has announced a new rule to ban non compete agreements in the US, and a new feature from the popular React component collection shadcn called “Lift Mode”. “Lift Mode” essentially lets users pick and choose what code to copy from one of shadcn’s “blocks” (pre-made collections of components) for use in their own project. Pretty cool!
 duration: "36:36"
 hosts:
   - jack
