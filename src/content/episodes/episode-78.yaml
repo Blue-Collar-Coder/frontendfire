@@ -1,0 +1,47 @@
+number: 78
+type: news
+title: Bun 1.2, Tailwind CSS v4, and React Scan 0.1
+date: 2025-01-27
+teaser: >
+  Bun 1.2 has S3 & Postgres support and 90% Node compatibility. 🚀 Tailwind CSS v4 redefines speed & simplicity: 5x faster builds, container queries, and a Vite plugin. 🎨 React Scan auto-detects re-renders, pinpoint problem components, and optimize performance. 🤯
+description: >
+  This week, the team behind JavaScript runtime Bun drops some major updates into Bun 1.2. Bun introduces a built-in S3 storage API, a built-in Postgres client (with MySQL coming soon), 90% compatibility with Node.js, and it’s faster than ever before. Read the full blog post for all the new features in Bun 1.2 - it’s a lot.
+
+
+  Tailwind CSS v4 is out as well, and it boasts a new higher performance engine for 5x faster full builds, support for cutting edge CSS features like cascade layers, custom properties, and container queries, a simplified initial install and config to get going, and a first-party Vite plugin. Tailwind continues to gain steam amongst devs and it keeps raising the bar to bring more and more of the new baked-in CSS features to the devs who want to use them in the Tailwind syntax they’re used to.
+
+
+  And React Scan, built by Aiden Bai who also built Million.js, is out this week too with v0.1. Install React Scan into any React app and it will auto detect performance issues due to excessive re-rendering, and highlight the components causing the issues. If this can be integrated into CI/CD pipelines to prevent slow code from making it into production, this could be a serious game changer.
+
+
+  For bonus news, a new initiative called Stargate Project is announced, with plans to invest $500 billion building new AI infrastructure for OpenAI in the US. With backers like SoftBank and Oracle, and key partners like Microsoft, NVIDIA and Arm, this is definitely something to keep an eye on. Also, OpenAI demoed a new Operator AI agent that can perform tasks on the web for users, using its own browser to click, type and scroll. 
+
+
+  Finally, today’s Fire Starter is that all major browsers support linking to text fragments. If you’ve ever wanted to share a URL with someone that doesn’t include an anchor tag or other ID, that day has finally arrived. Simply highlight the text, right click and select the “Copy Link to Highlight” option, and voila! And if you want to code up this sort of link, the syntax is #:~:text=[text_to_jump_to_here]. It’s not the easiest syntax to remember, but the result is pretty handy.
+duration: "44:11"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Tailwind CSS v4.0
+    url: https://tailwindcss.com/blog/tailwindcss-v4
+  - text: React Scan 0.1 (aka Million.js)
+    url: https://react-scan.com/
+  - text: Bun 1.2
+    url: https://bun.sh/blog/bun-v1.2
+  - text: Stargate (not the movie & TV show)
+    url: https://openai.com/index/announcing-the-stargate-project/
+  - text: OpenAI's new Operator AI agenct can do things on the web for you
+    url: https://www.theverge.com/2025/1/23/24350395/openai-chatgpt-operator-agent-control-computer
+  - text: "Link to text fragments with #:~:text= in the URL"
+    url: https://frontendmasters.com/blog/cool-people-link-to-text-fragments/
+  - text: Table top puzzles (like the ones from Buffalo Games)
+    url: https://buffalogames.com/jigsaw-puzzles/
+  - text: Klipsch G-17 air wireless speaker
+    url: https://www.amazon.com/Klipsch-G-17-Air-Wireless-System/dp/B005KTNV70
+  - text: Not So Super, Apple
+    url: https://onefoottsunami.com/2025/01/23/not-so-super-apple/#fn1-2025-01-not-so-super
+audio: https://www.buzzsprout.com/2226499/episodes/16508380-news-bun-1-2-tailwind-css-v4-and-react-scan-0-1.mp3
+spotify: https://open.spotify.com/episode/1Mu7lC4d9uUbwbmHdPECBw
+apple: https://podcasts.apple.com/us/podcast/news-bun-1-2-tailwind-css-v4-and-react-scan-0-1/id1700169000?i=1000685634831
