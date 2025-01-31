@@ -3,32 +3,18 @@ type: news
 title: State of React and Stack Overflow Developer Surveys
 date: 2024-07-29
 teaser: >
-  Web dev survey season results are in! 📊 React devs love MUI, Zustand, and TanStack Query. 📈 From Svelte 
-  enthusiasm to Python popularity, the 2024 Stack Overflow Developer Survey offers a fascinating look at dev 
-  trends. Listen in for all the insights and surprises!
+  Web dev survey season results are in! 📊 React devs love MUI, Zustand, and TanStack Query. 📈 From Svelte enthusiasm to Python popularity, the 2024 Stack Overflow Developer Survey offers a fascinating look at dev trends. Listen in for all the insights and surprises!
 description: >
-  Web development survey results season is upon us, so this week’s episode covers two of the newly released 
-  survey results: the State of React survey 2023 and Stack Overflow Developer Survey 2024.
+  Web development survey results season is upon us, so this week’s episode covers two of the newly released survey results: the State of React survey 2023 and Stack Overflow Developer Survey 2024.
 
 
-  Just over 13,000 developers filled out the State of React survey, and the results were quite interesting. 
-  React devs are fans of component libraries like MUI (Material UI) and shadc/n, state management libraries 
-  like Zustand, and data fetching libraries like TanStack Query. They gripe about well-known Hook footguns 
-  like useEffect(), useMemo(), and useCallback(). And features like React Server Components and the use() 
-  Hook are still largely untested by the community, although many devs have heard of them.
+  Just over 13,000 developers filled out the State of React survey, and the results were quite interesting. React devs are fans of component libraries like MUI (Material UI) and shadc/n state management libraries like Zustand, and data fetching libraries like TanStack Query. They gripe about well-known Hook footguns like useEffect(), useMemo(), and useCallback(). And features like React Server Components and the use() Hook are still largely untested by the community, although many devs have heard of them.
 
 
-  The more all encompassing development survey from Stack Overflow received 65,000 responses this year, 
-  providing some very cool insights about the larger developer world beyond the bounds of React. Overall 
-  use of AI technologies like ChatGPT and GitHub Copilot is already quite high among devs, PostgreSQL continues 
-  to be the most popular database for the second year in a row, devs who’ve used Svelte in the past want to 
-  keep working with it in the future, and although JavaScript, Python, and SQL are all highly used languages, 
-  Rust continues to be the most admired programming language of the year.
+  The more all encompassing development survey from Stack Overflow received 65,000 responses this year, providing some very cool insights about the larger developer world beyond the bounds of React. Overall use of AI technologies like ChatGPT and GitHub Copilot is already quite high among devs, PostgreSQL continues to be the most popular database for the second year in a row, devs who’ve used Svelte in the past want to keep working with it in the future, and although JavaScript, Python, and SQL are all highly used languages, Rust continues to be the most admired programming language of the year.
 
 
-  It’s fascinating to watch the trends starting to catch on or die down in the web development space year over 
-  year, and we highly encourage everyone to take a look at the survey results. There will probably be some 
-  surprises in store.
+  It’s fascinating to watch the trends starting to catch on or die down in the web development space year over year, and we highly encourage everyone to take a look at the survey results. There will probably be some surprises in store.
 duration: "49:24"
 hosts:
   - jack

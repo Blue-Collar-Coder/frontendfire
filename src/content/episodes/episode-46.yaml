@@ -3,40 +3,22 @@ type: news
 title: New SSG Framework VitePress, Component Libraries Based on shadcn/ui, and Angular 18 Drops
 date: 2024-06-03
 teaser: >
-  🌟 From VitePress to Angular v18! Evan You’s new static site generator makes waves, while 
-  JollyUI & Ark UI redefine component libraries. Angular's shift from zone.js promises speed & 
+  🌟 From VitePress to Angular v18! Evan You’s new static site generator makes waves, while JollyUI & Ark UI redefine component libraries. Angular's shift from zone.js promises speed & 
   better DX. Let’s dive in!  🔥
 description: >
-  This is a rapid fire episode of news topics today because (as always) there’s plenty going on in 
-  the front-end development world.
+  This is a rapid fire episode of news topics today because (as always) there’s plenty going on in the front-end development world.
 
 
-  Evan You, the creator of the popular Vue.js framework and Vite build tool, is back with a new static 
-  site generator named VitePress. VitePress allows users to build fast, content-centric websites with 
-  Markdown, a fully customizable theme, and Vue-enhancements for greater interactivity, and it will 
-  generate static HTML pages that can be deployed anywhere.
+  Evan You, the creator of the popular Vue.js framework and Vite build tool, is back with a new static site generator named VitePress. VitePress allows users to build fast, content-centric websites with Markdown, a fully customizable theme, and Vue-enhancements for greater interactivity, and it will generate static HTML pages that can be deployed anywhere.
 
 
-  There’s also two new component library frameworks taking a page from the shadcn/ui open source component 
-  library: JollyUI and Ark UI. JollyUI provides shadcn/ui compatible, react aria components that you can copy 
-  and paste into your apps. They’re accessible, customizable, open source, and look darn good at first 
-  glance. Ark UI takes a slightly different approach billing itself as a headless library for building reusable, 
-  scalable design systems that work for a wide range of JS frameworks.
+  There’s also two new component library frameworks taking a page from the shadcn/ui open source component library: JollyUI and Ark UI. JollyUI provides shadcn/ui compatible, react aria components that you can copy and paste into your apps. They’re accessible, customizable, open source, and look darn good at first glance. Ark UI takes a slightly different approach billing itself as a headless library for building reusable, scalable design systems that work for a wide range of JS frameworks.
 
 
-  And the Angular team is back at it again with the twice a year release of a new major version of Angular. 
-  We’re up to v18 now, and Angular is encouraging users to move away from zone.js for change detection. It’s 
-  been a staple of Angular for years, but the library came with a number of developer experience and performance 
-  downsides and so the Angular team’s been hard at work building new APIs that don’t rely on zone.js and they’re 
-  ready for devs to try them out.
+  And the Angular team is back at it again with the twice a year release of a new major version of Angular. We’re up to v18 now, and Angular is encouraging users to move away from zone.js for change detection. It’s been a staple of Angular for years, but the library came with a number of developer experience and performance downsides and so the Angular team’s been hard at work building new APIs that don’t rely on zone.js and they’re ready for devs to try them out.
 
 
-  In bonus news, Google now offers its Gemini AI in Chrome DevTools to help developers better understand the errors 
-  and warnings that pop up in the console, Kyle Shevlin shares a very well written design system retrospective 
-  based off his own experiences building cross platform design systems for clients and dev teams, and IBM watsonx 
-  brings its own Code Assistant AI tool to the table. A unique twist with Code Assistant is that it offers not 
-  only code generation, but also code modernization (i.e. refactoring legacy code or translating code from one 
-  language to another).
+  In bonus news, Google now offers its Gemini AI in Chrome DevTools to help developers better understand the errors and warnings that pop up in the console, Kyle Shevlin shares a very well written design system retrospective based off his own experiences building cross platform design systems for clients and dev teams, and IBM watsonx brings its own Code Assistant AI tool to the table. A unique twist with Code Assistant is that it offers not only code generation, but also code modernization (i.e. refactoring legacy code or translating code from one language to another).
 duration: "35:37"
 hosts:
   - jack

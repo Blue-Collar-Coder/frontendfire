@@ -3,39 +3,21 @@ type: news
 title: Astro Announces Server Islands and Partners with Netlify
 date: 2024-07-22
 teaser: >
-  🚀 Big week for Astro! Introducing experimental "Server Islands" for a new level of performance 
-  and interactivity, plus official deployment partner status with Netlify. 🌟 Exciting news for 
-  React Native devs too! Expo is now the officially recommended framework by the React Native team.
+  🚀 Big week for Astro! Introducing experimental "Server Islands" for a new level of performance and interactivity, plus official deployment partner status with Netlify. 🌟 Exciting news for React Native devs too! Expo is now the officially recommended framework by the React Native team.
 description: >
-  Popular web framework Astro is making lots of headlines this week, between new experimental feature 
-  Server Islands, and achieving “official deployment partner” status with Netlify, it’s been a whirlwind.
+  Popular web framework Astro is making lots of headlines this week, between new experimental feature Server Islands, and achieving “official deployment partner” status with Netlify, it’s been a whirlwind.
 
 
-  But in addition to Astro’s big news, Expo, arguably the most popular framework for building React Native 
-  apps, has been endorsed by the React Native team as the recommended way to build apps. It offers access 
-  to 70+ native libraries right out of the box, a simple, file-based routing system, and effective native 
-  code management, which translates to a good developer experience. If you are building a new RN app, 
-  we highly encourage a look at Expo.
+  But in addition to Astro’s big news, Expo, arguably the most popular framework for building React Native apps, has been endorsed by the React Native team as the recommended way to build apps. It offers access to 70+ native libraries right out of the box, a simple, file-based routing system, and effective native code management, which translates to a good developer experience. If you are building a new RN app, we highly encourage a look at Expo.
 
 
-  Also, Vitest 2.0, the fastest growing test framework, has introduced a new experimental feature called 
-  “Browser Mode”, which allows users to run tests in the browser natively, providing access to browser 
-  globals like window and document. No more jsdom or snapshot testing, instead Vitest uses Playwright 
-  to render an iframe and run the tests in there. This could be the next evolution of unit tests and end 
-  to end tests if all goes well.
+  Also, Vitest 2.0, the fastest growing test framework, has introduced a new experimental feature called “Browser Mode”, which allows users to run tests in the browser natively, providing access to browser globals like window and document. No more jsdom or snapshot testing, instead Vitest uses Playwright to render an iframe and run the tests in there. This could be the next evolution of unit tests and end to end tests if all goes well.
 
 
-  Now back to Astro. In 2021, Astro made island architecture a mainstream idea, and Server Islands takes 
-  it a step further, making it easy to combine high performance static HTML and dynamic-server generated 
-  components. Static pieces of pages are cached on the edge, while fallback content is shown as the dynamic 
-  content is streamed in to add the personalization and interactivity. The best part? Server islands will 
-  work on any server infrastructure: Node.js to any serverless provider of your choice. It’s still experimental, 
-  but if you like to live on the edge, try it out now!
+  Now back to Astro. In 2021, Astro made island architecture a mainstream idea, and Server Islands takes it a step further, making it easy to combine high performance static HTML and dynamic-server generated components. Static pieces of pages are cached on the edge, while fallback content is shown as the dynamic content is streamed in to add the personalization and interactivity. The best part? Server islands will work on any server infrastructure: Node.js to any serverless provider of your choice. It’s still experimental, but if you like to live on the edge, try it out now!
 
 
-  And the Astro announcements kept coming with Netlify being declared Astro’s official deployment partner. 
-  Netlify’s betting on Astro and Server Islands, and will be sponsoring the Astro team with $12,500 each 
-  month to keep improving the framework and OSS community. Well done, Astro team!
+  And the Astro announcements kept coming with Netlify being declared Astro’s official deployment partner. Netlify’s betting on Astro and Server Islands, and will be sponsoring the Astro team with $12,500 each month to keep improving the framework and OSS community. Well done, Astro team!
 duration: "43:10"
 hosts:
   - jack
