@@ -3,7 +3,7 @@ type: news
 title: DeepSeek R1, Devin.ai, and TS Validation Standards
 date: 2025-02-03
 teaser: >
-  DeepSeek aims to usher in a new era of affordable AI. 💡🤖 Devin.ai = an enthusiastic junior dev 🧑‍💻- helpful, but not replacing real engineers just yet. 📜 Zod, ArkType, & Valibot unite to create Standard Schema, a common TS validation interface. ✅
+  DeepSeek aims to usher in a new era of affordable AI. 💡🤖 Devin.ai = an enthusiastic junior dev 🧑‍💻 - helpful, but not replacing real engineers just yet. 📜 Zod, ArkType, & Valibot unite to create Standard Schema, a common TS validation interface. ✅
 description: >
   A new challenger to rival OpenAI’s best ChatGPT model has arisen from China named DeepSeek R1. The reason it’s causing even more of a stir is because the creators claim DeepSeek R1 was trained for under $5M - a mere fraction of the cost of comparable models to date - and they’ve open sourced the code, the models, all of it. This breakthrough could dramatically lower the cost for companies looking to build their own AI-backed businesses and make it much more affordable and accessible than it’s ever been before.
 
@@ -53,3 +53,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/16550694-deepseek-r1-devin-ai-and-ts-validation-standards.mp3
 spotify: https://open.spotify.com/episode/1dUmVfb5twhEmbwKLhkWyU
 apple: https://podcasts.apple.com/us/podcast/deepseek-r1-devin-ai-and-ts-validation-standards/id1700169000?i=1000688497308
+clip: https://x.com/front_end_fire/status/1886424297570189806
