@@ -32,7 +32,7 @@ links:
     url: https://bun.sh/blog/bun-v1.2
   - text: Stargate (not the movie & TV show)
     url: https://openai.com/index/announcing-the-stargate-project/
-  - text: OpenAI's new Operator AI agenct can do things on the web for you
+  - text: OpenAI's new Operator AI agent can do things on the web for you
     url: https://www.theverge.com/2025/1/23/24350395/openai-chatgpt-operator-agent-control-computer
   - text: "Link to text fragments with #:~:text= in the URL"
     url: https://frontendmasters.com/blog/cool-people-link-to-text-fragments/

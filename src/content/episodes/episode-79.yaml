@@ -1,0 +1,55 @@
+number: 79
+type: news
+title: DeepSeek R1, Devin.ai, and TS Validation Standards
+date: 2025-02-03
+teaser: >
+  DeepSeek aims to usher in a new era of affordable AI. 💡🤖 Devin.ai = an enthusiastic junior dev 🧑‍💻- helpful, but not replacing real engineers just yet. 📜 Zod, ArkType, & Valibot unite to create Standard Schema, a common TS validation interface. ✅
+description: >
+  A new challenger to rival OpenAI’s best ChatGPT model has arisen from China named DeepSeek R1. The reason it’s causing even more of a stir is because the creators claim DeepSeek R1 was trained for under $5M - a mere fraction of the cost of comparable models to date - and they’ve open sourced the code, the models, all of it. This breakthrough could dramatically lower the cost for companies looking to build their own AI-backed businesses and make it much more affordable and accessible than it’s ever been before.
+
+
+  In the same vein, both TJ and Paige had the chance to try out AI coding assistant Devin.ai firsthand last week. Devin is best described as an energetic junior programmer, and while it offers unique ways of interacting with it: Slack threads, PR comments, and has oversight over multiple repos so it can be asked to do things like compare documentation in one repo to SDK endpoints in another, its end value is still questionable. It can handle simple enough tasks, but don’t expect a complex, fully working solution without proper vetting, at least not yet.
+
+
+  TypeScript validation libraries have been catching on in recent years, and the creators of some of the most popular ones (Zod, ArkType, and Valibot) have gotten together to promote a common interface for libraries called Standard Schema. Other libraries who want to join in Standard Schema’s interface can simply copy/paste a single TypeScript interface into their own codebases, and they’re done. Long live standardization.
+
+
+  Netlify co-founder and CEO, Matt Biilman, has coined a new term sure to catch on in the industry called “AX” (agent experience). Matt makes the case that companies that focus on the ease with which an AI agent can get access to operating platforms on a user’s behalf (well documented APIs, machine-ready docs and context, etc.), will win the day. And he’s probably right on target. Vercel, in an effort to improve its v0 offering even more, announces the acquisition of open source React-based dashboard and chart library Tremor. And it seems the trend of rewriting all JS ecosystem tools in Rust may have reached its peak, as both Prisma and Replicache announce they’re going back to being written in JavaScript.
+
+
+  This week’s Fire Starter covers the new(er) JavaScript methods of toReversed, toSorted, and toSpliced. These methods work the same as their non-to- prefixed versions except instead of manipulating the original array, it returns a new array with the elements. This is the functional programming style of methods web developers have wanted since the beginning of JS, and it’s nice to see them finally being added to the core language.
+duration: "52:32"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Standard Schema promotes a common interface for TypeScript validation libraries
+    url: https://standardschema.dev/
+  - text: DeepSeek R1
+    url: https://www.deepseek.com/
+  - text: Our firsthand experiences with Devin.ai
+    url: https://devin.ai/
+  - text: Jokes about AI trained coding assistants
+    url: https://x.com/ProductHunt/status/1885277467708993946
+  - text: "Matt Biilman coins the next big term in web dev experience: AX (“agent experience”)"
+    url: https://biilmann.blog/articles/introducing-ax/
+  - text: Vercel acquires dashboard and chart library Tremor
+    url: https://vercel.com/blog/vercel-acquires-tremor
+  - text: "Has the “Rust wave” crested?"
+    url: https://x.com/aboodman/status/1885089971608182968
+  - text: toReversed
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed
+  - text: toSorted
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted
+  - text: toSpliced
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced
+  - text: The Recruit TV series
+    url: https://www.imdb.com/title/tt16030542/
+  - text: The Subtle Art of Not Giving a F*ck book
+    url: https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713
+  - text: Onyx Storm novel
+    url: https://www.goodreads.com/book/show/209439446-onyx-storm
+audio: https://www.buzzsprout.com/2226499/episodes/16550694-deepseek-r1-devin-ai-and-ts-validation-standards.mp3
+spotify: https://open.spotify.com/episode/1dUmVfb5twhEmbwKLhkWyU
+apple: https://podcasts.apple.com/us/podcast/deepseek-r1-devin-ai-and-ts-validation-standards/id1700169000?i=1000688497308
