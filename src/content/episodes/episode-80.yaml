@@ -3,7 +3,7 @@ type: news
 title: MCP AI Tools, OpenAI’s Deep Research, and React 19 Breaks CRA
 date: 2025-02-10
 teaser: >
-  🤖 Model Context Protocol (MCP) is here, promising smarter AI tool integration… but does it deliver? 😬 React 19 just broke its own CRA, and the community is NOT happy and wants it fixed then deprecated. 💀 And ChatGPT introduces deep research for all your complex research tasks. Catch up on the chaos. 🎙️
+  🤖 Model Context Protocol (MCP) is here, promising smarter AI tool integration… does it deliver? 😬 React 19 just broke its own CRA, and the community's NOT happy and wants it deprecated. 💀 And ChatGPT introduces deep research for all your complex research tasks. Catch up on the chaos. 🎙️
 description: >
   The latest wrinkle for AI coding assistant tools like Cursor and Windsurf is known as the Model Context Protocol (MCP). MCP is an open protocol that allows users to provide custom tools and services to agentic LLMs like calling a third party weather service. Jack gave it a shot and was less than impressed with the experience, but it’s early days yet and MCPs can only improve.
 
@@ -49,3 +49,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/16592609-mcp-ai-tools-openai-s-deep-research-and-react-19-breaks-cra.mp3
 spotify: https://open.spotify.com/episode/2fIarqPIkubyqcWN8qGRC4
 apple: https://podcasts.apple.com/us/podcast/mcp-ai-tools-openais-deep-research-and-react-19-breaks-cra/id1700169000?i=1000690807454
+clip: https://x.com/front_end_fire/status/1888959595558666401
