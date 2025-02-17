@@ -1,0 +1,50 @@
+number: 81
+type: news
+title: State of React Results, TypeScript 5.8, and v0 Upgrades
+date: 2025-02-17
+teaser: >
+  📊 React’s State of 2024 survey is in—Next.js still dominates, and Tailwind reigns supreme! Plus, TS 5.8 beta takes another step toward seamless Node support. 🤖 And Vercel’s v0 just got a serious upgrade—Figma & Tailwind configs now import seamlessly! ✨
+description: >
+  Please take our listener survey: https://forms.gle/yihkDTG5jwpEZNzGA so we can better tailor the podcast to your interests.
+
+
+  It’s only mid-February and already the State of React survey results for 2024 are in! Unsurprisingly Next.js continues to dominate as the most used React-based framework and Tailwind CSS tops the charts when it comes to CSS tools and libraries.
+
+
+  TypeScript 5.8 beta brings TypeScript syntax one step closer to being a first-class citizen in the Node runtime. Node 23.6 unflagged experimental support for running TS files directly, but certain TS constructs like enums, import aliases and a few other things just aren’t supported. TS 5.8 beta introduces the --eraseabeSyntaxOnly flag, which will allow users to only write TS constructs that can be erased from a Node file, and will issue an error if it encounters constructs that can’t be erased cleanly.
+
+
+  Vercel’s AI tool v0 can now import Tailwind configs and Figma files. Now, designs begun in Figma can be imported to v0 to refine without the friction of design-to-code translation, and custom font weights and colors can be added to directly from a custom Tailwind config file.
+
+
+  Honeypot, the folks who made the high quality documentaries about the origins of Node.js and the React team are at it again with a new documentary about AngularJS. And Astro 5.2 is out with support for Tailwind 4 and TOML frontmatter in Markdown.
+
+
+  CSS hanging-punctuation is our Fire Starter topic for this episode. Hanging punctuation gives web designers finer grained control over typography, allowing punctuation characters at the start of text elements to live “outside” the box to preserve reading flow. The difference is small, but those extra touches can really add up to an overall better experience.
+duration: "40:28"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Front-end Fire listener survey
+    url: https://forms.gle/yihkDTG5jwpEZNzGA
+  - text: TypeScript 5.8’s -–eraseableSyntaxOnly flag
+    url: https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta
+  - text: v0 can now import Tailwind config and Figma files
+    url: https://vercel.com/blog/bridging-the-gap-between-design-and-code-with-v0
+  - text: State of React 2024 survey results
+    url: https://2024.stateofreact.com
+  - text: "Angular: The Documentary"
+    url: https://www.youtube.com/watch?v=cRC9DlH45lA
+  - text: Astro 5.2
+    url: https://astro.build/blog/astro-520/
+  - text: CSS hanging-punctuation
+    url: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
+  - text: A Man on the Inside TV series
+    url: https://www.imdb.com/title/tt26670955/
+  - text: Heated gloves
+    url: https://www.amazon.com/5000mAh-Battery-Electric-Rechargeable-Waterproof/dp/B0DP4PFZ81
+audio: https://www.buzzsprout.com/2226499/episodes/16634355-state-of-react-results-typescript-5-8-and-v0-upgrades.mp3
+spotify: https://open.spotify.com/episode/5InkhGSFH5cgFWV80C9H3l
+apple: https://podcasts.apple.com/us/podcast/state-of-react-results-typescript-5-8-and-v0-upgrades/id1700169000?i=1000693010079

@@ -17,7 +17,7 @@ description: >
   Dan Abramov announces he’s leaving Bluesky after working with the startup for over a year in order to spend more time with his family and take a much needed break. GitHub Copilot jumps into the agentic game with Copilot Edits. Now, Copilot can iterate on its own code, recognize errors and fix them automatically, run tests from the terminal, and even analyze run-time errors with self-healing capabilities. And the Oracle v. Deno trademark legal battle continues with Oracle filing a motion to dismiss on the flimsiest of arguments.
 
 
-  The CSS position of sticky is this week’s Fire Starter topic. Although sticky has been around since 2015, it’s still a bit trickier to grasp than some of the other positions. Paige ended up using sticky in her code recently and learned the tricky to sticky. In order for one element to float over the top of other elements, they must all be siblings within the same container element. If you can remember that, sticky should work like a charm, no position fixed needed
+  The CSS position of sticky is this week’s Fire Starter topic. Although sticky has been around since 2015, it’s still a bit trickier to grasp than some of the other positions. Paige ended up using sticky in her code recently and learned the tricky to sticky. In order for one element to float over the top of other elements, they must all be siblings within the same container element. If you can remember that, sticky should work like a charm, no position fixed needed.
 duration: "50:30"
 hosts:
   - jack
