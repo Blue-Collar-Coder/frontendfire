@@ -1,11 +1,12 @@
 number: 82
 type: news
-title: TraeAI Enters the IDE Wars, CRA's Successor, and Bolt.new + Expo
+title: "TraeAI Enters the IDE Wars, CRA's Successor, and Bolt.new + Expo"
 date: 2025-02-24
 teaser: >
   🚀 ByteDance enters the AI IDE wars with Trae, a VS Code fork competing with Windsurf & Cursor! Jack launches a new CRA replacement that is 🔥, Bolt.new teams up with Expo, & Microsoft’s new state of matter?! 🤯🎙️
 description: >
   Please take our listener survey: https://forms.gle/yihkDTG5jwpEZNzGA so we can better tailor the podcast to your interests.
+
 
   The parent company of TikTok, ByteDance, has just released TraeAI, the newest entrant to the AI-enhanced IDE wars. Trae is also a fork of the VS Code IDE and offers many of the same AI features of competitors Windsurf and Cursor: chats, autocomplete, etc. For now, Trae is completely free to use with either of the available AI agents ChatGPT 4o or Claude 3.5 Sonnet, and there’s no word on if it may offer a cost based subscription model in the future.
 
@@ -28,7 +29,7 @@ hosts:
 links:
   - text: Bolt.new & Expo integrate to build mobile apps with AI
     url: https://expo.dev/blog/bolt-expo-integration-announcement
-  - text: Jack’s very own Create React App replacement: create-tsrouter-app
+  - text: "Jack’s very own Create React App replacement: create-tsrouter-app"
     url: https://github.com/TanStack/create-tsrouter-app
   - text: TraeAI
     url: https://www.trae.ai/
