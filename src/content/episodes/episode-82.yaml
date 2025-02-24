@@ -1,0 +1,47 @@
+number: 82
+type: news
+title: TraeAI Enters the IDE Wars, CRA's Successor, and Bolt.new + Expo
+date: 2025-02-24
+teaser: >
+  🚀 ByteDance enters the AI IDE wars with Trae, a VS Code fork competing with Windsurf & Cursor! Jack launches a new CRA replacement that is 🔥, Bolt.new teams up with Expo, & Microsoft’s new state of matter?! 🤯🎙️
+description: >
+  Please take our listener survey: https://forms.gle/yihkDTG5jwpEZNzGA so we can better tailor the podcast to your interests.
+
+  The parent company of TikTok, ByteDance, has just released TraeAI, the newest entrant to the AI-enhanced IDE wars. Trae is also a fork of the VS Code IDE and offers many of the same AI features of competitors Windsurf and Cursor: chats, autocomplete, etc. For now, Trae is completely free to use with either of the available AI agents ChatGPT 4o or Claude 3.5 Sonnet, and there’s no word on if it may offer a cost based subscription model in the future.
+
+
+  Recently we reported the React team agreed to deprecate starter React repo Create React App due to changes in React 19 breaking the project. Well, our very own Jack Herrington collaborated with the TanStack team to create a drop-in replacement called create-tsrouter-app that builds TanStack Router-based SPA applications to give folks who previously used CRA a better option in today’s world. Kudos, Jack!
+
+
+  Bolt.new, the browser-based AI agent, continues to make news announcing a new integration with native app development framework Expo. Now users can describe to Bolt what sort of mobile app they want in natural language, preview the code in real time on any platform, refine their vision by chatting with the agent, and finally deploying it to the app store.
+
+
+  For bonus news, Microsoft claims to have created a new state of matter called a “topological qubit” that could be a real breakthrough for the future of quantum computing. And ESLint now supports CSS linting - even for projects using custom CSS syntax or Tailwind CSS.
+
+
+  Finally, today’s Fire Starter is about the new CSS feature text-box-trim. Text-box lets developers and designers tailor the space above and below text that, until now, was not easily measured and impossible to control. It allows for easier centering and alignment of text within elements like title tags, buttons, and spans by removing the wildly different “half leading” space from fonts, so less tricks like negative margins, odd padding combinations, and janky calc() functions are required to make text in the browser, look like the text in the design mock.
+duration: "48:49"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Bolt.new & Expo integrate to build mobile apps with AI
+    url: https://expo.dev/blog/bolt-expo-integration-announcement
+  - text: Jack’s very own Create React App replacement: create-tsrouter-app
+    url: https://github.com/TanStack/create-tsrouter-app
+  - text: TraeAI
+    url: https://www.trae.ai/
+  - text: Microsoft Says It Has Created a New State of Matter
+    url: https://www.nytimes.com/2025/02/19/technology/microsoft-quantum-computing-topological-qubit.html
+  - text: ESLint supports CSS linting
+    url: https://eslint.org/blog/2025/02/eslint-css-support/?
+  - text: CSS text-box-trim
+    url: https://developer.chrome.com/blog/css-text-box-trim
+  - text: Drop Stop car seat gap filler
+    url: https://www.amazon.com/Drop-Stop-Original-Patented-Filler/dp/B00BYH6C1E
+  - text: Onyx Storm novel
+    url: https://www.goodreads.com/book/show/209439446-onyx-storm
+audio: https://www.buzzsprout.com/2226499/episodes/16680088-traeai-enters-the-ide-wars-cra-s-successor-and-bolt-new-expo.mp3
+spotify: https://open.spotify.com/episode/1sj8yto1IhfOcRsrKkAuIT
+apple: https://podcasts.apple.com/us/podcast/traeai-enters-the-ide-wars-cras-successor-and-bolt-new-expo/id1700169000?i=1000695504140
