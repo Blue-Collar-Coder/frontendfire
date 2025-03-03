@@ -1,0 +1,48 @@
+number: 83
+type: news
+title: Our AI Tool Preferences, Claude Code, & create-tsrouter-app Goes Solid
+date: 2025-03-03
+teaser: >
+  On this week’s Front-End Fire: 💡 State of AI 2025 is here—let your AI tool opinions be known! 🛠️ Anthropic releases Claude Code—an AI CLI that can edit & commit code, 🔥 Jack’s create-tsrouter-app now ships with Solid JS support. Listen now!🎙️🎧
+description: >
+  Please take our listener survey: https://forms.gle/yihkDTG5jwpEZNzGA so we can better tailor the podcast to your interests.
+
+
+  The web development world can’t seem to get enough of surveys, so we’ve got the first State of AI 2025 to announce in this week’s episode. The folks behind this survey are the same ones who run State of JS, State of CSS, State of HTML, and more. Take 15 minutes to let them know what AI models you prefer, which code assistants you use, and what annoys you about the state of AI today.
+
+
+  Along the same lines, Anthropic just released Claude Sonnet 3.7 and Claude Code. Claude Sonnet’s become a favorite model in the programming world and 3.7 introduces the first hybrid model that can produce near instant responses or extended, thoughtful responses, depending on what the user wants. Claude Code is Anthropic’s first agentic coding tool in the form of a CLI that can search and read code, edit files, run tests, and commit code to GitHub.
+
+
+  Jack’s drop in replacement for the deprecated Create React App, create-tsrouter-app, now offers Solid JS support, add-ons like including Sentry or Tailwind CSS in a new project, and model context protocol (MCP) support for AI coding assistants to interact with the application.
+
+
+  In bonus news, TJ shares his experience trying out the Bolt.new and Expo integration we covered in last week’s episode. Long story short, he couldn’t get the code preview to load on his phone, so there’s still some work to be done there. Also, Aiden Bai, creator of Million.js, has released v0.2 of React Scan, a tool to automatically detect and highlight components causing performance issues in React apps. He also wrote a tool called React Explorer that turns any React website into an interactive visualization; its usefulness still remains to be determined.
+duration: "44:33"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Take the State of AI survey 2025
+    url: https://survey.devographics.com/en-US/survey/state-of-ai/2025
+  - text: "create-tsrouter-app updates (Solid, add-ons, MCP support)"
+    url: https://github.com/TanStack/create-tsrouter-app
+  - text: Claude Sonnet 3.7 and Claude Code
+    url: https://www.anthropic.com/news/claude-3-7-sonnet
+  - text: First impressions of Bolt.new's Expo integration
+    url: https://bolt.new/
+  - text: react-scan 0.2
+    url: https://react-scan.com/
+  - text: React Explorer tool
+    url: https://www.react-explorer.com/
+  - text: Breville InFizz Aqua
+    url: https://www.breville.com/en-us/product/bca600
+  - text: Adrian's Digital Basement YT channel
+    url: https://adriansbasement.com/
+  - text: ClaudePlaysPokemon Twitch channel
+    url: https://www.twitch.tv/claudeplayspokemon
+audio: https://www.buzzsprout.com/2226499/episodes/16721842-our-ai-tool-preferences-claude-code-create-tsrouter-app-goes-solid.mp3
+spotify: https://open.spotify.com/episode/2PKh7q0fiFSZKvwzx7WPDV
+apple: https://podcasts.apple.com/us/podcast/our-ai-tool-preferences-claude-code-create-tsrouter/id1700169000?i=1000697370285
+youtube: https://www.youtube.com/watch?v=dff4ZU7129Y
