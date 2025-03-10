@@ -1,0 +1,48 @@
+number: 84
+type: news
+title: TanStack Form v1, ByteDance Debuts Lynx, & VS Code AI Levels Up
+date: 2025-03-10
+teaser: >
+  📝 TanStack Form v1 is here! Is it the ultimate form solution? 📱 ByteDance releases Lynx—the native UI framework powering TikTok! 🤖 VS Code’s Feb update is packed with AI upgrades: GPT-4.5 & Claude 3.7, image context for prompts, and an improved Agent Mode.
+description: >
+  The Tanner-verse expands again, as TanStack Form announces v1 just two years after Tanner Linsley began work on it. Out of the gate, TanStack Form supports React, Vue, Angular, Solid, and Lit. It offers TS type safety end-to-end, Standard Schema validation support, and an easy to use API for powerful, flexible form management.
+
+
+  ByteDance (yes, that ByteDance) has released a React Native competitor named Lynx. Lynx is a new JavaScript framework that allows you to write apps that run across iOS, Android, and the Web, and it’s already being used in production TikTok apps.
+
+
+  VS Code’s February release had some major AI highlights this month. Preview access to the latest ChatGPT 4.5 and Claude Sonnet 3.7 models for GH Copilot, the ability to attach images, GH problems, and entire folders for context, and improvements to Agent Mode where Copilot can search workspaces for relevant code, edit files, check for errors, and run terminal commands. These features are also offered by VS Code’s IDE competitors, but if it can poach the best ideas from them and keep up, it may be able to retain its monopoly on the IDE market.
+
+
+  Tailwind UI has rebranded itself Tailwind Plus, in order to better encompass how it wants to grow in the future - think custom editor themes, new color palettes, early access to beta features and in-person events. And the term “vibecoding” has gone mainstream as a writer for the New York Times describes how he (and others like him) are using AI-powered coding tools like Bolt or Replit Agent to build useful little apps for themselves with no prior coding experience or know-how. 
+
+
+  The Invoker Commands API is this episode’s Fire Starter topic. It’s still in the experimental stage, but provides a way to declaratively assign simple behaviors to buttons with no JavaScript needed. For basic things like controlling modals or popovers, add commandFor in a button element with the ID of the element to control, and command to specify the action to be performed on the element. For when you only need a smidge of functionality, this may save a project from needing  JavaScript at all in the future.
+duration: "42:01"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: VS Code Feb highlights
+    url: https://code.visualstudio.com/updates/v1_98
+  - text: TanStack Form hits v1
+    url: https://tanstack.com/blog/announcing-tanstack-form-v1
+  - text: Lynx by ByteDance
+    url: https://lynxjs.org/blog/lynx-unlock-native-for-more.html
+  - text: Tailwind UI becomes Tailwind Plus
+    url: https://tailwindcss.com/blog/tailwind-plus
+  - text: Vibecoding
+    url: https://www.nytimes.com/2025/02/27/technology/personaltech/vibecoding-ai-software-programming.html
+  - text: Invoker Commands API
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API
+  - text: Visiting Greenville, SC
+    url: https://www.visitgreenvillesc.com/
+  - text: Prime Target TV series
+    url: https://tv.apple.com/us/show/prime-target/umc.cmc.5hje8i3v25dzow2olljxetnus
+  - text: Pokémon GO
+    url: https://pokemongolive.com/
+audio: https://www.buzzsprout.com/2226499/episodes/16756583-tanstack-form-v1-bytedance-debuts-lynx-vs-code-ai-levels-up.mp3
+spotify: https://open.spotify.com/episode/7twON65d9YoSlEr42GVCLI
+apple: https://podcasts.apple.com/us/podcast/tanstack-form-v1-bytedance-debuts-lynx-vs-code-ai-levels-up/id1700169000?i=1000698564086
+youtube: https://youtu.be/O4omUlGwb8Q?si=BCcc6H43ICKmKSjd
