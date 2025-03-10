@@ -3,39 +3,21 @@ type: news
 title: Node Gets TS Support, Tauri v2, and New JS Acronym e18e
 date: 2024-08-12
 teaser: >
-  🚀 Node 22.6 has experimental TypeScript support! 🖥️ Tauri 2 is here, and it's making 
-  waves to compete with Electron. 📦 And e18e is the new buzzword in JavaScript - focused on ecosystem 
-  performance by modernizing packages. Can it clean up the JS ecosystem? Time will tell.
+  🚀 Node 22.6 has experimental TypeScript support! 🖥️ Tauri 2 is here, and it's making waves to compete with Electron. 📦 And e18e is the new buzzword in JavaScript - focused on ecosystem performance by modernizing packages. Can it clean up the JS ecosystem? Time will tell.
 description: >
   This week’s episode kicks off with an announcement that Node 22.6 has experimental TypeScript support! 
 
 
-  What you might not realize unless you read the fine print though, is that this isn’t the sort of TS support 
-  you might assume. Instead, the feature strips type annotations from .ts files, allowing them to run without 
-  transforming TS-specific syntax. While this brings Node’s TS support in line with Bun and Deno, and though 
-  it does have limitations, we’ll take it for now and hope for more robust support in the future.
+  What you might not realize unless you read the fine print though, is that this isn’t the sort of TS support you might assume. Instead, the feature strips type annotations from .ts files, allowing them to run without transforming TS-specific syntax. While this brings Node’s TS support in line with Bun and Deno, and though it does have limitations, we’ll take it for now and hope for more robust support in the future.
 
 
-  Tauri, a competitor to Electron for building cross-platform desktop apps, just released a stable release candidate 
-  of Tauri 2. Tauri promises lower memory usage and CPU usage by taking advantage of a system’s native webview 
-  on the frontend and using Rust on the backend. v2 has migrated core functionality from 1.0 to separate plugins 
-  for quicker development, created a dev server specifically for mobile development, improved documentation, beefed 
-  up security, and more. Electron’s been around since 2013, but Tauri is coming in hot with a whole lot of features 
-  devs are sure to appreciate.
+  Tauri, a competitor to Electron for building cross-platform desktop apps, just released a stable release candidate of Tauri 2. Tauri promises lower memory usage and CPU usage by taking advantage of a system’s native webview on the frontend and using Rust on the backend. v2 has migrated core functionality from 1.0 to separate plugins for quicker development, created a dev server specifically for mobile development, improved documentation, beefed up security, and more. Electron’s been around since 2013, but Tauri is coming in hot with a whole lot of features devs are sure to appreciate.
 
 
-  A new acronym is sweeping the JavaScript world: e18e - or Ecosystem Performance. E18e is focused on improving JS 
-  package performance, by removing redundant dependencies in old packages or replacing them with more modern alternatives, 
-  improving the performance of widely used packages, and building modern alternatives to outdated packages. This is a 
-  noble cause with potentially far ranging benefits, but getting everyday developers to care about cleaning up and modernizing 
-  dependencies in open source libraries they’ve used for years that “just work” is going to be an uphill battle. Best of luck 
-  to the e18e folks.
+  A new acronym is sweeping the JavaScript world: e18e - or Ecosystem Performance. E18e is focused on improving JS package performance, by removing redundant dependencies in old packages or replacing them with more modern alternatives, improving the performance of widely used packages, and building modern alternatives to outdated packages. This is a noble cause with potentially far ranging benefits, but getting everyday developers to care about cleaning up and modernizing dependencies in open source libraries they’ve used for years that “just work” is going to be an uphill battle. Best of luck to the e18e folks.
 
 
-  And Google’s legal troubles continue after a federal judge ruled it liable for violating antitrust laws by monopolizing 
-  the online search market by effectively cutting off distribution channels for rivals through exclusionary contracts. 
-  Google plans to appeal the ruling, but it is interesting to see the government finally trying to step in in an effort to 
-  control big tech.
+  And Google’s legal troubles continue after a federal judge ruled it liable for violating antitrust laws by monopolizing the online search market by effectively cutting off distribution channels for rivals through exclusionary contracts. Google plans to appeal the ruling, but it is interesting to see the government finally trying to step in in an effort to control big tech.
 duration: "39:07"
 hosts:
   - jack

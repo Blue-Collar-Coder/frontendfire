@@ -3,30 +3,18 @@ type: news
 title: "Sentry’s Fair Source Licensing & What’s Next for React Native"
 date: 2024-08-26
 teaser: >
-  Is Fair Source the future of "almost open source" software? 🧐 Sentry's new licensing term aims to protect business interests 
-  while sharing code with the community. Could this reshape the development world? Plus React Native’s new architecture is now 
-  stable, paving the way for v1! 🚀 With support for Suspense and concurrent rendering, the future looks bright for RN!
+  Is Fair Source the future of "almost open source" software? 🧐 Sentry's new licensing term aims to protect business interests while sharing code with the community. Could this reshape the development world? Plus React Native’s new architecture is now stable, paving the way for v1! 🚀 With support for Suspense and concurrent rendering, the future looks bright for RN!
 description: >
   On this week’s episode, a new software licensing term has emerged in the development world: Fair Source Software (FSS). 
 
 
-  The error and exception tracking software company Sentry added some legal protections to their Codecov product last year 
-  (they are a business trying to earn money, after all), which technically meant it was no longer open source. In order to 
-  keep sharing its code with the community, Sentry created a new “Fair Source” licensing category that shares similar values 
-  to open source, but also allows companies to enforce non-compete clauses to protect its business interests.
+  The error and exception tracking software company Sentry added some legal protections to their Codecov product last year (they are a business trying to earn money, after all), which technically meant it was no longer open source. In order to keep sharing its code with the community, Sentry created a new “Fair Source” licensing category that shares similar values to open source, but also allows companies to enforce non-compete clauses to protect its business interests.
 
 
-  The fact that other companies like GitButler, Keygen, CodeCrafters, and more have already joined the Fair Source site is an 
-  indication that this sort of “almost open source” licensing could be appealing to companies who’ve wanted to share their code 
-  with the world, but worried it could negatively impact their ability to stay in business. Time will tell, but good on Sentry 
-  for taking the first step.
+  The fact that other companies like GitButler, Keygen, CodeCrafters, and more have already joined the Fair Source site is an indication that this sort of “almost open source” licensing could be appealing to companies who’ve wanted to share their code with the world, but worried it could negatively impact their ability to stay in business. Time will tell, but good on Sentry for taking the first step.
 
 
-  In other news, even though the React Native framework is already 10 years old, the team just launched v0.75. While this isn’t 
-  a major release, it lays the groundwork for v1 by reporting that the “new architecture” required for support of new React 18+ 
-  features like Suspense, synchronous layouts, and concurrent rendering is now stable. Additionally, the latest version of RN’s 
-  embeddable layout system Yoga now handles % values in gaps and translations, which is a nice bonus. We don’t know exactly when 
-  RN v1 will be out, but you can bet it’s going to be good.
+  In other news, even though the React Native framework is already 10 years old, the team just launched v0.75. While this isn’t a major release, it lays the groundwork for v1 by reporting that the “new architecture” required for support of new React 18+ features like Suspense, synchronous layouts, and concurrent rendering is now stable. Additionally, the latest version of RN’s embeddable layout system Yoga now handles % values in gaps and translations, which is a nice bonus. We don’t know exactly when RN v1 will be out, but you can bet it’s going to be good.
 duration: "26:00"
 hosts:
   - paige

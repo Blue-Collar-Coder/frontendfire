@@ -3,43 +3,27 @@ type: news
 title: "Updates for Vue, RedwoodJS, shadcn, and Even the TC39’s Proposal Stages"
 date: 2024-09-09
 teaser: >
-  🚀 Updates abound! Vue 3.5 is here with new features, better reactivity, and improved SSR! 💥 RedwoodJS 8.0 just dropped with
-  full RSC support. ⚙️ And TC39 is changing the game with an extra Step 2.7! The future of web dev looks bright! 💡
+  🚀 Updates abound! Vue 3.5 is here with new features, better reactivity, and improved SSR! 💥 RedwoodJS 8.0 just dropped with full RSC support. ⚙️ And TC39 is changing the game with an extra Step 2.7! The future of web dev looks bright! 💡
 description: >
   This edition of the podcast rounds up a bunch of interesting news-worthy topics in the web development world for your listening pleasure.
 
 
-  Kicking off the discussion is the release of Vue 3.5. Although it’s not a major release, Vue 3.5 packs some great new features and 
-  optimizations like: reactivity system improvements (up to 56% less memory usage for apps than before), reactive prop destructuring stabilization 
-  (it’s simpler to declare props with default values), and SSR improvements like lazy hydration for async components. The Vue-ture looks bright 
-  for this framework that doesn’t get as much press as the Reacts, Sveltes, and Angulars of the world.
+  Kicking off the discussion is the release of Vue 3.5. Although it’s not a major release, Vue 3.5 packs some great new features and optimizations like: reactivity system improvements (up to 56% less memory usage for apps than before), reactive prop destructuring stabilization (it’s simpler to declare props with default values), and SSR improvements like lazy hydration for async components. The Vue-ture looks bright for this framework that doesn’t get as much press as the Reacts, Sveltes, and Angulars of the world.
 
 
-  RedwoodJS is also out with a new version, and 8.0 packs a wallop. It makes RedwoodJS the third framework to support React Server Components 
-  behind Next.js and Waku. Other highlights include background jobs for tasks that can be done behind the scenes, Storybook using Vite, Docker 
-  support, and more.
+  RedwoodJS is also out with a new version, and 8.0 packs a wallop. It makes RedwoodJS the third framework to support React Server Components behind Next.js and Waku. Other highlights include background jobs for tasks that can be done behind the scenes, Storybook using Vite, Docker support, and more.
 
 
-  The shadcn CLI has gotten an update as well where it can spin up a brand new Next.js app with shadcn and Tailwind configured and ready to go. 
-  Additionally, shadcn has integrated more tightly with Vercel’s v0 AI code generator, and now every shadcn component is editable on v0, so 
-  users can customize the components in natural language and paste it into their apps afterwards. Pretty amazing!
+  The shadcn CLI has gotten an update as well where it can spin up a brand new Next.js app with shadcn and Tailwind configured and ready to go. Additionally, shadcn has integrated more tightly with Vercel’s v0 AI code generator, and now every shadcn component is editable on v0, so users can customize the components in natural language and paste it into their apps afterwards. Pretty amazing!
 
 
-  The TC39 Committee responsible for evaluating what new features get added to the JavaScript language has added a new intermediate step for proposals: 
-  step 2.7. By the time new proposals reach step 3, they must already have full test suites to support their implementation, and if, for any reason, 
-  they must go back to step 2 to rethink things, a lot of that work can be for naught. Step 2.7 aims to give proposers a chance to begin getting 
-  community feedback before the test suites are fully written, just in case things end up needing additional consideration.
+  The TC39 Committee responsible for evaluating what new features get added to the JavaScript language has added a new intermediate step for proposals: step 2.7. By the time new proposals reach step 3, they must already have full test suites to support their implementation, and if, for any reason, they must go back to step 2 to rethink things, a lot of that work can be for naught. Step 2.7 aims to give proposers a chance to begin getting community feedback before the test suites are fully written, just in case things end up needing additional consideration.
 
 
-  Following up on the SSR benchmark wars covered in the last episode, the team notes that the original writer who did the benchmarking was not an 
-  impartial, third party observer, but a lead maintainer for the Fastify framework, which happened to be crowned the fastest SSR framework as well. 
-  This serves as a good reminder to always do your homework on who is authoring these sorts of comparisons and where their loyalties might lie.
+  Following up on the SSR benchmark wars covered in the last episode, the team notes that the original writer who did the benchmarking was not an impartial, third party observer, but a lead maintainer for the Fastify framework, which happened to be crowned the fastest SSR framework as well. This serves as a good reminder to always do your homework on who is authoring these sorts of comparisons and where their loyalties might lie.
 
 
-  And last but not least, Laravel, a PHP framework originally released in 2011, just announced $57M of series A funding. Where is all this funding 
-  going? To support Laravel Cloud, a fully managed infrastructure platform focused specifically on Laravel and PHP apps. It just goes to show that 
-  even established and well loved frameworks like Laravel can find ways to improve the developer experience even now with a little extra funding and 
-  support.
+  And last but not least, Laravel, a PHP framework originally released in 2011, just announced $57M of series A funding. Where is all this funding going? To support Laravel Cloud, a fully managed infrastructure platform focused specifically on Laravel and PHP apps. It just goes to show that even established and well loved frameworks like Laravel can find ways to improve the developer experience even now with a little extra funding and support.
 duration: "47:12"
 hosts:
   - jack

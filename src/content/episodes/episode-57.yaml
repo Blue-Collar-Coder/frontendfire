@@ -3,38 +3,21 @@ type: news
 title: "AI-Edition: OpenAI’s Structured Outputs, EU AI Legislation, and Chrome CSS Usage Stats"
 date: 2024-08-19
 teaser: >
-  AI is the name of the game for today’s episode. 🤖 As OpenAI's new “structured outputs” feature 
-  is a game-changer for devs, the EU is pioneering AI safety with legislation! ⚖️ React 19 is on hold a bit longer, 
-  and did you ever wonder about CSS usage stats on the Internet? 📊 Turns out Chrome’s got the answers.
+  AI is the name of the game for today’s episode. 🤖 As OpenAI's new “structured outputs” feature is a game-changer for devs, the EU is pioneering AI safety with legislation! ⚖️ React 19 is on hold a bit longer, and did you ever wonder about CSS usage stats on the Internet? 📊 Turns out Chrome’s got the answers.
 description: >
-  AI is the main topic of conversation for this week’s episode. Between continued advancements in the 
-  technology and governments trying to put safeguards in place to prevent a Terminator-style future, there’s 
-  plenty going on.
+  AI is the main topic of conversation for this week’s episode. Between continued advancements in the technology and governments trying to put safeguards in place to prevent a Terminator-style future, there’s plenty going on.
 
 
-  OpenAI has introduced a new feature of its API called “structured outputs,” which essentially lets developers 
-  pass in a valid JSON schema that guarantees the model will always generate responses that adhere to it. No 
-  omission of required keys, no extra values you weren’t expecting, no need for strongly worded prompts to 
-  achieve consistent formatting. Basically, you can more confidently rely on OpenAI JSON responses to include 
-  all the data you want, every time, with Structured Outputs.
+  OpenAI has introduced a new feature of its API called “structured outputs,” which essentially lets developers pass in a valid JSON schema that guarantees the model will always generate responses that adhere to it. No omission of required keys, no extra values you weren’t expecting, no need for strongly worded prompts to achieve consistent formatting. Basically, you can more confidently rely on OpenAI JSON responses to include all the data you want, every time, with Structured Outputs.
 
 
-  On the flip side, the European Union has introduced the first legislation to develop safe and trustworthy 
-  AI within its borders. This legislation includes a 4 tier risk classification system for all AI products 
-  ranging from minimal risk to unacceptable risk, and a 3+ year timeline for companies developing AI products 
-  to comply with these new regulations. While it sounds good in theory, oversight and enforcement is going to be 
-  tough, and these sorts of restrictions may cause an AI drain in Europe as companies and developers looking to 
-  build products without so much government bureaucracy leave in favor of more AI-friendly locations.
+  On the flip side, the European Union has introduced the first legislation to develop safe and trustworthy AI within its borders. This legislation includes a 4 tier risk classification system for all AI products ranging from minimal risk to unacceptable risk, and a 3+ year timeline for companies developing AI products to comply with these new regulations. While it sounds good in theory, oversight and enforcement is going to be tough, and these sorts of restrictions may cause an AI drain in Europe as companies and developers looking to build products without so much government bureaucracy leave in favor of more AI-friendly locations.
 
 
-  The React core team announces the changes to Suspense will delay the release of React 19 for a bit longer than 
-  originally planned, but should ultimately lead to a better end user experience for devs and library authors alike.
+  The React core team announces the changes to Suspense will delay the release of React 19 for a bit longer than originally planned, but should ultimately lead to a better end user experience for devs and library authors alike.
 
 
-  And the news rounds out with a game of “guess the CSS usage statistics” compiled by Chrome’s anonymous usage statistics. 
-  Ever wondered what percentage of websites are styling scrollbars, or how many set height? Not to mention the amount 
-  of CSS properties we’ve never heard of before: font-synthesis-small-caps, anyone? It’s quite an eye opening list to 
-  peruse, especially for all the obscure properties that are being used by a small fraction of a percent of the web.
+  And the news rounds out with a game of “guess the CSS usage statistics” compiled by Chrome’s anonymous usage statistics. Ever wondered what percentage of websites are styling scrollbars or how many set height? Not to mention the amount of CSS properties we’ve never heard of before: font-synthesis-small-caps, anyone? It’s quite an eye opening list to peruse, especially for all the obscure properties that are being used by a small fraction of a percent of the web.
 duration: "39:34"
 hosts:
   - jack
