@@ -1,9 +1,9 @@
 number: 85
 type: news
-title: TypeScript’s Compiler Glow-Up, OpenAI’s Agentic Push, and One-Click Site Cloning
+title: "TypeScript’s Compiler Glow-Up, OpenAI’s Agentic Push, and One-Click Site Cloning"
 date: 2025-03-17
 teaser: >
-  🔥 TypeScript is making a major Go move for 10x faster builds, OpenAI drops new APIs for agentic apps, and same.dev claims to “one-shot” clone any site. Wild times in tech—tune in! 🎧
+  🔥 TypeScript is making a major Go move for 10x faster builds, OpenAI drops new APIs for agentic apps, and same.dev claims to "one-shot" clone any site. Wild times in tech—tune in! 🎧
 description: >
   The TypeScript Compiler (TSC) is getting a major port to Go. Go’s support for concurrency and efficient memory management convinced the Microsoft team to port the code over and should result in as much as 10x faster builds in the future. Expect a feature-complete implementation towards the end of 2025, and the first major release of the native compiler to be TS 7.0 after that.
 
@@ -12,7 +12,7 @@ description: >
 
 
   Developer Aiden Bai’s back in the news with a new site called same.dev that claims to "one-shot" clone any site. Just enter a site URL into the input and it will return React, Tailwind, and Shadcn UI code. It’s pretty unreal.
- 
+
 
   Apple announces a delay in its more personalized Siri. Just as Apple Intelligence took longer to roll out than expected, so too does smarter Siri, with Apple executives reporting that the new features don’t work as expected. We’ll keep you posted, but a modern Siri may not arrive until iOS 20, at best.
 
@@ -24,7 +24,7 @@ hosts:
   - paige
   - tj
 links:
-  - text: OpenAI: New Tools for Building Agents
+  - text: "OpenAI: New Tools for Building Agents"
     url: https://openai.com/index/new-tools-for-building-agents/
   - text: same.dev
     url: https://same.dev/
