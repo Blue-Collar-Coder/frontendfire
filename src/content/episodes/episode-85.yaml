@@ -1,0 +1,46 @@
+number: 85
+type: news
+title: TypeScript’s Compiler Glow-Up, OpenAI’s Agentic Push, and One-Click Site Cloning
+date: 2025-03-17
+teaser: >
+  🔥 TypeScript is making a major Go move for 10x faster builds, OpenAI drops new APIs for agentic apps, and same.dev claims to “one-shot” clone any site. Wild times in tech—tune in! 🎧
+description: >
+  The TypeScript Compiler (TSC) is getting a major port to Go. Go’s support for concurrency and efficient memory management convinced the Microsoft team to port the code over and should result in as much as 10x faster builds in the future. Expect a feature-complete implementation towards the end of 2025, and the first major release of the native compiler to be TS 7.0 after that.
+
+
+  OpenAI has released new APIs to make building agentic apps even simpler. A new Response API, built in tools like web search and file search, an Agents SDK to orchestrate agent workflows, and observability tools to trace and inspect those workflows round out the offerings for empowering autonomous agents to accomplish more tasks.
+
+
+  Developer Aiden Bai’s back in the news with a new site called same.dev that claims to "one-shot" clone any site. Just enter a site URL into the input and it will return React, Tailwind, and Shadcn UI code. It’s pretty unreal.
+ 
+
+  Apple announces a delay in its more personalized Siri. Just as Apple Intelligence took longer to roll out than expected, so too does smarter Siri, with Apple executives reporting that the new features don’t work as expected. We’ll keep you posted, but a modern Siri may not arrive until iOS 20, at best.
+
+
+  And the Fire Starter for today is around the HTML element <datalist>. Data list wraps around a set of <option> elements that represent recommended options available to choose from within something like a numeric range or text input. The user can still type any value into the input that’s valid, but the options will be available to choose from oo. Give the data list an ID, add that ID to the controlling element with list={ID} and you’re off and running.
+duration: "44:17"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: OpenAI: New Tools for Building Agents
+    url: https://openai.com/index/new-tools-for-building-agents/
+  - text: same.dev
+    url: https://same.dev/
+  - text: TypeScript ports compiler to Go for 10x faster builds
+    url: https://devblogs.microsoft.com/typescript/typescript-native-port/
+  - text: Apple delays upgraded Siri
+    url: https://www.theverge.com/news/626035/apple-delays-upgraded-siri-intelligence-longer-than-we-thought
+  - text: HTML Data List element
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist
+  - text: Under desk heated footrest
+    url: https://www.amazon.com/Footrest-Adjustable-Comfort-Posture-Support/dp/B0DQ2K3FP6/ref=sr_1_19
+  - text: Jamstik Standard MIDI Guitar
+    url: https://jamstik.com/collections/midi-guitars/products/jamstik-standard?variant=45491954778337
+  - text: Charizard Cheeto auction
+    url: https://www.nytimes.com/2025/03/06/style/charizard-cheeto-pokemon-auction.html
+audio: https://www.buzzsprout.com/2226499/episodes/16803677-typescript-s-compiler-glow-up-openai-s-agentic-push-and-one-click-site-cloning.mp3
+spotify: https://open.spotify.com/episode/3O5o9xKa7RTLSQDyYFbKQP
+apple: https://podcasts.apple.com/us/podcast/typescripts-compiler-glow-up-openais-agentic-push-and/id1700169000?i=1000699482268
+youtube: https://www.youtube.com/watch?v=0AMqRxhN3lQ
