@@ -1,0 +1,45 @@
+number: 86
+type: news
+title: Parcel Joins the RSC Party, CodeSandbox Gets AI-Powered, & Netlify x TanStack Start
+date: 2025-03-24
+teaser: >
+  Popular bundler Parcel just added RSC support 🚀, Netlify makes deploying TanStack projects ridiculously easy 🌎, and CodeSandbox is bringing AI to the cloud. 🤖☁️ Catch up on all the dev news!
+description: >
+  Web app bundler Parcel adds support for React Server Components, including a repo of example apps for developers to reference. Although not specifically aimed at framework developers it seems like that’s the audience that would benefit most from this new feature in Parcel. Either way, it’s great to see other bundlers besides Webpack getting on the RSC bandwagon.
+
+
+  CodeSandbox enters the AI game by teaming up with AI hosting platform Together AI, and launching CodeSandbox SDK. CodeSandbox SDK will allow developers to programmatically spin up AI sandboxes just like they can spin up microVMs today to run web app sandboxes in the cloud on CodeSandbox.io. 
+
+
+  Netlify inks a deal to become the official deployment partner of TanStack Start. Deploying TanStack projects on Netlify will mean: no config files needed, access to Netlify serverless functions, the reliability of Netlify’s global edge network, and the developer tools we know and love like instant previews and automated workflows.
+
+
+  For bonus news, ESLint replacement Oxlint (written in Rust so it’s blazing fast) is now in beta and ready to fully replace ESLint in small to medium projects. At this time, Oxlint has more than 500 built-in rules from popular plugins like typescript, react, vitest, nextjs, and more, supports linting <script> content in .astro, .svelte, and .vue files, and is at least 2x as fast as its last release. 
+
+
+  And Google has entered a deal to acquire cloud security startup Wiz for $32 billion. With the ever increasing demand (and profits) around AI cloud hosting, this is Google’s concerted effort to get in on the record profits Microsoft and Amazon are already making from hosting AI models for companies like OpenAI and Anthropic. We’ll have to wait and see if this merger is allowed to go through, or it gets stopped by federal regulators.
+duration: "39:01"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: CodeSandbox joins Together AI and launches CodeSandbox SDK
+    url: https://codesandbox.io/blog/joining-together-ai-introducing-codesandbox-sdk
+  - text: Parcel RSCs
+    url: https://parceljs.org/recipes/rsc/
+  - text: TanStack + Netlify Partnership
+    url: https://tanstack.com/blog/netlify-partnership
+  - text: Google Acquires Wiz for $32 billion
+    url: https://www.theverge.com/ai-artificial-intelligence/632167/google-wiz-acquisition-cloud-security-ai
+  - text: Oxlint Beta is ready to replace ESLint
+    url: https://oxc.rs/blog/2025-03-15-oxlint-beta.html
+  - text: Formula 1: Drive to Survive S7 
+    url: https://www.netflix.com/title/80204890
+  - text: Hacking these mushroom outdoor solar lights
+    url: https://www.lowes.com/pd/3-Pack-2X-Brighter-2-4-Lumen-Red-Yellow-Orange-Solar-Integrated-LED-Path-Light/50113476
+  - text: Michael Jordan-shaped Cheeto up for auction
+    url: https://www.today.com/food/michael-jordan-cheeto-auction-rcna196520
+audio: https://www.buzzsprout.com/2226499/episodes/16847958-parcel-joins-the-rsc-party-codesandbox-gets-ai-powered-netlify-x-tanstack-start.mp3
+spotify: https://open.spotify.com/episode/6HFS364wW7wyk3dIK4g1Q7
+apple: https://podcasts.apple.com/us/podcast/parcel-joins-the-rsc-party-codesandbox-gets-ai/id1700169000?i=1000700579696
