@@ -3,41 +3,21 @@ type: news
 title: TanStack Start, Safari 18 Updates, and Astro 5.0 Highlights
 date: 2024-09-23
 teaser: >
-  🚀 New framework alert! The Tanner-verse expands with TanStack Start, a framework powered by TanStack Router, Vinxi, and Vite. 🍏 Safari 18 
-  introduces wireless remote inspection for debugging, and Astro 5.0 is here with a new Content Layer and Server Islands! ✨ Listen in 
-  so you don’t miss out.
+  🚀 New framework alert! The Tanner-verse expands with TanStack Start, a framework powered by TanStack Router, Vinxi, and Vite. 🍏 Safari 18 introduces wireless remote inspection for debugging, and Astro 5.0 is here with a new Content Layer and Server Islands! ✨ Listen in so you don’t miss out.
 description: >
-  Tanner Linsley, creator of TanStack Query and TanStack Router, continues expanding the Tanner-verse with a new TanStack Start framework. 
-  It’s a full-stack React framework powered by TanStack Router, Vinxi, and Vite, and boasts all the mainstays of a JavaScript framework today, 
-  including SSR, streaming, server function support, RPCs, and more. The framework is still in alpha so don’t ship it to production just yet, 
-  but if the developer experience and docs for TanStack Start are half as good as they’ve been for Query and Router, it’ll only be a matter of 
-  time before it’s another solid option for starting a new React project. 
+  Tanner Linsley, creator of TanStack Query and TanStack Router, continues expanding the Tanner-verse with a new TanStack Start framework. It’s a full-stack React framework powered by TanStack Router, Vinxi, and Vite, and boasts all the mainstays of a JavaScript framework today, including SSR, streaming, server function support, RPCs, and more. The framework is still in alpha so don’t ship it to production just yet, but if the developer experience and docs for TanStack Start are half as good as they’ve been for Query and Router, it’ll only be a matter of time before it’s another solid option for starting a new React project. 
 
 
-  With the release of the new Apple operating system, iOS 18, comes new updates to the Safari browser and its WebKit rendering engine. A couple 
-  notable highlights for Safari 18 are “distraction control” where users can hide distracting items on web pages like sign-in banners, cookie 
-  preference popups, and newsletter signup overlays, and iPhone mirroring and remote inspection. Now web developers can wirelessly debug websites 
-  running on iPhone anytime. It takes a bit of initial setup and permission granting to get remote inspection working, but the future of mobile 
-  web testing and development looks awfully bright.
+  With the release of the new Apple operating system, iOS 18, comes new updates to the Safari browser and its WebKit rendering engine. A couple notable highlights for Safari 18 “distraction control” where users can hide distracting items on web pages like sign-in banners, cookie preference popups, and newsletter signup overlays, and iPhone mirroring and remote inspection. Now web developers can wirelessly debug websites running on iPhone anytime. It takes a bit of initial setup and permission granting to get remote inspection working, but the future of mobile web testing and development looks awfully bright.
 
 
-  And the Astro team is at it again with the release of Astro 5.0 beta. This new release introduces the Astro Content Layer, a flexible, extensible 
-  way to interact with content in Astro, no matter where it comes from. Markdown files mixed with a CMS plus a REST API? Astro can handle it in one 
-  unified, type-safe API. Additionally, server islands are new to Astro allowing for deferred rendering of dynamic content until after initial page 
-  load, individual routes can be rendered at runtime on the server or on-demand just by adding an adapter, environment variable management’s been made 
-  easier. Once again, Astro takes the best ideas out there in the JavaScript world and just keeps making their offerings better and better.
+  And the Astro team is at it again with the release of Astro 5.0 beta. This new release introduces the Astro Content Layer, a flexible, extensible way to interact with content in Astro, no matter where it comes from. Markdown files mixed with a CMS plus a REST API? Astro can handle it in one unified, type-safe API. Additionally, server islands are new to Astro allowing for deferred rendering of dynamic content until after initial page load, individual routes can be rendered at runtime on the server or on-demand just by adding an adapter, environment variable management’s been made easier. Once again, Astro takes the best ideas out there in the JavaScript world and just keeps making their offerings better and better.
 
 
-  The Next.js team also releases a new Next.js SaaS starter with all the hottest buzzwords in the frontend world. Auth support, Stripe for payments, 
-  Postgres DB connections, the Drizzle ORM, and shadcn and Tailwind UI for styling. Need we say more? For anyone starting a new project from scratch, 
-  and looking for a full-featured, state of the art, starter template, this would be a hard option to beat.
+  The Next.js team also releases a new Next.js SaaS starter with all the hottest buzzwords in the frontend world. Auth support, Stripe for payments, Postgres DB connections, the Drizzle ORM, and shadcn and Tailwind UI for styling. Need we say more? For anyone starting a new project from scratch, and looking for a full-featured, state of the art, starter template, this would be a hard option to beat.
 
 
-  For the Fire Starters section of the show this week, our newest addition where we share a bit of less publicized HTML, CSS or JS info from around the 
-  web, we learn more about the writingsuggestions attribute. On mobile, you’ve probably encountered writing suggestions above the keyboard when typing 
-  in editable fields. While this can be helpful, developers might want to turn off the suggestions for certain fields (like a username input for instance). 
-  The writingsuggestions attribute can be set on editable fields like input and textarea to false to disable the feature. Pretty handy tip to keep in 
-  your back pocket for the future!
+  For the Fire Starters section of the show this week, our newest addition where we share a bit of less publicized HTML, CSS or JS info from around the web, we learn more about the writingsuggestions attribute. On mobile, you’ve probably encountered writing suggestions above the keyboard when typing in editable fields. While this can be helpful, developers might want to turn off the suggestions for certain fields (like a username input for instance). The writingsuggestions attribute can be set on editable fields like input and textarea to false to disable the feature. Pretty handy tip to keep in your back pocket for the future!
 duration: "39:13"
 hosts:
   - jack

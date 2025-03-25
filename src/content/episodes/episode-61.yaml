@@ -3,40 +3,23 @@ type: news
 title: ChatGPT Moves to Remix, TypeScript 5.6, and Meta-framework HonoX Debuts
 date: 2024-09-16
 teaser: >
-  🚨 Big news! OpenAI moves ChatGPT from Next.js to Remix, TypeScript 5.6 drops a game-changer: disallowed nullish & truthy checks, 
-  and meet HonoX 🎉 —the latest meta-framework built on Hono with SSR, file-based routing, island hydration. Tune in to find out how 
-  all this impacts devs!
+  🚨 Big news! OpenAI moves ChatGPT from Next.js to Remix, TypeScript 5.6 drops a game-changer: disallowed nullish & truthy checks, and meet HonoX 🎉 —the latest meta-framework built on Hono with SSR, file-based routing, island hydration. Tune in to find out how all this impacts devs!
 description: >
-  Big news this week when it’s announced that OpenAI, the company behind ChatGPT, has moved ChatGPT from using Next.js to using Remix. 
-  While both metaframeworks rely on React under the hood, Remix seems a bit less opinionated about how teams might want to structure 
-  their projects to best suit their unique use cases and needs. Either way, it’s great to see big companies embracing smaller JavaScript 
-  frameworks, which lends credibility to the framework and encourages others to take a look at the myriad of options available today.
+  Big news this week when it’s announced that OpenAI, the company behind ChatGPT, has moved ChatGPT from using Next.js to using Remix. While both metaframeworks rely on React under the hood, Remix seems a bit less opinionated about how teams might want to structure their projects to best suit their unique use cases and needs. Either way, it’s great to see big companies embracing smaller JavaScript frameworks, which lends credibility to the framework and encourages others to take a look at the myriad of options available today.
 
 
-  TypeScript has also released v5.6, and amongst the many improvements is one many day-to-day TS users will benefit from: disallowed 
-  nullish and truthy checks. Although the name sounds impressive and confusing, what it boils down to is: if TS identifies an if statement 
-  that will always evaluate to true or false because a dev forgot to actually invoke a function or misplaced parentheses or [insert many, 
-  many ways we introduce bugs into our code], TypeScript will now throw an error. The compiler can syntactically determine if a truthy or 
-  nullish check will always evaluate in a specific way, and let devs know. It might not sound like big news at first, but having an extra 
-  check to ensure our code is doing what we expect it to, never hurts (and could save hours of line-by-line debugging).
+  TypeScript has also released v5.6, and amongst the many improvements is one many day-to-day TS users will benefit from: disallowed nullish and truthy checks. Although the name sounds impressive and confusing, what it boils down to is: if TS identifies an if statement that will always evaluate to true or false because a dev forgot to actually invoke a function or misplaced parentheses or [insert many, many ways we introduce bugs into our code], TypeScript will now throw an error. The compiler can syntactically determine if a truthy or 
+  nullish check will always evaluate in a specific way, and let devs know. It might not sound like big news at first, but having an extra check to ensure our code is doing what we expect it to, never hurts (and could save hours of line-by-line debugging).
 
 
-  Because the JavaScript gods demand at least one new framework or meta-framework each week, this week’s tribute is HonoX. We previously 
-  discussed new framework Hono back in episode 32, when it debuted as a lightweight framework built on web standards and able to run on 
-  any JS runtime, and now it’s back with meta-framework HonoX. HonoX has all the expected bells and whistles of a modern meta-framework 
-  like SSR, file-based routing, bring your own renderer support, island hydration, and more. What’s a bit unclear is how HonoX is different 
+  Because the JavaScript gods demand at least one new framework or meta-framework each week, this week’s tribute is HonoX. We previously discussed new framework Hono back in episode 32, when it debuted as a lightweight framework built on web standards and able to run on any JS runtime, and now it’s back with meta-framework HonoX. HonoX has all the expected bells and whistles of a modern meta-framework like SSR, file-based routing, bring your own renderer support, island hydration, and more. What’s a bit unclear is how HonoX is different 
   from Hono on its own, but again, it’s good to have competition and lots (and lots) of JS framework choices. The gods should be pleased.
 
 
-  For a bit of bonus news, OpenAI has released the o1 model preview, which claims to be better at math and science questions than previous ChatGPT 
-  models. If you try it out, do let us know your first impressions of it.
+  For a bit of bonus news, OpenAI has released the o1 model preview, which claims to be better at math and science questions than previous ChatGPT models. If you try it out, do let us know your first impressions of it.
 
 
-  And the team introduces a new segment this week called Fire Starters. Each week we’ll try to find a more obscure bit of HTML, CSS or JS info 
-  from around the web, and talk about it so we can all learn something new. The first topic is CSS property initial-letter. It sets the styling 
-  for dropped, raised, and sunken initial letters you might see in fancy website copy or long-form online articles. Support is lacking on Firefox 
-  and Safari, but being able to style the first letter of a paragraph for big visual impact is pretty cool, and we hope you find a use for it in 
-  your own work.
+  And the team introduces a new segment this week called Fire Starters. Each week we’ll try to find a more obscure bit of HTML, CSS or JS info from around the web, and talk about it so we can all learn something new. The first topic is CSS property initial-letter. It sets the styling for dropped, raised, and sunken initial letters you might see in fancy website copy or long-form online articles. Support is lacking on Firefox and Safari, but being able to style the first letter of a paragraph for big visual impact is pretty cool, and we hope you find a use for it in your own work.
 duration: "42:38"
 hosts:
   - jack

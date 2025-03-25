@@ -3,33 +3,24 @@ type: news
 title: "Next.js 15 & Svelte 5: Major Upgrades Hit the Web Dev World"
 date: 2024-10-28
 teaser: >
-  Frontend news is buzzing with Next.js 15 bringing React 19 support, and Svelte 5 debuting Runes. 🪄 Plus, Jack's on stage at React Advanced diving deep into the "Is React Really 
-  Dying?" debate. 🍿 Here’s what’s hot in web dev this week.
+  Frontend news is buzzing with Next.js 15 bringing React 19 support, and Svelte 5 debuting Runes. 🪄 Plus, Jack's on stage at React Advanced diving deep into the "Is React Really Dying?" debate. 🍿 Here’s what’s hot in web dev this week.
 description: >
   Jack is away this week speaking at the React Advanced conference in London, so be sure to check out his recorded talk (and all the others) about if React is really dying.
 
 
-  For the news this week, we’ve got a bunch of interesting topics, the first of which is the latest release of Next.js: Next 15. It’s stable and production ready offering React 
-  19 and React Compiler (experimental) support, Turbopack Dev, improvements to caching, and a change to async Request APIs that will allow for simplified rendering and caching 
-  in the future. 
+  For the news this week, we’ve got a bunch of interesting topics, the first of which is the latest release of Next.js: Next 15. It’s stable and production ready offering React 19 and React Compiler (experimental) support, Turbopack Dev, improvements to caching, and a change to async Request APIs that will allow for simplified rendering and caching in the future. 
 
 
-  Svelte 5 is also officially stable and production ready, debuting the new Runes system which offers Svelte users fine-grained reactivity control via Signals. Svelte previously 
-  relied on the compiler for reactivity, which could begin to break down for larger apps, so it was rewritten from the ground up and Runes was born. 
+  Svelte 5 is also officially stable and production ready, debuting the new Runes system which offers Svelte users fine-grained reactivity control via Signals. Svelte previously relied on the compiler for reactivity, which could begin to break down for larger apps, so it was rewritten from the ground up and Runes was born. 
 
 
-  Bonus news: China is taking Microsoft’s underwater server cooling proof of concept and attempting to submerge a server farm the size of 10 football fields. Apple announced it’s 
-  slowing the production of Apple Vision Pro headsets. The Browser Company who built the popular Arc browser just a few years ago has announced it’s now building another new browser 
-  for more mainstream users, and Arc will go into maintenance mode. Apple Intelligence is (sorta) being released in iOS 18.1: basic features like message summaries and email writing, 
-  but 18.2 (still in beta) looks to have more substantial capabilities. Stay tuned for our updates.
+  Bonus news: China is taking Microsoft’s underwater server cooling proof of concept and attempting to submerge a server farm the size of 10 football fields. Apple announced it’s slowing the production of Apple Vision Pro headsets. The Browser Company who built the popular Arc browser just a few years ago has announced it’s now building another new browser for more mainstream users, and Arc will go into maintenance mode. Apple Intelligence is (sorta) being released in iOS 18.1: basic features like message summaries and email writing, but 18.2 (still in beta) looks to have more substantial capabilities. Stay tuned for our updates.
 
 
   Finally, vote for this podcast in the State of React survey out now! We’re under the Resources > Podcasts section and would greatly appreciate your support.
 
 
-  The Fire Starters topic of the week is the CSS property backdrop-filter. Newly supported across all major browsers it lets you apply graphical effects such as blurring or color shifting 
-  to the area behind an element. Think glassmorphic design or inverted color behind a company’s logo over an image, and you know what we’re talking about. Backdrop-filter makes all sorts 
-  of cool CSS effects super easy to do (and can combine multiple effects together). Play around in the browser or MDN site for a taste of what’s possible.
+  The Fire Starters topic of the week is the CSS property backdrop-filter. Newly supported across all major browsers it lets you apply graphical effects such as blurring or color shifting to the area behind an element. Think glassmorphic design or inverted color behind a company’s logo over an image, and you know what we’re talking about. Backdrop-filter makes all sorts of cool CSS effects super easy to do (and can combine multiple effects together). Play around in the browser or MDN site for a taste of what’s possible.
 duration: "47:21"
 hosts:
   - paige

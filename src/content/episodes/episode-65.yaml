@@ -3,34 +3,24 @@ type: news
 title: Bye-bye .IO, void(0)’s Next Gen JS Toolchain, and StackBlitz’s AI platform bolt.new
 date: 2024-10-14
 teaser: >
-  🚨 .IO domains are about to disappear! If your site is rocking a .io, you need to start making new plans. Evan You is back with VoidZero Inc., set to build 
-  the next-gen JavaScript toolchain! 🚀 And StackBlitz’s new AI-powered dev tool, bolt.new, is here to shake up web dev! 🧠⚡ Listen in for all the hot takes.
+  🚨 .IO domains are about to disappear! If your site is rocking a .io, you need to start making new plans. Evan You is back with VoidZero Inc., set to build the next-gen JavaScript toolchain! 🚀 And StackBlitz’s new AI-powered dev tool, bolt.new, is here to shake up web dev! 🧠⚡ Listen in for all the hot takes.
 description: >
-  .io domains have been in vogue for over a decade, but now that the British government has decided to give up sovereignty over the small set of islands 
-  in the Indian Ocean that owned that country code on the Internet, it will soon cease to exist. 
+  .io domains have been in vogue for over a decade, but now that the British government has decided to give up sovereignty over the small set of islands in the Indian Ocean that owned that country code on the Internet, it will soon cease to exist. 
 
 
-  Evan You, of Vue JS and Vite fame, has started a new company VoidZero Inc. to build the next generation toolchain for JavaScript. While trying to make 
-  Vite even better, Evan realized he needed a full-time team and funding to build the best toolchain around, and the engineers and investors agreed. Already 
-  delivering on their lofty goals, void(0) is poised to own the JS toolchain ecosystem in the not too distant future. World domination should follow quickly.
+  Evan You, of Vue JS and Vite fame, has started a new company VoidZero Inc. to build the next generation toolchain for JavaScript. While trying to make Vite even better, Evan realized he needed a full-time team and funding to build the best toolchain around, and the engineers and investors agreed. Already delivering on their lofty goals, void(0) is poised to own the JS toolchain ecosystem in the not too distant future. World domination should follow quickly.
 
 
-  StackBlitz enters the AI arena as well with its bolt.new offering, AI-powered software development allowing users to prompt, run, edit, and deploy full-stack 
-  web apps directly in the browser.
+  StackBlitz enters the AI arena as well with its bolt.new offering, AI-powered software development allowing users to prompt, run, edit, and deploy full-stack web apps directly in the browser.
 
 
-  WordPress drama reaches new levels of pettiness with a new checkbox that users must check before signing into their WP accounts swearing they are not affiliated 
-  with WP Engine in any way. 
+  WordPress drama reaches new levels of pettiness with a new checkbox that users must check before signing into their WP accounts swearing they are not affiliated with WP Engine in any way. 
 
 
-  In happier news, Sentry doubles down on its support for open source software (and the maintainers) by creating the Open Source Pledge 
-  where companies who use OSS for profit are encouraged to commit to paying the maintainers of the software they use so that burnout and related security issues can 
-  be better addressed.
+  In happier news, Sentry doubles down on its support for open source software (and the maintainers) by creating the Open Source Pledge where companies who use OSS for profit are encouraged to commit to paying the maintainers of the software they use so that burnout and related security issues can be better addressed.
 
 
-  Finally, there’s a new HTTP method on the horizon: HTTP QUERY for those safe, idempotent requests that are just too large for query params. If you’ve ever had a list 
-  that’s too long for the browser to handle you know what we’re talking about, and QUERY wants to be the request body GET methods never had. This is still in the proposal 
-  stage, but it’s going to be a boon to many developers when it does get implemented in the browser.
+  Finally, there’s a new HTTP method on the horizon: HTTP QUERY for those safe, idempotent requests that are just too large for query params. If you’ve ever had a list that’s too long for the browser to handle you know what we’re talking about, and QUERY wants to be the request body GET methods never had. This is still in the proposal stage, but it’s going to be a boon to many developers when it does get implemented in the browser.
 duration: "52:43"
 hosts:
   - jack
