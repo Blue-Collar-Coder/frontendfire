@@ -3,6 +3,7 @@ import apple from "../assets/images/apple-icon.svg?raw";
 import spotify from "../assets/images/spotify-icon.svg?raw";
 import discord from "../assets/images/discord-icon.svg?raw";
 import rss from "../assets/images/rss-icon.svg?raw";
+import youtube from "../assets/images/youtube-icon.svg?raw";
 
 interface Props {
   showText?: boolean;
@@ -31,6 +32,17 @@ const { showText = true } = Astro.props;
 >
   <Fragment set:html={spotify} />
   {showText && "Spotify"}
+</a>
+
+<a
+  href="https://www.youtube.com/@Front-EndFirePodcast"
+  target="_blank"
+  class="media-action"
+  aria-label="Subscribe on YouTube"
+  title={showText ? "" : "Subscribe on YouTube"}
+>
+  <Fragment set:html={youtube} />
+  {showText && "YouTube"}
 </a>
 
 <a
