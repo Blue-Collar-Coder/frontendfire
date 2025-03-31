@@ -1,0 +1,48 @@
+number: 87
+type: news
+title: Next.js’s Security Vulnerability, Remix Walks Away from RSCs, and Rsdoctor 1.0
+date: 2025-03-31
+teaser: >
+  Next.js had a security scare last week, exposing a loophole that could bypass auth validation! 😬 Remix co-founder Michael Jackson says he's DONE supporting React Server Components. 😲 ByteDance just leveled up build analysis with Rsdoctor v1.0. 🚀
+description: >
+  Next.js had a security vulnerability scare last week due to an internal header in its middleware that allowed for skipping middleware (like auth validation) before reaching routes. The Next.js team responded quickly and patched the security holes, but this serves as a reminder to stay vigilant, keep dependencies updated, and implement multiple layers of security.
+
+
+  Michael Jackson, co-founder of Remix and React Router, is calling it quits for Remix supporting React Server Components. Lots of React-based frameworks built prior to RSCs have been struggling to support the new paradigm shift - and lots of devs have bemoaned the fact because of the added complexity it introduces, and MJ is over it. This isn’t the first time framework authors have made bold claims to not support new breaking changes, so we’ll have to wait and see if he sticks to it.
+
+
+  Rsdoctor, a build analyzer tool by ByteDance, has hit v1.0. Rsdoctor goes beyond other build analysis tools offering a visual view of the build process and smart analysis to help dev teams identify bottlenecks, optimize performance, and improve overall engineering quality. It already supports Docusaurus, Storybook, Next.js, Lynx, and all the Rs-products in the Rspack ecosystem.
+
+
+  Startup Browser Use announces a $17M seed funding round to continue work on its solution to make websites more readable for AI agents. Browser Use scrapes websites and breaks them down into a more digestible format for agents to help autonomous agents understand the different options and make better decisions when interacting with those sites. And RedwoodJS, another React-based metaframework enters maintenance mode. 
+
+
+  This week’s Fire Starter is the CSS interpolate-size: allow-keywords feature. It enables animations between a number (like 0) and an intrinsic value (like ‘auto’, ‘min-content’, ‘max-content’, etc.). No longer do CSS animations require hard coded numeric values to slide open accordions or menus. Browser support is still limited, but as this is a progressive web enhancement, go ahead and give it a shot.
+duration: "48:16"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Rsdoctor 1.0 is available now
+    url: https://rsdoctor.dev/blog/release/release-note-1_0
+  - text: Remix bailing on RSCs?
+    url: https://x.com/mjackson/status/1904977249918705853
+  - text: Next.js's security vulnerability
+    url: https://zhero-web-sec.github.io/research-and-things/nextjs-and-the-corrupt-middleware
+  - text: RedwoodJS enters maintenance mode
+    url: https://x.com/Benjamin_D_Lee/status/1904296015861289462
+  - text: Browser Use raises $17M
+    url: https://techcrunch.com/2025/03/23/browser-use-the-tool-making-it-easier-for-ai-agents-to-navigate-websites-raises-17m/
+  - text: "CSS interpolate-size: allow-keywords"
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size#allow-keywords
+  - text: Mythic Quest TV series
+    url: https://en.wikipedia.org/wiki/Mythic_Quest
+  - text: Relearning guitar and the Katana Go headphone amp
+    url: https://www.boss.info/global/products/katana-go/
+  - text: OpenAI image generation and Studio Ghibli
+    url: https://www.forbes.com/sites/danidiplacido/2025/03/27/the-ai-generated-studio-ghibli-trend-explained/
+audio: https://www.buzzsprout.com/2226499/episodes/16887016-next-js-s-security-vulnerability-remix-walks-away-from-rscs-and-rsdoctor-1-0.mp3
+spotify: https://open.spotify.com/episode/0gh930BaT1qCwPSIGcAuel
+apple: https://podcasts.apple.com/us/podcast/next-jss-security-vulnerability-remix-walks-away-from/id1700169000?i=1000701562534
+youtube: https://youtu.be/hqkvMtIlohA?si=LoK4XGZPmFWoGdLn
