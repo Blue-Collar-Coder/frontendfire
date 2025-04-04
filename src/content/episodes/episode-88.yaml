@@ -1,0 +1,61 @@
+number: 88
+type: interview
+title: VS Code & GitHub Copilot Announcements with Burke Holland and Harald Kirschner
+date: 2025-04-04
+teaser: >
+  GitHub Copilot just leveled up in VS Code! 🚀 Microsoft’s own Burke Holland and Harald Kirschner join us to cover: 🤖 Agent Mode, 🛠️ MCP Support, 🧠 more LLMs, and ✨ Next Edit Suggestions. It’s not just a coding assistant—it’s a full-on AI dev partner.
+description: >
+  Special guests Burke Holland and Harald Kirschner from Microsoft join us on this episode to share the new GitHub Copilot features coming to VS Code and beyond.
+
+
+  First up: agent mode is now available to all users in VS Code. GitHub Copilot gets a serious upgrade as it can now create new apps from scratch, handle complex changes to existing code across multiple files, run (and debug) tests from the command line, and guide you through its reasoning. 
+
+
+  Additionally, VS Code and GH Copilot now offer MCP (model context protocol) for agent mode. This means that GitHub Copilot can use context tools and services while building an application. There’s a host of already available community-standard MCP servers available on github.com or devs can build their own and GH Copilot will be able to use it to enhance its knowledge and capabilities.
+
+
+  The LLM model offerings available to GH Copilot expand with the addition of Anthropic Claude 3.5 and 3.7 Sonnet, OpenAI o3-mini, and Google Gemini 2.0 Flash. Additionally, the GH Copilot team’s been working on a new code editing model dubbed “gpt-4o-copilot” that has been trained on 30+ different coding languages, so whether the project’s written in JavaScript or Clojure, there’s a very high chance the model is well-versed in the language, its syntax, and newer features.
+
+
+  Next Edit Suggestions (NES) lands in GH Copilot as well, so when devs make one change to a file, Copilot predicts the changes that follow and presents them in sequence. Not only are ghost-text suggestions faster to appear to users in VS Code, but Copilot is also better at understanding what other changes are needed to support the new code.
+duration: "55:55"
+hosts:
+  - jack
+  - paige
+  - tj
+guests:
+  - name: Burke Holland
+    url: https://burkeholland.github.io/
+  - name: Harald Kirschner
+    url: https://digitarald.de/
+links:
+  - text: VS Code Timeline view
+    url: https://code.visualstudio.com/docs/getstarted/userinterface#_timeline-view
+  - text: Burke on GitHub
+    url: https://github.com/burkeholland
+  - text: Burke on Twitter @burkeholland
+    url: https://x.com/burkeholland
+  - text: Burke on YouTube
+    url: https://youtube.com/code
+  - text: Burke on TikTok
+    url: https://tiktok.com/@vscode
+  - text: Harald on GitHub
+    url: https://github.com/digitarald/
+  - text: Harald on Twitter @digitarald
+    url: https://x.com/digitarald
+  - text: Harald on LinkedIn
+    url: https://www.linkedin.com/in/digitarald/
+  - text: Apple AirPods Pro Gen 2
+    url: https://www.apple.com/shop/buy-airpods/airpods-pro-2
+  - text: "Star Trek: Strange New Worlds season 3"
+    url: https://www.startrek.com/news/star-trek-strange-new-worlds-s3-teaser-summer
+  - text: Visiting the Grand Canyon
+    url: https://www.nps.gov/grca/index.htm
+  - text: Visiting Zion National Park
+    url: https://www.nps.gov/zion/index.htm
+  - text: Insta 360 webcam
+    url: https://www.insta360.com/product/insta360-link
+audio: https://www.buzzsprout.com/2226499/episodes/16917141-vs-code-github-copilot-announcements-with-burke-holland-and-harald-kirschner.mp3
+apple: https://podcasts.apple.com/us/podcast/vs-code-github-copilot-announcements-with-burke/id1700169000?i=1000702240949
+spotify: https://open.spotify.com/episode/6cfNiijwzPVdx00pAAePlo
+youtube: https://www.youtube.com/watch?v=UsUdEId5JdE
