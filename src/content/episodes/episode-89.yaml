@@ -3,7 +3,7 @@ type: news
 title: tRPC v11, Netlify vs. Next.js, and Firefox Gets PWAs (Kind Of)
 date: 2025-04-07
 teaser: >
-  Next.js had a security scare last week, exposing a loophole that could bypass auth validation! 😬 Remix co-founder Michael Jackson says he's DONE supporting React Server Components. 😲 ByteDance just leveled up build analysis with Rsdoctor v1.0. 🚀
+  tRPC v11 is officially production-ready! 🙌 Netlify drops an open letter to Next.js 🔥 — raising real concerns for non-Vercel deployments. And Firefox finally supports PWAs—but not like you’re used to 👀 All the latest from the dev world—don’t miss this one! 🎧
 description: >
   The tRPC team declares v11 officially production-ready. tRPC allows devs to build typesafe APIs with types that can be shared on the client and server, and now it has support for TanStack Query v5, the ability to send and receive non-JSON data content types, improved support for RSCs, and the ability to stream responses.
 
