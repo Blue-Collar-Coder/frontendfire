@@ -1,0 +1,53 @@
+number: 89
+type: news
+title: tRPC v11, Netlify vs. Next.js, and Firefox Gets PWAs (Kind Of)
+date: 2025-04-07
+teaser: >
+  Next.js had a security scare last week, exposing a loophole that could bypass auth validation! 😬 Remix co-founder Michael Jackson says he's DONE supporting React Server Components. 😲 ByteDance just leveled up build analysis with Rsdoctor v1.0. 🚀
+description: >
+  The tRPC team declares v11 officially production-ready. tRPC allows devs to build typesafe APIs with types that can be shared on the client and server, and now it has support for TanStack Query v5, the ability to send and receive non-JSON data content types, improved support for RSCs, and the ability to stream responses.
+
+
+  After the Next.js security incident a few weeks back, Netlify writes an open letter around the challenges Next.js poses when not hosted on Vercel. It raises valid points like a lack of adapters, no production grade documentation for serverless deployments, no visible roadmap or release schedule, and a disregard for open web standards, among others.
+
+
+  Firefox is finally adding support for progressive web apps (PWAs), but its web app support will intentionally not look, feel, or behave the same way similar features do in other browsers. It remains to be seen if Firefox’s unique take on PWAs will spur greater usage of them overall, but at least it’s another step toward browser parity.
+
+
+  Long time css-in-js library styled-components announces it’s entering maintenance mode for a variety of reasons including incompatibility with RSCs, a general move away from css-in-js styling, and the core maintainer no longer actively working with styled components in his own products. 
+
+
+  Another new JavaScript runtime has hit the scene: Bare claims it can run on any device with minimal requirements and excels at apps that are peer-to-peer, decentralized, or high volume. 
+
+
+  And Netlify doubles down on its new foray into agent experience (AX), by partnering up with AI IDE company Windsurf to offer one-click deployments from a user’s Windsurf IDE. There's a beta version available for devs to try, and we'll keep you posted when we try it out.
+duration: "36:53"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: tRPC v11
+    url: https://trpc.io/blog/announcing-trpc-v11
+  - text: Firefox will support PWAs (finally)
+    url: https://www.omgubuntu.co.uk/2025/03/firefox-nightly-supports-web-apps-taskbar-tabs
+  - text: Next.js Netlify deployment drama
+    url: https://www.netlify.com/blog/how-we-run-nextjs/
+  - text: Styled-components enter maintenance mode
+    url: https://opencollective.com/styled-components/updates/thank-you
+  - text: New Bare JS runtime
+    url: https://bare.pears.com/
+  - text: Windsurf and Netlify partnership
+    url: https://www.netlify.com/press/windsurf-netlify-ai-ide-native-deployment-integration/
+  - text: Windsurf and Netlify docs
+    url: https://windsurf.com/blog/windsurf-wave-6
+  - text: Squeeze Me novel
+    url: https://carlhiaasen.com/books/squeeze-me/
+  - text: Pickup Music site
+    url: https://www.pickupmusic.com/
+  - text: Mario Kart World
+    url: https://www.ign.com/articles/mario-kart-world-for-nintendo-switch-2-first-hands-on-preview
+audio: https://www.buzzsprout.com/2226499/episodes/16927799-trpc-v11-netlify-vs-next-js-and-firefox-gets-pwas-kind-of.mp3
+spotify: https://open.spotify.com/episode/1H1LVqOarncJr9AuTnULm7
+apple: https://podcasts.apple.com/us/podcast/trpc-v11-netlify-vs-next-js-and-firefox-gets-pwas-kind-of/id1700169000?i=1000702502726
+youtube: https://youtu.be/HZkGW8gn3lc?si=iZ37QaA3AUerrLme
