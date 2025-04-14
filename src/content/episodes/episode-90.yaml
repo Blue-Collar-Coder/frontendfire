@@ -1,0 +1,52 @@
+number: 90
+type: news
+title: Agents Assemble: Google’s A2A Protocol, Copilot Reviews & RedwoodJS Reborn
+date: 2025-04-14
+teaser: >
+  🌐 Google unveils a protocol for AI agents to talk to each other, 🤖 GitHub Copilot can now review your PRs, and RedwoodJS reinvents itself as RedwoodSDK. 👨‍💻✨
+description: >
+  Google announces a new Agent2Agent protocol meant to support AI agents communicating with each other. A2A aims to complement MCP and address the challenges of deploying large-scale, multi-agent systems from various providers across different platforms and cloud environments. Details are sparse at the moment, but there is a draft spec of the protocol and a laundry list of partners ready to be part of the A2A ecosystem.
+
+
+  GitHub Copilot’s new code review feature is now generally available. Just like you’d assign a coworker to review a PR, users can now assign a Copilot agent to review that same PR and spot bugs, identify potential performance problems, and suggest fixes. Also available is GitHub Copilot Pro+, which gives devs exclusive access to the latest AI models, priority access to previews, and 1,500 premium requests per month (i.e. Copilot features and AI models that use more advanced premium processing power).
+
+
+  A few episodes ago we shared that full-stack framework RedwoodJS had entered maintenance mode. Now, RedwoodJS has rebranded itself RedwoodSDK, and is focusing on a new framework that will become the foundation of a personal software revolution. RedwoodSDK promises modern serverless infrastructure, AI-driven dev tools, and open ecosystems, with more details coming soon.
+
+
+  In bonus news, Cognition, makers of the Devin AI coding assistant we’ve covered in past episodes, releases Devin 2.0, which includes a new agent-native IDE experience for interacting with Devin. Wordpress.com launches a free AI-powered website builder agent to help users build simple, marketing-style websites faster via an AI-chat interface. And StackBlitz, parent company of bolt.new, announces the world’s largest hackathon with $1M in total prizes and an exclusive concert by electronic DJ duo The Chainsmokers.
+
+
+  Today’s Fire Starter is about the Safari team’s implementation of CSS property text-wrap: pretty. Webkit’s version of text-wrap pretty helps make typography on the web shine by avoiding short last lines, ragged edges of text, poor hyphenation, and typographic rivers without devs having to think about it. The article goes into a lot of depth and is definitely worth a read.
+duration: 50:17"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: RedwoodJS becomes RedwoodSDK
+    url: https://redwoodjs.com/
+  - text: Google’s A2A
+    url: https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/
+  - text: Copilot code reviews
+    url: https://github.blog/changelog/2025-04-04-copilot-code-review-now-generally-available/
+  - text: Copilot premium requests
+    url: https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests
+  - text: StackBlitz is hosting the world’s largest hackathon
+    url: https://form.typeform.com/to/wf94YwH4?typeform-source=t.co
+  - text: Devin 2.0
+    url: https://cognition.ai/blog/devin-2
+  - text: Wordpress.com launches free AI-powered website builder
+    url: https://techcrunch.com/2025/04/09/wordpress-com-launches-a-free-ai-powered-website-builder/
+  - text: text-wrap: pretty
+    url: https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/
+  - text: Claude AI
+    url: https://claude.ai/
+  - text: The Accountant 2 movie
+    url: https://www.imdb.com/title/tt7068946/
+  - text: Apple Sports
+    url: https://apps.apple.com/us/app/apple-sports/id6446788829   
+audio: https://www.buzzsprout.com/2226499/episodes/16970965-agents-assemble-google-s-a2a-protocol-copilot-reviews-redwoodjs-reborn.mp3 
+spotify: https://open.spotify.com/episode/0JB7pgsVNn92VvR1Injqa7
+apple: https://podcasts.apple.com/us/podcast/agents-assemble-googles-a2a-protocol-copilot-reviews/id1700169000?i=1000703446996
+youtube: https://youtu.be/rffH3sOpyS4?si=UJWOFUwPozg0b2XP
