@@ -1,6 +1,6 @@
 number: 90
 type: news
-title: Agents Assemble: Google’s A2A Protocol, Copilot Reviews & RedwoodJS Reborn
+title: "Agents Assemble: Google’s A2A Protocol, Copilot Reviews & RedwoodJS Reborn"
 date: 2025-04-14
 teaser: >
   🌐 Google unveils a protocol for AI agents to talk to each other, 🤖 GitHub Copilot can now review your PRs, and RedwoodJS reinvents itself as RedwoodSDK. 👨‍💻✨
@@ -26,7 +26,7 @@ hosts:
 links:
   - text: RedwoodJS becomes RedwoodSDK
     url: https://redwoodjs.com/
-  - text: Google’s A2A
+  - text: "Google’s A2A"
     url: https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/
   - text: Copilot code reviews
     url: https://github.blog/changelog/2025-04-04-copilot-code-review-now-generally-available/
@@ -38,15 +38,15 @@ links:
     url: https://cognition.ai/blog/devin-2
   - text: Wordpress.com launches free AI-powered website builder
     url: https://techcrunch.com/2025/04/09/wordpress-com-launches-a-free-ai-powered-website-builder/
-  - text: text-wrap: pretty
+  - text: "text-wrap: pretty"
     url: https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/
   - text: Claude AI
     url: https://claude.ai/
   - text: The Accountant 2 movie
     url: https://www.imdb.com/title/tt7068946/
   - text: Apple Sports
-    url: https://apps.apple.com/us/app/apple-sports/id6446788829   
-audio: https://www.buzzsprout.com/2226499/episodes/16970965-agents-assemble-google-s-a2a-protocol-copilot-reviews-redwoodjs-reborn.mp3 
+    url: https://apps.apple.com/us/app/apple-sports/id6446788829
+audio: https://www.buzzsprout.com/2226499/episodes/16970965-agents-assemble-google-s-a2a-protocol-copilot-reviews-redwoodjs-reborn.mp3
 spotify: https://open.spotify.com/episode/0JB7pgsVNn92VvR1Injqa7
 apple: https://podcasts.apple.com/us/podcast/agents-assemble-googles-a2a-protocol-copilot-reviews/id1700169000?i=1000703446996
 youtube: https://youtu.be/rffH3sOpyS4?si=UJWOFUwPozg0b2XP
