@@ -18,7 +18,7 @@ description: >
 
 
   Today’s Fire Starter is about the Safari team’s implementation of CSS property text-wrap: pretty. Webkit’s version of text-wrap pretty helps make typography on the web shine by avoiding short last lines, ragged edges of text, poor hyphenation, and typographic rivers without devs having to think about it. The article goes into a lot of depth and is definitely worth a read.
-duration: 50:17"
+duration: "50:17"
 hosts:
   - jack
   - paige
