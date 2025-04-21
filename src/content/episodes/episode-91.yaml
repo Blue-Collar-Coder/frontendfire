@@ -1,0 +1,57 @@
+number: 91
+type: news
+title: "All AI All the Time: OpenAI’s Codex, the Web Dev AI Survey, and More"
+date: 2025-04-21
+teaser: >
+  OpenAI just dropped code-focused GPT-4.1 & a new terminal-native Codex CLI. The first State of Web Dev AI survey is in: what tools are winning, what devs are spending, and what’s still a pain. Plus: Next.js 15.3 lands, and "slopsquatting" enters the dev lexicon. 🧠⚡️
+description: >
+  The AI hype train keeps chugging along with new updates from OpenAI. ChatGPT now offers GPT-4.1: a new dev-first model trained for use cases related to coding, instruction following, and function calling, with a context window of up to 1 million tokens. It also announces Codex CLI, a terminal version of ChatGPT that devs can use to run code, manipulate files, and iterate without ever leaving their preferred terminal. In addition to the Codex CLI debut for terminal devs, there’s rumors that OpenAI is in talks to acquire coding AI-assisted IDE Windsurf for the low, low price of $3 billion, which would give it a strong foothold in the IDE-using dev community as well.
+
+
+  Next.js 15.3 drops with new features like using its Turbopack buildpack for production builds (still in alpha stage so use with caution), community support for Rspack as a drop in replacement for the Webpack bundler, and new navigation hooks for enhanced client-side routing capabilities.
+
+
+  There’s also a new survey out this week: the first annual State of Web Dev AI, which answers questions like which AI tools devs find most useful, how much devs are spending on AI, and what pain points are devs most likely to encounter when leveraging AI to develop their own web apps.
+
+
+  In bonus news, the new term “slopsquatting” has been coined courtesy of the Python Software Foundation. It has to do with when AI coding assistants hallucinate software packages as part of code solutions, and now some malicious actors are creating fake packages that look real but are actually malware an AI assistant might recommend without a thorough vetting. Bottom line: do your due diligence before installing libraries you’re unfamiliar with into a project. 
+
+
+  Additionally, Google’s Firebase platform for software development gets AI-powered and renamed Firebase Studio, and Arduino’s Cloud Editor platform also gets an AI upgrade in the form of Arduino AI Assistant. No matter what sort of code you write, there’s an AI assistant or tool out there just for you!
+
+
+  This week’s Fire Starter centers on the updates Safari’s made to Web Push. Previously, push notifications on websites and mobile apps relied on JavaScript service workers which could affect battery life, user privacy, and create added code complexity for devs. Safari now offers Declarative Web Push which can also display notifications to users without requiring installed service workers, and it’s already available to test today in Safari 18.4.
+duration: "45:21"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Codex CLI
+    url: https://github.com/openai/codex
+  - text: GPT-4.1 models
+    url: https://platform.openai.com/docs/models/gpt-4.1
+  - text: State of AI Web Dev 2025
+    url: https://2025.stateofai.dev/en-US
+  - text: Next.js 15.3
+    url: https://nextjs.org/blog/next-15-3
+  - text: OpenAI is in talks to acquire Windsurf for $3B
+    url: https://www.bloomberg.com/news/articles/2025-04-16/openai-said-to-be-in-talks-to-buy-windsurf-for-about-3-billion
+  - text: Slopsquatting
+    url: https://www.theregister.com/AMP/2025/04/12/ai_code_suggestions_sabotage_supply_chain
+  - text: AI agents for everyone (Firebase Studio)
+    url: https://firebase.studio/
+  - text: Arduino AI Assistant
+    url: https://blog.arduino.cc/2025/04/17/code-faster-with-the-new-arduino-ai-assistant/
+  - text: Declarative Web Push
+    url: https://webkit.org/blog/16535/meet-declarative-web-push/
+  - text: Solo Leveling anime series
+    url: https://en.wikipedia.org/wiki/Solo_Leveling
+  - text: Knuckles TV miniseries
+    url: https://www.imdb.com/title/tt18291136/
+  - text: NY Times Flashback game
+    url: https://www.nytimes.com/spotlight/flashback
+audio: https://www.buzzsprout.com/2226499/episodes/17011158-all-ai-all-the-time-openai-s-codex-the-web-dev-ai-survey-and-more.mp3
+spotify: https://open.spotify.com/episode/7mvCJgq5gBiNmOHGc4JrEX
+apple: https://podcasts.apple.com/us/podcast/all-ai-all-the-time-openais-codex-the-web-dev-ai/id1700169000?i=1000704288976
+youtube: https://youtu.be/DmD6h_U8tkQ?si=LuoE7pYBGk4mO8pW
