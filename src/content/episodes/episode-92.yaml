@@ -1,0 +1,39 @@
+number: 92
+type: news
+title: Alien Signals, React Compiler Hits RC, and RedwoodSDK Plans Revealed
+date: 2025-04-28
+teaser: >
+  Vue’s new Alien Signals boost reactivity, React Compiler nears stable release, RedwoodSDK reveals its Cloudflare-powered future, and... is Yahoo buying Chrome? 🛸🧪🔥
+description: >
+  Signals has been gaining in popularity the past few years for its fine-grained approach to reactivity in the browser, and a new high performance implementation called Alien Signals has landed in Vue.js. It offers significant performance improvements to complex applications with lots of data changes, and has been extended so it can be used in other JS-based libraries besides Vue.
+
+
+  The React team announces that React Compiler has reached release candidate (RC) stage and is nearing stable release territory. React Compiler is a build-time tool that optimizes React apps through automatic memoization so devs don’t have to worry about including useMemo() and useCallback() hooks in their code. Give it a try today and see if you notice fewer re-renders and more responsive UIs in your apps.
+
+
+  RedwoodSDK, which had some cryptic messaging about its future last month, has unveiled more of the story on its new website this month. It’s aiming to be part of the “personal software revolution” by providing a React framework for Cloudflare, offering built in access to Cloudflare Workers, databases and storage, queues, AI, and more. If you’ve got an idea for a side project or micro-SaaS site, RedwoodSDK wants to make those ideas reality.
+
+
+  In bonus news, Google’s in an antitrust legal battle, and the US government wants to force Google to sell Chrome. Interested buyers include AI companies OpenAI and Anthropic, and Yahoo? It’s anybody’s guess how this one will finally shake out, but what an assortment of suitors.
+duration: "37:14"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: RedwoodSDK details revealed
+    url: https://rwsdk.com/
+  - text: Alien Signals
+    url: https://github.com/stackblitz/alien-signals
+  - text: React Compiler RC
+    url: https://react.dev/blog/2025/04/21/react-compiler-rc
+  - text: Everybody wants to buy Chrome
+    url: https://www.theverge.com/the-vergecast/656159/chrome-google-antitrust-ai-meta-vergecast
+  - text: Severance TV series season 2
+    url: https://www.imdb.com/title/tt11280740/
+  - text: Detroit grows in population for the first time in decades
+    url: https://detroitmi.gov/news/detroit-grows-population-first-time-decades
+audio: https://www.buzzsprout.com/2226499/episodes/17053621-alien-signals-react-compiler-hits-rc-and-redwoodsdk-plans-revealed.mp3
+spotify: https://open.spotify.com/episode/0w0j5ybGeBopG0xEGfuKH0
+apple: https://podcasts.apple.com/us/podcast/alien-signals-react-compiler-hits-rc-and-redwoodsdk/id1700169000?i=1000705246220
+youtube: https://youtu.be/SBhX3lP7-wg?si=aF0tW1w1jz15orIp
