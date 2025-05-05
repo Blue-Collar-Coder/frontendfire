@@ -1,0 +1,47 @@
+number: 93
+type: news
+title: React Activity, Storybook 9 Beta, and AI as a Collaborator, Not a Crutch
+date: 2025-05-05
+teaser: >
+  React’s new Activity component preserves state even when hidden. 🔎 Storybook 9 beta adds all the testing tools. 📚 Tips to keep dev skills sharp while still using AI assistants. 🤖 And Apple’s legal bruising over anti-competitive App Store tactics. 🧑‍⚖️
+description: >
+  The React team’s been on a roll lately with new experimental updates. Last episode we covered  View Transitions, and today we discuss Activity. Activity is a component to hide and show parts of the UI while maintaining the component’s state and continuing to render at a lower priority when it’s not visible on screen.
+
+
+  Storybook 9 beta is out now, and it seems to be transitioning from a frontend workshop for building UI components in isolation to a one-stop shop for all your frontend testing needs. Component testing, interaction testing, accessibility testing, visual testing, test coverage reports, and all bundled into a library that’s 48% smaller than Storybook 8.
+
+
+  Microsoft recently released a paper from researchers at Cambridge and Carnegie Mellon studying how AI coding assistants have allowed developers to engage in less critical thinking and independent problem-solving, and how the skills to do both could deteriorate if this over-reliance on AI continues unchecked. Addy Osmani, engineering lead for Google Chrome, shares tips on how to use AI as a collaborator and not a crutch, so devs can be faster and more efficient, but also keep their coding skills sharp.
+
+
+  There’s a new independent web browser in the making called Ladybird. Built using a web standards approach, and backed by a non-profit funded entirely by sponsorships and donations the browser hopes to launch a targeted alpha release in 2026. 
+
+
+  And finally, Apple has had to update its App Store guidelines around external payments and links after it lost a legal battle where it was found to have knowingly implemented anti-patterns to prevent app developers from pointing to alternative payment options outside of the app store (which would have bypassed Apple’s 30% commission through App Store purchases). The moral of this story? Be careful what you put in writing on company channels, as it may become public knowledge in the future.
+duration: "55:50"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Storybook 9 beta
+    url: https://storybook.js.org/blog/storybook-9-beta/
+  - text: React <Activity>
+    url: https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more
+  - text: The Impact of Generative AI on Critical Thinking
+    url: https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf
+  - text: Avoiding Skill Atrophy in the Age of AI
+    url: https://addyo.substack.com/p/avoiding-skill-atrophy-in-the-age
+  - text: Ladybird new independent web browser
+    url: https://ladybird.org/
+  - text: Apple changes App Store rules to allow external purchases
+    url: https://www.theverge.com/news/660025/apple-changes-app-store-rules-to-allow-external-purchases
+  - text: The Night Manager TV series
+    url: https://www.imdb.com/title/tt1399664/
+  - text: Raycast
+    url: https://www.raycast.com/
+  - text: Linkin Park World Tour
+    url: https://linkinpark.com/tour
+audio: https://www.buzzsprout.com/2226499/episodes/17097267-react-activity-storybook-9-beta-and-ai-as-a-collaborator-not-a-crutch.mp3
+spotify: https://open.spotify.com/episode/22GEUnyTML6lnhmm8jfXWd
+apple: https://podcasts.apple.com/us/podcast/react-activity-storybook-9-beta-and-ai-as/id1700169000?i=1000706342563
