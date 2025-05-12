@@ -1,0 +1,51 @@
+number: 94
+type: news
+title: Design, Code, Publish - All in Figma?
+date: 2025-05-12
+teaser: >
+  Figma Site and Figma Make are redefining the design-to-dev pipeline. 🎨 Google’s Gemini 2.5 Pro tops the AI leaderboard in the WebDev Arena, Node v24 lands, and OpenAI’s $3B Windsurf deal heats up. 🤑
+description: >
+  Node is back in the news with some noteworthy updates as v24 drops. It gets an upgrade to 13.6 for its V8 JavaScript engine, runs with npm version 11, and has more efficient implementation of the local storage API and test runner updates.
+
+
+  Google has released its newest version of its Gemini AI model: Gemini 2.5 Pro Preview (I/O Edition), which claims to be the best model for front-end and UI development. To prove it, Google links to a site called the WebDev Arena (where Gemini 2.5 Pro Preview ranks #1), that lets users put in a prompt and then pits different AI models head to head to build a site based on the prompt. 
+
+
+  Figma just had their 2025 Config conference and unveiled a host of new offerings, including Figma Sites that lets folks design, prototype and publish with Figma, and Figma Make, the AI prompting tool that can add functionality to a Figma mockup via natural language directions.
+
+
+  The rumors from a few weeks ago about OpenAI buying AI coding IDE Windsurf are solidifying, with a price tag of $3B. And there’s a new annual State of Devs survey developers can take that wants to know about their hobbies and interests outside of coding: music, movies, what you do for fun, it’s all up for grabs.
+
+
+  Finally, the Fire Starter for this week is about two new CSS properties in Chrome 137: reading-flow and reading-order. With the ubiquitous use of layouts like flex and grid in today’s web development, being able to dictate keyboard navigation so elements on screen are accessed in orders that make sense is more important than ever, and these two new properties aim to solve those sorts of potential mismatches.
+duration: "49:25"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Node v24 updates
+    url: https://nodejs.org/en/blog/release/v24.0.0
+  - text: Figma Make
+    url: https://www.figma.com/make/
+  - text: Figma Sites
+    url: https://www.figma.com/sites/
+  - text: Figma Config demo video
+    url: https://x.com/figma/status/1920169817807728834
+  - text: Gemini 2.5 Pro updates
+    url: https://developers.googleblog.com/en/gemini-2-5-pro-io-improved-coding-performance/
+  - text: WebDev Arena
+    url: https://web.lmarena.ai/leaderboard
+  - text: OpenAI agrees to buy Windsurf for $3B
+    url: https://www.reuters.com/business/openai-agrees-buy-windsurf-about-3-billion-bloomberg-news-reports-2025-05-06/
+  - text: Take the first annual State of Devs survey
+    url: https://survey.devographics.com/en-US/survey/state-of-devs/2025
+  - text: CSS reading-flow and reading-order
+    url: https://developer.chrome.com/blog/reading-flow
+  - text: Old Town Trolley Tours
+    url: https://www.trolleytours.com/
+  - url: The Residence TV show
+    url: https://www.imdb.com/title/tt8740614/
+audio: https://www.buzzsprout.com/2226499/episodes/17140900-design-code-publish-all-in-figma.mp3
+spotify: https://open.spotify.com/episode/7b5BI0jsWTJDewxhDePgek
+apple: https://podcasts.apple.com/us/podcast/design-code-publish-all-in-figma/id1700169000?i=1000708101360
