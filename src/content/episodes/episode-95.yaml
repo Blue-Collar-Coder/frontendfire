@@ -1,0 +1,47 @@
+number: 95
+type: news
+title: TanStack DB & The Rise of the Tannerverse
+date: 2025-05-19
+teaser: >
+  ⚡ TanStack DB brings blazing-fast reactivity, 🧠 VS Code hits v1.100 and gets smarter, chattier, and more agent-y, and 🪄 Basecoat UI gives you shadcn/ui-style components with no React strings attached. And yes… HBO Max is back, again.
+description: >
+  TanStack, a collection of popular open-source software libraries, is back in the news cycle this week with the announcement of TanStack DB. TanStack DB extends TanStack Query with collections, live queries, and optimistic UI mutations to keep UIs reactive, consistent, and lightning fast. It’s also backend agnostic, and works with sync engines, GraphQL, REST APIs, and other custom backends. Long live the Tannerverse.
+
+
+  VS Code marks its 100th release of v1 with updates like: enabling Next Edit Suggestions (NES) be default, adding custom instructions and reusable prompts for a chat agent inside a project’s .github folder, and new tools at the AI agent’s disposal for better results.
+
+
+  There’s a new component library available called Basecoat UI that claims to bring the magic of shadcn/ui with no React required. No matter if a website’s built using HTML, Flask, Rails, or another JS framework, Basecoat uses HTML and Tailwind, and a hint of Alpine.js when needed, to provide accessible, modern components that are also compatible with shadcn/ui themes.
+
+
+  In bonus news, Google announces a minor logo redesign after 9 years with its current look, plus an experimental AI-powered search feature to replace its “I’m Feeling Lucky” button. A new website has popped up, strongly encouraging devs to just use HTML instead of all these fancy JS frameworks. Parcel v2.15 jumps on the Rust bandwagon, rewriting its HTML and SVG transformer and minifier code in Rust and dramatically reducing its bundle size in the process. And streaming service Max is changing its name back to HBO Max after two years of unsuccessfully trying to get users to drop the HBO.
+duration: "39:35"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Basecoat UI - framework agnostic component library
+    url: https://basecoatui.com/
+  - text: TanStack DB
+    url: https://github.com/TanStack/db?tab=readme-ov-file
+  - text: VS Code 1.100
+    url: https://code.visualstudio.com/updates/v1_100
+  - text: Apparently we should all just f’ing use HTML
+    url: https://justfuckingusehtml.com/
+  - text: Parcel v2.15 jumps on the Rust bandwagon
+    url: https://parceljs.org/blog/v2-15-0
+  - text: "Google is testing a new “AI Mode”"
+    url: https://techcrunch.com/2025/05/13/google-tests-replacing-im-feeling-lucky-with-ai-mode
+  - text: Google’s logo change
+    url: https://www.theverge.com/news/664958/google-g-logo-gradient-design-change
+  - text: Max once again becomes HBO Max
+    url: https://variety.com/2025/tv/news/max-changes-name-hbo-max-1236397399/
+  - text: House of Earth and Blood (#1 in Crescent City series)
+    url: https://www.goodreads.com/book/show/44778083-house-of-earth-and-blood
+  - text: Grand Sumo May 2025 Tournament
+    url: https://www.youtube.com/watch?v=SP4lvJgalUM&list=PLFEzXnIQVwV9JgQkOMJZM23G8g-wBBWKf&index=10
+audio: https://www.buzzsprout.com/2226499/episodes/17185531-tanstack-db-the-rise-of-the-tannerverse.mp3
+spotify: https://open.spotify.com/episode/0DoDnfa715bR7U0R76IxrI
+apple: https://podcasts.apple.com/us/podcast/tanstack-db-the-rise-of-the-tannerverse/id1700169000?i=1000708977819
+youtube: https://youtu.be/42LmImVKYkQ?si=OppGWyS9lop3tGnc
