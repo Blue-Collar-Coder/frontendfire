@@ -3,7 +3,7 @@ type: news
 title: TanStack DB & The Rise of the Tannerverse
 date: 2025-05-19
 teaser: >
-  ⚡ TanStack DB brings blazing-fast reactivity, 🧠 VS Code hits v1.100 and gets smarter, chattier, and more agent-y, and 🪄 Basecoat UI gives you shadcn/ui-style components with no React strings attached. And yes… HBO Max is back, again.
+  This week in dev land: ⚡ TanStack DB brings blazing-fast reactivity, 🧠 VS Code hits v1.100 and gets smarter, chattier, and more agent-y, and 🪄 Basecoat UI gives you shadcn/ui-style components with no React strings attached. And yes… HBO Max is back, again.
 description: >
   TanStack, a collection of popular open-source software libraries, is back in the news cycle this week with the announcement of TanStack DB. TanStack DB extends TanStack Query with collections, live queries, and optimistic UI mutations to keep UIs reactive, consistent, and lightning fast. It’s also backend agnostic, and works with sync engines, GraphQL, REST APIs, and other custom backends. Long live the Tannerverse.
 
@@ -45,3 +45,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/17185531-tanstack-db-the-rise
 spotify: https://open.spotify.com/episode/0DoDnfa715bR7U0R76IxrI
 apple: https://podcasts.apple.com/us/podcast/tanstack-db-the-rise-of-the-tannerverse/id1700169000?i=1000708977819
 youtube: https://youtu.be/42LmImVKYkQ?si=OppGWyS9lop3tGnc
+clip: https://x.com/front_end_fire/status/1924457105966141650
