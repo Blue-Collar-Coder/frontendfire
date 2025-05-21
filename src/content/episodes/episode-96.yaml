@@ -1,0 +1,51 @@
+number: 96
+type: interview
+title: GraphQL and AI with Apollo CTO Matt DeBergalis
+date: 2025-05-21
+teaser: >
+  Forget LAMP and MERN—there’s a new stack brewing. Apollo CTO Matt DeBergalis makes the case for GraphQL as a critical layer in the AI + developer toolchain. 🚀
+description: >
+  CTO and co-founder of Apollo, Matt DeBergalis, joins us on this episode to talk about how GraphQL has continued to evolve over time, and how Apollo is focused on making it more accessible for developers and AI agents than ever before.
+
+
+  For those less familiar with Apollo and GraphQL, Matt shares the history of both, including lessons he learned from founding the company Meteor that helped him while building Apollo.
+
+
+  We discuss how even though GraphQL is making less headlines than it was a few years ago, it’s really begun to find its niche within larger organizations that have hundreds or even thousands of APIs and databases underpinning their many applications, and how Apollo has continued to evolve so that it can support APIs, serverless functions, and SQL- or no SQL-databases, with little extra code needed to make these different data sources work together.
+
+
+  Matt also highlights the benefits of a GraphQL schema for AI agents and MCP servers, sharing how the agents are generally very good at parsing the schemas and understanding how to leverage queries against the interface to retrieve the data they need. 
+
+
+  While we’ve had tech stacks in the past like LAMP and MERN, this new addition of AI to the development mix provides a unique opportunity to redefine the stack once more, and GraphQL could be a very good piece to include.
+duration: "47:19"
+hosts:
+  - paige
+  - tj
+guests:
+  - name: Matt DeBergalis, CTO and co-founder of Apollo
+links:
+  - text: Apollo GraphQL website
+    url: https://www.apollographql.com/
+  - text: Apollo GraphQL on YouTube
+    url: https://www.youtube.com/c/ApolloGraphQL
+  - text: Apollo GraphQL on LinkedIn
+    url: https://www.linkedin.com/company/apollo-graphql
+  - text: Apollo GraphQL on X
+    url: https://x.com/apollographql
+  - text: Matt on GitHub
+    url: https://github.com/debergalis
+  - text: Matt on X
+    url: https://x.com/debergalis
+  - text: Matt on Medium
+    url: https://medium.com/@debergalis
+  - text: Matt on LinkedIn
+    url: https://www.linkedin.com/in/debergalis
+  - text: The Pitt TV series
+    url: https://www.imdb.com/title/tt31938062/
+  - text: I Think I Was Murdered novel
+    url: https://www.goodreads.com/book/show/210137424-i-think-i-was-murdered
+audio: https://www.buzzsprout.com/2226499/episodes/17202365-graphql-and-ai-with-apollo-cto-matt-debergalis.mp3
+apple: https://podcasts.apple.com/us/podcast/graphql-and-ai-with-apollo-cto-matt-debergalis/id1700169000?i=1000709263281
+spotify: https://open.spotify.com/episode/5qiB2Lu43SRPFrZ0H559Zg
+youtube: https://youtu.be/wM_xjRFgAGQ?si=bBADC5fIc9P1AB9P
