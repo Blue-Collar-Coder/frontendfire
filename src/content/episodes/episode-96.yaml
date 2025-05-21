@@ -24,6 +24,7 @@ hosts:
   - tj
 guests:
   - name: Matt DeBergalis, CTO and co-founder of Apollo
+    url: https://www.apollographql.com/leadership
 links:
   - text: Apollo GraphQL website
     url: https://www.apollographql.com/
