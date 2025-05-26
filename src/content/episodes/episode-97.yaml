@@ -3,7 +3,7 @@ type: news
 title: VS Code Open Sources GitHub Copilot Chat
 date: 2025-05-26
 teaser: >
-  🔥 Big shifts in web dev this week: 🧠 VS Code wants to be the AI editor, 🧩 Microsoft floats “NLWeb” — turning your site into an AI app, 🛑 Remix v3 breaks up with React, and 🕹️ Claude 4 plays Pokemon. Let's go ➡️
+  🔥 Big shifts in web dev this week: 🧠 VS Code wants to be the AI editor, 🧩 Microsoft floats “NLWeb” — turning your site into an AI app, 🛑 Remix v3 breaks up with React, and 🕹️ Claude 4 plays Pokemon.
 description: >
   This week both Google and Microsoft held conferences where they announced all the new, great, AI breakthroughs, but there were a few other notable, web dev-focused pieces in between. VS Code announced it will be open sourcing the GitHub Copilot Chat extension, refactoring relevant components into its core codebase, as the next logical step “in making VS Code an open source AI editor.”
 
@@ -40,3 +40,4 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/17225284-vs-code-open-sources-github-copilot-chat.mp3
 spotify: https://open.spotify.com/episode/6pFrTMTH7VapqxQF3KTE8v
 apple: https://podcasts.apple.com/us/podcast/97-vs-code-open-sources-github-copilot-chat/id1700169000?i=1000709887724
+clip: https://x.com/front_end_fire/status/1926998173525987564
