@@ -1,0 +1,53 @@
+number: 98
+type: news
+title: "Zod v4: Prettier, Better, Faster, Smaller"
+date: 2025-06-02
+teaser: >
+  🚨 Zod v4 finally lands after 4 years—worth. the. wait. ⚡ Angular v20 drops signals, hydration boosts, and... a mascot RFC?! 🐙 🤖 Meet vibe-rules — your AI prompts, now cross-editor.
+description: >
+  It’s been 4 years since TypeScript schema validation library Zod released v3, but the new v4 release makes it worth the wait. Expect faster parsing times across the board, built in error pretty-printing, and even a tree-shakeable API called Zod Mini for constrained environments like edge runtimes.
+
+
+  There’s a new npm-based CLI tool for managing and sharing AI rules across different editors and tools called vibe-rules. In addition to saving favorite prompts so they can be applied to any supported editor, vibe-rules can also automatically install prompts shared in a project’s NPM packages into an editor’s configuration. It’s early days yet, but a great idea to make prompts easier for anyone to use.
+
+
+  Angular v20 is out with some much anticipated highlights. Stabilized signal-based APIs, incremental hydration, custom Angular reporting directly in Chrome DevTools, GenAI development advancements, and, last but not least, a RFC for an official Angular mascot. Not to bias you, but we favor the pink, dice-shaped mascot around here.
+
+
+  In Lightning News, Remix continues to make waves with its official blog release stating Remix v3 won’t use React. StackOverflow’s 15th annual developer survey is out now - you should vote for us in the podcast section. Firefox becomes the first browser to support the Temporal API: a better way to handle dates. And the month-long bolt.new hackathon kicks off with over 50,000 developers signed up to compete. Judging a hackathon of this size is going to be a challenge all by itself.
+duration: "53:59"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Zod v4
+    url: https://zod.dev/v4
+  - text: vibe-rules
+    url: https://www.npmjs.com/package/vibe-rules
+  - text: Angular 20
+    url: https://blog.angular.dev/announcing-angular-v20-b5c9c06cf301
+  - text: Remix v3 React updates
+    url: https://x.com/ryanflorence/status/1927915950084432340
+  - text: Firefox is the first browser to support the Temporal API
+    url: https://www.mozilla.org/en-US/firefox/139.0/releasenotes/
+  - text: Temporal API on MDN
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal
+  - text: StackOverflow Developer Survey 2025
+    url: https://stackoverflow.az1.qualtrics.com/jfe/form/SV_1MNG2CYTY2AzkAm
+  - text: Bolt's hackathon begins
+    url: https://hackathon.dev/
+  - text: Annual Gloucestershire cheese rolling race
+    url: https://www.bbc.com/news/live/cd0l2j51gygt
+  - text: Cheese rolling race Wiki
+    url: https://en.wikipedia.org/wiki/Cooper%27s_Hill_Cheese-Rolling_and_Wake
+  - text: The Portland Pickles baseball game
+    url: https://www.portlandpicklesbaseball.com/
+  - text: StoryGraph book tracking app
+    url: https://app.thestorygraph.com/
+  - text: The God of the Woods novel
+    url: https://app.thestorygraph.com/books/5cbefe3c-446c-4f1c-9cd4-b4ec23bee01c
+audio: https://www.buzzsprout.com/2226499/episodes/17264441-zod-v4-prettier-better-faster-smaller.mp3
+spotify: https://open.spotify.com/episode/3MYuX6bU6hMVc84kEd9Jpj
+apple: https://podcasts.apple.com/us/podcast/zod-v4-prettier-better-faster-smaller/id1700169000?i=1000710856053
+youtube: https://youtu.be/gBC6d3mVnGM?si=ITkfEvCG5e4c9xDS
