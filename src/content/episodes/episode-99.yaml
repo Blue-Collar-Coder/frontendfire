@@ -1,0 +1,48 @@
+number: 99
+type: news
+title: The Browser Company Kills Arc
+date: 2025-06-09
+teaser: >
+  🪦 Arc is dead. Long live Dia? The Browser Company goes all-in on AI. 🎙️ OpenAI’s Realtime API brings voice conversations to LLMs. 🧠 Cursor IDE v1.0 = agents, bug bots, project memory. Don't miss it!
+description: >
+  OpenAI has a new API in beta called the Realtime API, which enables speech conversations with LLMs. Real-time text and audio processing means users can have conversations with voice agents and voice-enabled apps, and OpenAI makes it simple to connect via WebRTC or WebSockets.
+
+
+  Several months ago, The Browser Company, abruptly announced they were stopping work on Arc browser in favor of building a completely new, AI-first browser called Dia. Now, the company’s CEO has released a letter detailing why these decisions were made and what the future holds for The Browser Company. Details on Dia are vague, but the team is optimistic they can build “a true successor to the browser”.
+
+
+  AI-enabled coding IDE Cursor hit v1.0, this week with a bunch of notable features. Notable highlights in this release include: BugBot, which automatically reviews PRs and identifies bugs and issues, Background Agent (Cursor’s remote coding agent) for all users, Memories to help Cursor remember facts and conversations within projects for future use, and one-click MCP install and OAuth support.
+
+
+  In Lightning News, OpenAI gave its AI coding agent Codex access to the Internet. This allows Codex to interact with the internet during task execution, so be mindful if you decide to turn it on. Also, React Router announces its new open governance model, which is looking for community volunteers to help steer React Router’s development going forward so the co-creators Ryan Florence and Michael Jackson can focus their efforts on Remix v3.
+
+
+  Today’s Fire Starter reveals a lesser known fact about every JavaScript dev’s favorite debugging tool: console.log. Did you know console.log supports format strings? It only works in Node.js, but yes indeed, %j means “serialize this value to JSON”. It also works for strings, numbers, and objects. Pretty cool.
+duration: "49:20"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Cursor 1.0
+    url: https://www.cursor.com/changelog/1-0
+  - text: OpenAI's Realtime Agent for AI Chat
+    url: https://platform.openai.com/docs/guides/realtime
+  - text: The Browser Company stops developing Arc
+    url: https://browsercompany.substack.com/p/letter-to-arc-members-2025
+  - text: React Router Open Governance
+    url: https://remix.run/blog/rr-governance
+  - text: Codex gets access to the Internet
+    url: https://x.com/sama/status/1930006856019390521
+  - text: console.log formatting strings
+    url: https://bsky.app/profile/loige.co/post/3log24bfbsk2i
+  - text: Clarkson's Farm season 4
+    url: https://www.primevideo.com/detail/Clarksons-Farm/0JZ7BYV8EYHMAW6DDHA0KGA9LP
+  - text: Shokz OpenRun Pro 2 headphones
+    url: https://shokz.com/products/openrunpro2
+  - text: Rotary cheese grater
+    url: https://www.amazon.com/dp/B09QBYR2S5?ref=ppx_pop_mob_ap_share&th=1
+audio: https://www.buzzsprout.com/2226499/episodes/17301794-the-browser-company-kills-arc.mp3
+spotify: https://open.spotify.com/episode/5LBqbziocSxGBSQPVS5bMO
+apple: https://podcasts.apple.com/us/podcast/99-the-browser-company-kills-arc/id1700169000?i=1000712073115
+youtube: https://youtu.be/r8tISpRMIMg?si=0WDGIWXpo42zClxq
