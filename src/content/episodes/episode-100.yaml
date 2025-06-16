@@ -1,0 +1,41 @@
+number: 100
+type: news
+title: Rolldown-Vite: Evan You Just Made Vite 16x Faster
+date: 2025-06-16
+teaser: >
+  ⚡️ New week, new web dev glow-ups on episode 100 🥳: Rolldown-Vite makes Vite builds up to 16x faster, 🍎 Apple’s Safari 26 drops <model> + scroll animations. 🌐 Dia, The Browser Company’s AI upgrade to Arc enters early access. Big shifts ahead.
+description: >
+  We first reported on Evan You’s company void0 back in October, 2024, and now Evan and co are making good on their promise to rework the entire JS toolchain from the ground up with the release of Rolldown-Vite. The new package is a drop-in replacement for the Vite bundler we all know and love, with benefits like production build time reductions of up to 16x and memory usage decreases of up to 100x. Replacement is easy and the perf gains are real. Try it today.
+
+
+  Apple just held WWDC25 and announced big updates in Safari 26 beta. Favicons get replaced with SVG icons, any website can be a web app on iOS and iPadOS, there’s a brand new HTML <model> element for visionOS, CSS anchor positioning for popovers is supported as well as scroll-driven animations, and much more. Suffice it to say, Safari’s got some slick new features under the hood. The jury is still very much out on the gooey, glassmorphic UI design that Apple also unveiled at WWDC, however.
+
+
+  The Browser Company, who made the niche, but well liked Arc browser, has been working on a new AI-first browser called Dia, and this week it’s available early access for Arc Members. At first glance Dia feels similar to other “agentic” browsers, giving users a chat input and the ability to chat about content in tabs or links, but it also shows off skills like connecting to calendars to schedule meetings or composing text that can be inserted into emails. We’ll report back after we’ve had a chance to test Dia out for a bit.
+
+
+  This week’s Lightning News is about AI-coding IDE Cursor who’s raised a whopping $900 million in Series C funding, and shares that Cursor has grown to over $500 million in ARR (annual recurring revenue). We don’t know how much of that is profit, but the numbers around AI startups continue to be absolutely staggering.
+duration: "44:01"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: void0's Rolldown-Vite
+    url: https://voidzero.dev/posts/announcing-rolldown-vite
+  - text: Dia, the new AI-browser from The Browser Company
+    url: https://www.diabrowser.com/
+  - text: Safari 26 beta
+    url: https://webkit.org/blog/16993/news-from-wwdc25-web-technology-coming-this-fall-in-safari-26-beta/
+  - text: Cursor raises $900 million
+    url: https://x.com/cursor_ai/status/1931032123038945530
+  - text: Paradise TV series
+    url: https://www.imdb.com/title/tt27444205/
+  - text: Ballerina movie
+    url: https://www.imdb.com/title/tt7181546/
+  - text: Apple Vision Pro on The Price is Right
+    url: https://x.com/justinryanio/status/1922456345015705726?s=46
+audio: https://www.buzzsprout.com/2226499/episodes/17342446-rolldown-vite-evan-you-just-made-vite-16x-faster.mp3
+spotify: https://open.spotify.com/episode/2Gd0YAyxfXjhTSSzgL9MFr
+apple: https://podcasts.apple.com/us/podcast/rolldown-vite-evan-you-just-made-vite-16x-faster/id1700169000?i=1000713076480
+youtube: https://youtu.be/RVedJdHrtyA?si=NPTC0cX1yVC8AFQF
