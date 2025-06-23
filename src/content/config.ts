@@ -18,6 +18,14 @@ const episodes = defineCollection({
     teaser: z.string().optional(),
     description: z.string(),
     duration: z.string(),
+    chapters: z
+      .array(
+        z.object({
+          title: z.string(),
+          start: z.string()
+        })
+      )
+      .optional(),
     hosts: z.array(reference("hosts")),
     guests: z
       .array(
