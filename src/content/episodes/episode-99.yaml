@@ -19,6 +19,19 @@ description: >
 
   Today’s Fire Starter reveals a lesser known fact about every JavaScript dev’s favorite debugging tool: console.log. Did you know console.log supports format strings? It only works in Node.js, but yes indeed, %j means “serialize this value to JSON”. It also works for strings, numbers, and objects. Pretty cool.
 duration: "49:20"
+chapters:
+  - title: OpenAI's realtime agent API
+    start: "01:01"
+  - title: The Browser Company kills Arc
+    start: "10:03"
+  - title: Cursor IDE v1.0
+    start: "16:53"
+  - title: React Router's open governance
+    start: "31:09"
+  - title: Fire Starter
+    start: "34:18"
+  - title: What's making us happy
+    start: "39:55"
 hosts:
   - jack
   - paige

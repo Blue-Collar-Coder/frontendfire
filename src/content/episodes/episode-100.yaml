@@ -16,6 +16,15 @@ description: >
 
   This week’s Lightning News is about AI-coding IDE Cursor who’s raised a whopping $900 million in Series C funding, and shares that Cursor has grown to over $500 million in ARR (annual recurring revenue). We don’t know how much of that is profit, but the numbers around AI startups continue to be absolutely staggering.
 duration: "44:01"
+chapters:
+  - title: void0's Rolldown-Vite
+    start: "01:00"
+  - title: Safari 26 beta
+    start: "5:52"
+  - title: Dia, the new AI-browser from The Browser Company
+    start: "21:26"
+  - title: Cursor raises $900 million
+    start: "29:38"
 hosts:
   - jack
   - paige

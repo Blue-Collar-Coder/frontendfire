@@ -16,6 +16,21 @@ description: >
 
   In Lightning News, Remix continues to make waves with its official blog release stating Remix v3 won’t use React. StackOverflow’s 15th annual developer survey is out now - you should vote for us in the podcast section. Firefox becomes the first browser to support the Temporal API: a better way to handle dates. And the month-long bolt.new hackathon kicks off with over 50,000 developers signed up to compete. Judging a hackathon of this size is going to be a challenge all by itself.
 duration: "53:59"
+chapters:
+  - title: Zod v4
+    start: "01:10"
+  - title: vibe-rules
+    start: "5:50"
+  - title: Angular v20
+    start: "15:12"
+  - title: Remix v3
+    start: "27:03"
+  - title: StackOverlow's Annaul Dev Survey
+    start: "31:32"
+  - title: Firefox's Temporal API support
+    start: "38:02"
+  - title: bolt.new hackathon status
+    start: "39:15"
 hosts:
   - jack
   - paige
