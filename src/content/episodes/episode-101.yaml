@@ -8,13 +8,13 @@ description: >
   Void0 is back in our news roundup for the second time in two weeks with another big release in next gen JS toolchains: Oxlint 1.0. The first stable version of Oxlint (replacement for ESLint) is 50-100x faster, supports over 500 ESLint rules and counting, and (most importantly) runs approximately 10,000 files per second(!). Join early adopters like Shopify, Airbnb, and Mercedes-Benz, and enjoy your new linting speed.
 
 
-  New web browsers seems to be the flavor of the month for developers, and Opera’s getting into the mix with “the world’s first browser with mindfulness at its core”: Opera Air. Along with expected features like an AI chatbot, ad blocker, and built-in VPN, Opera Air offers things like exercise break reminders, sounds to stimulate different brain waves, and guided meditation to destress. It’s an interesting niche Opera’s going after, let’s see if it catches on. 
+  New web browsers seems to be the flavor of the month for developers, and Opera’s getting into the mix with "the world’s first browser with mindfulness at its core": Opera Air. Along with expected features like an AI chatbot, ad blocker, and built-in VPN, Opera Air offers things like exercise break reminders, sounds to stimulate different brain waves, and guided meditation to destress. It’s an interesting niche Opera’s going after, let’s see if it catches on. 
 
 
   GitHub makes news once more, by promoting the Copilot coding agent inside of GitHub to public preview. Now you can assign issues in GitHub to Copilot just as you would another dev, and Copilot goes to work exploring the repo, making changes, validating its work, and opening a PR request to review. Prepare to become the master of delegation.
 
 
-  For our Lightning News, the Remix team continues to make grander and grander claims about Remix v3. This week on X, Remix co-creator Michael Jackson proclaims v3 will be “the spiritual successor to the web.” Bold words for a JavaScript framework that has yet to exist and sounds a lot like what Astro already is, but we’ll reserve judgement and keep you posted on the latest.
+  For our Lightning News, the Remix team continues to make grander and grander claims about Remix v3. This week on X, Remix co-creator Michael Jackson proclaims v3 will be "the spiritual successor to the web." Bold words for a JavaScript framework that has yet to exist and sounds a lot like what Astro already is, but we’ll reserve judgement and keep you posted on the latest.
 duration: "35:29"
 chapters:
   - title: Oxlint

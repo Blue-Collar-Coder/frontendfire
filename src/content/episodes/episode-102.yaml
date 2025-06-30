@@ -1,0 +1,68 @@
+number: 102
+type: news
+title: "Battle of the AI CLIs: Jack Tests Them All"
+date: 2025-06-30
+teaser: >
+  On this week’s episode: 🤖 Jack tried every AI coding CLI so you don’t have to, 📣 Google’s sneaking Gemini Nano into Chrome, and Mozilla’s sounding the alarm, 🚀 and Figma acquires CMS Payload so users can design, edit, and publish without ever leaving the site.
+description: >
+  The field of AI coding agent CLIs is crowded and getting more so by the day, and our co-host Jack has tried them all so you don’t have to. The big four are: OpenAI’s Codex, Anthropic’s Claude Code, Google’s Gemini Code, and Amazon Q, along with some lesser known CLIs like AmpCode, OpenCode, and (the already shut down) Anon Kode. After trying everything, Jack says Anthropic’s Sonnet models and Claude Code are still the best when it comes to working code, so if you’re already using Claude, stick with it.
+
+
+  Google’s quietly been working on new LLM-powered web APIs that rely on Google’s Gemini Nano model to power browser features like language detection and translation, and writing and proofreading, and Mozilla is concerned. Google’s decision to base these APIs on Gemini Nano in Chrome means devs will create apps based on Gemini’s behavior, which might behave differently in a different browser with a different model, Mozilla says.
+
+
+  Less than two months after Figma’s big Config conference where it announced Figma Sites and Figma Make, Figma shared that it has acquired OS headless CMS Payload. Continuing the effort to make Figma a central hub for digital product creation, Figma’s adding a CMS to the mix so marketers and designers can more easily update website content as needed. Payload will remain open source for now, and we’ll let you know of new features as Figma brings it into the fold.
+
+
+  In Lightning News, Firefox v140 dropped and brought the option to have vertical tabs with it. Jack shared a cautionary tale of how upgrading to the new Mac OS 26 too soon caused his laptop to slowly fail until he had to finally roll back to an older OS version. And Anthropic’s in hot water, not for cutting millions of print books from their bindings to scan into digital files for training data and throwing away the originals, but for previously using pirated books to train its models to avoid licensing negotiations with publishers prior to 2024. No word yet on this will end, but it’s certainly not a good look for the company.
+duration: "45:36"
+chapters:
+  - title: Jack’s AI tool roundup
+    start: "01:01"
+  - title: Mozilla’s concerns about Google building AI into Chrome
+    start: "10:34"
+  - title: Figma buys Payload
+    start: "19:16"
+  - title: Jack's macOS 26 experiment goes wrong
+    start: "27:15"
+  - title: Anthropic destroys millions of print books
+    start: "30:36"
+  - title: What's making us happy
+    start: "38:06"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Figma buys CMS Payload
+    url: https://www.figma.com/blog/payload-joins-figma/
+  - text: OpenAI's Codex
+    url: https://openai.com/index/introducing-codex/
+  - text: OpenCode
+    url: https://github.com/opencode-ai/opencode
+  - text: AmpCode
+    url: https://ampcode.com/
+  - text: Google's Gemini Code CLI
+    url: https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/
+  - text: Antropic's Claude Code
+    url: https://www.anthropic.com/claude-code
+  - text: Amazon Q
+    url: https://aws.amazon.com/q/developer/
+  - text: Mozilla's concerns about Google building AI into Chrome
+    url: https://www.theregister.com/2025/06/11/mozilla_worries_googles_browser_ai/
+  - text: Firefox v140
+    url: https://www.mozilla.org/en-US/firefox/140.0/releasenotes/
+  - text: Anthropic destroyed millions of print books to build its AI models
+    url: https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/
+  - text: Rock Paper Scissors novel
+    url: https://www.goodreads.com/book/show/56269064-rock-paper-scissors
+  - text: Tamolitch Falls
+    url: https://en.wikipedia.org/wiki/Tamolitch_Falls
+  - text: Final Destination movie series
+    url: https://en.wikipedia.org/wiki/Final_Destination
+  - text: Watkins Glen State Park
+    url: https://parks.ny.gov/parks/watkinsglen
+audio: https://www.buzzsprout.com/2226499/episodes/17420462-battle-of-the-ai-clis-jack-tests-them-all.mp3
+spotify: https://open.spotify.com/episode/6T2pWq79qwb47iUay0bbx4
+apple: https://podcasts.apple.com/us/podcast/battle-of-the-ai-clis-jack-tests-them-all/id1700169000?i=1000715121566
+youtube: https://youtu.be/nwWdGrLmFNE?si=p5Y8ZlDMHApvx5mc
