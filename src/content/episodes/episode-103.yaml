@@ -1,0 +1,60 @@
+number: 103
+type: news
+title: Cloudflare Drops the Hammer on AI Crawlers
+date: 2025-07-07
+teaser: >
+  💥 Vercel ships new AI Cloud tools, Cloudflare says ✋ to AI crawlers freeloading off your content, and Neon Launchpad? Easiest Postgres spin-up ever.
+description: >
+  The big tech company conferences continued this summer with Vercel hosting Vercel Ship 2025. As you’d expect there was lots of talk about AI and Vercel’s AI Cloud: tools, infrastructure, and platform enhancements to build AI agents and help AI agents use Vercel.
+
+
+  On July 1, hosting platform Cloudflare declared it Content Independence Day, and changed its settings to block AI crawlers by default unless they pay creators for their content. While we absolutely support this move, Cloudflare’s future vision of a marketplace where content creators and AI companies come together and compensation is based on how much content “furthers knowledge” seems idealistic, but we’ll have to wait and see.
+
+
+  Serverless Postgres database company Neon has a new product called Neon Launchpad that can create an instant Neon database with zero configuration or account creation. Users get an automatically generated connection string, 72 hours to claim a new database, and even automatic database seeding with SQL scripts for schema and data initialization.
+
+
+  For this week’s Lightning News round: design company Figma has filed for an Initial Public Offering (IPO) to trade on the New York Stock Exchange, Anthropic had a Claude agent manage an in-office vending machine like a business and Claude didn’t do great, and the Deno v. Oracle trademark legal battle continues. In the latest update, the Trademark Trial and Appeal Board dismissed Deno’s claim of fraud against Oracle. Although Deno may have lost this battle, it will continue fighting the war.
+duration: "40:56"
+chapters:
+  - title: JVercel Ship event updates
+    start: "02:13"
+  - title: Cloudflare declares content independence day
+    start: "07:49"
+  - title: Neon Launchpad
+    start: "16:12"
+  - title: Figma IPO
+    start: "20:03"
+  - title: Deno v. Oracle trademark update
+    start: "22:24"
+  - title: Antropic lets Claude run a vending machine
+    start: "25:10"
+  - title: What's making us happy
+    start: "32:21"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Cloudflare declares July 1 Content Independence Day
+    url: https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/
+  - text: Neon Launchpad instant DBs
+    url: https://neon.com/docs/reference/neon-launchpad
+  - text: Vercel Ship 2025
+    url: https://vercel.com/blog/vercel-ship-2025-recap
+  - text: 'Figma has filed for an IPO to trade on the stock exchange as "FIG"'
+    url: https://www.theverge.com/news/696253/figma-ipo-public-filing
+  - text: 'Claude ran a vending machine, and the first attempt at "vibe management" wasn’t great'
+    url: https://www.anthropic.com/research/project-vend-1
+  - text: Deno v. Oracle trademark update
+    url: https://deno.com/blog/deno-v-oracle4
+  - text: Squid Game season 3
+    url: https://en.wikipedia.org/wiki/Squid_Game_season_3
+  - text: "F1: The Movie"
+    url: https://www.imdb.com/title/tt16311594/
+  - text: Bobby Banilla Day
+    url: https://www.usatoday.com/story/sports/mlb/2025/07/01/what-is-bobby-bonilla-day-contract/84424576007/
+audio: https://www.buzzsprout.com/2226499/episodes/17455340-cloudflare-drops-the-hammer-on-ai-crawlers.mp3
+spotify: https://open.spotify.com/episode/3yC5uroQ31kV8MzwMMFROj
+apple: https://podcasts.apple.com/us/podcast/cloudflare-drops-the-hammer-on-ai-crawlers/id1700169000?i=1000716096290
+youtube: https://youtu.be/XmArEFMZbD4?si=FHS1WwRgmwwMoyrU
