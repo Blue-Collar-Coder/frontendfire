@@ -1,0 +1,59 @@
+number: 104
+type: news
+title: Vercel Acquires Nuxt and Nitro
+date: 2025-07-14
+teaser: >
+  Vercel scoops up NuxtLabs 🔥, Figma feeds design data to AI agents via Dev Mode 🧠🎨, and OpenAI + Perplexity throw down against Chrome ⚔️. Meanwhile, a new MCP framework called Xmcp promises servers for everyone...and that's just this week.
+description: >
+  Tech companies continue the acquisition spree of the summer when Vercel announces it’s hired the creators of NuxtLabs, the folks who build metaframework Nuxt and server runtime Nitro. Nuxt pledges to remain MIT-licensed with a public roadmap, but it does give you pause to think about how many of the JavaScript metaframework creators now work under Vercel’s banner.
+
+
+  Figma returns to the newscycle with the introduction of its Dev Mode MCP server. This server allows agentic coding tools to pull in design context directly from Figma designs. Think: getting code, image, or variable context for a specific design selection or even porting over Figma designs directly into a code base for use. It’s early days yet, but the concept is cool.
+
+
+  The AI browser race heats up as both OpenAI and Perplexity make news with announcements and early access for their own AI-powered web browsers. Details are limited but both companies are putting their AI search engines front and center to try and steal some Google Chrome’s market share, and time will tell if their AI-powered offerings are enough to get users to switch.
+
+
+  In this week’s Lightning News, there’s a new framework for building and shipping MCP applications called Xmcp. Focused on developer experience, Xmcp claims you can bootstrap an MCP server from scratch or plug it into an existing Next.js or Express app with one simple command. This could be the start of MCP servers for everyone.
+
+
+  Finally, the Fire Starters section is back this week with the debut of CSS conditional if() statements in Chrome v137. Out of the box, if() works with style(), media(), and support() queries, and unlocks things like state-based styling with very straightforward syntax that uses a series of condition-value pairs, and even allows for an else statement at the end. The future of CSS has truly arrived.
+duration: "41:28"
+chapters:
+  - title: Vercel acquires NuxtLabs
+    start: "01:13"
+  - title: Figma releses Dev Mode MCP server
+    start: "05:54"
+  - title: OpenAI and Perplexity announce AI browsers
+    start: "13:41"
+  - title: Xmcp framework for MCP servers
+    start: "26:08"
+  - title: CSS conditional if() statements
+    start: "29:06"
+  - title: What's making us happy
+    start: "33:05"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: NuxtLabs joins Vercel
+    url: https://vercel.com/blog/nuxtlabs-joins-vercel
+  - text: Figma Dev Mode MCP server
+    url: https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/
+  - text: OpenAI teases AI browser
+    url: https://www.reuters.com/business/media-telecom/openai-release-web-browser-challenge-google-chrome-2025-07-09/
+  - text: Perplexity soft laucnches AI browser
+    url: https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/
+  - text: Xmcp framework for building MCP applications
+    url: https://xmcp.dev/
+  - text: CSS conditionals with if() statements
+    url: https://developer.chrome.com/blog/if-article
+  - text: Somebody Feed Phil TV series
+    url: https://www.philrosenthalworld.com/
+  - text: Murderbot TV series
+    url: https://tv.apple.com/us/show/murderbot/umc.cmc.5owrzntj9v1gpg31wshflud03
+audio: https://www.buzzsprout.com/2226499/episodes/17499535-vercel-acquires-nuxt.mp3
+spotify: https://open.spotify.com/episode/1OiE2CJm7vLcnDl2fDLNl3
+apple: https://podcasts.apple.com/us/podcast/vercel-acquires-nuxt/id1700169000?i=1000717160351
+youtube: https://youtu.be/Vbv29uA0aRA

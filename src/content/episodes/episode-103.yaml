@@ -17,7 +17,7 @@ description: >
   For this week’s Lightning News round: design company Figma has filed for an Initial Public Offering (IPO) to trade on the New York Stock Exchange, Anthropic had a Claude agent manage an in-office vending machine like a business and Claude didn’t do great, and the Deno v. Oracle trademark legal battle continues. In the latest update, the Trademark Trial and Appeal Board dismissed Deno’s claim of fraud against Oracle. Although Deno may have lost this battle, it will continue fighting the war.
 duration: "40:56"
 chapters:
-  - title: JVercel Ship event updates
+  - title: Vercel Ship event updates
     start: "02:13"
   - title: Cloudflare declares content independence day
     start: "07:49"
