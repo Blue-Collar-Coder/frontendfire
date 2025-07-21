@@ -1,0 +1,60 @@
+number: 105
+type: news
+title: Windsurf’s 72-Hour Power Shuffle
+date: 2025-07-21
+teaser: >
+  Windsurf went from almost-acquired by OpenAI, to Google poaching its execs, to Cognition scooping its IP—all in 72 hours 🌀. Amazon’s new AI IDE, Kiro, promises to tame the chaos of vibe coding ✍️➡️📑, and Next.js 15.4 powers up for AI agents.
+description: >
+  There are so many headlines about AI IDE Windsurf as of late, but we’ll try to catch you up. First, OpenAI wanted to buy Windsurf for $3B, but the deal fell through due to Microsoft’s current access to all of OpenAI’s IP. Next, Google hired Windsurf’s top execs and researchers to work on its AI products, but didn’t buy the Windsurf IDE, for $2.4B. Then, Cognitionbought the remainder of Windsurf’s IP (and its staff) to integrate into its own products like Devin. And did we mention this all happened in the span of 72 hours?
+
+
+  Amazon released its own AI-powered IDE called Kiro, and it claims it will bring structure to vibe-coding with "specs", which aim to address the issues enterprise companies have with vibe coding about the lack of structure and documentationit produces. Kiro transforms prompts into structured specifications, technical designs, and implementation plans complete with testing in an effort to address those concerns.
+
+
+  Next.js 15.4 debuted with a few notable highlights like 100% integration test compatibility for its new Turbopack bundler, and an experimental feature flag called `browserDebugInfoInTerminal` that will forward browser console output to the local terminal so CLI coding agents and AI IDEs like Cursor can see (and fix) client side errors. That sounds super useful.
+
+
+  In Lightning News: Figma has added Glass Effects similar to Apple’s new styling to their tool. Implementing these effects via CSS doesn’t seem possible, at the moment, but at least the designs will look great. Also, Lee Robinson, head of DevRel efforts at Vercel for the past 5 years, has bid adieu to the company. Lee’s been great for Vercel and Next.js, and we wish him well in whatever he chooses to do next.
+duration: "51:38"
+chapters:
+  - title: Windsurf drama explained
+    start: "01:07"
+  - title: Amazon's new Kiro editor
+    start: "11:28"
+  - title: Next.js 15.4
+    start: "26:29"
+  - title: Figma's new glass effect
+    start: "33:33"
+  - title: Lee Robinson leaves Vercel
+    start: "39:19"
+  - title: What's making us happy
+    start: "41:09"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Next.js 15.4
+    url: https://nextjs.org/blog/next-15-4
+  - text: "`browserDebugInfoInTerminal` flag for AI agents"
+    url: https://x.com/cramforce/status/1944885314750963827
+  - text: Kiro AI IDE for spec-driven development
+    url: https://x.com/kirodotdev/status/1944774206517899607
+  - text: OpenAI’s Windsurf deal falls through - and Windsurf’s CEO is going to Google
+    url: https://www.theverge.com/openai/705999/google-windsurf-ceo-openai
+  - text: Lee Robinson leaves Vercel after 5 years
+    url: https://x.com/leerob/status/1943446393819177342
+  - text: Figma has Glass Effect
+    url: https://www.figma.com/community/file/1522715486231239473/glass-effect-playground
+  - text: The Will of the Many novel
+    url: https://www.goodreads.com/book/show/58416952-the-will-of-the-many
+  - text: Ninja Single Serve coffee maker
+    url: https://www.bestbuy.com/site/ninja-pods-grounds-specialty-single-serve-iced-coffee-maker-k-cup-pod-compatible-with-foldaway-milk-frother-glacier-blue/6583579.p?skuId=6583579
+  - text: SF Bay Coffee compostable K-cups
+    url: https://sfbaycoffee.com/collections/onecup-coffee-pods
+  - text: Tabletop shuffleboard
+    url: https://shuffleboardplanet.com/products/champion-20-grand-champion-shuffleboard-table-1
+audio: https://www.buzzsprout.com/2226499/episodes/17536060-windsurf-s-72-hour-power-shuffle.mp3
+spotify: https://open.spotify.com/episode/7DdQAxufPPaCXOvmHztJlj
+apple: https://podcasts.apple.com/us/podcast/windsurfs-72-hour-power-shuffle/id1700169000?i=1000718293235
+youtube: https://youtu.be/2JqRTAOuoWk?si=5NCJweqRHofU0CHg
