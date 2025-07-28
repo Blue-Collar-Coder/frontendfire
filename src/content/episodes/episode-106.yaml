@@ -1,0 +1,62 @@
+number: 106
+type: news
+title: Is Open Source Software Infrastructure?
+date: 2025-07-28
+teaser: >
+  GitHub proposes the EU fund open source like public infrastructure 💸, Apple gets called out its lack of alternative browser support, and Amazon’s Kiro adds Agent Hooks to let AI enforce code quality 🛠️.
+description: >
+  GitHub is advocating for a European Union Sovereign Tech Fund to help pay the open source software developers building and maintaining software relied upon by economies and societies just like any other necessary infrastructure like roads and bridges. With OSS contributions contributing a minimum of $65 billion to the EU economy annually, this seems like an obvious move to recognize the positive impact software maintainers have.
+
+
+  Apple gets called out by the Open Web Advocacy group saying its technical rules and restrictions are blocking other browser vendors from successfully offering their own search engines to iOS users in the EU. Even though Apple complied with the new law to allow other browser vendors on its devices, it made the process so onerous and unfair no one’s willing to jump through all the hoops to actually do so, and OWA calls foul play.
+
+
+  Last episode we talked about Amazon’s new AI coding editor Kiro, and this week, we learned about a feature called Agent Hooks which let users write automation tools that agents can use within the IDE to do predefined actions like maintaining code quality, checking for security vulnerabilities, standardizing and enforcing team processes, and more. Think of it like pre-commit hooks but with AI behind them!
+
+
+  In Lightning News, yet another new AI VS Code extension has entered the ring: Kilo Code (not to be confused with Kiro), and the very popular npm package eslint-config-prettier got hacked recently, leading to malware in a package with 78 million weekly downloads. The issue was discovered and fixed, but just be careful what links you’re clicking out there.
+
+
+  Finally, our Fire Starter for this week is about the well supported @media(hover:hover) CSS feature that lets browsers know whether a user’s primary input mechanism can hover over elements. In other words: it helps you know whether a user is on a computer with a mouse or a phone / tablet using their fingers. Less talked about today, but useful in many situations.
+duration: "45:42"
+chapters:
+  - title: GitHub is advocating for an EU tech fund
+    start: "00:51"
+  - title: An update on non-WebKit browsers on iOS
+    start: "09:21"
+  - title: "Kiro’s agent hooks"
+    start: "15:30"
+  - title: Kilo Code AI VS Code extension
+    start: "26:28"
+  - title: eslint-config-prettier got hacked
+    start: "28:35"
+  - title: "@media(hover:hover) CSS feature"
+    start: "33:15"
+  - title: What's making us happy
+    start: "36:05"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: GitHub is advocating for an EU Sovereign Tech Fund
+    url: https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/
+  - text: Kiro’s Agent Hooks
+    url: https://kiro.dev/docs/hooks/
+  - text: An update on non-WebKit browsers on iOS
+    url: https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/
+  - text: Kilo Code - open source AI agent VS Code extension
+    url: https://kilocode.ai/
+  - text: Popular npm package eslint-config-prettier got hacked
+    url: https://safedep.io/eslint-config-prettier-major-npm-supply-chain-hack/
+  - text: "@media(hover:hover) CSS feature"
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover
+  - text: Relax Meditation app
+    url: https://www.ipnos.com/apps/relax-meditation/
+  - text: Physical books like the Annihilation series
+    url: https://en.wikipedia.org/wiki/Annihilation_(VanderMeer_novel)
+  - text: Apple Watch series 10
+    url: https://www.apple.com/apple-watch-series-10/
+audio: https://www.buzzsprout.com/2226499/episodes/17572600-is-open-source-software-infrastructure.mp3
+spotify: https://open.spotify.com/episode/2IUOLxSfWAb14JOU7xTuLm
+apple: https://podcasts.apple.com/us/podcast/is-open-source-software-infrastructure/id1700169000?i=1000719478921
