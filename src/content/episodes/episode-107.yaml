@@ -1,0 +1,60 @@
+number: 107
+type: news
+title: Is es-toolkit the Lodash Killer?
+date: 2025-08-04
+teaser: >
+  This week on the pod: ⚔️ es-toolkit aims to dethrone Lodash, 🧠 oRPC wants to up your API game, 📉 Stack Overflow’s 2024 dev survey is out — and it’s not pretty 🎧. We unpack all that and more.
+description: >
+  There’s a new utility library in town called es-toolkit, and it’s gunning for Lodash. 2-3x faster, 97% smaller, full TypeScript support, and using modern JavaScript APIs, es-toolkit’s just added a “Lodash compatibility layer” to ensure an identical API and 100% Lodash compatibility. Watch your back, Lodash; your reign may be over.
+
+
+  oRPC is the newest wrinkle in the Remote Procedural Call (RPC) world, and it promotes easy to build APIs that are end-to-end type-safe and adhere to OpenAPI standards. OpenAPI is a standard for defining APIs that’s long been useful for generating API SDKs, Postman collections, Swagger UIs, and more, and now oRPC combines the goodness of type-safe APIs with the benefits of the popular OpenAPI standards.
+
+
+  Stack Overflow’s 15th developer survey results are in, and the learnings are... interesting. Some of the takeaways are expected (React’s still very popular, lots of devs have at least tried AI tools), but some seem willfully wrong (SO claims it’s a new resource for devs that need to solve AI-related issues, but 43% of respondents said they rarely or never visit the site anymore). Either way, SO’s use has declined dramatically over the last few years due to the rise of AI, and we’ll see how much longer it can hang on as a vital part of the developer ecosystem.
+
+
+  For Lightning News this week, bolt.new shared the winners of its month-long, vibe coding hackathon, Microsoft Edge launches its experimental Copilot Mode (another AI-agent enabled browser), and the State of HTML survey is live now.
+duration: "47:54"
+chapters:
+  - title: es-toolkit update
+    start: "00:57"
+  - title: oRPC
+    start: "07:46"
+  - title: Stack Overflow's Developer Survey results
+    start: "17:13"
+  - title: Bolt.new hackathon winners
+    start: "31:43"
+  - title: Microsoft Edge Copilot Mode
+    start: "34:11"
+  - title: State of HTML survey
+    start: "38:46"
+  - title: What's making us happy
+    start: "39:30"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: es-toolkit is coming for Lodash
+    url: https://es-toolkit.dev/
+  - text: oRPC
+    url: https://orpc.unnoq.com/
+  - text: Stack Overflow's 2025 Developer Survey results
+    url: https://survey.stackoverflow.co/2025/
+  - text: Bolt.new hackathon winners
+    url: https://bolt.new/winners
+  - text: Microsoft Edge Copilot Mode
+    url: https://techcrunch.com/2025/07/28/microsoft-edge-is-now-an-ai-browser-with-launch-of-copilot-mode/
+  - text: State of HTML survey
+    url: https://stateofhtml.com/en-US
+  - text: Monopoly deal card game
+    url: https://www.amazon.com/MONOPOLY-Quick-Playing-Christmas-Stocking-Exclusive/dp/B00NQQTZCO
+  - text: Gridfinity 3D printed grid storage system
+    url: https://gridfinity.xyz/
+  - text: NY Times Games App
+    url: https://apps.apple.com/us/app/nyt-games-solve-puzzles-daily/id307569751
+audio: https://www.buzzsprout.com/2226499/episodes/17608340-is-es-toolkit-the-lodash-killer.mp3
+spotify: https://open.spotify.com/episode/5ix4ohZK0erwfKUMB0WGLo
+apple: https://podcasts.apple.com/us/podcast/is-es-toolkit-the-lodash-killer/id1700169000?i=1000720576784
+youtube: https://youtu.be/xVLcq3uqR8g?si=SWO3bUC3RqRptp2J
