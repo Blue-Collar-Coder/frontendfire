@@ -3,7 +3,7 @@ type: news
 title: Is es-toolkit the Lodash Killer?
 date: 2025-08-04
 teaser: >
-  This week on the pod: ⚔️ es-toolkit aims to dethrone Lodash, 🧠 oRPC wants to up your API game, 📉 Stack Overflow’s 2024 dev survey is out — and it’s not pretty 🎧. We unpack all that and more.
+  This week on the pod: ⚔️ es-toolkit aims to dethrone Lodash, 🧠 oRPC wants to up your API game, 📉 Stack Overflow’s 2025 dev survey is out — and it’s not pretty 🎧. We unpack all that and more.
 description: >
   There’s a new utility library in town called es-toolkit, and it’s gunning for Lodash. 2-3x faster, 97% smaller, full TypeScript support, and using modern JavaScript APIs, es-toolkit’s just added a “Lodash compatibility layer” to ensure an identical API and 100% Lodash compatibility. Watch your back, Lodash; your reign may be over.
 
@@ -58,3 +58,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/17608340-is-es-toolkit-the-lo
 spotify: https://open.spotify.com/episode/5ix4ohZK0erwfKUMB0WGLo
 apple: https://podcasts.apple.com/us/podcast/is-es-toolkit-the-lodash-killer/id1700169000?i=1000720576784
 youtube: https://youtu.be/xVLcq3uqR8g?si=SWO3bUC3RqRptp2J
+clip: https://x.com/front_end_fire/status/1952361227255980503
