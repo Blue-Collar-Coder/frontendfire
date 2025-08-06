@@ -1,0 +1,281 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout
+  title="About - Front-End Fire"
+  description="Learn more about Front-End Fire, a weekly podcast dedicated to keeping developers informed about the latest in the front-end development world."
+>
+  <header class="about-header">
+    <div class="about-header-content">
+      <h1>About</h1>
+      <div class="header-accent"></div>
+    </div>
+  </header>
+
+  <main class="about-content">
+    <section class="intro">
+      <p>
+        Front-End Fire is a weekly podcast about web development.
+      </p>
+      <p>
+        Hosted by industry experts Jack Herrington, Paige Niedringhaus, and TJ VanToll, the show covers current trends, tools, and technologies shaping the front-end landscape. Each episode is a mix of technical deep dives, developer banter, and spicy opinions—with plenty of laughs along the way.
+      </p>
+    </section>
+
+    <section class="hosts">
+      <h2>Hosts</h2>
+      <div class="hosts-grid">
+        <div class="host-card">
+          <img src="/jack.jpg" alt="Jack Herrington" class="host-image" />
+          <div class="host-content">
+            <h3>Jack Herrington</h3>
+            <p>Jack Herrington is a principal full stack engineer, author and YouTuber who is trying to bring a practical approach to engineering and education to developers at all skill levels.</p>
+          </div>
+        </div>
+        
+        <div class="host-card">
+          <img src="/paige.jpg" alt="Paige Niedringhaus" class="host-image" />
+          <div class="host-content">
+            <h3>Paige Niedringhaus</h3>
+            <p>Paige Niedringhaus is a software engineer, technical writer, and podcast host. Currently a Staff Software Engineer for Blues, Paige has also honed her skills at large enterprise companies like The Home Depot, and enjoys all things front-end development-related.</p>
+          </div>
+        </div>
+        
+        <div class="host-card">
+          <img src="/tj.jpg" alt="TJ VanToll" class="host-image" />
+          <div class="host-content">
+            <h3>TJ VanToll</h3>
+            <p>TJ VanToll is a software developer, tech author, speaker, and podcast host. TJ has over 15 years of front-end development experience, including time working on the jQuery, NativeScript, and Kendo UI teams. Nowadays, TJ works as a Principal Developer Advocate at Blues.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsoring">
+      <h2>Sponsoring</h2>
+      <p>
+        Front-End Fire is taking inquiries for advertising on future episodes. All ads are currently 30-second host-read segments, placed immediately after the show's introduction. Your ad will be included in both the audio version of the show (for podcast players) and the video version of the show (for YouTube).
+      </p>
+      <p>
+        See below for more information about the audience your ads will reach. For inquiries and pricing, please email <a href="mailto:frontendfirepodcast@gmail.com">frontendfirepodcast@gmail.com</a>.
+      </p>
+    </section>
+
+    <section class="stats">
+      <h2>Stats</h2>
+      
+      <h3>About the Show</h3>
+      <ul>
+        <li><strong>Podcast players:</strong> ~1000 downloads per episode</li>
+        <li><strong>Total downloads:</strong> Over 50k downloads all time</li>
+        <li><strong>Most popular players:</strong> Apple Podcasts (28%) and Spotify (19%), but we have listeners on over a dozen platforms</li>
+        <li><strong>Biggest countries:</strong> US (31%), UK (7%), and Germany (6%). We've had downloads from 90 different countries—and counting!</li>
+        <li><strong>YouTube:</strong> We're new on YouTube, but we're already getting a few hundred views per episode</li>
+      </ul>
+
+      <h3>About our Audience</h3>
+      
+      <h4>Experience Level</h4>
+      <p>Over half our listeners are senior/lead engineers:</p>
+      <ul>
+        <li>7.8% junior developer/engineer</li>
+        <li>26.5% developer/engineer</li>
+        <li>33.3% senior developer/engineer</li>
+        <li>24.5% principal/lead developer/engineer</li>
+        <li>7.9% other (C-Level, unrelated fields)</li>
+      </ul>
+
+      <h4>Years of Experience</h4>
+      <p>Most of our listeners have been professional developers for more than five years:</p>
+      <ul>
+        <li>26.5% less than 5 years experience</li>
+        <li>38.2% 5–10 years experience</li>
+        <li>14.7% 10–15 years experience</li>
+        <li>20.6% 15+ years experience</li>
+      </ul>
+
+      <h4>Company Size</h4>
+      <p>We have listeners from a wide variety of companies:</p>
+      <ul>
+        <li>8.8% work at a company with 1–10 employees</li>
+        <li>16.7% work at a company with 11–50 employees</li>
+        <li>17.6% work at a company with 51–200 employees</li>
+        <li>17.6% work at a company with 201–1000 employees</li>
+        <li>30.4% work at a company with 1000+ employees</li>
+      </ul>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .about-header {
+    padding: 4rem 0 3rem;
+    background: #3d3c40 linear-gradient(#161619, #3d3c40);
+    color: var(--off-white);
+  }
+
+  .about-header-content {
+    width: var(--content-width);
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .about-header h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: -0.02em;
+  }
+
+  .header-accent {
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    margin-top: 1rem;
+  }
+
+  .about-content {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 2rem 0 3rem 0;
+  }
+
+  .hosts {
+    margin-bottom: 3rem;
+  }
+
+  .hosts h2 {
+    color: var(--base-color-dark);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  .hosts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    gap: 2rem;
+  }
+
+  .host-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .host-image {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .host-content {
+    padding: 1.5rem;
+  }
+
+  .host-card h3 {
+    color: var(--primary-color);
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+  }
+
+  .host-card p {
+    margin: 0 0 1rem 0;
+    line-height: 1.4;
+    font-size: 1rem;
+  }
+
+  .sponsoring {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+
+  .sponsoring h2 {
+    color: var(--base-color-dark);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  .sponsoring p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .stats {
+    margin-bottom: 3rem;
+  }
+
+  .stats h2 {
+    color: var(--base-color-dark);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  .stats h3 {
+    color: var(--base-color-dark);
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .stats h4 {
+    color: var(--base-color-dark);
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem 0;
+    font-weight: 400;
+  }
+
+  .stats ul {
+    margin: 0.5rem 0 1.5rem 1.5rem;
+  }
+
+  .stats li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 768px) {
+    .about-header h1 {
+      font-size: 2rem;
+    }
+
+    .about-header-content {
+      padding: 0 1rem;
+    }
+
+    .about-content {
+      padding: 0 1rem;
+    }
+  }
+</style> 

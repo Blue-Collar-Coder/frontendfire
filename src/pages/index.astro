@@ -33,7 +33,7 @@ const latestEpisode = (episodes ?? []).shift();
         hosts.map((host, index, arr) => (
           <span>
           {index === arr.length - 1 ? "and " : ""}
-            <a href={host.data.website} target="_blank">{host.data.name}</a><!--
+            <a href="/about">{host.data.name}</a><!--
             -->{index < arr.length - 1 ? ", " : ""}
           </span>
         ))

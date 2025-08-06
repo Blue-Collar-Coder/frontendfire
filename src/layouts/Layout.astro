@@ -18,6 +18,12 @@ const { title, description } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class={`nav-link ${Astro.url.pathname === "/" ? "current" : ""}`}>Home</a>
+        <a href="/about" class={`nav-link ${Astro.url.pathname === "/about" ? "current" : ""}`}>About</a>
+      </div>
+    </nav>
     <slot />
   </body>
 </html>
@@ -157,5 +163,71 @@ const { title, description } = Astro.props;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+  }
+
+  .main-nav {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--base-color-light);
+    background-image: repeating-linear-gradient(
+      45deg,
+      #f4ede5 0,
+      #f4ede5 1px,
+      #f5f5f5 0,
+      #f5f5f5 50%
+    );
+    background-size: 7px 7px;
+  }
+
+  .nav-container {
+    width: var(--content-width);
+    max-width: 53rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .nav-link {
+    color: var(--base-color);
+    font-size: 1.1rem;
+    padding: 0.25rem 0;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .nav-link:visited {
+    color: var(--base-color);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  .nav-link.current {
+    color: var(--base-color);
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  .nav-link.current:visited {
+    color: var(--base-color);
+  }
+
+  .nav-link.current:hover,
+  .nav-link.current:focus,
+  .nav-link.current:active {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
   }
 </style>
