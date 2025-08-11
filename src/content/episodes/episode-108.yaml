@@ -1,0 +1,63 @@
+number: 108
+type: news
+title: "TanStack DB: Reactive Apps Without Firebase"
+date: 2025-08-11
+teaser: >
+  On deck today: 🔥 Cloudflare & Perplexity’s data scraping dispute, 🚀 Vercel supercharges its AI SDK in v5, ⚡ and TanStack DB gives you live, reactive data without Firebase. 🎧 Developer drama & game-changing tools await.
+description: >
+  There’s drama brewing between AI-answer engine company Perplexity and hosting platform Cloudflare, which recently declared it would actively block AI bots from crawling websites without the owners’ permission. Cloudflare received complaints, set up its own test sites, and then asked Perplexity pointed questions only those sites could answer - and got answers! Perplexity claims it only gets data for the answers and doesn’t use it to train its models, but who really knows whether that’s true or not. A new murky grey area around scraping site data for different AI purposes has just sprung up.
+
+
+  Just two years after Vercel launched v1 of its AI SDK, it has dropped v5, and it’s got some major improvements. It’s rebuilt the `useChat` hook from the ground up, improved tool calling and added dynamic tool handling, added more agentic loop controls, Zod 4 support, a global LLM provider, and it works with React, Svelte, Vue, and Angular. That’s just the tip of the iceberg, but it seems like Vercel’s got a winner on its hands.
+
+
+  Never one to rest on its laurels, the team behind the TanStack universe unveils TanStack DB. TanStack DB extends TanStack Query with collections, live queries and optimistic mutations client side for building super fast apps on sync without needing to lock in to Firebase.
+
+
+  In Lightning News this week, OpenAI released GTP-5. It’s better at all the things: writing, coding, and health questions, but are the improvements going to be so great we’ll actually notice? Time will tell. 
+
+
+  Also, in disappointing news, Cognition, the AI company that scooped up the remains of Windsurf, has laid off the Windsurf employees it acquired, or told those who remain to expect 80-hour, six day a week, work weeks: another way of effectively reducing headcount. Let’s hope this doesn’t set a new precedent in Silicon Valley.
+duration: "45:34"
+chapters:
+  - title: Drama between Cloudflare and Perplexity
+    start: "00:53"
+  - title: Vercel AI SDK 5
+    start: "09:15"
+  - title: TanStack DB update
+    start: "15:23"
+  - title: GPT-5
+    start: "19:28"
+  - title: A not-so-great Windsurf & Cognition update
+    start: "25:23"
+  - title: What's making us happy
+    start: "30:51"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Vercel AI SDK 5
+    url:
+  - text: TanStack DB
+    url:
+  - text: Drama between Cloudflare and Perplexity
+    url:
+  - text: OpenAI GPT-5 arrives
+    url:
+  - text: A not-great Windsurf & Cognition update
+    url:
+  - text: Illinois blocks AI from being your therapist
+    url:
+  - text: A Guide To Hover And Pointer Media Queries (Smashing Magazine)
+    url:
+  - text: The Retrievals podcast
+    url:
+  - text: Creality CR-Scan Otter 3D Scanner
+    url:
+  - text: People I (Mostly) Admire podcast
+    url:
+audio: https://www.buzzsprout.com/2226499/episodes/17649098-tanstack-db-reactive-apps-without-firebase.mp3
+spotify: http://open.spotify.com/episode/31DzJY07s6IR6NbChXwshL
+apple: https://podcasts.apple.com/us/podcast/tanstack-db-reactive-apps-without-firebase/id1700169000?i=1000721492186
+youtube: https://youtu.be/gHWBdAQA3kA?si=Z55Sfv9ZaZGDphmC
