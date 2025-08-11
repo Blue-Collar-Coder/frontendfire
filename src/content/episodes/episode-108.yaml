@@ -38,25 +38,25 @@ hosts:
   - tj
 links:
   - text: Vercel AI SDK 5
-    url:
+    url: https://vercel.com/blog/ai-sdk-5
   - text: TanStack DB
-    url:
+    url: https://tanstack.com/db/latest
   - text: Drama between Cloudflare and Perplexity
-    url:
+    url: https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives
   - text: OpenAI GPT-5 arrives
-    url:
+    url: https://openai.com/index/introducing-gpt-5/
   - text: A not-great Windsurf & Cognition update
-    url:
+    url: https://techcrunch.com/2025/08/05/three-weeks-after-acquiring-windsurf-cognition-offers-staff-the-exit-door/
   - text: Illinois blocks AI from being your therapist
-    url:
+    url: https://www.axios.com/local/chicago/2025/08/06/illinois-ai-therapy-ban-mental-health-regulation
   - text: A Guide To Hover And Pointer Media Queries (Smashing Magazine)
-    url:
+    url: https://www.smashingmagazine.com/2022/03/guide-hover-pointer-media-queries/
   - text: The Retrievals podcast
-    url:
+    url: https://www.nytimes.com/article/serial-the-retrievals.html
   - text: Creality CR-Scan Otter 3D Scanner
-    url:
+    url: https://www.creality3dofficial.com/products/creality-cr-scan-otter-3d-scanner
   - text: People I (Mostly) Admire podcast
-    url:
+    url: https://freakonomics.com/series/people-i-mostly-admire/
 audio: https://www.buzzsprout.com/2226499/episodes/17649098-tanstack-db-reactive-apps-without-firebase.mp3
 spotify: http://open.spotify.com/episode/31DzJY07s6IR6NbChXwshL
 apple: https://podcasts.apple.com/us/podcast/tanstack-db-reactive-apps-without-firebase/id1700169000?i=1000721492186
