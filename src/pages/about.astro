@@ -80,39 +80,208 @@ import Footer from "../components/Footer.astro";
 
       <h3>About our Audience</h3>
       
-      <h4>Experience Level</h4>
-      <p>Over half our listeners are senior/lead engineers:</p>
-      <ul>
-        <li>7.8% junior developer/engineer</li>
-        <li>26.5% developer/engineer</li>
-        <li>33.3% senior developer/engineer</li>
-        <li>24.5% principal/lead developer/engineer</li>
-        <li>7.9% other (C-Level, unrelated fields)</li>
-      </ul>
+      <div class="stats-charts">
+        <div class="chart-container">
+          <h4>Experience Level</h4>
+          <p>Over half our listeners are senior/lead engineers:</p>
+          <div class="chart-wrapper">
+            <canvas id="experienceChart"></canvas>
+          </div>
+        </div>
 
-      <h4>Years of Experience</h4>
-      <p>Most of our listeners have been professional developers for more than five years:</p>
-      <ul>
-        <li>26.5% less than 5 years experience</li>
-        <li>38.2% 5–10 years experience</li>
-        <li>14.7% 10–15 years experience</li>
-        <li>20.6% 15+ years experience</li>
-      </ul>
+        <div class="chart-container">
+          <h4>Years of Experience</h4>
+          <p>Most of our listeners have been professional developers for more than five years:</p>
+          <div class="chart-wrapper">
+            <canvas id="yearsChart"></canvas>
+          </div>
+        </div>
 
-      <h4>Company Size</h4>
-      <p>We have listeners from a wide variety of companies:</p>
-      <ul>
-        <li>8.8% work at a company with 1–10 employees</li>
-        <li>16.7% work at a company with 11–50 employees</li>
-        <li>17.6% work at a company with 51–200 employees</li>
-        <li>17.6% work at a company with 201–1000 employees</li>
-        <li>30.4% work at a company with 1000+ employees</li>
-      </ul>
+        <div class="chart-container">
+          <h4>Company Size</h4>
+          <p>We have listeners from a wide variety of companies:</p>
+          <div class="chart-wrapper">
+            <canvas id="companyChart"></canvas>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <p><i>The numbers in the charts above came from a survey of our listeners done in 2025.
+      The numbers for each question don’t add up to exactly 100% because some listeners skipped
+      questions.</i></p>
   </main>
 
   <Footer />
 </Layout>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+<script defer>
+  // Wait for both DOM and Chart.js to load
+  window.addEventListener('load', function() {
+    // Check if Chart is available
+    if (typeof Chart === 'undefined') {
+      console.error('Chart.js failed to load');
+      return;
+    }
+
+    // Experience Level Chart (Doughnut)
+    const experienceCtx = document.getElementById('experienceChart');
+    new Chart(experienceCtx, {
+      type: 'doughnut',
+    data: {
+      labels: ['Junior Developer/Engineer', 'Developer/Engineer', 'Senior Developer/Engineer', 'Principal/Lead Developer/Engineer', 'Other (C-Level, unrelated fields)'],
+      datasets: [{
+        data: [7.8, 26.5, 33.3, 24.5, 7.9],
+        backgroundColor: [
+          '#FF6B6B',
+          '#4ECDC4', 
+          '#45B7D1',
+          '#96CEB4',
+          '#FFEAA7'
+        ],
+        borderWidth: 2,
+        borderColor: '#fff'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      aspectRatio: 1.5,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            padding: 20,
+            usePointStyle: true,
+            font: {
+              size: 12
+            }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Years of Experience Chart (Bar)
+  const yearsCtx = document.getElementById('yearsChart');
+  new Chart(yearsCtx, {
+    type: 'bar',
+    data: {
+      labels: ['< 5 years', '5–10 years', '10–15 years', '15+ years'],
+      datasets: [{
+        label: 'Percentage of Listeners',
+        data: [26.5, 38.2, 14.7, 20.6],
+        backgroundColor: [
+          '#FF6B6B',
+          '#4ECDC4',
+          '#45B7D1', 
+          '#96CEB4'
+        ],
+        borderColor: [
+          '#FF5252',
+          '#26A69A',
+          '#1976D2',
+          '#66BB6A'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      aspectRatio: 1.5,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 40,
+          ticks: {
+            callback: function(value) {
+              return value + '%';
+            }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.parsed.y + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Company Size Chart (Horizontal Bar)
+  const companyCtx = document.getElementById('companyChart');
+  new Chart(companyCtx, {
+    type: 'bar',
+    data: {
+      labels: ['1–10 employees', '11–50 employees', '51–200 employees', '201–1000 employees', '1000+ employees'],
+      datasets: [{
+        label: 'Percentage of Listeners',
+        data: [8.8, 16.7, 17.6, 17.6, 30.4],
+        backgroundColor: [
+          '#FF6B6B',
+          '#4ECDC4',
+          '#45B7D1',
+          '#96CEB4',
+          '#FFEAA7'
+        ],
+        borderColor: [
+          '#FF5252',
+          '#26A69A',
+          '#1976D2',
+          '#66BB6A',
+          '#FFC107'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      aspectRatio: 1.5,
+      scales: {
+        x: {
+          beginAtZero: true,
+          max: 35,
+          ticks: {
+            callback: function(value) {
+              return value + '%';
+            }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.parsed.x + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+  }); // Close window.load event listener
+</script>
 
 <style>
   .about-header {
@@ -237,7 +406,42 @@ import Footer from "../components/Footer.astro";
     margin-bottom: 3rem;
   }
 
+  .stats-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    margin: 2rem 0;
+  }
 
+  .chart-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .chart-container h4 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+
+  .chart-container p {
+    margin-bottom: 1.5rem;
+    color: var(--base-color);
+  }
+
+  .chart-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .chart-container canvas {
+    max-width: 100%;
+    max-height: 100%;
+  }
 
   .stats ul {
     margin: 0.5rem 0 1.5rem 1.5rem;
@@ -252,6 +456,19 @@ import Footer from "../components/Footer.astro";
     .hosts-grid {
       grid-template-columns: 1fr;
       gap: 2rem;
+    }
+
+    .stats-charts {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .chart-container {
+      padding: 1.5rem;
+    }
+
+    .chart-wrapper {
+      height: 250px;
     }
 
     .about-header h1 {
