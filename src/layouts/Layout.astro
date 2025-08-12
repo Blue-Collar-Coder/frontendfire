@@ -25,7 +25,7 @@ const { title, description } = Astro.props;
       <div class="nav-container">
         <a href="/" class="nav-logo">
           <Image src={logo} alt="Front-End Fire Logo" />
-          {Astro.url.pathname !== "/" && <span class="nav-title">Front-End Fire</span>}
+          <span class="nav-title">Front-End Fire</span>
         </a>
         <div class="nav-links">
           <a href="/about" class={`nav-link ${Astro.url.pathname === "/about" ? "current" : ""}`}>About</a>

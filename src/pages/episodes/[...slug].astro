@@ -3,10 +3,8 @@ import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
 import Layout from "../../layouts/Layout.astro";
-import PlatformActions from "../../components/PlatformActions.astro";
 import Footer from "../../components/Footer.astro";
 
-import logo from "../../assets/images/logo-horizontal.svg";
 import emailIcon from "../../assets/images/email-icon.svg";
 import facebookIcon from "../../assets/images/facebook-icon.svg";
 import twitterIcon from "../../assets/images/twitter-icon.svg";
@@ -34,12 +32,8 @@ const hosts = await getEntries(episode.data.hosts);
     <div class="episode-header-content">
 
       <div class="episode-title-section">
-        <div class="episode-info">
-          <span class="tag">{episode.data.type}</span>
-          <div class="episode-number-badge">
-            <span class="episode-number-text">EPISODE</span>
-            <span class="episode-number-value">{episode.data.number}</span>
-          </div>
+        <div class="episode-number-display">
+          <span class="episode-number">Episode {episode.data.number}</span>
         </div>
         <h1 class="episode-title">{episode.data.title}</h1>
         <div class="header-accent"></div>
@@ -348,69 +342,29 @@ const hosts = await getEntries(episode.data.hosts);
     margin-top: 2rem;
   }
 
-  .episode-info {
+  .episode-number-display {
     display: flex;
-    align-items: center;
-    gap: 1.5em;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 0.875rem;
-    color: var(--off-white);
-    opacity: 0.9;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
   }
 
-  .episode-number-badge {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid var(--primary-color);
-    border-radius: 12px;
-    padding: 0.75rem 1.25rem;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+  .episode-number {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--primary-color-light);
+    line-height: 1;
   }
 
-  .episode-number-badge::before {
+  .episode-number::after {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .episode-number-badge:hover::before {
-    opacity: 1;
-  }
-
-  .episode-number-badge:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-    border-color: var(--primary-color);
-  }
-
-  .episode-number-text {
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    color: var(--primary-color);
-    margin-bottom: 0.25rem;
-    opacity: 0.9;
-  }
-
-  .episode-number-value {
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--off-white);
-    line-height: 1;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent 0%, var(--primary-color) 50%, transparent 100%);
+    border-radius: 2px;
   }
 
   .episode-teaser {
@@ -514,6 +468,9 @@ const hosts = await getEntries(episode.data.hosts);
     .episode-title {
       font-size: 2rem;
     }
+    .episode-number {
+      font-size: 1.5rem;
+    }
 
     .episode-header-content {
       padding: 0 1rem;
@@ -531,14 +488,6 @@ const hosts = await getEntries(episode.data.hosts);
 
     .episode-number-badge {
       padding: 0.5rem 1rem;
-    }
-
-    .episode-number-value {
-      font-size: 1.5rem;
-    }
-
-    .episode-number-text {
-      font-size: 0.6rem;
     }
   }
 </style>
