@@ -1,4 +1,7 @@
 ---
+import { Image } from "astro:assets";
+import logo from "../assets/images/logo-horizontal.svg";
+
 interface Props {
   title: string;
   description: string;
@@ -20,8 +23,13 @@ const { title, description } = Astro.props;
   <body>
     <nav class="main-nav">
       <div class="nav-container">
-        <a href="/" class={`nav-link ${Astro.url.pathname === "/" ? "current" : ""}`}>Home</a>
-        <a href="/about" class={`nav-link ${Astro.url.pathname === "/about" ? "current" : ""}`}>About</a>
+        <a href="/" class="nav-logo">
+          <Image src={logo} alt="Front-End Fire Logo" />
+          {Astro.url.pathname !== "/" && <span class="nav-title">Front-End Fire</span>}
+        </a>
+        <div class="nav-links">
+          <a href="/about" class={`nav-link ${Astro.url.pathname === "/about" ? "current" : ""}`}>About</a>
+        </div>
       </div>
     </nav>
     <slot />
@@ -75,6 +83,7 @@ const { title, description } = Astro.props;
   main {
     flex-grow: 1;
     width: var(--content-width);
+    max-width: 80rem;
     margin: 0 auto;
   }
 
@@ -107,12 +116,36 @@ const { title, description } = Astro.props;
   .section-heading {
     margin: 2rem 0 1rem;
     color: var(--base-color-dark);
-    font-size: 1em;
+    font-size: 1.8rem;
     text-decoration: underline;
     text-decoration-thickness: 0.15em;
     text-underline-offset: 0.2em;
     text-decoration-color: var(--primary-color);
     text-transform: uppercase;
+  }
+
+  h2 {
+    color: var(--base-color-dark);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: var(--base-color-dark);
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  h4 {
+    color: var(--base-color-dark);
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem 0;
+    font-weight: 400;
   }
 
   .media-action {
@@ -180,13 +213,46 @@ const { title, description } = Astro.props;
 
   .nav-container {
     width: var(--content-width);
-    max-width: 53rem;
+    max-width: 80rem;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
     gap: 1rem;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .nav-logo .nav-title {
+    margin-left: 0.5rem;
+  }
+
+  .nav-logo img {
+    height: 2.5rem;
+    width: auto;
+    transition: opacity 0.2s ease;
+  }
+
+  .nav-logo:hover img {
+    opacity: 0.8;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--base-color-dark);
+    letter-spacing: -0.02em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
   }
 
   .nav-link {
@@ -229,5 +295,25 @@ const { title, description } = Astro.props;
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: 2px;
     text-underline-offset: 0.2em;
+  }
+
+  @media (max-width: 768px) {
+    .nav-container {
+      padding: 0.5rem 1rem;
+    }
+
+    .nav-logo img {
+      height: 2rem;
+    }
+
+    .nav-title {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .nav-container {
+      padding: 0 1rem;
+    }
   }
 </style>
