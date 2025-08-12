@@ -45,6 +45,7 @@ const { title, description } = Astro.props;
     --primary-color-dark: #bc5008;
     --off-white: #f5f5f5;
     --content-width: 90vw;
+    --max-width: 70rem;
   }
 
   html {
@@ -83,7 +84,7 @@ const { title, description } = Astro.props;
   main {
     flex-grow: 1;
     width: var(--content-width);
-    max-width: 80rem;
+    max-width: var(--max-width);
     margin: 0 auto;
   }
 
@@ -143,9 +144,9 @@ const { title, description } = Astro.props;
 
   h4 {
     color: var(--base-color-dark);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 1.5rem 0 0.5rem 0;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .media-action {
@@ -213,7 +214,7 @@ const { title, description } = Astro.props;
 
   .nav-container {
     width: var(--content-width);
-    max-width: 80rem;
+    max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

@@ -1,8 +1,6 @@
 ---
-import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import Footer from "../components/Footer.astro";
-import logo from "../assets/images/logo-horizontal.svg";
 ---
 
 <Layout
@@ -125,7 +123,7 @@ import logo from "../assets/images/logo-horizontal.svg";
 
   .about-header-content {
     width: var(--content-width);
-    max-width: 80rem;
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1rem;
   }
@@ -147,7 +145,7 @@ import logo from "../assets/images/logo-horizontal.svg";
   }
 
   .about-content {
-    max-width: 80rem;
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1rem;
   }
@@ -176,26 +174,32 @@ import logo from "../assets/images/logo-horizontal.svg";
     margin-bottom: 3rem;
   }
 
-
-
   .hosts-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
   }
 
   .host-card {
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .host-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
 
   .host-image {
     width: 100%;
-    max-width: 300px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    object-position: center;
   }
 
   .host-content {
@@ -245,6 +249,11 @@ import logo from "../assets/images/logo-horizontal.svg";
   }
 
   @media (max-width: 768px) {
+    .hosts-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
     .about-header h1 {
       font-size: 2rem;
     }
