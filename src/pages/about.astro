@@ -20,7 +20,7 @@ import Footer from "../components/Footer.astro";
         Front-End Fire is a weekly podcast about web development.
       </p>
       <p>
-        Hosted by industry veterans Jack Herrington, Paige Niedringhaus, and TJ VanToll, the show coves the trends, tools, and tech shaping the front-end world. Most episodes focus on <span class="segment-tag">News</span> and <span class="segment-tag">Lightning News</span>, but we also mix in tips (<span class="segment-tag">Firestarters</span>) and a discussion of <span class="segment-tag">What's Making Us Happy</span>. And every so often, we bring in guests doing cool, relevant stuff to share their insights.
+        Hosted by industry veterans Jack Herrington, Paige Niedringhaus, and TJ VanToll, the show coves the trends, tools, and tech shaping the front-end world. Most episodes focus on <span class="segment-tag">News</span> and <span class="segment-tag">Lightning News</span>, but we also mix in <span class="segment-tag">Firestarters</span> and a discussion of <span class="segment-tag">What's Making Us Happy</span>. And every so often, we bring in guests doing cool, relevant stuff to share their insights.
       </p>
       <p>
         We have a fun time every week—join us!
@@ -319,9 +319,13 @@ import Footer from "../components/Footer.astro";
   }
 
   .intro {
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     line-height: 1.6;
     margin: 2rem 0 3rem 0;
+    padding: 1rem 2rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
   }
 
   .segment-tag {
@@ -355,11 +359,9 @@ import Footer from "../components/Footer.astro";
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
   .host-card:hover {
-    transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
 
@@ -377,13 +379,13 @@ import Footer from "../components/Footer.astro";
   .host-card h3 {
     color: var(--primary-color);
     margin: 0 0 1rem 0;
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 1.625vw, 1.95rem);
   }
 
   .host-card p {
     margin: 0 0 1rem 0;
     line-height: 1.4;
-    font-size: 1rem;
+    font-size: clamp(1rem, 1.25vw, 1.5rem);
   }
 
   .sponsoring {

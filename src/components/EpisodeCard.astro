@@ -3,45 +3,64 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   episode: CollectionEntry<"episodes">;
-  showClip?: boolean;
 }
 
-const { episode, showClip = true } = Astro.props;
+const { episode } = Astro.props;
 ---
 
-<article class="episode-card">
-  <div class="episode-info">
-    <span class="tag">{episode.data.type}</span>
+<a href={"/episodes/" + episode.data.number} class="episode-card-link">
+  <article class="episode-card">
+    <div class="episode-info">
+      <span class="episode-number">#{episode.data.number}</span>
 
-    <time datetime={episode.data.date.toISOString()} class="episode-date">
-      {
-        episode.data.date.toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-          timeZone: "UTC"
-        })
-      }
-    </time>
-    <span class="episode-number">#{episode.data.number}</span>
-    {
-      episode.data.clip && showClip && (
-        <a href={episode.data.clip} target="_blank">
-          [ Clip ]
-        </a>
-      )
-    }
-  </div>
-  <h3 class="episode-title">
-    <a href={"/episodes/" + episode.data.number}>{episode.data.title}</a>
-  </h3>
+      <time datetime={episode.data.date.toISOString()} class="episode-date">
+        {
+          episode.data.date.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            timeZone: "UTC"
+          })
+        }
+      </time>
+    </div>
+    <h3 class="episode-title">
+      {episode.data.title}
+    </h3>
 
-  <p class="episode-description">
-    {episode.data.teaser ?? episode.data.description}
-  </p>
-</article>
+    <p class="episode-description">
+      {episode.data.teaser ?? episode.data.description}
+    </p>
+  </article>
+</a>
 
 <style>
+  .episode-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .episode-card {
+    padding: 1.5rem;
+    border: 1px solid var(--base-color-light);
+    border-radius: 8px;
+    background: white;
+    transition: all 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .episode-card-link:hover .episode-title {
+    text-decoration: underline;
+  }
+
+  .episode-card-link:hover .episode-card {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
   .episode-card > * {
     margin: 0.25rem 0;
   }
@@ -50,6 +69,8 @@ const { episode, showClip = true } = Astro.props;
     font-size: 1.25em;
     line-height: 1.2;
     font-weight: 500;
+    color: var(--primary-color-dark);
+    margin-bottom: 0.5rem;
   }
 
   .episode-info {
@@ -60,6 +81,16 @@ const { episode, showClip = true } = Astro.props;
     font-weight: 400;
     color: var(--base-color-light);
     font-size: clamp(.875rem,.7em,.7em);
+    margin-bottom: 0.75rem;
+  }
+
+  .episode-number {
+    color: white;
+    font-weight: 600;
+    background: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
   }
 
   .episode-description {
@@ -67,8 +98,8 @@ const { episode, showClip = true } = Astro.props;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
     overflow: hidden;
-
-    margin: 0.25em 0;
+    margin: 0;
     font-size: clamp(1rem, 0.875em, 0.875em);
+    color: var(--base-color);
   }
 </style>

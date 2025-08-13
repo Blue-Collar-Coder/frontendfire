@@ -143,18 +143,20 @@ const description = episode.data.teaser || episode.data.description.substring(0,
         {episode.data.description}
       </p>
 
-      <h2 class="section-heading">Links</h2>
-      <ul class="episode-links">
-        {
-          episode.data.links.map((link) => (
-            <li>
-              <a href={link.url} target="_blank">
-                {link.text}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+      <div class="episode-links-section">
+         <h2 class="section-heading">Links</h2>
+         <ul class="episode-links">
+           {
+             episode.data.links.map((link) => (
+               <li>
+                 <a href={link.url} target="_blank">
+                   {link.text}
+                 </a>
+               </li>
+             ))
+           }
+         </ul>
+       </div>
     </div>
 
     <nav class="episode-nav">
@@ -305,6 +307,10 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
   .episode-content {
     grid-area: content;
+    padding: 1.5rem;
+    background: var(--off-white);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
   }
 
   .episode-sidebar {
@@ -341,6 +347,17 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     color: var(--base-color-dark);
   }
 
+  .episode-links-section {
+    padding: 1.5rem;
+    background: var(--off-white);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .episode-links-section h2 {
+    margin-top: 0;
+  }
   .episode-links {
     margin: 1.5rem 0;
   }
@@ -401,16 +418,14 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     cursor: pointer;
     font-size: inherit;
     font-family: inherit;
-    color: var(--base-color-dark);
+    color: var(--primary-color-dark);
     opacity: 1;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    padding-top: 0.2rem;
   }
 
-  .copy-episode-link-action:hover {
-    color: var(--base-color-dark);
-  }
   /* Not sure why the button ends up having a different flex positioning
   than the anchors, but this seems to adjust for it. */
   .copy-episode-link-action span {
