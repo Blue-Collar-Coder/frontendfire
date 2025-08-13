@@ -56,7 +56,6 @@ const { title, description } = Astro.props;
     background-color: var(--off-white);
     color: var(--base-color);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
   }
 
   *,
@@ -91,6 +90,7 @@ const { title, description } = Astro.props;
   a {
     color: var(--base-color-dark);
     text-decoration: none;
+    position: relative;
   }
 
   a:visited {
@@ -268,16 +268,8 @@ const { title, description } = Astro.props;
     color: var(--base-color);
   }
 
-  .nav-link:hover,
-  .nav-link:focus,
-  .nav-link:active {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-
   .nav-link.current {
     color: var(--base-color);
-    font-weight: 400;
     text-decoration: underline;
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: 2px;
