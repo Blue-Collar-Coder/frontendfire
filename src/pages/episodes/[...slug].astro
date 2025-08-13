@@ -327,7 +327,7 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
   .episode-date {
     display: block;
-    font-size: 1.1rem;
+    font-size: clamp(1.1rem, 1.375vw, 1.65rem);
     font-weight: 400;
     color: var(--base-color-light);
     margin: 0 0 1rem 0;
@@ -335,7 +335,7 @@ const description = episode.data.teaser || episode.data.description.substring(0,
   }
 
   .episode-teaser {
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     line-height: 1.6;
     margin: 0 0 2rem 0;
     color: var(--base-color-dark);
@@ -446,7 +446,6 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     gap: 0.35em;
     width: 33%;
     font-weight: 400;
-    text-decoration: none;
 
     &::before,
     &::after {
