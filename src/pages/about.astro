@@ -1,0 +1,485 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout
+  title="About - Front-End Fire"
+  description="Learn more about Front-End Fire, a weekly podcast dedicated to keeping developers informed about the latest in the front-end development world."
+>
+  <header class="about-header">
+    <div class="about-header-content">
+      <h1>About</h1>
+      <div class="header-accent"></div>
+    </div>
+  </header>
+
+  <main class="about-content">
+    <section class="intro">
+      <p>
+        Front-End Fire is a weekly podcast about web development.
+      </p>
+      <p>
+        Hosted by industry veterans Jack Herrington, Paige Niedringhaus, and TJ VanToll, the show coves the trends, tools, and tech shaping the front-end world. Most episodes focus on <span class="segment-tag">News</span> and <span class="segment-tag">Lightning News</span>, but we also mix in <span class="segment-tag">Firestarters</span> and a discussion of <span class="segment-tag">What's Making Us Happy</span>. And every so often, we bring in guests doing cool, relevant stuff to share their insights.
+      </p>
+      <p>
+        We have a fun time every week—join us!
+      </p>
+    </section>
+
+    <section class="hosts">
+      <h2>Hosts</h2>
+      <div class="hosts-grid">
+        <div class="host-card">
+          <img src="/jack.jpg" alt="Jack Herrington" class="host-image" />
+          <div class="host-content">
+            <h3>Jack Herrington</h3>
+            <p>Jack Herrington is a principal full stack engineer, author and YouTuber who is trying to bring a practical approach to engineering and education to developers at all skill levels.</p>
+          </div>
+        </div>
+        
+        <div class="host-card">
+          <img src="/paige.jpg" alt="Paige Niedringhaus" class="host-image" />
+          <div class="host-content">
+            <h3>Paige Niedringhaus</h3>
+            <p>Paige Niedringhaus is a software engineer, technical writer, and podcast host. Currently a Staff Software Engineer for Blues, Paige has also honed her skills at large enterprise companies like The Home Depot, and enjoys all things front-end development-related.</p>
+          </div>
+        </div>
+        
+        <div class="host-card">
+          <img src="/tj.jpg" alt="TJ VanToll" class="host-image" />
+          <div class="host-content">
+            <h3>TJ VanToll</h3>
+            <p>TJ VanToll is a software developer, tech author, speaker, and podcast host. TJ has over 15 years of front-end development experience, including time working on the jQuery, NativeScript, and Kendo UI teams. Nowadays, TJ works as a Principal Developer Advocate at Blues.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsoring">
+      <h2>Sponsoring</h2>
+      <p>
+        Front-End Fire is taking inquiries for advertising on future episodes. All ads are currently 30-second host-read segments, placed immediately after the show's introduction. Your ad will be included in both the audio version of the show (for podcast players) and the video version of the show (for YouTube).
+      </p>
+      <p>
+        See below for more information about the audience your ads will reach. For inquiries and pricing, please email <a href="mailto:frontendfirepodcast@gmail.com">frontendfirepodcast@gmail.com</a>.
+      </p>
+    </section>
+
+    <section class="stats">
+      <h2>Stats</h2>
+      
+      <h3>About the Show</h3>
+      <ul>
+        <li><strong>Podcast players:</strong> ~1000 downloads per episode</li>
+        <li><strong>Total downloads:</strong> Over 50k downloads all time</li>
+        <li><strong>Most popular players:</strong> Apple Podcasts (28%) and Spotify (19%), but we have listeners on over a dozen platforms</li>
+        <li><strong>Biggest countries:</strong> US (31%), UK (7%), and Germany (6%). We've had downloads from 90 different countries—and counting!</li>
+        <li><strong>YouTube:</strong> We're new on YouTube, but we're already getting a few hundred views per episode</li>
+      </ul>
+
+      <h3>About our Audience</h3>
+      
+      <div class="stats-charts">
+        <div class="chart-container">
+          <h4>Experience Level</h4>
+          <p>Over half our listeners are senior/lead engineers:</p>
+          <div class="chart-wrapper">
+            <canvas id="experienceChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <h4>Years of Experience</h4>
+          <p>Most of our listeners have been professional developers for more than five years:</p>
+          <div class="chart-wrapper">
+            <canvas id="yearsChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <h4>Company Size</h4>
+          <p>We have listeners from a wide variety of companies:</p>
+          <div class="chart-wrapper">
+            <canvas id="companyChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p><i>The numbers in the charts above came from a survey of our listeners done in 2025.
+      The numbers don’t add up to exactly 100% because some listeners didn’t answer every question.</i></p>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+<script defer>
+  // Wait for both DOM and Chart.js to load
+  window.addEventListener('load', function() {
+    // Check if Chart is available
+    if (typeof Chart === 'undefined') {
+      console.error('Chart.js failed to load');
+      return;
+    }
+
+    // Experience Level Chart (Doughnut)
+    const experienceCtx = document.getElementById('experienceChart');
+    new Chart(experienceCtx, {
+      type: 'doughnut',
+    data: {
+      labels: ['Junior Developer/Engineer', 'Developer/Engineer', 'Senior Developer/Engineer', 'Principal/Lead Developer/Engineer', 'Other (C-Level, unrelated fields)'],
+      datasets: [{
+        data: [7.8, 26.5, 33.3, 24.5, 7.9],
+        backgroundColor: [
+          '#FF6B6B',
+          '#4ECDC4', 
+          '#45B7D1',
+          '#96CEB4',
+          '#FFEAA7'
+        ],
+        borderWidth: 2,
+        borderColor: '#fff'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      aspectRatio: 1.5,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            padding: 20,
+            usePointStyle: true,
+            font: {
+              size: 12
+            }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Years of Experience Chart (Bar)
+  const yearsCtx = document.getElementById('yearsChart');
+  new Chart(yearsCtx, {
+    type: 'bar',
+    data: {
+      labels: ['< 5 years', '5–10 years', '10–15 years', '15+ years'],
+      datasets: [{
+        label: 'Percentage of Listeners',
+        data: [26.5, 38.2, 14.7, 20.6],
+        backgroundColor: [
+          '#FF6B6B',
+          '#4ECDC4',
+          '#45B7D1', 
+          '#96CEB4'
+        ],
+        borderColor: [
+          '#FF5252',
+          '#26A69A',
+          '#1976D2',
+          '#66BB6A'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      aspectRatio: 1.5,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 40,
+          ticks: {
+            callback: function(value) {
+              return value + '%';
+            }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.parsed.y + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Company Size Chart (Horizontal Bar)
+  const companyCtx = document.getElementById('companyChart');
+  new Chart(companyCtx, {
+    type: 'bar',
+    data: {
+      labels: ['1–10 employees', '11–50 employees', '51–200 employees', '201–1000 employees', '1000+ employees'],
+      datasets: [{
+        label: 'Percentage of Listeners',
+        data: [8.8, 16.7, 17.6, 17.6, 30.4],
+        backgroundColor: [
+          '#FF6B6B',
+          '#4ECDC4',
+          '#45B7D1',
+          '#96CEB4',
+          '#FFEAA7'
+        ],
+        borderColor: [
+          '#FF5252',
+          '#26A69A',
+          '#1976D2',
+          '#66BB6A',
+          '#FFC107'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      aspectRatio: 1.5,
+      scales: {
+        x: {
+          beginAtZero: true,
+          max: 35,
+          ticks: {
+            callback: function(value) {
+              return value + '%';
+            }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.parsed.x + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+  });
+</script>
+
+<style>
+  .about-header {
+    padding: 4rem 0 3rem;
+    background: #3d3c40 linear-gradient(#161619, #3d3c40);
+    color: var(--off-white);
+  }
+
+  .about-header-content {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .about-header h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: -0.02em;
+  }
+
+  .header-accent {
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    margin-top: 1rem;
+  }
+
+  .about-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .intro {
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
+    line-height: 1.6;
+    margin: 2rem 0 3rem 0;
+    padding: 1rem 2rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+
+  .segment-tag {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .hosts {
+    margin-bottom: 3rem;
+  }
+
+  .hosts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  .host-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .host-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .host-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .host-content {
+    padding: 1.5rem;
+  }
+
+  .host-card h3 {
+    color: var(--primary-color);
+    margin: 0 0 1rem 0;
+    font-size: clamp(1.3rem, 1.625vw, 1.95rem);
+  }
+
+  .host-card p {
+    margin: 0 0 1rem 0;
+    line-height: 1.4;
+    font-size: clamp(1rem, 1.25vw, 1.5rem);
+  }
+
+  .sponsoring {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+
+  .sponsoring p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .stats {
+    margin-bottom: 3rem;
+  }
+
+  .stats-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    margin: 2rem 0;
+  }
+
+  .chart-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .chart-container h4 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+
+  .chart-container p {
+    margin-bottom: 1.5rem;
+    color: var(--base-color);
+  }
+
+  .chart-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .chart-container canvas {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .stats ul {
+    margin: 0.5rem 0 1.5rem 0.5rem;
+  }
+
+  .stats li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 768px) {
+    .hosts-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .stats-charts {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .chart-container {
+      padding: 1.5rem;
+    }
+
+    .chart-wrapper {
+      height: 250px;
+    }
+
+    .about-header h1 {
+      font-size: 2rem;
+    }
+
+    .about-header-content {
+      padding: 0 1rem;
+    }
+
+    .about-content {
+      padding: 0 1rem;
+    }
+  }
+</style> 

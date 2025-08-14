@@ -3,14 +3,15 @@ import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
 import Layout from "../../layouts/Layout.astro";
-import PlatformActions from "../../components/PlatformActions.astro";
 import Footer from "../../components/Footer.astro";
 
-import logo from "../../assets/images/logo-horizontal.svg";
 import emailIcon from "../../assets/images/email-icon.svg";
 import facebookIcon from "../../assets/images/facebook-icon.svg";
-import twitterIcon from "../../assets/images/twitter-icon.svg";
 import linkIcon from "../../assets/images/link-icon.svg";
+import youtubeIcon from "../../assets/images/youtube-icon.svg";
+import appleIcon from "../../assets/images/apple-icon.svg";
+import spotifyIcon from "../../assets/images/spotify-icon.svg";
+import xIcon from "../../assets/images/x-icon.svg";
 import { getEntries } from "astro:content";
 
 export async function getStaticPaths() {
@@ -26,41 +27,26 @@ export async function getStaticPaths() {
 const { episode, previous, next } = Astro.props;
 const title = `${episode.data.number}: ${episode.data.title} | Front-End Fire`;
 const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
-const hosts = await getEntries(episode.data.hosts);
+// TODO: Bring back the hosts and guests
+// const hosts = await getEntries(episode.data.hosts);
 ---
 
 <Layout title={title} description={description}>
-  <header>
-    <div class="header-content">
-      <a href="/">
-        <Image src={logo} alt="Front-End Fire Logo" class="logo" />
-        <h1 class="sr-only">Front-End Fire</h1>
-      </a>
-      <div>
-        <PlatformActions showText={false} />
+  <header class="episode-header">
+    <div class="episode-header-content">
+
+      <div class="episode-title-section">
+        <div class="episode-number-display">
+          <span class="episode-number">Episode {episode.data.number}</span>
+        </div>
+        <h1 class="episode-title">{episode.data.title}</h1>
+        <div class="header-accent"></div>
       </div>
     </div>
   </header>
 
   <main>
     <div class="episode-content">
-      <div class="episode-info">
-        <span class="tag">{episode.data.type}</span>
-        <span class="episode-number">Episode {episode.data.number}</span>
-      </div>
-
-      <h1 class="episode-header">{episode.data.title}</h1>
-
-      {
-        episode.data.teaser && (
-          <p class="episode-teaser">{episode.data.teaser}</p>
-        )
-      }
-      {episode.data.audio && <audio controls src={episode.data.audio} />}
-    </div>
-
-    <div class="episode-details">
-      <!-- <h2 class="section-heading">Details</h2> -->
       <time datetime={episode.data.date.toISOString()} class="episode-date">
         {
           episode.data.date.toLocaleDateString("en-US", {
@@ -71,94 +57,84 @@ const hosts = await getEntries(episode.data.hosts);
         }
       </time>
 
-      <ul>
       {
-        episode.data.clip && (
-          <li>
-            <a href={episode.data.clip} target="_blank">
-              View Clip
-            </a>
-          </li>
+        episode.data.teaser && (
+          <p class="episode-teaser">{episode.data.teaser}</p>
         )
       }
-      {
-        episode.data.youtube && (
-          <li>
-            <a href={episode.data.youtube} target="_blank">
-              View on YouTube
-            </a>
-          </li>
-        )
-      }
-    </ul>
 
-      <p><strong class="hosted-by">Hosted by</strong></p>
-      <ul>
-        {
-          hosts.map((host) => (
-            <li>
-              <a href={host.data.website} target="_blank">
-                {host.data.name}
+      {episode.data.audio && <audio controls src={episode.data.audio} />}
+    </div>
+
+    <div class="episode-sidebar">
+      <div class="listen-section">
+        <h3 class="section-heading">Listen</h3>
+        <div class="listen-links">
+          {
+            episode.data.youtube && (
+              <a href={episode.data.youtube} target="_blank" title="Listen on YouTube">
+                <Image src={youtubeIcon} alt="YouTube" />
+                <span>YouTube</span>
               </a>
-            </li>
-          ))
-        }
-      </ul>
+            )
+          }
+          {
+            episode.data.apple && (
+              <a href={episode.data.apple} target="_blank" title="Listen on Apple Podcasts">
+                <Image src={appleIcon} alt="Apple Podcasts" />
+                <span>Apple</span>
+              </a>
+            )
+          }
+          {
+            episode.data.spotify && (
+              <a href={episode.data.spotify} target="_blank" title="Listen on Spotify">
+                <Image src={spotifyIcon} alt="Spotify" />
+                <span>Spotify</span>
+              </a>
+            )
+          }
+        </div>
+      </div>
 
-      {
-        episode.data.guests && (
-          <>
-            <h2 class="section-heading">Guests</h2>
-            <ul>
-              {episode.data.guests.map((guest) => (
-                <li>
-                  <a href={guest.url} target="_blank">
-                    {guest.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </>
-        )
-      }
-
-      <p>
-        <strong>Share this episode</strong>
-        <a
-          title="Share via email"
-          href={`mailto:?subject=${encodeURIComponent(episode.data.title)}&body=Check out this episode from the Front-End Fire podcast%0D%0A%0D%0AApple Podcasts:%0D%0A${encodeURIComponent(episode.data.apple)}%0D%0A%0D%0ASpotify:%0D%0A${encodeURIComponent(episode.data.spotify)}`}
-          class="share-action"
-        >
-          <Image src={emailIcon} alt="Share via email" />
-        </a>
-        &nbsp;
-        <a
-          title="Share on Facebook"
-          target="_blank"
-          href={`https://www.facebook.com/sharer/sharer.php?u=${episode.data.spotify}`}
-          class="share-action"
-        >
-          <Image src={facebookIcon} alt="Share on Facebook" />
-        </a>
-        &nbsp;
-        <a
-          title="Tweet this episode"
-          target="_blank"
-          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(episode.data.title)}%0D%0A${encodeURIComponent(episode.data.spotify)}`}
-          class="share-action"
-        >
-          <Image src={twitterIcon} alt="Tweet this episode" />
-        </a>
-        &nbsp;
-        <button
-          title="Copy Episode Link"
-          popovertarget="copied-popover"
-          class="share-action copy-episode-link-action"
-        >
-          <Image src={linkIcon} alt="Copy Episode Link" />
-        </button>
-        <div popover id="copied-popover">Copied!</div>
-      </p>
+      <div class="share-section">
+        <h3 class="section-heading">Share</h3>
+        <div class="share-actions">
+          <a
+            title="Share via email"
+            href={`mailto:?subject=${encodeURIComponent(episode.data.title)}&body=Check out this episode from the Front-End Fire podcast%0D%0A%0D%0AApple Podcasts:%0D%0A${encodeURIComponent(episode.data.apple)}%0D%0A%0D%0ASpotify:%0D%0A${encodeURIComponent(episode.data.spotify)}`}
+          >
+            <Image src={emailIcon} alt="Share via email" />
+            <span>Share via email</span>
+          </a>
+          <a
+            title="Share on Facebook"
+            target="_blank"
+            href={`https://www.facebook.com/sharer/sharer.php?u=${episode.data.spotify}`}
+          >
+            <Image src={facebookIcon} alt="Share on Facebook" />
+            <span>Facebook</span>
+          </a>
+          <a
+            title="Share on X"
+            target="_blank"
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(episode.data.title)}%0D%0A${encodeURIComponent(episode.data.spotify)}`}
+          >
+            <Image src={xIcon} alt="Share on X" />
+            <span>Share on X</span>
+          </a>
+          <button
+            title="Copy Episode Link"
+            popovertarget="copied-popover"
+            class="copy-episode-link-action"
+            type="button"
+          >
+            <Image src={linkIcon} alt="Copy Episode Link" />
+            <span>Share Link</span>
+          </button>
+          <div popover id="copied-popover">Copied!</div>
+        </div>
+      </div>
     </div>
 
     <div class="episode-extras">
@@ -167,18 +143,20 @@ const hosts = await getEntries(episode.data.hosts);
         {episode.data.description}
       </p>
 
-      <h2 class="section-heading">Links</h2>
-      <ul class="episode-links">
-        {
-          episode.data.links.map((link) => (
-            <li>
-              <a href={link.url} target="_blank">
-                {link.text}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+      <div class="episode-links-section">
+         <h2 class="section-heading">Links</h2>
+         <ul class="episode-links">
+           {
+             episode.data.links.map((link) => (
+               <li>
+                 <a href={link.url} target="_blank">
+                   {link.text}
+                 </a>
+               </li>
+             ))
+           }
+         </ul>
+       </div>
     </div>
 
     <nav class="episode-nav">
@@ -225,26 +203,65 @@ const hosts = await getEntries(episode.data.hosts);
 </script>
 
 <style>
-  header {
+  .episode-header {
+    padding: 4rem 0 3rem;
     background: #3d3c40 linear-gradient(#161619, #3d3c40);
     color: var(--off-white);
-    padding: 0.5em 0;
-    font-size: 1.125em;
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
   }
 
-  main,
-  nav,
-  footer,
-  .header-content {
+  .episode-header-content {
     width: var(--content-width);
-    max-width: 85rem;
-    margin: auto;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .episode-title-section {
+    margin-top: 1rem;
+  }
+
+  .episode-title {
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin: 0.5rem 0 0 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .header-accent {
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    margin-top: 1rem;
   }
 
   main {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-areas: 
+      "content sidebar"
+      "extras sidebar"
+      "nav nav";
+    grid-template-columns: 1fr 300px;
+    gap: 3rem;
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  nav {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: auto;
   }
 
   nav {
@@ -263,9 +280,8 @@ const hosts = await getEntries(episode.data.hosts);
   }
 
   ul {
-    list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 1em;
   }
 
   strong {
@@ -280,8 +296,6 @@ const hosts = await getEntries(episode.data.hosts);
     &:popover-open {
       position: absolute;
       inset: unset;
-      right: 1em;
-      bottom: 1em;
     }
   }
 
@@ -291,82 +305,142 @@ const hosts = await getEntries(episode.data.hosts);
     align-items: center;
   }
 
-  .logo {
-    width: 9em;
-    height: auto;
-    vertical-align: middle;
-    margin-right: auto;
-  }
-
   .episode-content {
-    max-width: 40em;
-    margin-right: 5%;
+    grid-area: content;
+    padding: 1.5rem;
+    background: var(--off-white);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
   }
 
-  .episode-details {
-    margin-top: 2em;
+  .episode-sidebar {
+    grid-area: sidebar;
   }
 
   .episode-extras {
-    width: 100%;
+    grid-area: extras;
   }
 
-  .episode-info {
+  .episode-number-display {
     display: flex;
-    align-items: baseline;
-    gap: 1em;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: clamp(0.875rem, 0.6em, 0.6em);
-    color: var(--base-color-light);
-  }
-
-  .episode-header {
-    margin: 0 0 0.25em;
-    color: var(--primary-color);
-    font-weight: 500;
-    line-height: 1.2;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    color: var(--primary-color-light);
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
   }
 
   .episode-date {
-    display: inline-block;
+    display: block;
+    font-size: clamp(1.1rem, 1.375vw, 1.65rem);
     font-weight: 400;
+    color: var(--base-color-light);
+    margin: 0 0 1rem 0;
+    text-align: left;
+  }
+
+  .episode-teaser {
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
+    line-height: 1.6;
+    margin: 0 0 2rem 0;
     color: var(--base-color-dark);
+  }
+
+  .episode-links-section {
+    padding: 1.5rem;
+    background: var(--off-white);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .episode-links-section h2 {
+    margin-top: 0;
+  }
+  .episode-links {
+    margin: 1.5rem 0;
+  }
+  .episode-links li {
     margin-bottom: 0.5rem;
   }
 
-  .episode-details p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .listen-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--off-white);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+  .listen-section h3, .share-section h3 {
+    margin-top: 0;
   }
 
-  .hosted-by {
-    margin: 0.5rem 0;
+  .listen-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
-  .share-action {
+  .share-section {
+    padding: 1rem;
+    background: var(--off-white);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+
+  .share-actions, .listen-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .share-actions a,
+  .listen-links a {
     text-decoration: none;
-
-    & img {
-      height: 1.25em;
-      width: 1.25em;
-    }
   }
 
-  button.share-action {
+  .listen-links img,
+  .share-actions img {
     height: 1.25em;
     width: 1.25em;
+    filter: none;
+    display: inline-block;
+    margin-right: 0.125em;
+  }
+
+  .copy-episode-link-action {
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
     font-size: inherit;
+    font-family: inherit;
+    color: var(--primary-color-dark);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.2rem;
   }
 
-  .episode-description,
-  .episode-links {
+  /* Not sure why the button ends up having a different flex positioning
+  than the anchors, but this seems to adjust for it. */
+  .copy-episode-link-action span {
+    position: relative;
+    left: -0.2em;
+  }
+
+  .listen-links a:hover span,
+  .share-actions a:hover span,
+  .copy-episode-link-action:hover span {
+    text-decoration: underline;
+  }
+
+  .episode-description {
     max-width: 40em;
-    font-size: clamp(1rem, 0.875em, 0.875em);
     margin-bottom: 0;
   }
 
@@ -375,6 +449,7 @@ const hosts = await getEntries(episode.data.hosts);
   }
 
   .episode-nav {
+    grid-area: nav;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -386,7 +461,6 @@ const hosts = await getEntries(episode.data.hosts);
     gap: 0.35em;
     width: 33%;
     font-weight: 400;
-    text-decoration: none;
 
     &::before,
     &::after {
@@ -416,6 +490,41 @@ const hosts = await getEntries(episode.data.hosts);
     &::after {
       content: "\2192";
       margin-right: -0.85em;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    main {
+      grid-template-areas: 
+        "content"
+        "sidebar"
+        "extras"
+        "nav";
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 0 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    main {
+      gap: 1.5rem;
+      padding: 0 1rem;
+    }
+
+    .episode-title {
+      font-size: 2rem;
+    }
+    .episode-number-display {
+      font-size: 1.5rem;
+    }
+
+    .episode-header-content {
+      padding: 0 1rem;
+    }
+
+    .episode-header {
+      padding: 2rem 0 1.5rem;
     }
   }
 </style>

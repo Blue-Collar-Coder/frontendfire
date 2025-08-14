@@ -7,7 +7,7 @@ import PlatformActions from "../components/PlatformActions.astro";
 import EpisodeCard from "../components/EpisodeCard.astro";
 import Footer from "../components/Footer.astro";
 
-import logo from "../assets/images/logo-horizontal.svg";
+import logo from "../assets/images/logo-with-text.svg";
 
 const hosts = await getCollection("hosts");
 const episodes = await getCollection("episodes");
@@ -18,14 +18,13 @@ const latestEpisode = (episodes ?? []).shift();
 
 <Layout
   title="Front-End Fire - A weekly front-end news podcast"
-  description="The weekly show that helps you stay up to date on the latest and greatest in the front-end world"
+  description="A weekly podcast that helps you stay up to date on the front-end world"
 >
   <header>
     <Image src={logo} alt="Front-End Fire Logo" class="logo" />
     <h1 class="sr-only">Front-End Fire</h1>
     <p class="tagline">
-      The weekly show that helps you stay up to date on the latest and greatest
-      in the front-end world.
+      A weekly podcast that helps you stay up to date on the front-end world.
     </p>
     <p class="byline">
       Hosted by
@@ -33,7 +32,7 @@ const latestEpisode = (episodes ?? []).shift();
         hosts.map((host, index, arr) => (
           <span>
           {index === arr.length - 1 ? "and " : ""}
-            <a href={host.data.website} target="_blank">{host.data.name}</a><!--
+            <a href="/about">{host.data.name}</a><!--
             -->{index < arr.length - 1 ? ", " : ""}
           </span>
         ))
@@ -47,10 +46,7 @@ const latestEpisode = (episodes ?? []).shift();
     {
       latestEpisode && (
         <div class="latest-episode">
-          <EpisodeCard episode={latestEpisode} showClip={false} />
-          {latestEpisode.data.audio && (
-            <audio controls src={latestEpisode.data.audio} />
-          )}
+          <EpisodeCard episode={latestEpisode} />
         </div>
       )
     }
@@ -70,6 +66,11 @@ const latestEpisode = (episodes ?? []).shift();
     background: #3d3c40 linear-gradient(#161619, #3d3c40);
     color: var(--off-white);
   }
+  header > * {
+    max-width: 53rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   audio {
     width: 25rem;
@@ -87,7 +88,7 @@ const latestEpisode = (episodes ?? []).shift();
   .subscribe-bar {
     display: block;
     width: var(--content-width);
-    max-width: 53rem;
+    max-width: var(--max-width);
     margin: 0.25rem auto;
   }
 
@@ -98,7 +99,7 @@ const latestEpisode = (episodes ?? []).shift();
   }
 
   .byline {
-    a:visited {
+    a, a:visited {
       color: var(--primary-color)
     }
 
@@ -126,15 +127,13 @@ const latestEpisode = (episodes ?? []).shift();
     max-width: 40em;
     margin: 2em auto;
     padding: 0.25em 0.75em;
-    box-shadow: 0 0 3px var(--primary-color-dark);
-    border-radius: 4px;
     font-size: 1.25em;
   }
 
   .past-episodes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 25em), 1fr));
-    grid-gap: 4rem;
+    grid-gap: 2rem;
     margin: 2rem 0;
   }
 </style>

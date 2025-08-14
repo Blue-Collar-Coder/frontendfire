@@ -1,4 +1,7 @@
 ---
+import { Image } from "astro:assets";
+import logo from "../assets/images/logo-horizontal.svg";
+
 interface Props {
   title: string;
   description: string;
@@ -18,6 +21,17 @@ const { title, description } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">
+          <Image src={logo} alt="Front-End Fire Logo" />
+          <span class="nav-title">Front-End Fire</span>
+        </a>
+        <div class="nav-links">
+          <a href="/about" class={`nav-link ${Astro.url.pathname === "/about" ? "current" : ""}`}>About</a>
+        </div>
+      </div>
+    </nav>
     <slot />
   </body>
 </html>
@@ -31,6 +45,7 @@ const { title, description } = Astro.props;
     --primary-color-dark: #bc5008;
     --off-white: #f5f5f5;
     --content-width: 90vw;
+    --max-width: 70rem;
   }
 
   html {
@@ -41,7 +56,6 @@ const { title, description } = Astro.props;
     background-color: var(--off-white);
     color: var(--base-color);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
   }
 
   *,
@@ -69,12 +83,14 @@ const { title, description } = Astro.props;
   main {
     flex-grow: 1;
     width: var(--content-width);
+    max-width: var(--max-width);
     margin: 0 auto;
   }
 
   a {
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
     text-decoration: none;
+    position: relative;
   }
 
   a:visited {
@@ -84,7 +100,7 @@ const { title, description } = Astro.props;
   a:hover,
   a:focus,
   a:active {
-    color: var(--primary-color-light);
+    color: var(--primary-color-dark);
     text-decoration: underline;
     text-underline-offset: 0.1em;
     text-decoration-thickness: 1px;
@@ -101,12 +117,36 @@ const { title, description } = Astro.props;
   .section-heading {
     margin: 2rem 0 1rem;
     color: var(--base-color-dark);
-    font-size: 1em;
+    font-size: 1.8rem;
     text-decoration: underline;
     text-decoration-thickness: 0.15em;
     text-underline-offset: 0.2em;
     text-decoration-color: var(--primary-color);
     text-transform: uppercase;
+  }
+
+  h2 {
+    color: var(--base-color-dark);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: var(--base-color-dark);
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  h4 {
+    color: var(--base-color-dark);
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.5rem 0;
+    font-weight: 500;
   }
 
   .media-action {
@@ -157,5 +197,122 @@ const { title, description } = Astro.props;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+  }
+
+  .main-nav {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--base-color-light);
+    background-image: repeating-linear-gradient(
+      45deg,
+      #f4ede5 0,
+      #f4ede5 1px,
+      #f5f5f5 0,
+      #f5f5f5 50%
+    );
+    background-size: 7px 7px;
+    background-color: var(--off-white);
+  }
+
+  .nav-container {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  .nav-logo:hover {
+    text-decoration: none;
+  }
+
+  .nav-logo .nav-title {
+    margin-left: 0.5rem;
+  }
+
+  .nav-logo img {
+    height: 2.5rem;
+    width: auto;
+    transition: opacity 0.2s ease;
+  }
+
+  .nav-logo:hover img {
+    opacity: 0.8;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--base-color-dark);
+    letter-spacing: -0.02em;
+  }
+
+  .nav-logo:hover .nav-title {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: var(--base-color);
+    font-size: 1.1rem;
+    padding: 0.25rem 0;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .nav-link:visited {
+    color: var(--base-color);
+  }
+
+  .nav-link.current {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  @media (max-width: 768px) {
+    .nav-container {
+      padding: 0.5rem 1rem;
+    }
+
+    .nav-logo img {
+      height: 2rem;
+    }
+
+    .nav-title {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .nav-container {
+      padding: 0 1rem;
+    }
   }
 </style>
