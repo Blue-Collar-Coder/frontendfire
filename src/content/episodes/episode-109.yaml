@@ -1,0 +1,68 @@
+number: 109
+type: news
+title: "TanStack DevTools: One Panel to Rule Them All"
+date: 2025-08-18
+teaser: >
+  🛠 Devtools centralization for all TanStack libs, 🎨 State of CSS 2025 celebrates :has() & Tailwind supremacy, 🐼 Panda CSS v1 ships with cascade layers. And... Perplexity offers $34B for Chrome while Gemini rage-quits 💻
+description: >
+  You just can’t keep TanStack out of the news for more than a few weeks before a new product appears. This week, it’s TanStack Devtools, which provides a centralized devtools panel of all the Tanstack libraries for streamlined DX and custom devtools support.
+
+
+  The State of CSS 2025 survey results are in, and highlights include: devs love the new `:has()` feature, Tailwind CSS continues to be the most popular CSS framework, and over 60% of respondents are still using Sass or SCSS in their web apps. It’s a good survey to take to learn about new CSS features, and see what other devs are using in their day-to-day code.
+
+
+  Continuing the CSS topics, Panda CSS, a CSS-in-JS library that debuted in 2023, just hit v1. Panda gained traction by being a CSS-in-JS library built for the server-first era (meaning RSC support), and it adds new features like static analysis to build optimized CSS outputs, baked in type safety, and support for modern CSS like cascade layers, JSX style props, gradients, and a `createStyleContext` API for cross-framework design systems. It seems like the two years it took to get to v1 was worth the wait.
+
+
+  In our Lightning News section, Perplexity AI offers to buy Google Chrome for $34 billion, Google Gemini, Google’s AI agent, suffered a crisis of confidence sending self-loathing messages and finally writing “I quit” and deleting files it had written for a user, and AI coding site bolt.new unveiled its new Bolt Cloud partnership with Netlify and Supabase to allow users to build and scale websites without ever leaving Bolt.
+
+
+  The Fire Starter is back this week focusing on the new dialog HTML element’s `closedby` attribute. `closedby` controls if a user can dismiss a modal by various methods like clicking outside of the modal, clicking the Esc key, or clicking the “Close” button - it’s so nice that this is finally built-in to the HTML language itself.
+duration: "50:34"
+chapters:
+  - title: TanStack Devtools
+    start: "00:56"
+  - title: State of CSS 2025 survey results
+    start: "06:28"
+  - title: Panda CSS v1
+    start: "15:23"
+  - title: Perplexity wants to buy Chrome from Google
+    start: "23:19"
+  - title: Google Gemini is having a mental breakdown
+    start: "25:52"
+  - title: Bolt.new unveils Bolt Cloud
+    start: "30:50"
+  - title: The dialog element's closedby attribute
+    start: "35:14"
+  - title: What's making us happy
+    start: "39:20"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Panda CSS v1
+    url: https://github.com/chakra-ui/panda/discussions/3321?
+  - text: TanStack Devtools
+    url: https://tanstack.com/devtools/latest
+  - text: State of CSS 2025 survey results
+    url: https://2025.stateofcss.com/en-US/
+  - text: Perplexity wants to buy Chrome from Google
+    url: https://www.nytimes.com/2025/08/12/technology/perplexity-google-chrome-bid.html?unlocked_article_code=1.d08.zrCH.MqizQdyirvuL&smid=url-share
+  - text: Google Gemini is having a mental breakdown
+    url: https://www.businessinsider.com/gemini-self-loathing-i-am-a-failure-comments-google-fix-2025-8
+  - text: Bolt.new unveils Bolt Cloud
+    url: https://bolt.new/blog/bolt-cloud
+  - text: The dialog element's closedby attribute
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
+  - text: Express VPN
+    url: https://www.expressvpn.com/
+  - text: A Psalm for the Wild Built book
+    url: https://www.goodreads.com/book/show/40864002-a-psalm-for-the-wild-built
+  - text: The Retrievals podcast
+    url: https://www.nytimes.com/article/serial-the-retrievals.html
+  - text: The Savannah Bananas baseball team
+    url: https://thesavannahbananas.com/
+audio: https://www.buzzsprout.com/2226499/episodes/17685812-tanstack-devtools-one-panel-to-rule-them-all.mp3
+spotify: https://open.spotify.com/episode/1cwZux4rBR5WNTxQuysd64
+apple: https://podcasts.apple.com/us/podcast/tanstack-devtools-one-panel-to-rule-them-all/id1700169000?i=1000722491442
