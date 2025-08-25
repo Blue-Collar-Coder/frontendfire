@@ -1,0 +1,67 @@
+number: 110
+type: news
+title: "Alchemy: IaC Without Terraform"
+date: 2025-08-25
+teaser: >
+  🪄 Forget HCL — Alchemy does Infrastructure as Code with plain TypeScript, 🤔 MCP “ubertool” servers experiment with letting AI write & run code, 📦 and Next.js 15.5 preps for v16.
+description: >
+  The latest craze for MCP this week? Instead of multiple MCP servers with different tools, use an MCP server that accepts programming code as tool inputs - a single “ubertool” if you will. AI agents like Claude Code are pretty good at writing code, but letting the agent write and execute code to invoke API functions instead of using a defined MCP server doesn’t seem like the most efficient use of LLM tokens or time to answer, but hey, we’re all still trying to figure out the best way to use these agents and tools, and it’s another novel approach to consider.
+
+
+  In infrastructure news, there’s a library called Alchemy that lets devs write their Infrastructure as Code in pure TypeScript. No Terraform files, no dependencies, just async functions, stored in plain JSON files, that runs anywhere JS can run, and supports custom backends like file systems, cloud storage, or databases. For web devs, the future of IaC has arrived.
+
+
+  Next.js has made their last big release before v16 in the form of 15.5. Highlights of this minor release include: production turbopack builds, stable support for the Node.js runtime in middleware, fully typed routes, and deprecation warnings in preparation for Next.js 16.
+
+
+  This week’s Lightning News covers: security vulnerabilities identified in AI code review tool CodeRabbit that could have exposed its Postgres DB and read/write access to 1+ million repos, Vercel’s proposal for sending inline LLM instructions in HTML based on llms.txt, and the GUI tool for Claude Code named Claudia that still needs some UX polish. 
+
+
+  And the Fire Starter is back this week focused on the `hidden=until-found` HTML attribute which hides an element from view in the DOM, but makes it discoverable via in-page search. The biggest use case is accordions that conceal text, but there’s probably plenty of other scenarios where this could be very useful.
+duration: "54:37"
+chapters:
+  - title: 'Dangers of the "ubertool"'
+    start: "00:57"
+  - title: Alchemy Infrastructure as Code (IaC)
+    start: "09:54"
+  - title: Next.js 15.5
+    start: "15:27"
+  - title: How CodeRabbit AI got hacked
+    start: "24:57"
+  - title: '<script type="text/llms.txt">'
+    start: "27:48"
+  - title: Claudia
+    start: "32:37"
+  - title: hidden=until-found
+    start: "41:31"
+  - title: What's making us happy
+    start: "45:26"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Alchemy Infrastructure as Code (IaC)
+    url: https://alchemy.run/
+  - text: "Dangers of the “ubertool”"
+    url: https://lucumr.pocoo.org/2025/8/18/code-mcps/
+  - text: Next.js 15.5
+    url: https://nextjs.org/blog/next-15-5
+  - text: How CodeRabbit AI got hacked
+    url: https://research.kudelskisecurity.com/2025/08/19/how-we-exploited-coderabbit-from-a-simple-pr-to-rce-and-write-access-on-1m-repositories/
+  - text: Claudia
+    url: https://claudiacode.com/
+  - text: '<script type="text/llms.txt">'
+    url: https://vercel.com/blog/a-proposal-for-inline-llm-instructions-in-html
+  - text: hidden=until-found
+    url: https://css-tricks.com/covering-hiddenuntil-found/
+  - text: The Art Thief book
+    url: https://www.goodreads.com/book/show/62873378-the-art-thief
+  - text: "Alien: Earth TV series"
+    url: https://www.imdb.com/title/tt13623632/
+  - text: Pips NYT game
+    url: https://www.nytimes.com/games/pips
+audio: https://www.buzzsprout.com/2226499/episodes/17725013-alchemy-iac-without-terraform.mp3
+spotify: https://open.spotify.com/episode/0NPsRcC71BpEVi5A5WkEIw
+apple: https://podcasts.apple.com/us/podcast/alchemy-iac-without-terraform/id1700169000?i=1000723423968
+youtube: https://youtu.be/iChruFYc4Tw?si=2m-JVJPD9drOg3kH
