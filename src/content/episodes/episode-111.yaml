@@ -1,0 +1,58 @@
+number: 111
+type: news
+title: "Bun v1.2: SQL, YAML & Security Scans"
+date: 2025-09-01
+teaser: >
+  Bun ships a big v1.2 update 🍞 SQL client, YAML, vuln scans & secrets storage 🛠, Claude Code gets rollback checkpoints 🛑, MCP-UI gets visual with embedded HTML/iframes 💻. Plus, support Deno in its fight vs Oracle for the JS trademark! ⚔️
+description: >
+  Last episode, while discussing Claude Code wrapper Claudia, we lamented Claude’s lack of checkpoints to roll back code when it goes off the rails. Other devs feel the same, and this week Checkpoints for Claude Code debuted. It’s an MCP server that follows Claude Code, creating checkpoints when tasks are completed, allowing for easy reverts when needed.
+
+
+  The Bun team quietly pushed some nice new features in Bun v1.2. Highlights include: a unified SQL client with zero dependencies, native YAML file support, OS native credential storage for secrets, and a security scanner API that scans packages for vulnerabilities before installation.
+
+
+  And MCP-UI, a toolkit of interactive UI components for MCP has new features to support resources beyond text like embedded iframes and even raw HTML. Not all agents with MCP support can handle these new resources, but if they can, users can see product photos, data visualizations, and other mini sites right in their AI chat.
+
+
+  In the Lightning News section for this week, Anthropic continues making headlines with the announcement of Claude for Chrome, heating up the AI-powered browser race, yet again. Also, the folks at Deno leading the charge to get Oracle to relinquish its trademark for JavaScript need our help. Those legal bills aren’t going to pay themselves and Deno’s pockets aren’t nearly as deep as Oracle’s, so if you care about making JavaScript public domain (which it absolutely should be), please consider donating so they can keep fighting the good fight to free JS. Every little bit helps.
+duration: "41:36"
+chapters:
+  - title: Claude Code thinking modes & checkpoints
+    start: "00:48"
+  - title: Bun v1.2
+    start: "10:33"
+  - title: MCP-UI updates
+    start: "17:04"
+  - title: Claude for Chrome
+    start: "23:06"
+  - title: Donate to help Deno fight Oracle
+    start: "28:12"
+  - title: What's making us happy
+    start: "30:24"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Bun v1.2
+    url: https://bun.com/blog/bun-v1.2.21
+  - text: MCP-UI updates
+    url: https://mcpui.dev/
+  - text: Claude Code Thinking Modes
+    url: https://smartnested.com/think-megathink-ultrathink-claude-codes-power-keywords-decoded/
+  - text: Claude Code Checkpoints
+    url: https://claude-checkpoints.com/
+  - text: Claude for Chrome
+    url: https://techcrunch.com/2025/08/26/anthropic-launches-a-claude-ai-agent-that-lives-in-chrome/
+  - text: Donate to help Deno keep fighting Oracle in court - free JavaScript!
+    url: https://www.gofundme.com/f/help-us-challenge-oracles-javascript-trademark
+  - text: Zima Dental Pod
+    url: https://zimadental.co/products/dentalpodbf
+  - text: Foundation TV series
+    url: https://tv.apple.com/us/show/foundation/umc.cmc.5983fipzqbicvrve6jdfep4x3
+  - text: Babe Ruth commits fraude
+    url: https://www.nytimes.com/athletic/6575116/2025/08/25/tennessee-man-george-herman-babe-ruth-fraud/
+audio: https://www.buzzsprout.com/2226499/episodes/17765026-bun-v1-2-sql-yaml-security-scans.mp3
+spotify: https://open.spotify.com/episode/0XG276t6NHkE8aojo9JSB9
+apple: https://podcasts.apple.com/us/podcast/bun-v1-2-sql-yaml-security-scans/id1700169000?i=1000724369519
+youtube: https://youtu.be/lYrlsi0d79w?si=6W8HqEp7lK7uI7QV
