@@ -1,0 +1,61 @@
+number: 112
+type: news
+title: Warp Code and the Future of Agent-Driven Dev
+date: 2025-09-08
+teaser: >
+  Warp’s new Warp Code wants to make your terminal the hub of AI dev workflows ⚡, Google walks away from its antitrust case with barely a scratch 👀, and Atlassian just dropped $610M to buy AI browser Dia 💰. Plus, Anthropic raises $13B (!!), and OpenAI sets its sights on LinkedIn.
+description: >
+  The Google vs. the US anti-trust lawsuit has finally drawn to a close, and (spoiler alert) Google doesn’t have to sell Chrome (or Android, for that matter). Google has to do barely anything, to be honest. Going forward it will have to share certain search data with its rivals, and that’s about it, so this is definitely a big win for Google any way you look at it.
+
+
+  The popular terminal company Warp just unveiled Warp Code - a suite of features for shipping agent-generated code “all the way from prompt to production” via the Warp terminal. Warp Code offers an agent-driven terminal-first approach, with visual code review of agent changes, and a native file editor for minor edits in an attempt to eliminate the context switching devs have to do nowadays between their AI agents, IDEs, and GitHub. It’s certainly another novel approach to the AI coding workflows we’re all exploring right now.
+
+
+  In a twist no one saw coming, SaaS behemoth Atlassian has bought AI-browser Dia (and its maker The Browser Company) for $610 million. Atlassian wants to position Dia as the AI-browser for users at work and time will tell if that bet pays off.
+
+
+  Continuing the staggering funding numbers in our Lightning News, Anthropic has raised another $13 billion in Series F funding after growing its run rate revenue from $1 billion at the beginning of 2025 to $5 billion by August of 2025. ChatGPT may be winning the personal use market, but Anthropic is definitely winning the tech and enterprise use market. 
+
+
+  And on the heels of that, OpenAI teased that it is building an AI-powered hiring platform to rival LinkedIn. It’s an odd move considering how Microsoft is heavily invested in OpenAI and also owns LinkedIn, so we’ll have to wait and see how that plays out in mid-2026.
+duration: "51:57"
+chapters:
+  - title: Google doesn't have to sell Chrome
+    start: "02:34"
+  - title: Warp Code
+    start: "10:17"
+  - title: Atlassian buys The Browser Company
+    start: "22:56"
+  - title: Anthropic raises $13 billion
+    start: "31:48"
+  - title: OpenAI is building an AI-powered hiring platform
+    start: "34:54"
+  - title: What's making us happy
+    start: "39:42"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Atlassian buys The Browser Company for $610 million
+    url: https://www.theverge.com/web/770947/browser-company-arc-dia-acquired-atlassian
+  - text: Warp terminal unveils Warp Code
+    url: https://www.warp.dev/blog/introducing-warp-code-prompt-to-prod
+  - text: Google doesn’t have to sell Chrome after all
+    url: https://www.cnbc.com/2025/09/02/google-antitrust-search-ruling.html
+  - text: Addy Osmani’s blog post on the history of Chrome
+    url: https://addyosmani.com/blog/chrome-17th/
+  - text: Anthropic raises $13 billion Series F
+    url: https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation
+  - text: OpenAI is building an AI-powered hiring platform
+    url: https://techcrunch.com/2025/09/04/openai-announces-ai-powered-hiring-platform-to-take-on-linkedin/
+  - text: BenQ RD280U programming monitor
+    url: https://benqurl.biz/4oHVx4E
+  - text: "Alien: Earth TV series"
+    url: https://www.imdb.com/title/tt13623632/
+  - text: Severance TV series
+    url: https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx
+audio: https://www.buzzsprout.com/2226499/episodes/17805502-warp-code-and-the-future-of-agent-driven-dev.mp3
+spotify: https://open.spotify.com/episode/4s5iXUY4v2uz0NvZpaATKM
+apple: https://podcasts.apple.com/us/podcast/warp-code-and-the-future-of-agent-driven-dev/id1700169000?i=1000725502627
+youtube: https://youtu.be/4mmvlKVxb9E?si=VpNueGlC9cTNtBAZ
