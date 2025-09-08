@@ -3,7 +3,7 @@ type: news
 title: Warp Code and the Future of Agent-Driven Dev
 date: 2025-09-08
 teaser: >
-  Warp’s new Warp Code wants to make your terminal the hub of AI dev workflows ⚡, Google walks away from its antitrust case with barely a scratch 👀, and Atlassian just dropped $610M to buy AI browser Dia 💰. Plus, Anthropic raises $13B (!!), and OpenAI sets its sights on LinkedIn.
+  Warp’s new Warp Code wants to make your terminal the hub of AI dev workflows ⚡, Google walks away from its antitrust case with barely a scratch 👀, and Atlassian just dropped $610M to buy AI browser Dia 💰.
 description: >
   The Google vs. the US anti-trust lawsuit has finally drawn to a close, and (spoiler alert) Google doesn’t have to sell Chrome (or Android, for that matter). Google has to do barely anything, to be honest. Going forward it will have to share certain search data with its rivals, and that’s about it, so this is definitely a big win for Google any way you look at it.
 
@@ -59,3 +59,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/17805502-warp-code-and-the-fu
 spotify: https://open.spotify.com/episode/4s5iXUY4v2uz0NvZpaATKM
 apple: https://podcasts.apple.com/us/podcast/warp-code-and-the-future-of-agent-driven-dev/id1700169000?i=1000725502627
 youtube: https://youtu.be/4mmvlKVxb9E?si=VpNueGlC9cTNtBAZ
+clip: https://x.com/front_end_fire/status/1965046099972174300
