@@ -1,0 +1,54 @@
+number: 113
+type: news
+title: npm's Biggest Supply Chain Attach (and What We Learned)
+date: 2025-09-15
+teaser: >
+  npm gets hit with its largest supply chain attack 😱, Storybook 10 drops CJS for big perf wins 🚀, Brave finds a major flaw in AI-browser Comet ⚠️, and a dev makes a site to count Claude Code’s favorite phrase: “You’re absolutely right!” 😂
+description: >
+  Just 5 months ago we covered how Storybook 9 was in beta, and already Storybook 10 is in beta. The biggest change is that Storybook is going all in on ESM and dropping CJS support, which is making for some big performance gains and smaller bundle sizes.
+
+
+  This past week, npm suffered the largest supply chain attack in its history when a prolific OSS maintainer got phished. Luckily, the attack was noticed and reported within the hour and it looks like the hackers got next to nothing for their efforts, but it serves as another reminder to be extra careful before clicking links in emails.
+
+
+  In the same security vein, browser company Brave uncovered a security vulnerability in AI-browser Comet where malicious instructions on a web page could cause the agent to “go rogue” while it was being asked to summarize a page’s contents. Perplexity has since added more guardrails to try and mitigate this sort of thing, but be cognizant of the data and signed in access you’re giving to these AI agents.
+
+
+  Finally, in slightly lighter Lightning News, a clever dev made a customizable website to count how many times Claude Code says “You’re absolutely right!” in a day. The Python scripts can easily be downloaded and run, so now you too can see just how right Claude thinks you are.
+duration: "50:13"
+chapters:
+  - title: Storybook 10
+    start: "01:12"
+  - title: npm's supply chain attack
+    start: "07:53"
+  - title: Brave discloses security vulnerability in Comet
+    start: "17:24"
+  - title: You're absolutely right! Claude Code counter
+    start: "26:38"
+  - title: What's making us happy
+    start: "35:26"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Storybook 10 beta
+    url: https://storybook.js.org/docs/10/releases/migration-guide
+  - text: Storybook 9 features
+    url: https://storybook.js.org/blog/storybook-9/
+  - text: npm suffered the largest supply chain attack in its history
+    url: https://socket.dev/blog/npm-author-qix-compromised-in-major-supply-chain-attack
+  - text: Brave discloses security vulnerability in Comet
+    url: https://brave.com/blog/comet-prompt-injection/
+  - text: Someone made a customizable website to count how many times Claude Code says "You're absolutely right!" in a day
+    url: https://github.com/yoavf/absolutelyright
+  - text: Silicon Valley TV show
+    url: https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
+  - text: Shokz OpenComm2 bone conduction headphones
+    url: https://shokz.com/pages/opencomm2-2025-upgrade
+  - text: macOS text message forwarding
+    url: https://support.apple.com/en-us/102545
+audio: https://www.buzzsprout.com/2226499/episodes/17842680-npm-s-biggest-supply-chain-attack-and-what-we-learned.mp3
+spotify: https://open.spotify.com/episode/1sgHtKFJY0AE85lqOwLOHt
+apple: https://podcasts.apple.com/us/podcast/npms-biggest-supply-chain-attack-and-what-we-learned/id1700169000?i=1000726884033
+youtube: https://youtu.be/UUs6nPdjgjE?si=asPjrzhcHbsZ4Obw
