@@ -1,0 +1,70 @@
+number: 114
+type: news
+title: "npm Under Siege: The “Shai-Hulud” Worm Attack"
+date: 2025-09-22
+teaser: >
+  Another week, another npm attack ⚠️ Crowdstrike packages hit by the “Shai-Hulud” worm. Wasm 3.0 drops and it’s huge: GC, multi-memory, massive perf gains 💥. Want AI without the cloud? Jack shares the best browser LLMs 🖥️
+description: >
+  The supply chain attacks on npm continue and this week, Crowdstrike’s npm packages fell victim to the “Shai-Hulud” worm. Once the malware’s installed it searches for local tokens and cloud credentials, inserting GitHub Action workflows into other repos, and exfiltrates sensitive data to hardcoded webhook endpoints.
+
+
+  To mitigate the potential of downloading these malicious packages, consider pinning specific package versions in JS projects, using 2FA to publish new package versions to npm, and taking advantage of new features pnpm is adding like minimumReleaseAge that delays installation of newly released dependencies and disabling post install scripts from packages by default.
+
+
+  Also this week, WebAssembly Specification (Wasm) released v3.0. This version dramatically expands the memory Wasm apps can use, supports multiple memory usage, and now allows garbage collection.
+
+
+  It’s been a while since we last covered LLM options for folks who want to run their own models locally or in the browser, so Jack gives a quick rundown of some of the best options out today. 
+
+
+  There’s WebLLM from MLC, MediaPipe from Google, and ONNX from Microsoft, and although none are easily interchangeable with another, if cost, privacy, or working offline are concerns of your LLM-enabled app, these may be good options to explore.
+
+
+  In bonus news, GitHub’s created an official MCP registry making it easy to find, install, and start using MCP servers with any MCP-capable AI agent. And, much to everyone’s surprise, Microsoft Paint is still around, and getting its own Photoshop-like project files? Yes indeed, Paint creations, which now have such features as transparency mode and layers, will soon be able to be saved as .paint files so users can pick up right where they left off, just like Photoshop. Better watch your back, Adobe.
+duration: "56:58"
+chapters:
+  - title: npm supply chain attack
+    start: "00:58"
+  - title: Wasm 3.0
+    start: "16:28"
+  - title: LLM options in the browser
+    start: "23:34"
+  - title: Jack's experience at CascadiaJS and a discussion on the value of in-person conferences in 2025
+    start: "34:41"
+  - title: GitHub's new MCP registry
+    start: "41:45"
+  - title: Microsoft Paint is getting project files
+    start: "43:26"
+  - title: What's making us happy
+    start: "46:54"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: '"Shai-Hulud” supply chain attack on npm continues against Crowdstrike npm packages'
+    url: https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages
+  - text: pnpm 10.16 minimumReleaseAge setting
+    url: https://pnpm.io/blog/releases/10.16
+  - text: "Browser LLM options: WebLLM"
+    url: https://webllm.mlc.ai/
+  - text: MediaPipe
+    url: https://ai.google.dev/edge/mediapipe/solutions/guide
+  - text: ONNX
+    url: https://onnxruntime.ai/
+  - text: Wasm 3.0
+    url: https://webassembly.org/news/2025-09-17-wasm-3.0/
+  - text: GitHub's new MCP registry
+    url: https://github.com/mcp
+  - text: Microsoft Paint is getting its own Photoshop-like project files
+    url: https://www.theverge.com/news/780287/microsoft-paint-project-files-feature-photoshop-psd
+  - text: Great British Bake Off season 16 is back!
+    url: https://thegreatbritishbakeoff.co.uk/meet-the-class-of-2025/
+  - text: Yo-yos
+    url: https://duncantoys.com/collections/yo-yos
+  - text: phishyurl.com
+    url: http://phishyurl.com
+audio: https://www.buzzsprout.com/2226499/episodes/17882018-npm-under-siege-the-shai-hulud-worm-attack.mp3
+spotify: https://open.spotify.com/episode/1cQqCxe3qLLJNXuPnULKKc
+apple: https://podcasts.apple.com/us/podcast/npm-under-siege-the-shai-hulud-worm-attack/id1700169000?i=1000727850838
+youtube: https://youtu.be/PRPT6T0eFP8?si=HlbSX4lGEqRpZgDS
