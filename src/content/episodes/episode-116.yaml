@@ -1,0 +1,56 @@
+number: 116
+type: news
+title: "Claude Code Levels Up: VS Code Extension, Checkpoints & Sonnet 4.5"
+date: 2025-10-06
+teaser: >
+  Anthropic’s new Claude updates are 🔥 — Sonnet 4.5, VS Code integration, and checkpoints. Chrome DevTools teams up with AI assistants to debug like never before. 🤖 And Vercel’s CEO stirred up a political firestorm. 🌪️
+description: >
+  Anthropic dropped a bunch of good Claude Code updates. There’s a new a native VS Code extension, a v2 of the terminal version of Claude, code checkpoints, and it’s all powered by Sonnet 4.5, Anthropic’s best coding model yet.
+
+
+  On top of Claude’s glow up, the Google Chrome team launched a Chrome DevTools MCP. Now, AI coding assistants will be able to debug web pages directly in a Chrome browser, including using DevTools to review network requests, console output, HTML and CSS structure, simulate user interactions, and even automate performance audits.
+
+
+  In a poorly planned move, the CEO of Vercel tweeted a picture of himself meeting with the controversial Israeli Prime minister, Benjamin Netanyahu. This sparked a massive online backlash, some Vercel employees quit, and many customers are leaving the hosting site and vowing to stop using Next.js, as well. 
+
+
+  For the Lightning News this week, the State of JS survey is open once again, so please take it and write us in as your podcast of choice! Additionally, GitHub’s got a plan to help make npm more secure against future supply chain attacks, and Meta’s getting flack for building an AI data center in Louisiana the size of 70 football fields. That’s a lot of server space!
+duration: "41:58"
+chapters:
+  - title: Claude Sonnet and Claude Code updates
+    start: "00:46"
+  - title: Chrome DevTools MCP
+    start: "07:55"
+  - title: Vercel drama
+    start: "13:50"
+  - title: State of JS survey is open
+    start: "19:03"
+  - title: GitHub's pln to make npm more secure
+    start: "20:21"
+  - title: Meta builds data center the size of 70 football fields
+    start: "25:30"
+  - title: What's making us happy
+    start: "29:04"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Chrome DevTools MCP
+    url: https://developer.chrome.com/blog/chrome-devtools-mcp
+  - text: Vercel's in hot water after a selfie with Benjamin Netanyahu
+    url: https://www.israelnationalnews.com/news/415678
+  - text: Claude Code levels up
+    url: https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously
+  - text: State of JS survey 2025 is open
+    url: https://stateofjs.com/en-US
+  - text: GitHub's got a plan to make npm more secure
+    url: https://github.blog/security/supply-chain-security/our-plan-for-a-more-secure-npm-supply-chain/
+  - text: Meta builds AI data center the size of 70 football fields
+    url: https://people.com/meta-builds-ai-data-center-size-of-70-football-fields-11821565
+  - text: "Star Trek: Strange New Worlds season 3"
+    url: https://www.imdb.com/title/tt12327578/
+audio: https://www.buzzsprout.com/2226499/episodes/17961495-claude-code-levels-up-vs-code-extension-checkpoints-sonnet-4-5.mp3
+spotify: https://open.spotify.com/episode/13NTDVfbgURBYuR4FMLjYv
+apple: https://podcasts.apple.com/us/podcast/claude-code-levels-up-vs-code-extension-checkpoints/id1700169000?i=1000730393890
+youtube: https://youtu.be/xWP0vohAoCI?si=9Tf4LZsEDmgcR9J4
