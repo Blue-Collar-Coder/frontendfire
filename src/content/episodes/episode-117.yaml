@@ -1,0 +1,63 @@
+number: 117
+type: news
+title: "React Goes Independent: Inside the New React Foundation"
+date: 2025-10-13
+teaser: >
+  React Conf brought the goods this week 👀: React spins out from Meta into a new foundation, React 19.2 ships new rendering magic, and Cloudflare introduces Cap’n Web (a pure TypeScript RPC). Also... the EU admits cookie banners were a mistake 🍪
+description: >
+  It’s been a big week for React devs as the annual React Conf just wrapped up in Las Vegas. 
+
+
+  The biggest news? React and React Native are moving out from under Meta to a new React Foundation with an independent technical governance structure. The React Foundation’s mission will be to support the React community and ecosystem, and a board of directors will oversee its continued growth and development in the future.
+
+
+  Also in time for React Conf, React 19.2 dropped, and it brings new features like partial pre-rendering, a new useEffectEvent hook, and an <Activity/> component that lets devs prioritize rendering different parts of the app to maintain state and make navigation faster.
+
+
+  Not to be outdone, Cloudflare announced a new RPC protocol called Cap’n Web, which is a pure TypeScript implementation. What makes Cap’n Web unique is that it supports bi-directional calling, promise pipelining, and lets users design RPC interfaces that look like regular JavaScript APIs.
+
+
+  In Lightning News this week, the makers of the Opera browser just released their own AI-browser Opera Neon, but it comes with a $20/month subscription price tag? And the EU policymakers who forced us all to endure cookie banners on practically every website over a decade ago are finally trying to figure out how to fix the terrible UX monster they created. Good luck to them.
+duration: "41:10"
+chapters:
+  - title: React Foundation
+    start: "03:18"
+  - title: React Compiler 1.0 and React 19.2
+    start: "07:10"
+  - title: Cap'n Web
+    start: "17:13"
+  - title: Opera Neon
+    start: "24:19"
+  - title: The EU is considering cookie law changes
+    start: "27:16"
+  - title: The Internet Archive hits 1 trillion pages
+    start: "31:43"
+  - title: What's making us happy
+    start: "33:33"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Cap’n Web pure TypeScript RPC system
+    url: https://blog.cloudflare.com/capnweb-javascript-rpc-library/
+  - text: Introducing the React Foundation
+    url: https://react.statuscode.com/link/175321/66ab968610
+  - text: React 19.2
+    url: https://react.dev/blog/2025/10/01/react-19-2
+  - text: European policymakers may be fixing the cookie banner headache they created
+    url: https://www.techspot.com/news/109570-european-policymakers-plan-fix-internet-cookie-consent-headache.html
+  - text: Opera wants you to pay $20 per month for its new AI browser
+    url: https://www.bleepingcomputer.com/news/artificial-intelligence/opera-wants-you-to-pay-1990-per-month-for-its-new-ai-browser/
+  - text: Celebrating 1 Trillion Web Pages Archived
+    url: https://blog.archive.org/trillion/
+  - text: "The Terminal List: Dark Wolf TV series"
+    url: https://www.imdb.com/title/tt26576161/
+  - text: Fender Acoustatasonic Guitar
+    url: https://www.fender.com/products/acoustasonic-standard-telecaster?variant=46218965942494
+  - text: Portable stadium seat addition
+    url: https://www.amazon.com/dp/B0CT26NHZZ?th=1
+audio: https://www.buzzsprout.com/2226499/episodes/18000092-react-goes-independent-inside-the-new-react-foundation.mp3
+spotify: https://open.spotify.com/episode/2cfyoE3rdM8gKZDQMwhILr
+apple: https://podcasts.apple.com/us/podcast/react-goes-independent-inside-the-new-react-foundation/id1700169000?i=1000731581060
+youtube: https://youtu.be/wsojwCD9Uu4?si=S2QUhmGWm60I_uu5
