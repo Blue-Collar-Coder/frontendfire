@@ -1,0 +1,62 @@
+number: 118
+type: news
+title: "Bun 1.3: From Runtime to Full-Stack Powerhouse"
+date: 2025-10-20
+teaser: >
+  🍞 Bun 1.3 wants to be your full-stack JS runtime, Remix v3 isn’t just an update — it’s a total rebrand 😳, Next.js 16 beta ships with React 19.2 support, and HBO + W3C keep rebranding like it’s a sport 😅.
+description: >
+  Back in May, the Remix cofounders revealed they were reimagining Remix v3 from the ground up, and this past week at Remix Jam, they gave a sneak peek of it. It’s fair to say this new framework shouldn’t be called Remix at all because it’s departed so far from its origins: devs manually update state, it uses signals, routes are defined in a TS doc, and it will ship with a component library, for starters. Will it catch on, who knows?
+
+
+   Not to be outdone by React v19.2 last week, Next.js 16 beta debuted (with support for React 19.2 included). In addition to the latest version of React, Next.js 16 has also declared Turbopack, RSC support, and React Compiler all stable, and improved its caching system as well.
+
+
+  And Bun is back in the news with the release of Bun 1.3, and it’s a doozy of a minor version release. Bun wants to be a full-stack JavaScript runtime as it now includes a full-stack dev server, built in support for MySQL and Redis DBs, routing, and the ability to package an entire project into one executable for cross-platform support. Well done, Bun team!
+
+
+  In Lightning News this week, Firefox 144 has view transition support, which means it’s now supported across all major browsers. HBO has changed the name of 3+ of its TV channels, just two months after rebranding its streaming app from Max back to HBO Max, and the W3C unveiled a new logo that is… questionable.
+duration: "43:22"
+chapters:
+  - title: Remix v3
+    start: "01:14"
+  - title: Next.js 16 beta
+    start: "10:38"
+  - title: Bun 1.3
+    start: "17:35"
+  - title: Firefox 144 with view transition support
+    start: "24:42"
+  - title: HBO rebrands channels again
+    start: "25:19"
+  - title: W3C has a new logo
+    start: "28:00"
+  - title: What's making us happy
+    start: "31:25"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Bun 1.3 release notes
+    url: https://bun.com/blog/bun-v1.3
+  - text: Remix v3
+    url: https://www.youtube.com/watch?v=xt_iEOn2a6Y
+  - text: Next.js 16 beta
+    url: https://nextjs.org/blog/next-16-beta
+  - text: Firefox 144 view transition support
+    url: https://www.firefox.com/en-US/firefox/144.0/releasenotes/
+  - text: W3C has a new logo
+    url: https://www.w3.org/press-releases/2025/new-logo/
+  - text: Gavin Belson signature from Silicon Valley TV series
+    url: https://www.reddit.com/r/SiliconValleyHBO/comments/8eazu1/box_iii_gavin_belson_signature_edition/
+  - text: HBO rebrands channels again
+    url: https://variety.com/2025/tv/news/hbo-changes-tv-channel-names-hbo2-1236508090/
+  - text: The Gilded Age TV series
+    url: https://www.imdb.com/title/tt4406178/
+  - text: KPop Demon Hunters movie
+    url: https://www.imdb.com/title/tt14205554/
+  - text: Madison, WI
+    url: https://www.visitmadison.com/plan/visitor-centers/
+audio: https://www.buzzsprout.com/2226499/episodes/18039546-118-bun-1-3-from-runtime-to-full-stack-powerhouse.mp3
+spotify: https://open.spotify.com/episode/1MyX4xC7tRdGf5jqOtkXYp
+apple: https://podcasts.apple.com/us/podcast/118-bun-1-3-from-runtime-to-full-stack-powerhouse/id1700169000?i=1000732632159
+youtube: https://youtu.be/hcL_q0mJ5C8?si=dx9jzR19NTxRC2Iz
