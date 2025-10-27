@@ -1,0 +1,56 @@
+number: 119
+type: news
+title: Vercel’s Double Feature—Next.js 16 and Ship AI
+date: 2025-10-27
+teaser: >
+  Vercel didn’t just ship — it launched an armada between the Next.js & Ship AI conferences 🛠️. Meanwhile, OpenAI’s ChatGPT Atlas joins the AI browser battle and the Vite team is shipping more than builds now — they’re shipping a business model with Vite+ 💼
+description: >
+  Another week, another new AI-browser. This time it’s OpenAI’s turn to introduce ChatGPT Atlas. As with the other AI browsers, Atlas knows the context of what tabs are open, has an agent that can do things for you, and (maybe its defining feature) it has memory built in so conversations can draw on past chats and details when needed.
+
+
+  The team behind Vite reveals their path to revenue with command line devtool Vite+. In addition to the Vite commands we know and love, devs will soon be able to test, lint, format, bundle, and even view their apps’ stats with Vite+, with the performance we expect from a compiler toolchain built completely in Rust. Plus, it’s free for individual users and OSS projects, and has annual licensing prices for startups and enterprises.
+
+
+  Vercel held not one but two conferences this week: Next.js Conf and then Ship AI. Next.js 16 was unveiled with improvements to Turbopack, a Next.js DevTools MCP, and updates to Cache Components. And Ship AI covered updates to the AI SDK, Vercel’s AI Gateway and Agents, and more. 
+
+
+  In the Lightning News section this week, Anthropic introduced Claude Code on the web: a new way to delegate coding tasks directly from the browser. For now, it only works with GitHub repos, but you can assign multiple coding tasks to Claude to tackle bugs, routine fixes, or parallel dev work that runs on Anthropic-managed cloud infrastructure. And also, the Louvre Museum was robbed of over $100 M in crown jewels in broad daylight in 7 minutes flat with the thieves escaping afterwards on scooters.
+duration: "47:29"
+chapters:
+  - title: ChatGPT Atlas
+    start: "02:05"
+  - title: Vite+
+    start: "12:38"
+  - title: Next.js Conf and Ship AI
+    start: "20:21"
+  - title: Claude Code on the web
+    start: "28:07"
+  - title: The Louvre was robbed
+    start: "33:02"
+  - title: What's making us happy
+    start: "38:02"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Vite+
+    url: https://voidzero.dev/posts/announcing-vite-plus
+  - text: Next.js Conf
+    url: https://nextjs.org/conf
+  - text: Ship AI updates
+    url: https://vercel.com/ship/ai
+  - text: ChatGPT Atlas
+    url: https://openai.com/index/introducing-chatgpt-atlas/
+  - text: Claude Code on the web
+    url: https://www.anthropic.com/news/claude-code-on-the-web
+  - text: The Louvre robbery
+    url: https://www.bbc.com/news/articles/cg7nrlkg0zxo
+  - text: The Diplomat TV series
+    url: https://www.imdb.com/title/tt17491088/
+  - text: Claude Code's design skills
+    url: https://www.claude.com/product/claude-code
+audio: https://www.buzzsprout.com/2226499/episodes/18077427-119-vercel-s-double-feature-next-js-16-and-ship-ai.mp3
+spotify: https://open.spotify.com/episode/4KCHCjYUxzMp1gR6oEhwJw
+apple: https://podcasts.apple.com/us/podcast/119-vercels-double-feature-next-js-16-and-ship-ai/id1700169000?i=1000733676687
+youtube: https://youtu.be/ogx7i9WQhNM?si=giGCVwXqns0lhiCv
