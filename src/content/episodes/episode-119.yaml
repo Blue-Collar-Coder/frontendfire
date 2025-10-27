@@ -3,9 +3,9 @@ type: news
 title: Vercel’s Double Feature—Next.js 16 and Ship AI
 date: 2025-10-27
 teaser: >
-  Vercel didn’t just ship — it launched an armada between the Next.js & Ship AI conferences 🛠️. Meanwhile, OpenAI’s ChatGPT Atlas joins the AI browser battle and the Vite team is shipping more than builds now — they’re shipping a business model with Vite+ 💼
+  Vercel didn’t just ship — it launched an armada between the Next.js & Ship AI confs 🛠️. Meanwhile, OpenAI’s ChatGPT Atlas joins the AI browser battle and Vite is shipping more than builds now — it's shipping a business model with Vite+ 💼
 description: >
-  Another week, another new AI-browser. This time it’s OpenAI’s turn to introduce ChatGPT Atlas. As with the other AI browsers, Atlas knows the context of what tabs are open, has an agent that can do things for you, and (maybe its defining feature) it has memory built in so conversations can draw on past chats and details when needed.
+  Another week, another new AI-browser. This time it’s OpenAI’s turn to introduce ChatGPT Atlas. As with the other AI browsers, Atlas knows the context of open tabs, has an agent that can do things for you, and (maybe its defining feature) it has "memory" built in so conversations can draw on past chats and details when needed.
 
 
   The team behind Vite reveals their path to revenue with command line devtool Vite+. In addition to the Vite commands we know and love, devs will soon be able to test, lint, format, bundle, and even view their apps’ stats with Vite+, with the performance we expect from a compiler toolchain built completely in Rust. Plus, it’s free for individual users and OSS projects, and has annual licensing prices for startups and enterprises.
@@ -54,3 +54,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/18077427-119-vercel-s-double-
 spotify: https://open.spotify.com/episode/4KCHCjYUxzMp1gR6oEhwJw
 apple: https://podcasts.apple.com/us/podcast/119-vercels-double-feature-next-js-16-and-ship-ai/id1700169000?i=1000733676687
 youtube: https://youtu.be/ogx7i9WQhNM?si=giGCVwXqns0lhiCv
+clip: https://x.com/front_end_fire/status/1982803256599290300
