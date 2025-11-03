@@ -1,0 +1,59 @@
+number: 120
+type: news
+title: Is the AI Bubble About to Burst?
+date: 2025-11-03
+teaser: >
+  React Compiler = real DX + perf wins ✅, Cursor 2.0 = parallel agents + faster models ⚡, and... AI layoffs + low adoption + insane compute cost = bubble incoming? 💣 Hotter takes than a bundler flame war. Let’s go.
+description: >
+  It’s been almost 3 weeks since the React Compiler hit v1.0 and Jack gives an update on the ease of adding it to a React-based project and immediate performance improvement he’s seen from it. In addition to the speedier, more fine-grained control it provides, it also doesn’t require you to remove all your useMemos and useCallbacks to enjoy its effects (although you’ll want to just for the simpler code).
+
+
+  Popular AI-powered IDE Cursor just released v2.0, and it’s going hard on the agent mode, offering things like: a multi-agent interface where agents can run in parallel working on the same task with different models, and a new frontier model called Composer that’s 4x faster than similar models.
+
+
+  Then the hosts then get existential about whether the AI hype bubble is about to burst, if it’s really capable of stealing anyone’s jobs, and how much you should trust an LLM when making decisions about things like the tech stack for a new project. 
+
+
+  In regards to the bubble, the picture for value, adoption, and profitability outside of a few key players is mixed: the cost of these things is staggering and adoption rates beyond coders is extremely low, so far. 
+
+
+  AI seems to be eliminating entry level positions, which will come back to bite most companies in 5 - 10 years time when there’s no mid to senior level employees to fill the gap left in the wake of older employees retiring or continuing to move up the career ladder. 
+
+
+  And decisions about things like tech stack should be made by people (preferably senior devs) who can take into account things like team strengths, prior experience, end product goals, not machines using algorithms to spit out the next most likely word in a sentence.
+duration: "54:05"
+chapters:
+  - title: React Compiler 1.0
+    start: "01:43"
+  - title: Cursor 2.0
+    start: "08:13"
+  - title: AI discussion on bubbles and more
+    start: "22:28"
+  - title: What's making us happy
+    start: "43:13"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: AI bubbles
+    url: https://www.wheresyoured.at/the-case-against-generative-ai/
+  - text: More on AI bubbles
+    url: https://beam.ai/agentic-insights/the-1-trillion-question-is-the-ai-boom-built-on-circular-deals-or-real-demand
+  - text: AI's impact on jobs
+    url: https://x.com/housecor/status/1983860849547878703
+  - text: The proper use of AI tools
+    url: https://x.com/jherr/status/1983909250565861768
+  - text: React Compiler 1.0
+    url: https://react.dev/blog/2025/10/07/react-compiler-1
+  - text: Cursor 2.0
+    url: https://cursor.com/blog/2-0
+  - text: Heated under desk foot rest
+    url: https://www.amazon.com/Snailax-Adjustable-Vibration-Ergonomic-Footstool/dp/B0C4F72Q7Q/ref=sr_1_7
+  - text: The Toxic Avenger movie
+    url: https://www.imdb.com/title/tt1633359/
+  - text: A London reported interviewed the wrong Bill DeBlasio
+    url: https://www.cbsnews.com/newyork/news/bill-de-blasio-mamdani-times-of-london-interview/
+audio: https://www.buzzsprout.com/2226499/episodes/18120810-120-is-the-ai-bubble-about-to-burst.mp3
+spotify: https://open.spotify.com/episode/5FTYz5M92Azc7IVn8aWnPK
+apple: https://podcasts.apple.com/us/podcast/120-is-the-ai-bubble-about-to-burst/id1700169000?i=1000735024378
