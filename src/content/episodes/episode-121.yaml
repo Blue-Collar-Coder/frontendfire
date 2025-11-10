@@ -1,0 +1,66 @@
+number: 121
+type: news
+title: Chrome DevTools Gets AI Superpowers
+date: 2025-11-10
+teaser: >
+  Chrome DevTools now has AI 🤖, HTMX rewrites the engine for v4 ⚙️, AnalogJS hits 2.0 🚀, Apple might rent Gemini for Siri 🍎, npm cuts classic tokens 🔐 and a human-piloted home robot?? 🤯
+description: >
+  This week is a news roundup while cohost Jack is away for a hackathon in SF. 
+
+
+  First up, is how Chrome DevTools has added AI to its panels. Now users can ask Gemini to explain console errors, make CSS changes via in the elements tab, and explain traces collected in the performance panel.
+
+
+  HTMX has also jumped from v2 to v4 (alpha), rebuilding the internals after 5 years of maintaining the project. Upgrades include: going from XMLHttpRequests to fetch, explicit attribute inheritance, and improved history caching.
+
+
+  Angular’s meta-framework AnalogJS also just launched 2.0 which offers file-based routing, better Vite ecosystem support, and unified SSR, SSG, and islands-style hydration in one cohesive setup.
+
+
+  Rumor has it that next year Apple will be using Gemini to drive Siri for the cost of $1 billion to Google, as it continues to try and get Apple Intelligence to work reliably.
+
+
+  GitHub has officially disabled classic token creation for npm publishing in an effort to reign in the supply chain attacks we’ve reported on for the last few months. If you’re an npm maintainer, please switch to the new Trusted Publishing workflows as soon as you can to avoid publishing interruptions.
+
+
+  And last but not least, a company called NEO has a home assistant robot available for preorder now. The robot, which looks like a dystopian muppet, can clean, fold laundry, do dishes, and so on, but here’s the kicker: it’s a human piloting it remotely. Eventually the robots will be autonomous, but for now, it’ll be people fielding requests and driving the robots to perform the actions. Is this really the robot enhanced future we imagined?
+duration: "42:13"
+chapters:
+  - title: Chome DevTools gets a bunch of AI features
+    start: "01:16"
+  - title: htmx v4 alpha
+    start: "08:39"
+  - title: AnalogJS 2.0
+    start: "14:25"
+  - title: Apple allegedly to use Gemini to drive Siri
+    start: "17:09"
+  - title: GitHub disables classic token creation for npm
+    start: "22:13"
+  - title: NEO home robot
+    start: "27:38"
+  - title: What's making us happy
+    start: "35:58"
+hosts:
+  - paige
+  - tj
+links:
+  - text: HTMX goes right from v2 to v4 (alpha)
+    url: https://htmx.org/essays/the-fetchening
+  - text: Chrome DevTools gets a bunch of AI features
+    url: https://developer.chrome.com/blog/new-in-devtools-142
+  - text: AnalogJS 2.0
+    url: https://dev.to/analogjs/announcing-analogjs-20-348d
+  - text: Apple allegedly to use Gemini to drive Siri
+    url: https://gizmodo.com/siri-gemini-2000682271
+  - text: GitHub's disabled classic token creation for npm
+    url: https://github.blog/changelog/2025-11-05-npm-security-update-classic-token-creation-disabled-and-granular-token-changes/
+  - text: NEO home robot
+    url: https://www.1x.tech/neo
+  - text: The Survivalists novel
+    url: https://www.goodreads.com/book/show/59952867-the-survivalists
+  - text: Pokemon Legends Z-A game
+    url: https://www.nintendo.com/us/store/products/pokemon-legends-z-a-switch/
+audio: https://www.buzzsprout.com/2226499/episodes/18160474-121-chrome-devtools-gets-ai-superpowers.mp3
+spotify: https://open.spotify.com/episode/34iFnjgCwzGR2kdyM8eunn
+apple: https://podcasts.apple.com/us/podcast/121-chrome-devtools-gets-ai-superpowers/id1700169000?i=1000736087587
+youtube: https://youtu.be/OTDel05T2oA?si=UK9ti4112vn5bKRW
