@@ -3,7 +3,7 @@ type: news
 title: Snapchat Drops Valdi—A New Challenger to React Native?
 date: 2025-11-17
 teaser: >
-  A new React Native competitor? Yep — Snapchat just dropped Valdi 👀, GitHub builds a full agent HQ for Copilot 🧠, and TanStack DB v0.5 might change how you fetch data forever. And in lightning news: Firefox gets cuter and vibe coding becomes officially legit 😎
+  A new React Native competitor? Yep — Snapchat just dropped Valdi 👀, GitHub builds a full agent HQ for Copilot 🧠, and TanStack DB v0.5 might change how you fetch data forever. Plus: Firefox gets cuter and vibe coding becomes officially legit 😎
 description: >
   In a surprise move, Snapchat open sources its cross-platform UI Valdi. Valdi lets devs write UI components in TypeScript then compiles them to native views on iOS, Android, and macOS, offers instant hot reload without recompiling, and integrates well into already existing native apps. Between React Native, Lynx, and now Valdi, it’s never been a better time to be a native app dev.
 
