@@ -1,0 +1,60 @@
+number: 122
+type: news
+title: Snapchat Drops Valdi—A New Challenger to React Native?
+date: 2025-11-17
+teaser: >
+  A new React Native competitor? Yep — Snapchat just dropped Valdi 👀, GitHub builds a full agent HQ for Copilot 🧠. and TanStack DB v0.5 might change how you fetch data forever. And in lightning news: accessibility wins, Firefox gets cuter, and vibe coding becomes officially legit 😎
+description: >
+  In a surprise move, Snapchat open sources its cross-platform UI Valdi. Valdi lets devs write UI components in TypeScript then compiles them to native views on iOS, Android, and macOS, offers instant hot reload without recompiling, and integrates well into already existing native apps. Between React Native, Lynx, and now Valdi, it’s never been a better time to be a native app dev.
+
+
+  GitHub Universe 2025 wrapped up just a few weeks ago, and it had a bunch of new AI agent updates to share. Think: a single source to manage agents across GitHub, Mobile, CLI, and VS Code, custom agents with tailored prompts and tools, new Copilot integrations and agentic code review, and Plan Mode. One thing’s for sure: GitHub’s betting big on AI agents this year.
+
+
+  TanStack DB released v0.5 and Query-Driven Sync. With Query-Driven Sync, a component’s query is the API call and DB handles the fetching, caching, and updating, and provides different sync modes for different use cases. As usual, the TanStack team continues to push the boundaries of what good software and DX can be.
+
+
+  In the Lightning News section this week, GitHub announces they’ve eliminated toasts from their designs in the name of better accessibility, Firefox introduces their cute updated fox mascot Kit, and the term “vibe coding” is named word of the year by Collins Dictionary, narrowly beating out contenders “aura farming” and “glaze”.
+duration: "44:21"
+chapters:
+  - title: Snapchat open sources cross-platform tool Valdi
+    start: "00:47"
+  - title: GitHub Universe updates
+    start: "07:08"
+  - title: TanStack DB Query-Driven Sync
+    start: "15:45"
+  - title: GitHub eliminates toasts
+    start: "19:54"
+  - title: Firefox has an updated mascot
+    start: "22:49"
+  - title: Vibe coding named word of the year
+    start: "24:09"
+  - title: What's making us happy
+    start: "33:26"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Snapchat open sources cross-platform tool Valdi
+    url: https://github.com/Snapchat/Valdi
+  - text: TanStack DB Query-Driven Sync
+    url: https://tanstack.com/blog/tanstack-db-0.5-query-driven-sync
+  - text: GitHub Universe recap
+    url: https://github.com/events/universe/recap
+  - text: GitHub eliminates toasts from their designs
+    url: https://primer.style/accessibility/toasts/
+  - text: Firefox has an updated mascot
+    url: https://www.firefox.com/en-US/kit/
+  - text: Vibe coding named word of the year
+    url: https://www.collinsdictionary.com/woty
+  - text: Holiday lights displays
+    url: https://atlantabg.org/calendar/garden-lights-holiday-nights/
+  - text: Cursor Composer
+    url: https://cursor.com/blog/composer
+  - text: Inflatable dragon yard decoration
+    url: https://www.walmart.com/ip/Syncfun-5-FT-Halloween-Inflatable-Blue-Hanging-Flying-Dragon-Inflatable-Halloween-Blow-Up-Yard-Decorations-Outside-Decorations/5592861624
+audio: https://www.buzzsprout.com/2226499/episodes/18201374-122-snapchat-drops-valdi-a-new-challenger-to-react-native.mp3
+spotify: https://open.spotify.com/episode/3HbX90RWTryxlAPGuyACM1
+apple: https://podcasts.apple.com/us/podcast/122-snapchat-drops-valdi-a-new-challenger-to-react-native/id1700169000?i=1000737077284
+youtube: https://youtu.be/1Cbgw4iiBV8?si=1F3xiWi08jVM4y7h
