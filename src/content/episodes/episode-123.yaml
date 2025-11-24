@@ -1,0 +1,62 @@
+number: 123
+type: news
+title: "Is Google’s Antigravity IDE a Game-Changer or Just Another Fork?"
+date: 2025-11-24
+teaser: >
+  💥 Google’s Antigravity IDE enters the ring, 🎨 Uniwind brings Tailwind syntax to React Native, 🦀 Prisma swaps Rust for TS to slim down. All that + Angular v21, Cloudflare chaos & Firefox’s AI tease.
+description: >
+  Another week, another new AI IDE. This week, Google released the Antigravity IDE (yet another VS Code fork) which offers unique twists like “cross-surface” agents for the IDE, terminal, and browser, user feedback to agent-generated artifacts, and a view of all agents across any workspace.
+
+
+  The team behind the Unistyles cross-platform library just debuted Uniwind for all the React Native devs who want to use Tailwind styling in their native apps. Uniwind brings Tailwind-style className support to RN at build time, and has a custom, high-performance CSS parser to handle both Tailwind 4 and plain CSS files.
+
+
+  Prisma 7.0 is out, and so is Rust from its codebase. The team completely rebuilt it in TypeScript to cut down on its bundle size and the communication layer between Rust and the JS runtime that was actually slower than just JavaScript through and through.
+
+
+  In Lightning News, even if you don’t develop in Angular, the Angular v21 dev release video is worth a watch, Cloudflare had a big Internet outage this week (caused by seemingly innocuous DB permission changes), Firefox has teased AI in its browser “the Firefox way”, and the State of React Survey 2025 is open now (please vote for Front-end Fire in the Podcasts section!).
+duration: "48:56"
+chapters:
+  - title: Prisma 7.0
+    start: "01:27"
+  - title: Uniwind
+    start: "09:35"
+  - title: Antigravity IDE
+    start: "12:18"
+  - title: Angular v21 dev release video
+    start: "27:32"
+  - title: Cloudflare outage
+    start: "29:20"
+  - title: Firefox gets an AI window
+    start: "37:11"
+  - title: State of React Survey 2025 open
+    start: "38:47"
+  - title: What's making us happy
+    start: "40:36"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Uniwind
+    url: https://www.reactnativecrossroads.com/posts/introducing-uniwind-the-fastest-tailwind-bindings-for-react-native
+  - text: Prisma 7.0
+    url: https://www.prisma.io/blog/announcing-prisma-orm-7-0-0
+  - text: Antigravity IDE
+    url: https://antigravity.google/
+  - text: Firefox gets an AI window
+    url: https://blog.mozilla.org/en/firefox/ai-window/
+  - text: Cloudflare had a big outage
+    url: https://blog.cloudflare.com/18-november-2025-outage/
+  - text: The State of React survey 2025 is now open
+    url: https://survey.devographics.com/en-US/survey/state-of-react/2025
+  - text: Angular v21 Dev Release video
+    url: https://www.youtube.com/watch?v=DDAHORVzQ5g
+  - text: StroboClip HD for the guitar
+    url: https://www.petersontuners.com/products/stroboClipHD/?srsltid=AfmBOorl7zzGdwDlJ4YOYdP2desWZuKnGiDoGrIPUtgpH0IB2hqE2qkA
+  - text: Dungeon Crawler Carl book
+    url: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+audio: https://www.buzzsprout.com/2226499/episodes/18240662-123-is-google-s-antigravity-ide-a-game-changer-or-just-another-fork.mp3?download=true
+spotify: https://open.spotify.com/episode/1XZlZ4ixJzaVZmN7nvCDam
+apple: https://podcasts.apple.com/us/podcast/123-is-googles-antigravity-ide-a-game-changer-or/id1700169000?i=1000738104679
+youtube: https://youtu.be/Id8Zyoe9s9w?si=g73xCwBSVYDfk68A
