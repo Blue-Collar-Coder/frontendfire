@@ -1,0 +1,49 @@
+number: 124
+type: news
+title: TanStack Enters the AI Arena—Meet TanStack AI
+date: 2025-12-08
+teaser: >
+  ⚡ A unified SDK for AI apps? TanStack says yes, 💥 Anthropic acquires Bun to boost Claude Code, 🛡️ and Shai-Hulud 2.0 & RSC security issues shake JS devs everywhere
+description: >
+  This week TanStack joins the AI wars with the alpha release of TanStack AI: an open-source AI SDK with a unified interface across multiple providers. TanStack AI is an open-source ecosystem of libraries and standards, and it is client, server, and AI provider agnostic, to make building AI-enabled apps accessible to all.
+
+
+  In a surprise move, AI company Anthropic acquires JavaScript runtime Bun to accelerate its development of Claude Code. Apparently, Bun has been central to Claude Code reaching $1 billion in run-rate revenue in just six months, and so Anthropic’s brought the team in house to keep the momentum going.
+
+
+  And it’s been another rough week for security in JavaScript. First, a new self-replicating, credential stealing malware attack, dubbed Shai-Hulud 2.0, swept the npm ecosystem and compromised 800 npm packages in the process, and then a critical security vulnerability was discovered for any React projects using React Server Components. Just remember to lock down your dependencies and install those patches ASAP, folks.
+duration: "44:59"
+chapters:
+  - title: TanStack AI
+    start: "01:22"
+  - title: Anthropic buys Bun
+    start: "09:12"
+  - title: Shai-Hulud 2.0 on npm and an RSC vulnerability
+    start: "21:03"
+  - title: What's making us happy
+    start: "30:23"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Shai-Hulud 2.0 on npm
+    url: https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/
+  - text: RSC vulnerability
+    url: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components
+  - text: TanStack AI
+    url: https://github.com/tanstack/ai
+  - text: Anthropic buys Bun (Bun post)
+    url: https://bun.com/blog/bun-joins-anthropic
+  - text: Anhropic buys Bun (Anthropic post)
+    url: https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone
+  - text: The Durrells TV series
+    url: https://www.imdb.com/title/tt5014882/
+  - text: Essentialism book
+    url: https://www.goodreads.com/book/show/19776547-essentialism
+  - text: Dungeon Crawler Carl book series
+    url: https://www.goodreads.com/series/309211-dungeon-crawler-carl
+audio: https://www.buzzsprout.com/2226499/episodes/18315171-124-tanstack-enters-the-ai-arena-meet-tanstack-ai.mp3
+spotify: https://open.spotify.com/episode/33K3WCLKeyIVOwvWB3OES4
+apple: https://podcasts.apple.com/us/podcast/124-tanstack-enters-the-ai-arena-meet-tanstack-ai/id1700169000?i=1000740205011
+youtube: https://youtu.be/tMZoe_aMLOk?si=OL6Ue04mUFw9F7Pb
