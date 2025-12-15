@@ -1,0 +1,49 @@
+number: 125
+type: news
+title: The RSC Vulnerabilities Keep Coming
+date: 2025-12-15
+teaser: >
+  RSC devs: you’re patching again 😬, Anthropic donates MCP to boost OSS cred, CSS Wrapped 2025 reveals 22 shiny new features you’ll want yesterday. Oh, and Disney just invested $1B in OpenAI.
+description: >
+  Hot on the heels of the first critical vulnerability discovered in React applications using RSCs last week, two more vulnerabilities have surfaced, which is not uncommon. Even if you already updated for the critical vulnerability, you will need to update again. So please be safe and do so now!
+
+
+  In lighter news, Anthropic donates MCP to the Agentic AI Foundation, just one year after introducing it to the world. MCP’s rise has been meteoric: 10,000 active public MCP servers, adoption by ChatGPT, Cursor, Gemini, Copilot, VS Code, and more, and now stewardship by the AAIF, which is under the Linux Foundation.
+
+
+  With all the great things coming to CSS lately, the Chrome Dev team created a great CSS Wrapped write up highlighting the big features for 2025. Of the 22 new features added, invoker commands, popover enhancements, and customizable select dropdowns are some of the most exciting additions.
+
+
+  And in Lightning News this week, Disney jumped on the AI bandwagon by allowing Disney characters to be used on the Sora AI video generator platform and pledging a $1 billion equity investment in OpenAI.
+duration: "40:57"
+chapters:
+  - title: More vulnerabilities in RSCs
+    start: "02:29"
+  - title: Anthropic donates MCP to the Agentic AI Foundation
+    start: "06:36"
+  - title: CSS 2025 wrap up
+    start: "16:04"
+  - title: Disney to allow characters on Sora
+    start: "25:05"
+  - title: What's making us happy
+    start: "29:42"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Anthropic donates MCP to the Agentic AI Foundation
+    url: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
+  - text: More vulnerabilities in RSCs discovered
+    url: https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components
+  - text: CSS Wrapped 2025
+    url: https://chrome.dev/css-wrapped-2025/
+  - text: Disney will allow characters on Sora AI video generator
+    url: https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html
+  - text: Twinkly Christmas lignts
+    url: https://twinkly.com/products/strings-multicolor
+  - text: Mammoth band
+    url: https://mammoth.band/
+audio: https://www.buzzsprout.com/2226499/episodes/18352975-125-the-rsc-vulnerabilities-keep-coming.mp3
+spotify: https://open.spotify.com/episode/57tSIDEOmgiTP8HsbtVgdA
+apple: https://podcasts.apple.com/us/podcast/125-the-rsc-vulnerabilities-keep-coming/id1700169000?i=1000741344396
