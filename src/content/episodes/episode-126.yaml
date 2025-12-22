@@ -30,6 +30,15 @@ hosts:
   - jack
   - paige
   - tj
+links:
+  - text: SolidJS
+    url: https://solidjs.com/
+  - text: MCP Code mode
+    url: https://blog.cloudflare.com/code-mode/
+  - text: Descript AI video editor
+    url: https://www.descript.com/
+  - text: Claude
+    url: https://www.anthropic.com/
 audio: https://www.buzzsprout.com/2226499/episodes/18394878-126-the-2025-holiday-spectacular.mp3
 spotify: https://open.spotify.com/episode/45tu4KYTS2DJNxJmiyWMXj
 apple: https://podcasts.apple.com/us/podcast/126-the-2025-holiday-spectacular/id1700169000?i=1000742306250
