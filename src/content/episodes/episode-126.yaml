@@ -1,0 +1,36 @@
+number: 126
+type: news
+title: The 2025 Holiday Spectacular
+date: 2025-12-22
+teaser: >
+  From revisiting our past web dev predictions, to bold 2026 forecasts about AI, HTML, and frameworks — and finally wrapping it all up with what kept us sane and happy this year. Our yearly holiday spectacular is here! ❤️🎄
+description: >
+  It’s that time of year again: the holidays are nearly upon us and 2026 is fast approaching, so it’s time for our year end holiday spectacular! This year our past predictions for the future of web development come back to haunt us, we make some bold new proclamations for what’s in store for 2026, and of course, share what’s made us happy this year.
+
+
+  Our past predictions were pretty hit or miss. Although a surge in popularity for simpler frontend frameworks like SolidJS and a whole slew of new web APIs didn’t appear (as Jack and Paige predicted), AI agents evolving to be capable of implementing whole new features and debugging bigger problems in code was spot on (point goes to TJ).
+
+
+  Predictions for 2026? With the continued popularity of AI for coding, TJ believes we’ll treat HTML more like assembly code this year; i.e. less focus on the details, more going with the flow if it looks right and works right. Paige predicts an uptick in Internet outages and supply chain attacks, and more scrutiny of if AI features are really as valuable as we’ve been led to believe. Jack feels this is the year SolidJS takes off, and “code mode” for AI agents is going to add even more value than the creation of MCP servers last year.
+
+
+  Just like last year, the things that made us happiest are pretty simple: maintaining consistent routines like exercising, reading books, and stepping away from the keyboard. And using the tools often used for work for fun, creative projects like a homemade fanfiction audiobook.
+
+
+  And as always, thank you, Front-end Fire listeners! We wouldn’t be here without you, and we’ve enjoyed getting to know many of you more over the past year. Wishing you a wonderful holiday season, and we’ll be back in 2026 with more frontend goodness.
+duration: "52:00"
+chapters:
+  - title: Revisiting old predictions
+    start: "02:36"
+  - title: Our predictions for 2026
+    start: "18:01"
+  - title: What's making us happy
+    start: "39:26"
+hosts:
+  - jack
+  - paige
+  - tj
+audio: https://www.buzzsprout.com/2226499/episodes/18394878-126-the-2025-holiday-spectacular.mp3
+spotify: https://open.spotify.com/episode/45tu4KYTS2DJNxJmiyWMXj
+apple: https://podcasts.apple.com/us/podcast/126-the-2025-holiday-spectacular/id1700169000?i=1000742306250
+youtube: https://youtu.be/elckDrorwWE?si=7SWDTU-4XjRdbhHQ
