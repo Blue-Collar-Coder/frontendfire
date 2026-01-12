@@ -1,0 +1,54 @@
+number: 127
+type: news
+title: Are People Leaving Next.js for TanStack Start?
+date: 2026-01-12
+teaser: >
+  Theo ditches Next.js for TanStack Start 🤯, AI’s impact on OSS gets real as Tailwind lays off 75% of its team 🤖, and JavaScript Rising Stars reveals the most-loved projects of 2025 ✨. Our first episode of 2026 is packed. 🚀
+description: >
+  We’re back with our first episode of 2026, and prominent software developer and YouTuber, Theo Browne, made waves recently when he announced he’d migrated his T3 Chat app from the Next.js framework to TanStack Start. It isn’t that Next.js is bad, but that the requirements of T3 Chat were better supported by TanStack Start’s architecture, and Theo breaks down his evaluation process to reach that decision.
+
+
+  For the 10th year in a row, the JavaScript Rising Stars report drops, and the most popular projects (by GitHub stars) for the year include n8n (a workflow automation platform), react-bits (gorgeous animated React components), shadcn/ui (more UI components), and Excalidraw (virtual whiteboard for sketching and diagramming).
+
+
+  In less stellar news, the creator of the wildly popular CSS library Tailwind announced he’s had to lay off 75% of his engineering team because AI has killed traffic to its website (and by association, Tailwind’s commercial products that drive revenue). It was hard enough before the rise of AI for OSS to get funding, and this is just another cautionary tale that we need to support the people building the tools and products so many of us use every day in our jobs.
+
+
+  In Lightning News, LEGO introduces “smart bricks”: LEGO blocks that have lights and sounds and can react to what you do. Sensors, accelerometers, lights and sounds aim to bring LEGO creations to life like never before. The short promo video is worth a watch for more details.
+duration: "46:46"
+chapters:
+  - title: Theo moves off of Next.js and the resulting buzz
+    start: "01:54"
+  - title: A look at the 2025 JS rising stars
+    start: "11:32"
+  - title: Is AI hurting Tailwind?
+    start: "23:52"
+  - title: LEGO Smart Bricks
+    start: "31:03"
+  - title: What's making us happy
+    start: "35:45"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Is AI killing OSS now? Tailwind thinks so
+    url: https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957
+  - text: Theo moved off Next.js to TanStack Start
+    url: https://www.youtube.com/watch?v=Sc5ca-VJdxY
+  - text: The internet reacts to Theo's move
+    url: https://x.com/theo/status/1997406196660400228
+  - text: 2025 Rising Stars survey
+    url: https://risingstars.js.org/2025/en
+  - text: LEGO Smart Bricks
+    url: https://www.lego.com/en-us/smart-play
+  - text: Flip-It! bottle emptying caps
+    url: https://www.flipitcap.com/collections/kits/products/flip-it-bottle-emptying-kit-2-pack-bath
+  - text: Miami Hurricanes football team
+    url: https://miamihurricanes.com/sports/football/roster/
+  - text: New Pokemon GO fatures
+    url: https://pokemongo.com/
+audio: https://www.buzzsprout.com/2226499/episodes/18489415-127-are-people-leaving-next-js-for-tanstack-start.mp3
+spotify: https://open.spotify.com/episode/4zxH8dhCbdDirscBDuyHbR
+apple: https://podcasts.apple.com/us/podcast/127-are-people-leaving-next-js-for-tanstack-start/id1700169000?i=1000744804371
+youtube: https://youtu.be/oaSBt54EOVE?si=YVWRjjVKVD3CH7LM
