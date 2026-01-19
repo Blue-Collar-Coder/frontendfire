@@ -3,7 +3,7 @@ type: news
 title: What the Heck is a Ralph Wiggum Loop?
 date: 2026-01-19
 teaser: >
-
+  The hottest new trend in AI coding? Ralph Wiggum loops 🤖. Plus, Vercel’s new json-render AI UI tool, npm’s staged publishing proposal, and a Fire Starter that proves CSS keeps winning. 🌀
 description: >
   A new year, a new tactic to stem the flow of npm supply chain attacks. This time, the proposal is for “Staged Publishing” which introduces a review window that a package owner must approve before a package release becomes publicly available. Chime in if you think this would help or hurt the npm ecosystem more.
 
