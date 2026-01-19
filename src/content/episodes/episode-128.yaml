@@ -1,0 +1,61 @@
+number: 128
+type: news
+title: What the Heck is a Ralph Wiggum Loop?
+date: 2026-01-19
+teaser: >
+
+description: >
+  A new year, a new tactic to stem the flow of npm supply chain attacks. This time, the proposal is for “Staged Publishing” which introduces a review window that a package owner must approve before a package release becomes publicly available. Chime in if you think this would help or hurt the npm ecosystem more.
+
+
+  Vercel Labs is out with a new AI tool called json-render that lets users generate dashboards, widgets, apps, and data visualizations from prompts, and is constrained only to components they define. So a user defines a catalog of components AI can use, prompts what they want, and AI generates JSON constrained to the catalog and renders it on screen. It’s a pretty slick idea!
+
+
+  Finally, The Simpsons character Ralph Wiggum is the biggest thing in AI coding recently. Ralph is an AI development pattern using a while loop (like a bash script) to repeatedly run an AI agent on the same task, feeding its output back as context, and forcing it to iterate until a specific completion promise is met, rather than letting the AI stop prematurely. If nothing else, it’s an interesting technique to consider trying with agents.
+
+
+  This week’s Lightning News celebrates Firefox 147 getting anchor positioning. Now all the major browsers support tethering elements like tooltips to anchor elements without JavaScript.
+
+
+  Last but not least is the first Fire Starter of 2026, and it comes courtesy of friend of the show, Adam Argyle. The CSS @container scroll-state() function makes three states of a scroller queryable with just CSS: stuck, snapped, and scrollable, which unlocks lots of cool styling and other features we could only ever do before with the help of JavaScript. Another big win for pure CSS.
+duration: "47:29"
+chapters:
+  - title: npm to implement staged publishing
+    start: "01:04"
+  - title: "Vercel's json-render"
+    start: "08:16"
+  - title: Ralph Wiggum loops
+    start: "16:13"
+  - title: Claude Code tips
+    start: "30:53"
+  - title: Firefox 147 and anchor positioning
+    start: "33:52"
+  - title: Fire Starter
+    start: "35:42"
+  - title: What's making us happy
+    start: "39:40"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: npm to implement Staged Publishing
+    url: https://socket.dev/blog/npm-to-implement-staged-publishing
+  - text: "Vercel Labs’ json-render"
+    url: https://json-render.dev/
+  - text: Ralph Wiggum loops
+    url: https://ghuntley.com/ralph/
+  - text: Firefox 147 and anchor positioning
+    url: https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/147
+  - text: CSS @container scroll-state()
+    url: https://nerdy.dev/4-css-features-every-front-end-developer-should-know-in-2026#@container-scroll-state()
+  - text: Rolife Book Nook Garden House miniature
+    url: https://www.rolifeonline.com/products/rolife-holiday-garden-house-book-nook-kit-tgb06
+  - text: Blade Runner live at the symphony
+    url: https://www.portland5.com/keller-auditorium/events/blade-runner-live
+  - text: Coffee advent calendars
+    url: https://yawnbrew.com/en-us/products/yawn-coffee-advent-calendar
+audio: https://www.buzzsprout.com/2226499/episodes/18528494-128-what-the-heck-is-a-ralph-wiggum-loop.mp3
+spotify: https://open.spotify.com/episode/2SqIvsikCyoZyH9zwZAUc5
+apple: https://podcasts.apple.com/us/podcast/128-what-the-heck-is-a-ralph-wiggum-loop/id1700169000?i=1000745730485
+youtube: https://youtu.be/zrbwWuobdwo?si=MzJI7DtZksavrSks
