@@ -3,6 +3,8 @@ type: news
 title: The Era of Humans Writing Code is Over
 date: 2026-01-26
 teaser: >
+  Ryan Dahl says humans writing code is over, jQuery celebrates 20 years with a modernized 4.0 release, and Cloudflare acquires Astro in the latest framework power move. Oh - and Apple makes an AI pivot. 💣👀
+description: >
   jQuery is the JavaScript library that just won’t quit. 20 years after its inception the team released jQuery 4.0.0, and it brings some notable modernizations including removed support for IE 10 and Legacy Edge, a migration to ES modules, and support for Trusted Types. 
 
 
@@ -13,8 +15,6 @@ teaser: >
 
 
   In Lightning News, Chrome has finally jumped on the bandwagon and added experimental support for vertical tabs in Chrome 145, and Apple and Google have entered into a multi-year agreement that Apple will use Google Gemini models to power Apple Intelligence in the future. So long OpenAI.
-description: >
-  Ryan Dahl says humans writing code is over, jQuery celebrates 20 years with a modernized 4.0 release, and Cloudflare acquires Astro in the latest framework power move. Oh - and Apple makes an AI pivot. 💣👀
 duration: "50:35"
 chapters:
   - title: jQuery 4.0
