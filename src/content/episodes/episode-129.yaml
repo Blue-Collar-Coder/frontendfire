@@ -1,0 +1,58 @@
+number: 129
+type: news
+title: The Era of Humans Writing Code is Over
+date: 2026-01-26
+teaser: >
+  jQuery is the JavaScript library that just won’t quit. 20 years after its inception the team released jQuery 4.0.0, and it brings some notable modernizations including removed support for IE 10 and Legacy Edge, a migration to ES modules, and support for Trusted Types. 
+
+
+  Node.js creator Ryan Dahl declared earlier this week that “the era of humans writing code is over”, and considering how good AI coding agents have gotten lately, he’s probably not wrong. 
+
+
+  Cloudflare also announces it has acquired popular JavaScript framework Astro. Cloudflare has been a good steward to other OSS projects it’s acquired in the past, and this acquisition allows the Astro team to focus on making the framework even better.
+
+
+  In Lightning News, Chrome has finally jumped on the bandwagon and added experimental support for vertical tabs in Chrome 145, and Apple and Google have entered into a multi-year agreement that Apple will use Google Gemini models to power Apple Intelligence in the future. So long OpenAI.
+description: >
+  Ryan Dahl says humans writing code is over, jQuery celebrates 20 years with a modernized 4.0 release, and Cloudflare acquires Astro in the latest framework power move. Oh - and Apple makes an AI pivot. 💣👀
+duration: "50:35"
+chapters:
+  - title: jQuery 4.0
+    start: "00:50"
+  - title: Is the era of humans writing code over?
+    start: "07:58"
+  - title: Cloudflare acquires Astro
+    start: "18:23"
+  - title: Vertical tabs are coming to Chrome
+    start: "24:54"
+  - title: Apple is going to use Gemini for Siri
+    start: "29:37"
+  - title: What's making us happy
+    start: "43:07"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Ryan Dahl declares humans writing code is over
+    url: https://x.com/rough__sea/status/2013280952370573666
+  - text: Cloudflare acquires Astro
+    url: https://astro.build/blog/joining-cloudflare/
+  - text: jQuery 4.0
+    url: https://blog.jquery.com/2026/01/17/jquery-4-0-0/
+  - text: Chrome adds support for vertical tabs
+    url: https://www.bram.us/2026/01/16/chrome-145-adds-experimental-support-for-vertical-tabs/
+  - text: Apple and Google enter agreement to use Gemini for Apple Intelligence
+    url: https://x.com/NewsFromGoogle/status/2010760810751017017
+  - text: Onyx Storm book
+    url: https://www.goodreads.com/book/show/209439446-onyx-storm
+  - text: Learning to play Born to Run on guitar
+    url: https://www.youtube.com/watch?v=IxuThNgl3YA
+  - text: Only Murders in the Building TV series
+    url: https://www.imdb.com/title/tt11691774/
+  - text: Dungeon Crawler Carl book series
+    url: https://www.goodreads.com/series/309211-dungeon-crawler-carl
+audio: https://www.buzzsprout.com/2226499/episodes/18566686-129-the-era-of-humans-writing-code-is-over.mp3
+spotify: https://open.spotify.com/episode/71nR0DcbkWeqbRq7Jcq9tu
+apple: https://podcasts.apple.com/us/podcast/129-the-era-of-humans-writing-code-is-over/id1700169000?i=1000746681625
+youtube: https://youtu.be/lpJ2QFtzzOk?si=PX3QYueT5GZ8xybf
