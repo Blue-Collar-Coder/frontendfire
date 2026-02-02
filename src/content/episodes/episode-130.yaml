@@ -1,0 +1,53 @@
+number: 130
+type: news
+title: TanStack Start Embraces RSC—Minus the Security Nightmares
+date: 2026-02-02
+teaser: >
+  TanStack Start now supports RSC 🔥—without the recent React RSC vulns, Yarn 6 is heading to Rust 🦀, and Rolldown 1.0 hits RC with massive perf gains 🚀. Plus: Mozilla’s rebel alliance against closed AI. 🎙️
+description: >
+  You heard it here first, folks, RSC support is now available in TanStack Start! Since TanStack Start supports not only React but also Solid, it handles serialization differently, meaning the critical security vulnerabilities RSC-enabled React apps have been suffering from lately won’t affect TanStack apps. Our continued thanks to Tanner and team for continuing to expand the Tannerverse at every turn.
+
+
+  Yarn 6 was recently announced, and (surprise, surprise) it’s going to be ported to Rust. Get ready for blazing fast installs, the ability to easily switch between Yarn versions, and lazy installs to silently install if current project dependency versions are out of sync with the package.json. 
+
+
+  Also on the Rust bandwagon is the VoidZero team with Rolldown 1.0 RC. Rolldown is the bundler successor to Rollup, and boasts 10-30x faster speeds than Rollup while maintaining API plugin compatibility, built-in transforms for TS, JSX, and syntax lowering, and native CJS/ESM interoperability. All hail the perf gains of JS tools written in Rust.
+
+
+  In this week’s Lightning News, more high severity vulnerabilities have been detected and patched around React Server Components, and the president of Mozilla is building what he calls “a rebel alliance” of tech businesses and nonprofits to push back on the AI heavyweights like OpenAI and Anthropic and make AI more open, safe, and trustworthy. Power to you, Mozilla.
+duration: "42:25"
+chapters:
+  - title: TanStack Start RSC
+    start: "01:20"
+  - title: Yarn 6 and Rust
+    start: "04:15"
+  - title: Rolldown 1.0 RSC
+    start: "12:03"
+  - title: More RSC CVEs
+    start: "16:38"
+  - title: 'Mozilla is building an AI "rebel alliance"'
+    start: "23:19"
+  - title: What's making us happy
+    start: "30:05"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Rolldowm 1.0 RSC
+    url: https://voidzero.dev/posts/announcing-rolldown-rc
+  - text: TanStack Start RSC
+    url: https://tanstack.com/start/latest
+  - text: Yarn 6 and Rust
+    url: https://yarn6.netlify.app/blog/2026-01-28-yarn-6-preview/
+  - text: Another day, another RSC CVE
+    url: https://vercel.com/changelog/summary-of-cve-2026-23864
+  - text: 'Mozilla is building an AI "rebel alliance"'
+    url: https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html
+  - text: Landman TV series season 2
+    url: https://www.imdb.com/title/tt14186672/episodes/?season=2
+  - text: Vaseline
+    url: https://www.vaseline.com/us/en/p/vaseline-healing-jelly-original.html/00305212352009
+audio: https://www.buzzsprout.com/2226499/episodes/18605491-130-tanstack-start-embraces-rsc-minus-the-security-nightmares.mp3
+spotify: https://open.spotify.com/episode/3E5iFjenOCFhqzSpzJz1ZQ
+apple: https://podcasts.apple.com/us/podcast/130-tanstack-start-embraces-rsc-minus-the-security/id1700169000?i=1000747687754
