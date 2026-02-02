@@ -8,10 +8,10 @@ description: >
   You heard it here first, folks, RSC support is now available in TanStack Start! Since TanStack Start supports not only React but also Solid, it handles serialization differently, meaning the critical security vulnerabilities RSC-enabled React apps have been suffering from lately won’t affect TanStack apps. Our continued thanks to Tanner and team for continuing to expand the Tannerverse at every turn.
 
 
-  Yarn 6 was recently announced, and (surprise, surprise) it’s going to be ported to Rust. Get ready for blazing fast installs, the ability to easily switch between Yarn versions, and lazy installs to silently install if current project dependency versions are out of sync with the package.json. 
+  Yarn 6 was recently announced, and (surprise, surprise) it’s going to be ported to Rust. Get ready for blazing fast installs, the ability to easily switch between Yarn versions, and lazy installs to silently keep dependency versions in sync with the package.json. 
 
 
-  Also on the Rust bandwagon is the VoidZero team with Rolldown 1.0 RC. Rolldown is the bundler successor to Rollup, and boasts 10-30x faster speeds than Rollup while maintaining API plugin compatibility, built-in transforms for TS, JSX, and syntax lowering, and native CJS/ESM interoperability. All hail the perf gains of JS tools written in Rust.
+  Also on the Rust bandwagon is the VoidZero team with Rolldown 1.0 RC. Rolldown is the bundler successor to Rollup, and boasts 10-30x faster speeds than Rollup while maintaining API plugin compatibility, built-in transforms, and native CJS/ESM interoperability. All hail the perf gains of JS tools written in Rust.
 
 
   In this week’s Lightning News, more high severity vulnerabilities have been detected and patched around React Server Components, and the president of Mozilla is building what he calls “a rebel alliance” of tech businesses and nonprofits to push back on the AI heavyweights like OpenAI and Anthropic and make AI more open, safe, and trustworthy. Power to you, Mozilla.
@@ -51,3 +51,5 @@ links:
 audio: https://www.buzzsprout.com/2226499/episodes/18605491-130-tanstack-start-embraces-rsc-minus-the-security-nightmares.mp3
 spotify: https://open.spotify.com/episode/3E5iFjenOCFhqzSpzJz1ZQ
 apple: https://podcasts.apple.com/us/podcast/130-tanstack-start-embraces-rsc-minus-the-security/id1700169000?i=1000747687754
+youtube: https://youtu.be/gZCg3ewXsdI?si=kRtxRkIg8AU7gKB3
+clip: https://x.com/front_end_fire/status/2018336684606156821
