@@ -1,0 +1,58 @@
+number: 131
+type: news
+title: OpenClaw and the Wild West of Autonomous AI Agents
+date: 2026-02-09
+teaser: >
+  OpenClaw is going viral as a fully autonomous AI agent on your local machine 🤖, two malicious VS Code extensions are sending every file you open to remove servers  🚨, and Deno introduces secure cloud sandboxes built for AI workloads 🔐.
+description: >
+  Malicious code is making its way into VS Code extensions this week, as two Chinese-based AI coding assistants are identified as capturing every file on a user’s computer and sending it to servers in China without their knowledge or consent. The “MaliciousCorgi” campaign spyware copies every file a user opens and edits, can remotely trigger mass file collections, and loads commercial analytics SDKs to build identify profiles and monitor every interaction a user makes. Please just be cautious about what you’re installing on your machines, folks.
+
+
+  In related news, the Deno team has introduced Deno sandboxes to create and deploy secure, isolated VMs in the cloud. Strict permissions, network policies, directories, and isolated secrets—make these sandboxes great for AI agents, or any other dynamic workload where speed and security are paramount.
+
+
+  And the software going viral this week is OpenClaw (aka Clawdbot aka Moltbot), which is an open source, autonomous AI agent that runs locally on a user’s machine. OpenClaw can connect to LLMs and perform tasks like managing emails, scheduling, reorganizing local files or other daily tasks, and is designed to be proactive rather than just reacting to prompts. It’s truly the Wild West giving an AI agent access to read all the files on a machine or respond to emails on its own, so again, be careful out there, folks.
+
+
+  In Lightning News, Google has jumped on the AI browser bandwagon by baking more Gemini features into Chrome: think agent sidecars and multi-tab awareness, and the latest Apple OS has a new containerization tool to create VMs on a Mac (which might be handy for your OpenClaw instance, just a thought).
+duration: "57:08"
+chapters:
+  - title: VS Code AI plugins are stealing data
+    start: "01:07"
+  - title: Deno sandboxes
+    start: "10:47"
+  - title: OpenClaw
+    start: "16:09"
+  - title: More Gemini features are coming to Chrome
+    start: "43:41"
+  - title: Apple containers
+    start: "45:33"
+  - title: What's making us happy
+    start: "46:44"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: VS Code AI plugins are stealing all the data of users computers (silently)
+    url: https://www.koi.ai/blog/maliciouscorgi-the-cute-looking-ai-extensions-leaking-code-from-1-5-million-developers
+  - text: Deno sandboxes
+    url: https://deno.com/deploy/sandbox
+  - text: OpenClaw (aka Clawdbot aka Moltbot)
+    url: https://openclaw.ai/
+  - text: Our lack of trust for AI agents
+    url: https://medium.com/@max.petrusenko/openclaw-i-let-this-ai-control-my-mac-for-3-weeks-heres-what-it-taught-me-about-trust-e1642b4c8c9c
+  - text: More Gemini features are coming to Chrome
+    url: https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/
+  - text: Apple Containers
+    url: https://opensource.apple.com/projects/container/
+  - text: Claude Code
+    url: https://code.claude.com/docs/en/overview
+  - text: Sneakers movie
+    url: https://www.imdb.com/title/tt0105435/
+  - text: Firefox browser
+    url: https://www.firefox.com/en-US/landing/get/
+audio: https://www.buzzsprout.com/2226499/episodes/18645005-131-openclaw-and-the-wild-west-of-autonomous-ai-agents.mp3
+spotify: https://open.spotify.com/episode/53aEvGel6kTt7O47MS9ZYF
+apple: https://podcasts.apple.com/us/podcast/131-openclaw-and-the-wild-west-of-autonomous-ai-agents/id1700169000?i=1000748896345
+youtube: https://youtu.be/4poI9dUfRFs?si=vI00XOAvHkB7uDQJ
