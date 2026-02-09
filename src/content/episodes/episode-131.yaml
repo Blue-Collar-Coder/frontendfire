@@ -3,7 +3,7 @@ type: news
 title: OpenClaw and the Wild West of Autonomous AI Agents
 date: 2026-02-09
 teaser: >
-  OpenClaw is going viral as a fully autonomous AI agent on your local machine 🤖, two malicious VS Code extensions are sending every file you open to remove servers  🚨, and Deno introduces secure cloud sandboxes built for AI workloads 🔐.
+  OpenClaw is going viral as a fully autonomous AI agent on your local machine 🤖, two malicious VS Code extensions are sending every file you open to remote servers  🚨, and Deno introduces secure cloud sandboxes built for AI workloads 🔐.
 description: >
   Malicious code is making its way into VS Code extensions this week, as two Chinese-based AI coding assistants are identified as capturing every file on a user’s computer and sending it to servers in China without their knowledge or consent. The “MaliciousCorgi” campaign spyware copies every file a user opens and edits, can remotely trigger mass file collections, and loads commercial analytics SDKs to build identify profiles and monitor every interaction a user makes. Please just be cautious about what you’re installing on your machines, folks.
 
@@ -56,3 +56,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/18645005-131-openclaw-and-the
 spotify: https://open.spotify.com/episode/53aEvGel6kTt7O47MS9ZYF
 apple: https://podcasts.apple.com/us/podcast/131-openclaw-and-the-wild-west-of-autonomous-ai-agents/id1700169000?i=1000748896345
 youtube: https://youtu.be/4poI9dUfRFs?si=vI00XOAvHkB7uDQJ
+clip: https://x.com/front_end_fire/status/2020900756623421899
