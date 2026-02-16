@@ -1,0 +1,60 @@
+number: 132
+type: news
+title: "What Developers Really Think: State of JS 2025 Survey Results"
+date: 2026-02-16
+teaser: >
+  Devs are faster, busier, and more exhausted—thanks, AI? 🤖 We break down new HBR research, dig into the State of JS 2025 results 👀, and flag new Next.js exploits you need to know about.
+description: >
+  The State of JavaScript 2025 survey results are in this week, and there’s some givens and some surprises this year. Givens: Vite and Vitest continue to be favorites and devs want more native TS features built into the language. Surprises: ChatGPT usage declined, no one’s using Windsurf, and Bun is the third most-used JS runtime. And thanks for making us the most written-in podcast of the survey! We appreciate it!
+
+
+  An 8 month study conducted by the Harvard Business Review reports AI tools don’t shrink work for employees, they actually intensify it. Employees work faster, take on more tasks, and work longer hours, which sounds good on the surface, but can lead to burnout, cognitive fatigue, and lower quality work over time. 
+
+
+  And there’s yet another new React2Shell flaw that’s being exploited by the ILOVEPOOP toolkit to scan and target vulnerable Next.js and RSC environments. Please everyone, keep an eye out for new hacks and patches to try and keep your web apps safer.
+
+
+  For this week’s Lightning News, there was an ad that ran during the Super Bowl for the website ai.com and it turns out to be the largest publicly disclosed domain name purchase ever at a whopping $70M(!), and Adobe Acrobat can now turn PDF docs into podcasts at the click of a button (and it’s not half bad for being completely AI generated).
+duration: "58:34"
+chapters:
+  - title: State of JS 2025 survey results
+    start: "00:59"
+  - title: Harvard Business Review's report on how AI is changing work
+    start: "23:53"
+  - title: React2Shell exploits and ILOVEPOOP
+    start: "35:30"
+  - title: The largest domain name puchase ever
+    start: "40:08"
+  - title: Adobe Acrobat can now turn PDF docs into podcasts
+    start: "43:00"
+  - title: We hit 100k downloads!
+    start: "46:48"
+  - title: What's making us happy
+    start: "47:55"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: State of JavaScript survey results 2025
+    url: https://2025.stateofjs.com/en-US
+  - text: React2Shell exploits
+    url: https://cyberpress.org/ilovepoop-weaponizes-react2shell-flaw/
+  - text: HBR reports AI didn’t shrink work for employees, it intensified it
+    url: https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
+  - text: The AI burnout is getting real
+    url: https://x.com/tomdale/status/2019828626972131441
+  - text: The largest publicly disclosed domain name purchase ever
+    url: https://finance.yahoo.com/news/ai-com-debuts-during-super-230109154.html
+  - text: Adobe Acrobat can turn PDFs into podcasts
+    url: https://helpx.adobe.com/acrobat/desktop/use-acrobat-ai/podcasts/create.html
+  - text: San Diego Zoo Safari Park
+    url: https://sdzsafaripark.org/safaris
+  - text: Bambu Lab H2C
+    url: https://us.store.bambulab.com/products/h2c
+  - text: Ubuntu OS
+    url: https://ubuntu.com/
+audio: https://www.buzzsprout.com/2226499/episodes/18688499-132-what-developers-really-think-state-of-js-2025-survey-results.mp3
+spotify: https://open.spotify.com/episode/5hYcm0Dxx5hN3KmsGptAYu
+apple: https://podcasts.apple.com/us/podcast/132-what-developers-really-think-state-of-js-2025/id1700169000?i=1000749958295
+youtube: https://youtu.be/yoRjuxgJibI?si=cqLC_FrJuYv0yWkR
