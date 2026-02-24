@@ -5,7 +5,7 @@ date: 2026-02-24
 teaser: >
   Survey season continues and React’s results are in 📊, Chrome wants agents to browse smarter, not harder with WebMCP, and Cloudflare plans to convert HTML to markdown, on demand, for AI agents.
 description: >
-  It’s apparently survey results reason, and the State of React 2025 results are in. As in the past, Next.js continues to dominate as one of the most used frameworks, but TanStack Start is one to watch. Other honorable mentions include: Zustand rising to third most popular state management option, Vite’s rise to #1 build tool of choice, and (most importantly) Front-end Fire tying for fifth place in the podcast section. Thank you, listeners!
+  It’s apparently survey results reason, and the State of React 2025 results are in. As in the past, Next.js continues to dominate as one of the most used frameworks, but TanStack Start is one to watch. Other honorable mentions include: Zustand, Vite, and (most importantly) Front-end Fire tying for fifth place in the podcast section. Thank you, listeners!
 
 
   Google has a new proposal called WebMCP, which is a way to define structured tools for agents visiting a site, ensuring they can perform actions with increased speed, reliability, and precision.
@@ -56,3 +56,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/18736188-133-state-of-react-2
 spotify: https://open.spotify.com/episode/7jln474zrwm4rl9GOErqFv
 apple: https://podcasts.apple.com/us/podcast/133-state-of-react-2025-the-results-are-in/id1700169000?i=1000751177800
 youtube: https://youtu.be/BagRhbj7Y3Y?si=34ZF7xZSSw4fyGWd
+clip: https://x.com/front_end_fire/status/2026300235400520010
