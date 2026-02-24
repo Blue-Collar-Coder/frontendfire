@@ -1,0 +1,58 @@
+number: 133
+type: news
+title: "State of React 2025: The Results Are In"
+date: 2026-02-24
+teaser: >
+  Survey season continues and React’s results are in 📊, Chrome wants agents to browse smarter, not harder with WebMCP, and Cloudflare plans to convert HTML to markdown, on demand, for AI agents.
+description: >
+  It’s apparently survey results reason, and the State of React 2025 results are in. As in the past, Next.js continues to dominate as one of the most used frameworks, but TanStack Start is one to watch. Other honorable mentions include: Zustand rising to third most popular state management option, Vite’s rise to #1 build tool of choice, and (most importantly) Front-end Fire tying for fifth place in the podcast section. Thank you, listeners!
+
+
+  Google has a new proposal called WebMCP, which is a way to define structured tools for agents visiting a site, ensuring they can perform actions with increased speed, reliability, and precision.
+
+
+  And instead of complicated build processes to convert HTML to markdown for AI agents’ benefit, Cloudflare now offers real-time content conversion when AI systems request pages from any Cloudflare site. That’s pretty great!
+
+
+  For this week’s Lightning News, TypeScript 6.0 beta is out now, and it’s the last release before the new Go-version becomes the standard in TS 7, and Google Chrome gets a new split tab feature for the many times when side by side tabs are helpful. Honestly, game changer!
+duration: "49:57"
+chapters:
+  - title: State of React 2025 survey results
+    start: "01:03"
+  - title: WebMCP
+    start: "12:22"
+  - title: Markdown for AI agents
+    start: "24:27"
+  - title: TypeScript 6.0 beta
+    start: "34:27"
+  - title: Chrome gets split view
+    start: "38:00"
+  - title: What's making us happy
+    start: "41:09"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Markdown for AI agents
+    url: https://blog.cloudflare.com/markdown-for-agents/
+  - text: WebMCP
+    url: https://developer.chrome.com/blog/webmcp-epp
+  - text: State of React 2025 survey results
+    url: https://2025.stateofreact.com/en-US
+  - text: Claude Receipts
+    url: https://github.com/chrishutchinson/claude-receipts
+  - text: TypeScript 6.0 beta
+    url: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/
+  - text: Chrome gets split view
+    url: https://blog.google/products-and-platforms/products/chrome/chrome-productivity-improvements/
+  - text: New Girl TV show
+    url: https://www.imdb.com/title/tt1826940/
+  - text: Gridfinity
+    url: https://gridfinity.xyz/
+  - text: The Residence
+    url: https://www.netflix.com/title/81005297
+audio: https://www.buzzsprout.com/2226499/episodes/18736188-133-state-of-react-2025-the-results-are-in.mp3
+spotify: https://open.spotify.com/episode/7jln474zrwm4rl9GOErqFv
+apple: https://podcasts.apple.com/us/podcast/133-state-of-react-2025-the-results-are-in/id1700169000?i=1000751177800
+youtube: https://youtu.be/BagRhbj7Y3Y?si=34ZF7xZSSw4fyGWd
