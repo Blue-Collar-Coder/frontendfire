@@ -1,0 +1,60 @@
+number: 134
+type: news
+title: Anthropic is Having a Week
+date: 2026-03-02
+teaser: >
+  Claude gets remote control 👀, Anthropic refuses to hand over AI for unrestricted military use 💥, and Cloudflare ships an AI-built Next.js replacement in a week. 🤯
+description: >
+  This week’s episode is all about Anthropic. First up, Anthropic unveiled Claude Remote Control, which will let users continue a Claude session back on their personal machine from a phone, tablet via the Claude mobile app. Watch out OpenClaw.
+
+
+  Anthropic continued making news by refusing to bow to the Department of War’s request for “unrestricted use” of its AI for military purposes, including domestic surveillance and fully-autonomous weapons. We’ll let you know if those defense contracts get revoked or not.
+
+
+  On a lighter note, a developer at Cloudflare rebuilt Next.js with AI as a drop-in replacement using Vite… in one week. That’s right! $1,100 worth of tokens, access to Next’s docs and test suite, and Claude Code, and Bob’s your uncle! We’d be wary of using this in prod, yet, but what a story!
+
+
+  And in Lightning News this week: VoidZero’s Rust-based code formatter Oxfmt has reached beta status and is 30x faster than Prettier, popular React component library styled-components has added RSC support, and a hobby coder who wanted to steer his robot vacuum with a PS5 controller reversed engineered his vacuum’s communication protocols, and connected to 7,000 other vacuums around the world. How’s that for security?
+duration: "48:00"
+chapters:
+  - title: Claude Code Remote Control
+    start: "01:09"
+  - title: Anthropic vs the DoW
+    start: "07:52"
+  - title: Cloudflare rebuilt Next.js with AI
+    start: "17:46"
+  - title: Oxfmt beta
+    start: "27:17"
+  - title: style-components adds RSC support
+    start: "29:31"
+  - title: Controlling 7,000 vacuums with Claude Code
+    start: "30:52"
+  - title: What's making us happy
+    start: "36:12"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Claude Remote Control
+    url: https://code.claude.com/docs/en/remote-control
+  - text: Anthropic vs the DoW (Dept of War)
+    url: https://www.anthropic.com/news/statement-department-of-war
+  - text: Cloudflare rebuilt Next.js with AI
+    url: https://blog.cloudflare.com/vinext/
+  - text: styled-components adds RSC support
+    url: https://github.com/styled-components/styled-components/releases/tag/styled-components%406.3.0
+  - text: Accidentally controlling 7,000 vacuums with Claude Code
+    url: https://www.malwarebytes.com/blog/news/2026/02/hobby-coder-accidentally-creates-vacuum-robot-army
+  - text: Oxfmt reaches beta
+    url: https://oxc.rs/blog/2026-02-24-oxfmt-beta.html
+  - text: A Knight of the Seven Kingdoms TV show
+    url: https://www.imdb.com/title/tt27497448/
+  - text: SyncThing
+    url: https://syncthing.net/
+  - text: TanStack Start
+    url: https://tanstack.com/start/latest
+audio: https://www.buzzsprout.com/2226499/episodes/18772296-134-anthropic-is-having-a-week.mp3
+spotify: https://open.spotify.com/episode/2XVuflbe5Pc79ewpVp3kDQ
+apple: https://podcasts.apple.com/us/podcast/134-anthropic-is-having-a-week/id1700169000?i=1000752482631
+youtube: https://youtu.be/LKniNNWbxLY?si=rHum7TzPyTo7ilyq
