@@ -1,0 +1,65 @@
+number: 135
+type: news
+title: Bun is Back in the Oven
+date: 2026-03-09
+teaser: >
+  It’s a rare non-AI episode! Instead, fresh Bun just dropped 🍞, npmx is the UX we all want for npm, and Solid jumps straight from experimental to beta in v2.
+description: >
+  This week's non-AI episode this week!
+
+  It’s been a minute since we last discussed Bun, but the team is back with a new release. In v1.3.10, the REPL’s completely rewritten in Zig, barrel imports are optimized, and the JavaScriptCore engine got upgraded for big perf gains.
+
+
+  Npmx, a fast, modern browser for the npm registry has reached alpha version in less than 2 months of existence. Its goal is to make it easy for devs to find, evaluate, and manage npm packages, and boasts cool features like the ability to compare packages and even launch demo environments directly from package READMEs. Take notes, npm.
+
+
+  Solid 2.0.0 jumped straight from experimental to beta this week, and it introduces changes like: async is first-class, derived state is a primitive, dev guardrails to prevent foot guns, and a DOM cleanup model.
+
+
+  In Lightning News, the cloud-hosted DB platform PlanetScale, bought the Drizzle ORM team, and Safari adds support for customizable HTML <select> elements.
+
+
+  Fire Starters also makes a return this week with the baseline support for the Navigation API. Say goodbye to multiple functions within a SPA to mimic multipage site navigation: the Navigation API provides automatic URL updates, automatic accessibility, and centralized logic, all in one.
+duration: "44:38"
+chapters:
+  - title: Bun v1.3.10
+    start: "02:04"
+  - title: npmx
+    start: "08:39"
+  - title: Solid 2.0 beta
+    start: "13:03"
+  - title: PlanetScale bought Drizzle ORM
+    start: "22:42"
+  - title: Safari is getting customizable <select>s
+    start: "23:46"
+  - title: "Fire Starter: Navigation API"
+    start: "27:26"
+  - title: What's making us happy
+    start: "30:15"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: npmx
+    url: https://npmx.dev/blog/alpha-release
+  - text: Solid 2.0 beta
+    url: https://github.com/solidjs/solid/releases/tag/v2.0.0-beta.0
+  - text: Bun v1.3.10
+    url: https://bun.com/blog/bun-v1.3.10
+  - text: Safari is getting customizable <select>s
+    url: https://webkit.org/blog/17848/release-notes-for-safari-technology-preview-238/
+  - text: PlanetScale bought Drizzle ORM
+    url: https://planetscale.com/blog/drizzle-joins-planetscale
+  - text: Navigation API is baseline available
+    url: https://web.dev/blog/baseline-navigation-api?hl=en
+  - text: Kytin Parasole shoes
+    url: https://kytin.com/products/mensparasole
+  - text: Immich
+    url: https://immich.app/
+  - text: Stratechery's coverge of the Anthropic vs DoW saga
+    url: https://stratechery.com/2026/anthropic-and-alignment/
+audio: https://www.buzzsprout.com/2226499/episodes/18812806-135-bun-is-back-in-the-oven.mp3
+spotify: https://open.spotify.com/episode/1hTm9g2XRBam7y5YZYw2Xa
+apple: https://podcasts.apple.com/us/podcast/135-bun-is-back-in-the-oven/id1700169000?i=1000753986836
+youtube: https://youtu.be/Fzp4k5dE96s?si=WVdmgbxchIhKYg47
