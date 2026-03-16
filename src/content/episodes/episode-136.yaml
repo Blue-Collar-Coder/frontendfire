@@ -1,0 +1,70 @@
+number: 136
+type: news
+title: VoidZero Wants to be the Laravel of JavaScript
+date: 2026-03-16
+teaser: >
+  VoidZero just open-sourced Vite+, a unified JS toolchain vision. The Awesomeverse gets awesomer as Eleventy becomes Build Awesome, and Astro 6.0 lands its first big release since being acquired by Cloudflare.
+description: >
+  JavaScript framework Eleventy has been renamed Build Awesome, 1.5 years after joining the Font Awesome stable. The name change precedes Build Awesome Pro, which will offer premium features (like Font Awesome Pro) alongside the features Eleventy users know and love. Today the Awesomeverse got a little awesomer.
+
+
+  The VoidZero team also open-sourced Vite+, which is a unified toolchain and entry point to web app development that manages runtime, package manager, and frontend toolchain all in one. May Evan You and team never slow down.
+
+
+  Since being acquired by Cloudflare, the Astro team had their first big release with Astro 6.0, which includes a new dev server and build pipeline powered by Vite’s environment API so it can run the exact same production runtime during development. Other upgrades include a built-in Fonts API, request-time content, and a new experimental Rust compiler.
+
+
+  In Lightning news this week, Mozilla’s giving Firefox a facelift, the Chrome team wants feedback on a new focusgroup HTML attribute, TanStack AI now supports voice chat and multiple LLM providers, OpenClaw’s latest version severely hamstrings the lobster’s default permissions making it a lot less useful (and destructive) than it previously was, and the OpenClaw social network Moltbook just got acquired by Meta. Didn’t see that last one coming, that’s for sure.
+duration: "48:36"
+chapters:
+  - title: Eleventy becomes Build Awesome
+    start: "00:54"
+  - title: VoidZero announces Vie+ alpha
+    start: "05:40"
+  - title: Astro 6.0
+    start: "10:38"
+  - title: Mozilla is working on a big Firefox redesign
+    start: "15:39"
+  - title: The Chrome team is looking for feedback on focusgroup
+    start: "17:53"
+  - title: Updates to TanStack AI
+    start: "20:31"
+  - title: OpenClaw gripe about lack of permissions
+    start: "22:21"
+  - title: Moltbook gets acquired by Meta
+    start: "27:22"
+  - title: What's making us happy
+    start: "30:05"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Astro 6.0
+    url: https://astro.build/blog/astro-6/
+  - text: VoidZero announces Vie+ alpha
+    url: https://voidzero.dev/posts/announcing-vite-plus-alpha
+  - text: Eleventy becomes Build Awesome
+    url: https://www.11ty.dev/blog/build-awesome/
+  - text: The Original Font Awesome Kickstarter video
+    url: https://www.youtube.com/watch?v=CNoH3J7iSrA
+  - text: Mozilla is working on a big Firefox redesign
+    url: https://www.neowin.net/news/mozilla-is-working-on-a-big-firefox-redesign-here-is-what-it-looks-like/%3E
+  - text: The Chrome team is looking for feedback on focusgroup
+    url: https://developer.chrome.com/blog/focusgroup-rfc
+  - text: Upgrades to TanStack AI
+    url: https://tanstack.com/ai/latest/docs/guides/realtime-chat
+  - text: OpenClaw gripe about lack of permissions in v2026.3.2
+    url: https://www.reddit.com/r/openclaw/comments/1rlg0ki/psa_after_updating_to_openclaw_202632_your_agent/
+  - text: Moltbook gets acquired by Meta
+    url: https://www.cnbc.com/2026/03/10/meta-social-networks-ai-agents-moltbook-acquisition.html
+  - text: Foundation TV series
+    url: https://www.imdb.com/title/tt0804484/
+  - text: Taxes done with Firefly III
+    url: https://www.firefly-iii.org/
+  - text: Claude Code
+    url: https://code.claude.com/docs/en/overview
+audio: https://www.buzzsprout.com/2226499/episodes/18850602-136-voidzero-wants-to-be-the-laravel-of-javascript.mp3
+spotify: https://open.spotify.com/episode/4tcgQLBAEnjmJOybpbN3ad
+apple: https://podcasts.apple.com/us/podcast/136-voidzero-wants-to-be-the-laravel-of-javascript/id1700169000?i=1000755550291
+youtube: https://youtu.be/fAmQy5v2KeE?si=ZpehkZ1igGyFA_-f

@@ -5,7 +5,7 @@ date: 2026-03-09
 teaser: >
   It’s a rare non-AI episode! Instead, fresh Bun just dropped 🍞, npmx is the UX we all want for npm, and Solid jumps straight from experimental to beta in v2.
 description: >
-  This week's non-AI episode this week!
+  This week's a rare non-AI episode!
 
   It’s been a minute since we last discussed Bun, but the team is back with a new release. In v1.3.10, the REPL’s completely rewritten in Zig, barrel imports are optimized, and the JavaScriptCore engine got upgraded for big perf gains.
 
