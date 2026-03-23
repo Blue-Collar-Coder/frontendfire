@@ -1,0 +1,66 @@
+number: 137
+type: news
+title: Netlify Enters the AI App Builder Race
+date: 2026-03-23
+teaser: >
+  Big moves at Netlify with Netlify Start—build and deploy apps from a prompt in minutes. Vite 8 lands with massive performance gains, and no more guessing—every Node.js release is now LTS 🔥.
+description: >
+  This week the VoidZero team shipped Vite 8. It’s using Rolldown under the hood and boasting 30x faster builds, full plugin compatibility, integrated devtools, and a searchable registry for all Vite, Rolldown, and Rollup plugins.
+
+
+  Co-host Jack has officially joined Netlify as a Principal Developer Experience Engineer and announces the launch of Netlify Start. Start a new Netlify project with a prompt on the site, and see it built and deployed in minutes, and keep iterating on it, either in Netlify or on your local machine, your choice.
+
+
+  The Node.js team is changing their release schedule so that every release now (both even and odd) numbers will be an LTS release, and beginning in 2027, it will be named release 27, just to make it easier for everyone.
+
+
+  In this week’s Lightning News round, Encyclopedia Brittanica and Merriam-Webster join the many filing lawsuits against OpenAI for training its LLMs on their data without permissions, OpenAI founder Sam Altman dismisses web devs who typed code by hand as quaint and outdated, and hosting companies Vercel and Cloudflare can’t keep it civil on social media as Cloudflare forks another popular code base Vercel maintains.
+duration: "53:02"
+chapters:
+  - title: Vite 8 is out
+    start: "00:57"
+  - title: Jack joins Netlify and announces Netlify Start
+    start: "08:04"
+  - title: Node.js is changing its release schedule
+    start: "12:21"
+  - title: The dictionary sues OpenAI
+    start: "20:10"
+  - title: Vercel vs. Cloudflare on X
+    start: "23:18"
+  - title: Quite the tweet from Sam Altman
+    start: "31:20"
+  - title: What's making us happy
+    start: "39:18"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Vite 8 is out
+    url: https://vite.dev/blog/announcing-vite8
+  - text: Jack joins Netlify
+    url: https://x.com/jherr/status/2034361959005716725
+  - text: Netlify Start
+    url: https://app.netlify.com/start?ref=netlify-new
+  - text: Node.js is changing its release schedule
+    url: https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule
+  - text: The dictionary sues OpenAI
+    url: https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/
+  - text: Quite the tweet from Sam Altman
+    url: https://x.com/sama/status/2033935276079510011
+  - text: Vercel vs. Cloudflare on X
+    url: https://x.com/tsconfigdotjson/status/2033309440896602216
+  - text: Afrin nasal spray
+    url: https://www.afrin.com/products/nasal-sprays/original-nasal-spray
+  - text: Good Luck, Have Fun, Don't Die movie
+    url: https://www.imdb.com/title/tt1341338/
+  - text: Project Hail Mary movie
+    url: https://en.wikipedia.org/wiki/Project_Hail_Mary_(film)
+  - text: One Piece live action series
+    url: https://www.imdb.com/title/tt11737520/
+  - text: College basketball
+    url: https://www.ncaa.com/sports/basketball-men/d1
+audio: https://www.buzzsprout.com/2226499/episodes/18888909-137-netlify-enters-the-ai-app-builder-race.mp3
+spotify: https://open.spotify.com/episode/30rB0bCeECF3K6chU2STMM
+apple: https://podcasts.apple.com/us/podcast/137-netlify-enters-the-ai-app-builder-race/id1700169000?i=1000756739273
+youtube: https://youtu.be/BnTNm6Z4BcQ?si=I_GbmSz60wggWD0I
