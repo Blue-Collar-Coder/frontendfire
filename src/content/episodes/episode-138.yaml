@@ -1,0 +1,66 @@
+number: 138
+type: news
+title: Next.js Leans into AI Agents
+date: 2026-03-30
+teaser: >
+  Next.js doubles down on AI-assisted dev in 16.2 🤖, but admits deploying those apps outside of Vercel isn’t easy  😬. Plus, TypeScript 6.0 sets the stage for a major compiler shift.
+description: >
+  Microsoft dropped the last version of JavaScript-powered TypeScript this week with TS 6.0. TypeScript 6 bridges the gap between the TS of yesteryear and the soon to come Go-powered TS compiler of TypeScript 7 that users can fix now so they can smoothly upgrade to version 7 later.
+
+
+  Next.js 16.2 debuted this week with the usual performance improvements expected in a minor version upgrade, plus AI improvements to make AI-assisted development smoother and easier.
+
+
+  In response to Cloudflare’s Vinext fork a few weeks back, Vercel’s released a stable of adapter APIs to make deploying Next.js apps to hosting platforms besides Vercel easier. While this is a step in the right direction, it’s still not exactly “easy” to get all the bells and whistles of a Next app running on other platforms.
+
+
+  For the Lightning News section this week: Firefox gets split tab views as well, OpenAI abruptly shuts down its Sora AI video generator site, between Claude Code and Claude Cowork, Claude can now control your whole computer (eat your heart out OpenClaw), and the hosts are finding more uses for Claude Cowork themselves, and see its appeal for non-tech folks who are intimidated by something like Claude Code.
+duration: "51:18"
+chapters:
+  - title: TypeScript 6
+    start: "00:52"
+  - title: Next.js 16.2
+    start: "05:04"
+  - title: Next.js adapters
+    start: "16:06"
+  - title: Firefox gets split tab views
+    start: "20:04"
+  - title: OpenAi shuts down Sora
+    start: "22:03"
+  - title: Claude can control your whole computer now
+    start: "25:48"
+  - title: Claude Cowork updates
+    start: "26:43"
+  - title: Ollama update
+    start: "36:41"
+  - title: What's making us happy
+    start: "38:37"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: TypeScript 6
+    url: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/
+  - text: Next.js adapters
+    url: https://nextjs.org/blog/nextjs-across-platforms
+  - text: Potential Claude folder setup
+    url: https://x.com/akshay_pachaar/status/2035341800739877091
+  - text: Next.js 16.2
+    url: https://nextjs.org/blog/next-16-2
+  - text: Firefox gets split tab views
+    url: https://blog.mozilla.org/en/firefox/split-view/
+  - text: OpenAi shuts down Sora
+    url: https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt
+  - text: Claude can control your whole computer now
+    url: https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html
+  - text: Claude Cowork
+    url: https://www.anthropic.com/product/claude-cowork
+  - text: Grilling
+    url: https://en.wikipedia.org/wiki/Grilling
+  - text: The Strength of the Few book
+    url: https://www.goodreads.com/book/show/169485073-the-strength-of-the-few
+audio: https://www.buzzsprout.com/2226499/episodes/18928255-138-next-js-leans-into-ai-agents.mp3
+spotify: https://open.spotify.com/episode/3CWVT6WDKscVAkVtTeoIhc
+apple: https://podcasts.apple.com/us/podcast/next-js-leans-into-ai-agents/id1700169000?i=1000758190767
+youtube: https://youtu.be/yDMSScZSN9s?si=V5k8J-FfchdUUfn-
