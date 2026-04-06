@@ -1,0 +1,43 @@
+number: 139
+type: news
+title: Claude Code's Secrets Are Out
+date: 2026-04-03
+teaser: >
+  Well... that wasn't supposed to happen 😬. Anthropic accidentally exposed Claude Code internals via npm, Axios gets compromised with a self-deleting RAT 🚨, and RedwoodSDK 1.0 goes all-in on Cloudflare.
+description: >
+  This week, Anthropic accidentally leaked Claude Code's source code to the world when it published a source map inside an npm release pointing to the repos that house Claude's prompts, tools, logic, and so on. While the offending file was quickly removed, the code was out there and folks got to work speculating about what's coming next for Claude Code. Always running background daemons, something known as "undercover mode", and a cute little ASCII animal next to users inputs are some of the things we might see in Claude's future.
+
+
+  The npm hacks keep on coming as well, as popular data fetching library Axios is the latest victim. This particular hack delivered a remote access trojan (RAT) virus courtesy of a postinstall script, that deleted itself after execution to evade detection. Sneaky! Lock down your packages and dependencies, folks.
+
+
+  And in Lightning News this week, RedwoodSDK debuted its 1.0 version. Redwood's going all in on Cloudflare with full integration for workers, queues, AI, and more, and offers a server-first React SDK with RSC out of the box and "no hidden magic" like other React metaframeworks.
+duration: "36:29"
+chapters:
+  - title: Anthropic accidentally leaked Claude Code's source code
+    start: "01:13"
+  - title: Popular npm library Axios got hacked
+    start: "14:02"
+  - title: RedwoodSDK 1.0
+    start: "23:40"
+  - title: What's making us happy
+    start: "28:28"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Anthropic accidentally leaked Claude Code's source code
+    url: https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/
+  - text: Popular npm library Axios got hacked
+    url: https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html
+  - text: RedwoodSDK 1.0
+    url: https://rwsdk.com/blog/redwood-v1-getting-out-of-the-weeds
+  - text: The Idiot podcast from the New York Times
+    url: https://www.nytimes.com/2026/03/25/podcasts/serial-the-idiot-prologue-episode-1.html
+  - text: Activate Games
+    url: https://playactivate.com/mallofamerica
+audio: https://www.buzzsprout.com/2226499/episodes/18966069-139-claude-code-s-secrets-are-out.mp3
+spotify: https://open.spotify.com/episode/0Zr5njTQFuXHXJ4lYqHt6O
+apple: https://podcasts.apple.com/us/podcast/139-claude-codes-secrets-are-out/id1700169000?i=1000759515880
+youtube: https://youtu.be/UkFAO5n8QF4?si=ccimhZInaF3AWPqT
