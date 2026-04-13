@@ -1,0 +1,76 @@
+number: 140
+type: news
+title: Cloudflare is Coming for WordPress
+date: 2026-04-10
+teaser: >
+  Cloudflare just dropped an Astro-powered WP competitor 🔥, JS is coming for CSS's job 😬 Pretext uses math to skip layout entirely, and Anthropic's latest model is finding way too many security issues across the whole web...
+description: >
+  One of the former React Core team members caused quite the stir last week when he released Pretext, a TypeScript library that uses math to make text measurement and layout super fast, and avoids the expensive browser layout reflow typically needed every time the DOM changes size. Handy for niche use cases? Definitely. Controversial online because it's JS making CSS better? Extremely.
+
+
+  Also this week, Anthropic announced Project Glasswing, a new initiative bringing together all the biggest players in tech to reshape cybersecurity because Anthropic's latest frontier model Mythos has identified thousands of high-severity vulnerabilities in every major operating system and web browser. The orgs will use Mythos to up their software security before putting it in the hands of the rest of us, but boy, what must the rest of the industry look like if even these titans are full of security issues?
+
+
+  And Cloudflare, ever in our weekly news cycle, has released EmDash, an Astro-powered version of WordPress using Cloudflare's infra to securely sandbox plugins and prevent the hacking that WP has long suffered from. We'll see if it converts any longtime WP users to Cloudflare, or just riles up the community by creating a competitor of yet another incumbent web framework.
+
+
+  Lightning News is packed this week too: Claude Code buddies, little ASCII characters were in CC for just one version before being removed again, and the Internet revolted demanding they be brought back to life. The Axios maintainer who was hacked recently revealed the extremely complex web of lies that resulted in his npm deploy tokens being stolen (truly, anyone could have fallen prey to this involved scam). Chrome is getting vertical tabs for the first time and the State of Web Dev AI Survey 2026 is open now.
+
+
+  Our very own co-host Jack is now a Google Developer Expert, meaning he'll get early access to all the new features coming from the folks at Google, and TanStack AI now has "Code Mode", which allows an LLM to write a short TypeScript program and execute multiple tools at once with loops, conditionals, and data transformations inside its own secure sandbox. One call in, one structured result out, and since TS is doing the math instead of the LLM, it actually adds up. Every time. Game. Changer.
+duration: "57:40"
+chapters:
+  - title: Pretext.js
+    start: "01:53"
+  - title: "Anthropic's new model: Mythos"
+    start: "09:20"
+  - title: Cloudflare's EmDash
+    start: "15:27"
+  - title: Claude Code buddies
+    start: "24:31"
+  - title: An update on how Axios was hacked
+    start: "30:09"
+  - title: Chrome is getting vertical tabs
+    start: "34:19"
+  - title: State of Web Dev AI survey
+    start: "35:47"
+  - title: Jack is a GDE
+    start: "36:29"
+  - title: Code mode is new in TanStack AI
+    start: "37:23"
+  - title: What's making us happy
+    start: "41:47"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Pretext.js
+    url: https://pretextjs.dev/
+  - text: "Anthropic's new model: Mythos"
+    url: https://www.anthropic.com/glasswing
+  - text: Cloudflare's EmDash
+    url: https://blog.cloudflare.com/emdash-wordpress/
+  - text: Matt Mullenweg's response to EmDash
+    url: https://ma.tt/2026/04/emdash-feedback/
+  - text: Claude Code buddies community request
+    url: https://github.com/anthropics/claude-code/issues/45596
+  - text: An update on how Axios was hacked
+    url: https://github.com/axios/axios/issues/10636#issuecomment-4180237789
+  - text: Chrome is getting vertical tabs
+    url: https://blog.google/products-and-platforms/products/chrome/new-chrome-productivity-features/
+  - text: State of Web Dev AI Survey 2026
+    url: https://survey.devographics.com/en-US/survey/state-of-ai/2026
+  - text: Code Mode is new in TanStack AI
+    url: https://tanstack.com/blog/tanstack-ai-code-mode
+  - text: Jack's video about Code Mode
+    url: https://youtu.be/s9Cs_RmkVPg?si=VhnxwfQEg7FbUfYu
+  - text: OpenAI's GPT 5.4 in GH Copilot
+    url: https://openai.com/index/introducing-gpt-5-4/
+  - text: 3D printed planets
+    url: https://www.reddit.com/r/3Dprinting/comments/15maahd/now_im_done_all_planets_of_the_solar_system_and/
+  - text: Mammoth in concert
+    url: https://mammoth.band/
+audio: https://www.buzzsprout.com/2226499/episodes/19003321-140-cloudflare-is-coming-for-wordpress.mp3
+spotify: https://open.spotify.com/episode/5kTio6TMnJJQ3s6PjvuQ1q
+apple: https://podcasts.apple.com/us/podcast/140-cloudflare-is-coming-for-wordpress/id1700169000?i=1000761077771
