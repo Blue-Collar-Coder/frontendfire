@@ -1,0 +1,54 @@
+number: 141
+type: interview
+title: When AI Belongs in Products with Dan Wilson & Kyler Krenek
+date: 2026-04-20
+teaser: >
+  AI isn't the feature—value is 🎯. With guests Dan Wilson and Kyler Krenek,
+  we talk about choosing the right AI use cases, the rise of voice-first apps,
+  and how tools like Vowel are making it easier to build them.
+description: >
+  This week special guests Dan Wilson of DataCurl and Kyler Krenek of Vowel join us to discuss when AI belongs in products and what kinds of AI tools are best suited to different needs.
+
+
+  First we cover how to think about if a product actually needs AI. The last few years every company's been shoving AI features in whether customers want them or not, and the backlash and lack of user adoption is finally causing folks to think more critically about it.
+
+
+  The question today should be: what type of AI feature would customers get the most value from? It may turn out that the feature isn't AI at all, or it's using less real-time AI
+  than previously thought.
+
+
+  One of the fastest growing use cases around AI is in regards to voice-driven AI: talking to agents instead of having to type in order to search, ask questions, or get help. The tools Kyler is building over at Vowel are designed to do just that: allow devs to add AI voice options to their JavaScript applications much quicker and easier than building it from scratch. Devs can use different LLMs models with Vowel, add context docs to its RAG pipeline, and even use their app's own state to enhance the Vowel components even more.
+duration: "1:02:00"
+hosts:
+  - jack
+  - paige
+  - tj
+guests:
+  - name: Dan Wilson
+    url: https://www.datacurl.com/
+  - name: Kyler Krenek
+    url: https://vowel.to/
+links:
+  - text: Dan's personal website
+    url: https://www.nodans.com/
+  - text: Dan on LinkedIn
+    url: https://www.linkedin.com/in/profileofdanwilson/
+  - text: Kyler's GitHub
+    url: https://github.com/c0d3t3k
+  - text: Kyler's blog
+    url: https://dev.to/c0d3t3k
+  - text: Kyler on LinkedIn
+    url: https://www.linkedin.com/in/kyler-krenek-96b248344/
+  - text: Shrinking season 3
+    url: https://en.wikipedia.org/wiki/Shrinking_(TV_series)
+  - text: Claude Cowork
+    url: https://www.anthropic.com/product/claude-cowork
+  - text: New drug coming on the market for Pancreatic Cancer
+    url: https://www.statnews.com/2026/04/14/ben-sasse-revolution-medicines-daraxonrasib-clinical-trial/
+  - text: OpenCode Web
+    url: https://opencode.ai/docs/web/
+  - text: GPT-5.4
+    url: https://openai.com/index/introducing-gpt-5-4/
+audio: https://www.buzzsprout.com/2226499/episodes/19050414-141-when-ai-belongs-in-products-with-dan-wilson-kyler-krenek.mp3
+spotify: https://open.spotify.com/episode/0uak7o2t6e9QeQLuJfvxek
+apple: https://podcasts.apple.com/us/podcast/141-when-ai-belongs-in-products-with-dan-wilson-kyler-krenek/id1700169000?i=1000762670044
