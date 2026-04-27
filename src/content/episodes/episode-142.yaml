@@ -1,0 +1,65 @@
+number: 142
+type: news
+title: Vercel Had a Week
+date: 2026-04-27
+teaser: >
+  Vercel's "security incident" exposes more than anyone wanted, Claude's coming for your design job, and Elon Musk eyes a $60B AI coding flex. What a week it's been.
+description: >
+  Anthropic's already won the hearts and minds of developers with Claude Code, so it's now setting its sights on designers (or would-be designers) with the release of Claude Design. Claude Design takes in build systems, design files, and even reads through code bases to understand what teams are already using before letting users prompt, screenshot, and edit their way to new prototypes, pitch decks, and marketing collateral. Users can collaborate across designs, export to PDFs, PPTs or HTML files, and even seamlessly handoff new designs for Claude Code to implement.
+
+
+  Vercel suffered a "security incident" last week where hackers were able to gain unauthorized access to internal systems, steal environment variables, and then try to sell them on the black market for millions. Affected users were notified and new security measures taken, but it might still be a good idea to rotate deploy keys and enable 2FA if you host there.
+
+
+  SpaceX expressed interest in buying AI IDE company Cursor for $60 billion, shortly after acquiring xAI back in February. Teaming up would give SpaceX a big improvement in its AI coding capabilities and give Cursor access to SpaceX's compute infrastructure, so it could be a win-win for both companies if it goes through.
+
+
+  We have some good Lightning News this week as well: after decades, Google is finally going to start cracking down on "back button hijacking" where sites prevent users from returning to previous search results, Anthropic banned (and then unbanned) a 60-person company in the space of a few hours for unspecified terms of service violations, and the vibe coding platform Lovable also had a massive data breach (itself being a vibe coded tool).
+
+
+  And Fire Starters return this week as well with a new update to git: Git 2.54, which offers a new command 'git history' to rewrite historical commit messages or even split commits in two.
+duration: "55:56"
+chapters:
+  - title: Anthropic introduces Claude Design
+    start: "00:50"
+  - title: Vercel's security incident
+    start: "10:07"
+  - title: SpaceX is buying Cursor
+    start: "18:27"
+  - title: Google is cracking down on "back button hijacking"
+    start: "26:15"
+  - title: Anthropic bans a 60-person company overnight
+    start: "28:35"
+  - title: Fire Starter
+    start: "32:45"
+  - title: What's making us happy
+    start: "36:40"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Anthropic introduces Claude Design
+    url: https://www.anthropic.com/news/claude-design-anthropic-labs
+  - text: SpaceX is buying Cursor
+    url: https://www.nytimes.com/2026/04/21/business/spacex-cursor-deal.html
+  - text: 'Vercel has a "security incident"'
+    url: https://x.com/vercel/status/2045865072074035664
+  - text: 'Google cracking down on "back button hijacking"'
+    url: https://developers.google.com/search/blog/2026/04/back-button-hijacking
+  - text: Anthropic bans a 60-person company overnight
+    url: https://x.com/patomolina/status/2045281665363386504
+  - text: Lovable has a mass data breach
+    url: https://x.com/weezerOSINT/status/2046170666131669027
+  - text: Git 2.54 has a new way to reword commits
+    url: https://github.blog/open-source/git/highlights-from-git-2-54/
+  - text: Libby audiobooks
+    url: https://libbyapp.com/
+  - text: Reolink security cameras
+    url: https://reolink.com/
+  - text: Installing every Firefox extension
+    url: https://jack.cab/blog/every-firefox-extension
+audio: https://www.buzzsprout.com/2226499/episodes/19079197-142-vercel-had-a-week.mp3
+spotify: https://open.spotify.com/episode/4EqV3gob5xF8y5NYKp9yiO
+apple: https://podcasts.apple.com/us/podcast/142-vercel-had-a-week/id1700169000?i=1000763787685
+youtube: https://youtu.be/OoMCAnpBm7g?si=hiCz3bZUK8TCnYgO
