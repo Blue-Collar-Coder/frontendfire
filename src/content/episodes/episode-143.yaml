@@ -1,0 +1,56 @@
+number: 143
+type: news
+title: The AI Bill Is Due
+date: 2026-05-04
+teaser: >
+  AI tools are switching to “pay up” mode, Remix v3 wants to own your entire stack, and pnpm rolls out stricter security defaults. Plus: Firefox finally explains why you have 47 tabs open.
+description: >
+  The bill for AI agents may be coming due as the CTO of Uber reports the engineers have blown through the company's entire AI budget for 2026 in just the first 4 months of the year. Anthropic recently changed its pricing models to usage based and GitHub Copilot will be rolling out the same beginning in June. Is this the fixed pricing for AI now that we're all hooked on it?
+
+
+  Remix v3 is back in the news with the release of its beta preview. Remix now wants to handle the full stack for devs: routing, rendering, requests and responses, middleware, sessions, auth, forms, uploads, data and database management, UI components, theming, networking, tests. The whole shebang. Ambitious? Definitely. Polarizing? Also definitely. More details as they become available.
+
+
+  pnpm 11 is also out this week, and sensible security defaults are the main focus for this release to try and stem the tide of malware being published through npm. Additions include features like minimiumReleaseAge and blockExoticSubdeps to prevent downloading too-new versions of packages that may be compromised.
+
+
+  And in this week's Lightning News, Firefox has added Tab Notes where users can leave themselves notes for why they left a tab open. Notes are stored locally in the browser and remain connected to a page's URL until a user deletes them. Neat idea!
+duration: "55:18"
+chapters:
+  - title: The AI price hike
+    start: "01:35"
+  - title: Remix v3 beta preview
+    start: "16:31"
+  - title: pnpm 11's security changes
+    start: "27:33"
+  - title: Firefox adds tab notes
+    start: "35:28"
+  - title: What's making us happy
+    start: "41:10"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: AI price hikes are coming for us all
+    url: https://www.indiatoday.in/technology/story/uber-cto-says-ai-spending-plans-fall-short-as-tools-like-claude-code-drive-costs-up-2896621-2026-04-15
+  - text: Anthropic's changed its plan offerings
+    url: https://www.theregister.com/2026/04/16/anthropic_ejects_bundled_tokens_enterprise/
+  - text: GitHub Copilot is rolling out usage based billing
+    url: https://thenewstack.io/github-copilot-usage-billing/
+  - text: Remix v3 beta preview
+    url: https://remix.run/blog/remix-3-beta-preview
+  - text: pnpm 11
+    url: https://pnpm.io/blog/releases/11.0
+  - text: Firefox adds tab notes
+    url: https://blog.mozilla.org/en/firefox/tab-notes/
+  - text: Claude Superpower skills
+    url: https://claude.com/plugins/superpowers
+  - text: Ted Lasso season 4
+    url: https://www.apple.com/tv-pr/news/2026/04/apple-tvs-emmy-award-winning-global-smash-hit-series-ted-lasso-returns-for-season-four-on-wednesday-august-5/
+  - text: Duolingo
+    url: https://www.duolingo.com/
+audio: https://www.buzzsprout.com/2226499/episodes/19118901-143-the-ai-bill-is-due.mp3
+spotify: https://open.spotify.com/episode/7hMvRzAEN5xGjv7gxF2ntp
+apple: https://podcasts.apple.com/us/podcast/143-the-ai-bill-is-due/id1700169000?i=1000766027978
+youtube: https://youtu.be/tMLnNZOB11o?si=JP3aXzPdN5pUKx8_
