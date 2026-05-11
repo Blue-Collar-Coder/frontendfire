@@ -1,0 +1,56 @@
+number: 144
+type: news
+title: Did Tanner Just Replace React?
+date: 2026-05-11
+teaser: >
+  OpenAI backs Warp in what feels suspiciously like an acqui-hire speedrun. Claude gets a massive compute boost from SpaceX, and Tanner Linsley ships a vibe-coded React remix because apparently weekends are optional now. Also: goblin-coded ChatGPT lore has arrived.
+description: >
+  The advent of decent AI coding agents has led many folks to experiment with creating their own personal reincarnations of popular frameworks and Tanner Linsley of TanStack fame has done just that with his own lighter weight version of React, vibe coded over a weekend. It's cool to see folks who are deeply technical making projects just for themselves but sharing them with the community and inspiring others to do the same.
+
+
+  SpaceX is back in the news cycle after signing a compute deal with Anthropic, which allows Anthropic to double Claude Code's rate limits, remove peak hours limit reductions, and raise its API rate limits considerably for Opus models. Claude's about to get supercharged.
+
+
+  Popular coding terminal Warp has just gone open source thanks to its new founding sponsor OpenAI. Is investing in Warp and using GPT models to power its agent-first workflow a new way for OpenAI to try to catch up to the runaway success with developers that Claude Code has had?
+
+
+  This week in Lightning News, Node 26 is out and it brings with it the newly available temporal API, and the OpenAI team released a funny saga of how ChatGPT became obsessed with goblins thanks to some "creature language" code that got recycled into the fine-tuning data used to train up Codex 5.5. It's worth your time to read the whole story.
+duration: "57:39"
+chapters:
+  - title: Tanner builds Redact
+    start: "00:58"
+  - title: Anthropic makes a deal with SpaceX
+    start: "08:14"
+  - title: Warp is now open source
+    start: "19:03"
+  - title: Node 26 is out
+    start: "29:58"
+  - title: ChatGPT is obsessed with goblins
+    start: "32:07"
+  - title: What's making us happy
+    start: "42:21"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Warp is open source and OpenAI is its founding sponsor
+    url: https://www.warp.dev/blog/warp-is-now-open-source
+  - text: Projecting React
+    url: https://tannerlinsley.com/posts/projecting-react
+  - text: Anthropic makes a deal with SpaceX
+    url: https://www.anthropic.com/news/higher-limits-spacex
+  - text: Node 26 is out
+    url: https://nodejs.org/en/blog/release/v26.0.0
+  - text: ChatGPT is obsessed with goblins
+    url: https://openai.com/index/where-the-goblins-came-from/
+  - text: The Koerner Office on YouTube
+    url: https://www.thekoerneroffice.com/
+  - text: 3d printed Star Wars guns
+    url: https://galacticarmory.net/collections/blasters-3d
+  - text: The Lies of Locke Lamora novel
+    url: https://www.goodreads.com/book/show/29588376-the-lies-of-locke-lamora
+audio: https://www.buzzsprout.com/2226499/episodes/19154625-144-did-tanner-just-replace-react.mp3?download=true
+spotify: https://open.spotify.com/episode/7Js7BTgRI2ti0YEEDxxqhK
+apple: https://podcasts.apple.com/us/podcast/144-did-tanner-just-replace-react/id1700169000?i=1000767174199
+youtube: https://youtu.be/ls-2H8HCopw?si=KABiOwZGYXGjc_CW
