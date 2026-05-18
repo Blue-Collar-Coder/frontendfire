@@ -1,0 +1,63 @@
+number: 145
+type: news
+title: AI Layoffs Will Continue Until Morale Improves
+date: 2026-05-15
+teaser: >
+  Zed ships 1.0 and wants to pry developers away from their AI-powered VS Code clones, TanStack gets caught in the npm supply-chain blast radius, and another round of "AI layoffs" has everyone asking if robots are actually taking jobs—or just taking the blame.
+description: >
+  The team that created beloved text editor Atom releases v1 of their alternative editor Zed. Zed is built in Rust and has an in-house UI called GPUI that's designed for performance and collaboration - be they other humans or AI agents. Will this be enough to draw people away from their AI-enhanced VS Code forks? Time will tell.
+
+
+  Big company layoffs in the name of AI continued this week with both Cloudflare and Cisco announcing new cuts. AI seems to be the latest reason companies are giving for why they're reducing headcount, but it's probably just another form of cost savings that would have happened regardless, judging by recent history.
+
+
+  Not even OSS projects like TanStack are safe from the npm supply chain hacks, as a new, sophisticated hack managed to publish a couple of versions before it was identified and shut down within the hour. Please folks, enable those minimum release age flags npm, pnpm, and yarn are building in - even a single day delay would prevent this bad software making it to your machine.
+
+
+  In this week's Lightning News, Tailwind v 4.3 adds new scrollbar utilities for styling in-site scrollbars that just need a little extra love to match their surroundings.
+
+
+  And there's even a new Fire Starter about the <install> HTML element for sites with PWAs. It's still behind a few feature flags in Chrome, but hey, maybe this will help poster the adoption rate.
+duration: "53:23"
+chapters:
+  - title: Alternative editor Zed hits 1.0
+    start: "00:46"
+  - title: AI layoffs
+    start: "10:48"
+  - title: TanStack's CI pipeline was compromised
+    start: "24:12"
+  - title: Another Next.js vulnerability
+    start: "30:01"
+  - title: Tailwind 4.3 adds new scrollbar utilities
+    start: "31:46"
+  - title: "Fire Starter: The new install element"
+    start: "35:03"
+  - title: What's making us happy
+    start: "41:22"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Alternative editor Zed hits 1.0
+    url: https://zed.dev/blog/zed-1-0
+  - text: Not even TanStack is safe from npm hacks
+    url: https://tanstack.com/blog/npm-supply-chain-compromise-postmortem
+  - text: Another Next.js vulnerability
+    url: https://hadrian.io/blog/next-js-websocket-ssrf-unauthenticated-access-to-internal-resources-cve-2026-44578-2
+  - text: Cloudflare lays off 1,100 employees
+    url: https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html
+  - text: Cisco lays off 4,000 employees
+    url: https://www.reuters.com/technology/cisco-raises-annual-revenue-forecast-2026-05-13/
+  - text: Tailwind 4.3 adds new scrollbar utilities
+    url: https://tailwindcss.com/blog/tailwindcss-v4-3#new-scrollbar-utilities
+  - text: "The <install> HTML element"
+    url: https://developer.chrome.com/blog/install-element-ot
+  - text: The Porsche Track Experience
+    url: https://www.porschedriving.com/birmingham/
+  - text: Chilipad mattress topper
+    url: https://sleep.me/product/chilipad
+audio: https://www.buzzsprout.com/2226499/episodes/19191552-145-ai-layoffs-will-continue-until-morale-improves.mp3
+spotify: https://open.spotify.com/episode/7cksop1ApMJaYkyXYGDY1b
+apple: https://podcasts.apple.com/us/podcast/145-ai-layoffs-will-continue-until-morale-improves/id1700169000?i=1000768376413
+youtube: https://youtu.be/tt1dzqeVqds?si=Q5qBi1W852IUwFCb
