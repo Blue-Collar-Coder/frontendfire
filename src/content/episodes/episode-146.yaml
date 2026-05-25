@@ -1,0 +1,56 @@
+number: 146
+type: news
+title: Humans vs AI—Fight!
+date: 2026-05-21
+teaser: >
+  Rust picked up another high-profile convert with Bun, npm is once again trying to save us from ourselves, and Jack tested humanity's odds against AI in a head-to-head coding battle.
+description: >
+  A few weeks ago Jarred Sumner, creator of Bun, posted an "experimental branch" of Bun completely rewritten from Zig to Rust. 6 days later that branch got merged. The rewrite shrinks Bun's overall binary size, maintains or improves its benchmarks, and adds new compiler-assisted tools for catching and preventing memory bugs that the Bun team struggled to identify and fix in Zig. Long may Rust reign.
+
+
+  Friend of the show Jason Lengstorf is back with a new web dev TV series called Greenfield Games where teams of human devs take on AI to see who can build the best app and impress the judges more. Jack and the CEO and CTO of Netlify competed to see who could build a better version of Notion. Tune in to see what the judges picked!
+
+
+  npm takes another stab at lessening the supply chain attacks it's been suffering from with a new RFC to block install scripts until users approve them via a new allowScripts field in the package.json file. It seems like a sensible compromise to maintain backwards compatibility for legitimate packages that really do rely on install scripts, but also protect users from the malicious code attacks that seem commonplace lately.
+
+
+  Finally, in Lightning News, the State of Web Dev AI survey results are out, and (unsurprisingly) twice as much code as last year is being generated via AI agents. Claude Code reigns supreme for devs choosing AI tools, and folks also think we're in an AI bubble, and one of the biggest critics of AI, Redux maintainer Mark Erikson, released a lengthy blog post about how he's come around to it over the past 2+ years. Opinions do change and it's refreshing to see someone share their journey with such honesty.
+duration: "52:11"
+chapters:
+  - title: Bun switches to Rust
+    start: "01:00"
+  - title: Jack's battle against AI on Greenfield Games
+    start: "06:45"
+  - title: npm RFC to block install scripts
+    start: "16:01"
+  - title: State of Web Dev AI survey results
+    start: "22:10"
+  - title: Mark Erikson joins the AI revolution
+    start: "37:10"
+  - title: What's making us happy
+    start: "41:45"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: Bun, but in Rust
+    url: https://github.com/oven-sh/bun/pull/30412
+  - text: Jason Lengstorf's Greenfield Games TV show
+    url: https://www.youtube.com/playlist?list=PLz8Iz-Fnk_eSlU9nlsL-CQAEfzPucEGRX
+  - text: npm RFC to block install scripts
+    url: https://github.com/npm/rfcs/pull/868
+  - text: State of Web Dev AI survey results
+    url: https://2026.stateofai.dev/en-US
+  - text: Mark Erikson joins the AI revolution
+    url: https://blog.isquaredsoftware.com/2026/05/ai-thoughts-part-1-fears-opinions-journey/
+  - text: Riding in Waymos
+    url: https://waymo.com/
+  - text: Wilma the Bat Dog for the Portland Pickles
+    url: https://www.instagram.com/p/DYkyVw4jMku/
+  - text: Dungeon Crawler Carl book series
+    url: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+audio: https://www.buzzsprout.com/2226499/episodes/19231873-146-humans-vs-ai-fight.mp3
+spotify: https://open.spotify.com/episode/6rjg5aqA38zi9GE1U37TGO
+apple: https://podcasts.apple.com/us/podcast/146-humans-vs-ai-fight/id1700169000?i=1000769467784
+youtube: https://youtu.be/n94Gwiv5jT0?si=KFqz99FeCNo1C_7A
