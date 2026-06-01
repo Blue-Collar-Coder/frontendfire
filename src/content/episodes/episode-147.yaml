@@ -1,0 +1,58 @@
+number: 147
+type: news
+title: Vercel Made a Programming Language for Robots
+date: 2026-06-01
+teaser: >
+  Deno launches Claw Patrol to stop AI agents from nuking production, npm tightens security with staged publishing, and Vercel invents a graph-first language for bots instead of humans. Meanwhile, the AI content economy keeps eating the people who built it.
+description: >
+  To try and stem the tide of constant supply chain attacks, npm has officially released staged publishing, which adds an approval step by a package maintainer via 2FA before it can go live on the npm registry.
+
+
+  Capitalizing on the popularity of the OpenClaw name, the Deno team's debuted Claw Patrol: an open-source security firewall that sits between AI agents and production environments. It holds sensitive credentials, parses agent traffic at the wire and filters actions to prevent unauthorized or destructive actions like dropping databases, and logs it all so devs can see exactly what the agent did across services.
+
+
+  Vercel Labs unveils an experimental programming language called zerolang, which is a graph-first programming language designed for agents. Instead of editing source text, agents interact with and edit ProgramGraph generated from the source text, which allows for semantic navigation, precision code edits, refactor validation, and a shorter feedback loop. It's definitely a different tact than we've seen before, but whether it will catch on is still anyone's guess.
+
+
+  In Lightning News this week, WordPress 7.0 is out, and the biggest update is AI. WP introduced a new shared AI layer so plugins have a common system for connecting tools and services and site owners have a single place to manage all those integrations. Also, Dr. Axel Rauschmayer, longtime computer scientist and prolific author about JavaScript has removed his blog and books on JS from the web (which were free to read) due to book sales dropping off a cliff and traffic from AI crawlers increasing his hosting costs with no ad income. His is another sad casualty of the LLMs supplanting the need to read the articles written by smart, talented folks with no recourse for how they were trained on that very same info.
+duration: "52:35"
+chapters:
+  - title: npm staged publishing
+    start: "00:58"
+  - title: Deno's Claw Patrol
+    start: "04:52"
+  - title: Vercel's zerolang
+    start: "11:00"
+  - title: WordPress 7.0
+    start: "20:18"
+  - title: Dr. Axel takes down his blog and books
+    start: "23:46"
+  - title: What's making us happy
+    start: "33:31"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: zerolang, an agent first programming language
+    url: https://zerolang.ai/
+  - text: Claw Patrol
+    url: https://deno.com/blog/clawpatrol
+  - text: npm staged publishing
+    url: https://docs.npmjs.com/staged-publishing
+  - text: Wordpress 7.0 and AI
+    url: https://wordpress.com/blog/2026/05/26/wordpress-7-0-armstrong/
+  - text: Dr. Axel takes down his blog and books
+    url: https://2ality.com/
+  - text: St. Augustine Old Town Trolley Tours
+    url: https://www.trolleytours.com/st-augustine
+  - text: Porsche Performance Track Experience
+    url: https://www.porschedriving.com/birmingham/introductory/
+  - text: Shokz OpenDots headphones
+    url: https://shokz.com/pages/opendots-one
+  - text: NBA Jam lead designer was a Pistons fan
+    url: https://www.polygon.com/2013/9/26/4772376/nba-jam-designer-rigged-code/
+audio: https://www.buzzsprout.com/2226499/episodes/19271429-147-vercel-made-a-programming-language-for-robots.mp3
+spotify: https://open.spotify.com/episode/3MjBuPpi9Lc832eFtF56jr
+apple: https://podcasts.apple.com/us/podcast/147-vercel-made-a-programming-language-for-robots/id1700169000?i=1000770557954
+youtube: https://youtu.be/XjSkOe_YDcQ?si=6JawFsd7lO53hnWH
