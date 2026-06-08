@@ -19,7 +19,7 @@ duration: "48:36"
 chapters:
   - title: Eleventy becomes Build Awesome
     start: "00:54"
-  - title: VoidZero announces Vie+ alpha
+  - title: VoidZero announces Vite+ alpha
     start: "05:40"
   - title: Astro 6.0
     start: "10:38"
@@ -42,7 +42,7 @@ hosts:
 links:
   - text: Astro 6.0
     url: https://astro.build/blog/astro-6/
-  - text: VoidZero announces Vie+ alpha
+  - text: VoidZero announces Vite+ alpha
     url: https://voidzero.dev/posts/announcing-vite-plus-alpha
   - text: Eleventy becomes Build Awesome
     url: https://www.11ty.dev/blog/build-awesome/

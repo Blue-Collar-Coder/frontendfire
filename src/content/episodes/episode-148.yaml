@@ -1,0 +1,61 @@
+number: 148
+type: news
+title: The Bots Have Officially Taken Over
+date: 2026-06-08
+teaser: >
+  Bot traffic has officially surpassed humans online, Microsoft spent Build yelling "Developers!" with a fresh pile of AI tools, and Jam joins the absurdly crowded chat.
+description: >
+  It's almost surprising it took this long for someone like Cloudflare to verify that agentic bot traffic has surpassed human traffic online, but it's happened. They thought we had another 1.5 years before the flip but we were wrong.
+
+
+  In a rare bit of non-AI news, the creator of Rio Terminal built a new programming language called Jam that takes the best bits of Rust, Zig, Elixir, Swift, and JavaScript and mixes them all together. While it's great to see folks doing it for the love of the game, do we really need new frameworks in our agent powered world that can port projects from one language to another in a weekend with Claude at the helm?
+
+
+  The Microsoft Build conference just wrapped up and Jack had a front-row seat to all the hot news and some pretty cool custom swag too. The focus was all about the developers and AI this year, and hot topics included a preview of the powerful Surface Ultra, Microsoft's new custom AI models just for VS Code, and more.
+
+
+  There was also plenty to talk about in this round of Lightning News, as well. As per usual, Anthropic is urging AI labs to slow down development before the agents make changes without our consent. But is Anthropic slowing down? Unlikely. The Shai Hulud malware worm infected Red Hat packages this week on npm, a thief in SF used a self-driving Waymo to steal a ton of yoga clothes and get away, and, in late breaking news, Cloudflare bought VoidZero (the team behind Vite), just for good measure.
+duration: "58:37"
+chapters:
+  - title: Bot traffic has passed human traffic
+    start: "01:55"
+  - title: The Jam programming language
+    start: "05:28"
+  - title: Jack at Microsoft Build
+    start: "12:04"
+  - title: Cloudflare bought VoidZero
+    start: "29:26"
+  - title: Red Hat is the latest victim of Shai Hulud
+    start: "34:46"
+  - title: Anthropic wants AI dev to slow down
+    start: "38:39"
+  - title: Someone used a Waymo in a robbery
+    start: "41:35"
+  - title: What's making us happy
+    start: "46:47"
+hosts:
+  - jack
+  - paige
+  - tj
+links:
+  - text: There's a new programming language called Jam
+    url: https://rapha.land/jam-programming-language
+  - text: Microsoft Build coverage
+    url: https://build.microsoft.com/en-US/home
+  - text: Bot web traffic has passed human web traffic
+    url: https://x.com/eastdakota/status/2062212701414187452
+  - text: Red Hat is the latest victim of Shai Hulud on npm
+    url: https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/
+  - text: Anthropic wants AI development to slow down for the public good
+    url: https://www.engadget.com/2188066/anthropic-proposes-global-ai-development-slowdown/
+  - text: Police have yet to catch a thief who used a Waymo to steal yoga clothes
+    url: https://www.engadget.com/2187705/police-have-yet-to-catch-a-thief-who-used-a-waymo-to-steal-yoga-clothes/
+  - text: Cloudflare bought VoidZero
+    url: https://www.cloudflare.com/press/press-releases/2026/cloudflare-acquires-voidzero-to-build-the-future-of-the-ai-native-web/
+  - text: For All Mankind TV series
+    url: https://www.imdb.com/title/tt7772588/
+  - text: Claude Desktop Buddy
+    url: https://github.com/anthropics/claude-desktop-buddy
+audio: https://www.buzzsprout.com/2226499/episodes/19310027-148-the-bots-have-officially-taken-over.mp3
+spotify: https://open.spotify.com/episode/0fBmh2HUsqz3VAVSTBowGz
+apple: https://podcasts.apple.com/us/podcast/148-the-bots-have-officially-taken-over/id1700169000?i=1000771667048
