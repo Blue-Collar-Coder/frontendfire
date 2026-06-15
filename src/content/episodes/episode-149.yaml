@@ -1,0 +1,56 @@
+number: 149
+type: news
+title: Rise of the React Foundation
+date: 2026-06-15
+teaser: >
+  React is no longer under Meta's GitHub roof, Safari 27 adds a pile of long-awaited platform features, and Chrome DevTools keep evolving into an AI coworker. Plus: React Compiler gets rewritten in Rust because apparently every road leads there.
+description: >
+  It's taken a bit since it was first announced, but this week React's GitHub repo officially moved out from under Meta to live in the React Foundation. React is now officially an independent, community driven, OSS project forevermore, and we look forward to seeing what the future holds for it. In related news, the React Core team (who are still employed by Meta) just rewrote the React Compiler in Rust because it's still the cool thing to do.
+
+
+  Apple just had its annual WWDC conference and announced some new features coming to WebKit in Safari 27 beta. Highlights include things like: a customizable select HTML element, JavaScript top-level await, scroll anchoring, and much more. Check the write up for all the details.
+
+
+  Not to be outdone, the Chrome team released some major upgrades to DevTools in Chrome 149. The MCP server and CLI of Chrome DevTools for agents are now officially stable and the AI assistance panel has been souped up to improve the conversational experience and provide deeper page insights in the browser.
+
+
+  For this week's Lightning News round, the State of CSS survey 2026 is out now: please vote for us in the section of your favorite web dev podcasts!
+duration: "51:46"
+chapters:
+  - title: React is now officially owned by the React Foundation
+    start: "01:27"
+  - title: React Compiler is now on Rust
+    start: "03:07"
+  - title: Safari 27 beta
+    start: "05:56"
+  - title: DevTools 149 updates
+    start: "12:12"
+  - title: State of CSS survey 2026
+    start: "23:46"
+  - title: Fire Starter
+    start: "27:54"
+  - title: What's making us happy
+    start: "32:15"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: WebKit in Safari 27 beta
+    url: https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/
+  - text: React's now owned by the React Foundation
+    url: https://react.foundation/
+  - text: React Compiler is now in Rust
+    url: https://github.com/react/react/pull/36173
+  - text: DevTools 149 updates
+    url: https://developer.chrome.com/blog/new-in-devtools-149
+  - text: State of CSS survey 2026
+    url: https://survey.devographics.com/en-US/survey/state-of-css/2026
+  - text: Advanced Perceptual Contrast Algorithm
+    url: https://developer.chrome.com/blog/new-in-devtools-149#apca
+  - text: Burn Baby Burn
+    url: https://github.com/dtnewman/burn-baby-burn
+audio: https://www.buzzsprout.com/2226499/episodes/19341648-149-rise-of-the-react-foundation.mp3
+spotify: https://open.spotify.com/episode/0CPBwZhPga9FxncNS4A3Kp
+apple: https://podcasts.apple.com/us/podcast/149-rise-of-the-react-foundation/id1700169000?i=1000772786654
+youtube: https://youtu.be/k_CkPeKZHrc?si=9k3ZEB2srB1Z_p8c
