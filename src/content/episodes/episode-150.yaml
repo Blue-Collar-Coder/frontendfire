@@ -1,0 +1,58 @@
+number: 150
+type: news
+title: 'The Government Said "No Fable For You"'
+date: 2026-06-22
+teaser: >
+  Anthropic's shiny new Fable model got yanked almost immediately after a US government export restriction, a Chinese open-source challenger claims Opus-level performance for a fraction of the cost, and MDN launches an MCP server to keep AI agents informed.
+description: >
+  Our first news story of the week actually began last week when Anthropic's newest model Fable 5 was released then pulled back just days later after the US government issued an export control directive to suspend access by any foreign national. National security concerns which have yet to be elaborated on was the primary issue cited, but we wonder if it wasn't a more petty reason in truth. We'll keep you updated if/when Antropic and the US govt make up and Fable makes a return.
+
+
+  In related news, Chinese AI company Zhipu has just released a fully open source LLM model GLM-5.2 which has comparable benchmarks to Claude Opus 4.8 at 1/6th the cost. If the pricing and lock-in of the other AI agent providers like Anthropic and OpenAI is getting to you, GLM-5.2 is one to check out: it offers out-of-the-box support for many of the most popular third-party agentic coding harnesses and tools.
+
+
+  And, in an attempt to keep pace with the AI movement, MDN has released an MCP server to give AI agents accurate, up to date web platform information. As we've said in past episodes, it's hard keeping up with all the improvements coming to web browsers nowadays and models are limited to whatever their training date cut offs are so they might not even know about new features or browser support. Now, the MDN MCP can help fix that.
+
+
+  Lightning News this week includes an announcement from GitHub about upcoming breaking changes in npm 12 that will no longer execute install scripts from dependencies by default, hopefully mitigating the near-continuous supply chain attacks npm's been under in recent months, and after a record breaking IPO last week, SpaceX has officially bought Cursor AI to the tune of $60B. That's a big bet on an AI coding IDE that started life as a VS Code fork.
+duration: "1:00:22"
+chapters:
+  - title: Anthropic released Fable and the US government shut it down
+    start: "01:27"
+  - title: GLM-5.2
+    start: "13:51"
+  - title: MDN MCP Server
+    start: "20:16"
+  - title: npm 12's breaking changes
+    start: "25:42"
+  - title: SpaceX bought Cursor for $60B
+    start: "31:38"
+  - title: What's making us happy
+    start: "39:13"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: MDN MCP Server
+    url: https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/
+  - text: GLM-5.2
+    url: https://z.ai/
+  - text: Anthropic released Fable and the US shut it down days later
+    url: https://www.anthropic.com/news/fable-mythos-access
+  - text: SpaceX bought Cursor for $60B
+    url: https://www.fastcompany.com/91560594/spacex-cursor-acquisition-vibe-coding
+  - text: npm 12 breaking changes
+    url: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/
+  - text: Newest season of Clarkson's Farm
+    url: https://www.imdb.com/title/tt10541088/
+  - text: World Cup international fans
+    url: https://abcnews.com/GMA/Living/world-cup-visitors-viral-reactions-everyday-american-life/story?id=133927192
+  - text: Portland Pickles
+    url: https://www.portlandpicklesbaseball.com/
+  - text: Claude Cowork
+    url: https://www.anthropic.com/product/claude-cowork
+audio: https://www.buzzsprout.com/2226499/episodes/19380311-150-the-government-said-no-fable-for-you.mp3
+spotify: https://open.spotify.com/episode/6i3FchQ21nGhD3y0L39Da1
+apple: https://podcasts.apple.com/us/podcast/150-the-government-said-no-fable-for-you/id1700169000?i=1000773712773
+youtube: https://youtu.be/IdB172FO_hU?si=QM5hqo8H3epmzbQ5
