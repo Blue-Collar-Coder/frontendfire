@@ -1,0 +1,58 @@
+number: 151
+type: news
+title: "Fixing AI's Microservices Problem"
+date: 2026-06-29
+teaser: >
+  'Nx invented the "synthetic monorepo" so AI agents can understand sprawling codebases, Deno Desktop is coming for Electron, and new hiring data suggests senior engineers are about to become even harder to find.'
+description: >
+  The team that made monorepos famous, Nx, has just released a new project called Polygraph that is a meta harness that creates a unified dependency graph for projects composed of several microservices so an AI agent has visibility across every repo boundary and can orchestrate code changes accordingly. For older, non-AI native applications this could be a real game changer.
+
+
+  The Deno team is out with a new feature in Deno 2.9: Deno Desktop. Point Deno at a script or web project and it produces a native, self-contained desktop application where the UI runs in a webview, the logic runs in Deno, and the whole thing compiles down to a single binary.
+
+
+  AI company SignalFire published an update on the tech hiring landscape, and although overall tech hiring is down, designers and marketers are the ones whose jobs are getting cut, not engineers. Big companies are slower to hire than in the past, and entry level jobs for new grads continue to be at all time lows. Hopefully this trend turns around soon or we're going to face a shortage of senior devs in the coming years.
+
+
+  In Lightning News this week, former React Core team member Dan Abramov is joining Vercel to help make Next.js better, Claude Code now supports "Fullscreen rendering" aka mouse clicks inside the terminal, and Astro 7 is out and all about speed with its compiler totally rewritten in Rust.
+duration: "39:37"
+chapters:
+  - title: Polygraph meta-harness from the Nx folks
+    start: "01:41"
+  - title: Deno Desktop
+    start: "07:49"
+  - title: An update on the tech hiring landscape
+    start: "12:39"
+  - title: Dan Abramov joins Vercel
+    start: "24:42"
+  - title: Claude Code supports mouse clicks now
+    start: "27:01"
+  - title: Astro 7
+    start: "30:37"
+  - title: What's making us happy
+    start: "31:08"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Polygraph meta-harness from the Nx folks
+    url: https://nx.dev/blog/nx-cloud-introducing-polygraph
+  - text: Deno 2.9 & Deno Desktop
+    url: https://deno.com/blog/v2.9#deno-desktop
+  - text: An update on the tech hiring landscape from SignalFire
+    url: https://www.signalfire.com/blog/signalfire-state-of-talent-report-2026
+  - text: Claude Code supports mouse clicks now (i.e. Fullscreen rendering)
+    url: https://code.claude.com/docs/en/fullscreen
+  - text: Dan Abramov joins Vercel
+    url: https://bsky.app/profile/danabra.mov/post/3mp5b3nd3ws2k
+  - text: Astro 7
+    url: https://astro.build/blog/astro-7/
+  - text: Dungeon Crawler Carl
+    url: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+  - text: Shuffleboard
+    url: https://en.wikipedia.org/wiki/Shuffleboard
+audio: https://www.buzzsprout.com/2226499/episodes/19415352-151-fixing-ai-s-microservices-problem.mp3
+spotify: https://open.spotify.com/episode/6fGRtSzW4ehlP6d5Py9KDS
+apple: https://podcasts.apple.com/us/podcast/151-fixing-ais-microservices-problem/id1700169000?i=1000774676636
+youtube: https://youtu.be/BPPdjmElIko?si=Ehy57jG57ss_WkG-
