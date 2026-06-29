@@ -3,7 +3,7 @@ type: news
 title: "Fixing AI's Microservices Problem"
 date: 2026-06-29
 teaser: >
-  'Nx invented the "synthetic monorepo" so AI agents can understand sprawling codebases, Deno Desktop is coming for Electron, and new hiring data suggests senior engineers are about to become even harder to find.'
+  Nx invented the "synthetic monorepo" so AI agents can understand sprawling codebases, Deno Desktop is coming for Electron, and new hiring data suggests senior engineers are about to become even harder to find.
 description: >
   The team that made monorepos famous, Nx, has just released a new project called Polygraph that is a meta harness that creates a unified dependency graph for projects composed of several microservices so an AI agent has visibility across every repo boundary and can orchestrate code changes accordingly. For older, non-AI native applications this could be a real game changer.
 
@@ -56,3 +56,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/19415352-151-fixing-ai-s-micr
 spotify: https://open.spotify.com/episode/6fGRtSzW4ehlP6d5Py9KDS
 apple: https://podcasts.apple.com/us/podcast/151-fixing-ais-microservices-problem/id1700169000?i=1000774676636
 youtube: https://youtu.be/BPPdjmElIko?si=Ehy57jG57ss_WkG-
+clip: https://x.com/front_end_fire/status/2071603491680768050
