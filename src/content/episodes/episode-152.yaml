@@ -1,0 +1,54 @@
+number: 152
+type: news
+title: The Fable Redemption Arc
+date: 2026-07-06
+teaser: >
+  Vercel's giving Shopify devs a lot more frontend freedom, Fable 5 is back after its government timeout, and Meta released the design system behind 13,000 internal apps. Plus: Cloudflare's AI crawler crackdown is about to get very real.
+description: >
+  In an announcement no one saw coming, Vercel has partnered with Shopify to rebuild Hydrogen, Shopify's React-based, headless ecommerce framework. Now if ecomm companies want to build their own bespoke websites using Svelte, Next.js, Nuxt, etc. they can because Hydrogen provides the Shopify API integration layers form payments, orders, and inventory management but leaves the frontend completely up to them.
+
+
+  And less than 3 weeks after Fable 5 was rolled back from general availability, Anthropic has re-released it (and Sonnet 5 too). Fable 5 now boasts an improved safety classifier to target and block potentially harmful requests, and Anthropic is now working with other Project Glasswing partners to draft an AI jailbreak security scale to begin classifying jailbreak threat levels going forward.
+
+
+  Meta also re-enters the news cycle with the release of its own internal design system called Astryx, which is in use within Meta in over 13,000 apps and is built on React and StyleX. It has 150 components, is AI fluent with an MCP server and AI-focused docs, and adds another option to the OS ecosystem if you're keen to try a new design system out.
+
+
+  In Lightning News this week, Cloudflare issued a new deadline of September 15 when it will default to blocking AI crawlers (namely Google's crawlers) from any new sites deployed on Cloudflare. Controversial? Yes. Something that Cloudflare may quietly walk back in a few months because how many sites can really afford not to surface in Google search results? We'll keep you posted.
+duration: "54:32"
+chapters:
+  - title: Vercel and Shopify collab on Hydrogen
+    start: "03:50"
+  - title: A Fable 5 update
+    start: "13:11"
+  - title: Astryx
+    start: "22:38"
+  - title: Cloudflare to change its crawler policy
+    start: "33:51"
+  - title: What's making us happy
+    start: "43:42"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Fable 5's ban has been lifted
+    url: https://www.anthropic.com/news/redeploying-fable-5
+  - text: Sonnet 5 is out too
+    url: https://www.anthropic.com/news/claude-sonnet-5
+  - text: Vercel and Shopify collab on Hydrogen
+    url: https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen
+  - text: Astryx
+    url: https://astryx.atmeta.com/
+  - text: Cloudflare to change its crawler policy
+    url: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/
+  - text: Pink Starburst Vodka Lemonade
+    url: https://servedbysammy.com/pink-starburst-vodka-lemonade/
+  - text: Goodr sunglasses
+    url: https://goodr.com/
+  - text: Rail Explorers
+    url: https://www.railexplorers.net/
+audio: https://www.buzzsprout.com/2226499/episodes/19450378-152-the-fable-redemption-arc.mp3
+spotify: https://open.spotify.com/episode/1vveZLByS9m0RmRBdV30O4
+apple: https://podcasts.apple.com/us/podcast/152-the-fable-redemption-arc/id1700169000?i=1000775627971
+youtube: https://youtu.be/R9GmHBau8Cs?si=Dgha6FXVgzkbruiC
