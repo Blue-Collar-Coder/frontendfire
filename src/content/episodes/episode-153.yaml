@@ -1,0 +1,60 @@
+number: 153
+type: news
+title: Vercel Wants Your Entire Stack
+date: 2026-07-13
+teaser: >
+  Vercel decides Zig is the future of desktop apps, Vite+ enters beta to unify your toolchain, and Vercel Services wants to tame sprawling microservice architectures. Plus: Safari joins the MCP party and Claude becomes that coworker in Slack.
+description: >
+  Vercel released a project called Native SDK which is a toolkit for building native desktop applications in Zig. This is just weeks after the release of Deno Desktop, also focused on building native desktop apps. For some reason everyone has set Electron in their sights all of a sudden.
+
+
+  The VoidZero team was acquired by Cloudflare not long ago allowing them to focus fully on the unified Vite tooling ecosystem, and now Vite+ is in beta. It unifies the runtime, package manager, and frontend tools (linting, parsing, formatting, bundling, testing) every web project needs, and it's fully open source and ready for your next project now.
+
+
+  And once more, Vercel makes the news with the launch of Vercel Services: a feature that lets devs run multiple frameworks and apps as one shared project and domain. For all the monorepos and microservice driven architectures out there Vercel Services offers a simple vercel.json file to dictate how services talk to one another and handles the rest sans reverse proxies, multiple clouds, and the headaches that can come from spreading out apps across different hosting providers.
+
+
+  Lightning News this week was a good round up too: Safari's released an MCP server to make agent interactions and debugging easier, Anthropic's latest ploy to make Claude even more essential to us involves connecting Claude in Slack (and Claude's a little too chatty so far), and a museum in the Netherlands covered its floor in peanut butter to honor an artist who passed away recently and did the very same thing back in 1969 and declared it "art".
+duration: "47:51"
+chapters:
+  - title: Vercel native
+    start: "00:59"
+  - title: Vite+ beta
+    start: "08:22"
+  - title: Vercel Services
+    start: "10:15"
+  - title: Safari MCP server
+    start: "16:50"
+  - title: Claude Tag
+    start: "19:20"
+  - title: Museum covers its floor in peanut butter
+    start: "27:07"
+  - title: What's making us happy
+    start: "33:41"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Vercel Services
+    url: https://vercel.com/blog/vercel-services-run-full-stack-on-vercel
+  - text: Vercel's native
+    url: https://github.com/vercel-labs/native
+  - text: Vite+ beta
+    url: https://voidzero.dev/posts/announcing-vite-plus-beta
+  - text: Safari MCP server
+    url: https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/
+  - text: Claude Tag
+    url: https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/
+  - text: Museum covers its floor in peanut butter
+    url: https://apnews.com/article/netherlands-rotterdam-art-peanut-butter-0c517f36f97c53c1789061566f9e0669
+  - text: Dutton Ranch TV series
+    url: https://www.imdb.com/title/tt34991493/
+  - text: Bowling
+    url: https://mykingpins.com/
+  - text: The World Cup
+    url: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+audio: https://www.buzzsprout.com/2226499/episodes/19483439-153-vercel-wants-your-entire-stack.mp3
+spotify: https://open.spotify.com/episode/3QIChUjDbpHIPDHNwjfWDv
+apple: https://podcasts.apple.com/us/podcast/153-vercel-wants-your-entire-stack/id1700169000?i=1000776576184
+youtube: https://youtu.be/-I48nRlOQqg?si=6tM5C0bT9i3XAiKb
