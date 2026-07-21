@@ -3,7 +3,7 @@ type: topic
 title: How Not to Drown in AI Code Reviews
 date: 2026-07-21
 teaser: >
-  AI can write code faster than ever - but somebody still has to review it. This week we're unpacking the real cost of AI-assisted development: review fatigue, practical ways to keep quality high, and why many developers are feeling both unstoppable and burned out.
+  AI can write code faster than ever - but somebody still has to review it. This week we unpack the real cost of AI-assisted development: review fatigue, practical ways to keep quality high, and why many devs feel both unstoppable and burned out.
 description: >
   There's probably very few developers working today who don't feel more stressed out than they ever have by the sheer amount of code there is to review thanks to AI agents who can tirelessly churn it out leaving us to have to review and correct it.
 
@@ -47,3 +47,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/19523384-154-how-not-to-drown
 spotify: https://open.spotify.com/episode/4OQQmKaswowqB2R4bZstLG
 apple: https://podcasts.apple.com/us/podcast/154-how-not-to-drown-in-ai-code-reviews/id1700169000?i=1000777697900
 youtube: https://youtu.be/w_JyvsDNWdU?si=Jr032cnepow4AmhG
+clip: https://x.com/front_end_fire/status/2079558853423771669
