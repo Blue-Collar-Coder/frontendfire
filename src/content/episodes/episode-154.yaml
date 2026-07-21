@@ -1,0 +1,49 @@
+number: 154
+type: topic
+title: How Not to Drown in AI Code Reviews
+date: 2026-07-21
+teaser: >
+  AI can write code faster than ever - but somebody still has to review it. This week we're unpacking the real cost of AI-assisted development: review fatigue, practical ways to keep quality high, and why many developers are feeling both unstoppable and burned out.
+description: >
+  There's probably very few developers working today who don't feel more stressed out than they ever have by the sheer amount of code there is to review thanks to AI agents who can tirelessly churn it out leaving us to have to review and correct it.
+
+
+  While the hosts don't have any slam dunk answers to alleviate this overwhelm, they do have some suggestions to make AI generated code a little less sloppy and reviews of it a little less painful.
+
+
+  Pay tools designed to help conduct reviews CodeRabbit has been helpful to the hosts, as does using code reviews skills like the ones contained within the list called Superpowers which is officially endorsed by Anthropic. There's also still no substitute for good old fashioned smoke testing of a PR in local development. While AI agents can comb through logic and find bugs that might slip through there, they still regularly miss things that are visually incorrect: elements that don't show up on the page, errors being thrown in the console, and layouts that just don't feel right when the viewport is resized. The same is true to unit, integration, and end to end tests, and this is another area where agents can really accelerate the pace of creating automated tests and enhancing overall code coverage so regressions happen less often because more of the codebase is tested and verified.
+
+
+  This discussion veers quickly into the fact that even though we're making more ambitious applications and projects than ever before thanks to AI, we're also struggling to get as much satisfaction from our jobs as we once did because AI agents are doing the lion's share of the hard work now. We guide them, review their plans, test their code, and decide when it's ready to ship, but getting into the flow of understanding a problem deeply and solving it by hand over hours or days because you've tried many things that failed and know the codebase inside and out is gone, and the new sense of accomplishment when an agent codes a working feature on the first try feels a little more hollow. It can swing wildly between feeling like a god who can build anything and wondering what's even the point because our agents are doing the hard work for us.
+
+
+  We don't have all the answers when it comes to handling how AI is completely changing the way we develop software, but we can tell you you're not alone if you've been having similar feelings of stress, overwhelm or existential dread. It's a moment of great change that we're navigating and none of us can predict what our jobs or industry will look like in the next few years with the pace of change currently taking place, but we're all in it together and we'll do our best to keep you informed.
+duration: "1:03:14"
+chapters:
+  - title: How Not to Drown in AI Code Reviews
+    start: "00:00"
+  - title: What's making us happy
+    start: "00:00"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: CodeRabbit
+    url: https://www.coderabbit.ai/
+  - text: Claude Code Superpowers
+    url: https://github.com/obra/superpowers
+  - text: Geoffrey Litt's Explain the Diff in HTML
+    url: https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524
+  - text: Amelia Wattenberger's blog on code as a medium for thought
+    url: https://wattenberger.com/thoughts/code-is-a-medium-for-thought/
+  - text: Chef's Choice Electric Knife Sharpener
+    url: https://chefschoice.com/products/chefschoice-trizor-xv-sharpener-edgeselect-model-16
+  - text: Cooper's Hawks
+    url: https://www.allaboutbirds.org/guide/Coopers_Hawk/id
+  - text: Acadia National Park
+    url: https://www.nps.gov/acad/index.htm
+audio: https://www.buzzsprout.com/2226499/episodes/19523384-154-how-not-to-drown-in-ai-code-reviews.mp3
+spotify: https://open.spotify.com/episode/4OQQmKaswowqB2R4bZstLG
+apple: https://podcasts.apple.com/us/podcast/154-how-not-to-drown-in-ai-code-reviews/id1700169000?i=1000777697900
+youtube: https://youtu.be/w_JyvsDNWdU?si=Jr032cnepow4AmhG
