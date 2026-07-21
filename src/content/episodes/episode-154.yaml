@@ -21,20 +21,22 @@ description: >
 duration: "1:03:14"
 chapters:
   - title: How Not to Drown in AI Code Reviews
-    start: "00:00"
+    start: "00:26"
   - title: What's making us happy
-    start: "00:00"
+    start: "49:55"
 hosts:
   - paige
   - jack
   - tj
 links:
+  - text: Anthropic: Recursive Self Improvement
+    url: https://www.anthropic.com/institute/recursive-self-improvement
+  - text: Spotify Engineering: Coding is No Longer the Constraint
+    url: https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint
   - text: CodeRabbit
     url: https://www.coderabbit.ai/
   - text: Claude Code Superpowers
     url: https://github.com/obra/superpowers
-  - text: Geoffrey Litt's Explain the Diff in HTML
-    url: https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524
   - text: Amelia Wattenberger's blog on code as a medium for thought
     url: https://wattenberger.com/thoughts/code-is-a-medium-for-thought/
   - text: Chef's Choice Electric Knife Sharpener
