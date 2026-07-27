@@ -29,9 +29,9 @@ hosts:
   - jack
   - tj
 links:
-  - text: Anthropic: Recursive Self Improvement
+  - text: "Anthropic: Recursive Self Improvement"
     url: https://www.anthropic.com/institute/recursive-self-improvement
-  - text: Spotify Engineering: Coding is No Longer the Constraint
+  - text: "Spotify Engineering: Coding is No Longer the Constraint"
     url: https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint
   - text: CodeRabbit
     url: https://www.coderabbit.ai/
