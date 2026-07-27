@@ -1,0 +1,56 @@
+number: 155
+type: news
+title: OpenAI Breaks Out of its Sandbox
+date: 2026-07-27
+teaser: >
+  Bun went from Zig to Rust in just 11 days with an army of Claude sessions, Kimi K3 proves open-weight models are catching up fast, and OpenAI's sandbox escape reminds everyone why AI security is becoming a much bigger deal. Just another normal week in AI.
+description: >
+  The Chinese AI frontier labs just released Kimi K3, and it is getting dangerously close to the premier frontier models like Fable 5 and GPT 5.6 in the benchmark evaluation tests, and did we mention it is open weight? Yep, that means you can download it and run it on your own hardware and tune it just how you like.
+
+
+  Jared Sumner, the creator of Bun, wrote a detailed blog post about how he used Anthropic's Fable 5, an army of Claude sessions running simultaneously, and in the span of 11 days rewrote the entirety of Bun from Zig to Rust. Good thing he works for Anthropic or who knows what that Claude bill might have looked like.
+
+
+  OpenAI made news this week as well by announcing its AI models escaped a sandboxed testing environment in Hugging Face, accessed the internet and exploited a vulnerability to gain access to Hugging Face's systems. Details are still sparse, but many folks are worried this will only ramp up the cyberattacks that have been climbing in recent years.
+
+
+  In Lightning news this week: even though the number of apps submitted to the App Store have increased thanks to vibe coding, actual overall downloads have declined, and Meta launched a new AI optimism ad that's actually set to a David Bowie song about human extinction according to its original lyrics.
+duration: "57:15"
+chapters:
+  - title: Kimi K3
+    start: "03:05"
+  - title: Rewriting Bun in Rust
+    start: "10:58"
+  - title: OpenAI hacks Hugging Face
+    start: "20:42"
+  - title: App Store number updates
+    start: "39:48"
+  - title: Meta's new app is set to a song about human extinction
+    start: "42:11"
+  - title: What's making us happy
+    start: "46:50"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Rewriting Bun in Rust
+    url: https://bun.com/blog/bun-in-rust
+  - text: Kimi K3
+    url: https://www.kimi.com/blog/kimi-k3
+  - text: OpenAI hacks Hugging Face
+    url: https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html
+  - text: App Store app numbers are way up; downloads are not
+    url: https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html
+  - text: Meta launched a new AI optimism ad set to a song about human extinction
+    url: https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/
+  - text: The Bear season 5
+    url: https://en.wikipedia.org/wiki/The_Bear_season_5
+  - text: The Odyssey movie
+    url: https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)
+  - text: Detroit Tigers baseball
+    url: https://www.mlb.com/tigers
+audio: https://www.buzzsprout.com/2226499/episodes/19553661-155-openai-breaks-out-of-its-sandbox.mp3
+spotify: https://open.spotify.com/episode/0QjMQIK6VJCWlHIDKg36WZ
+apple: https://podcasts.apple.com/us/podcast/155-openai-breaks-out-of-its-sandbox/id1700169000?i=1000778522979
+youtube: https://youtu.be/xfcyVDTqMQI?si=Mxw0BxOoSQYe7SUn
