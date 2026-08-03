@@ -1,0 +1,70 @@
+number: 156
+type: news
+title: The State of CSS Is In
+date: 2026-08-03
+teaser: >
+  The State of CSS confirms Tailwind still rules while AI still can't write decent CSS, CodePen gets its biggest update in years, Octane asks: what if React was compiled from the start?
+description: >
+  This week the State of CSS 2026 survey results are in, and anchor positioning is the favorite new feature devs are still avoiding due to limited browser support. Additionally, most folks aren't using AI to generate their CSS (it's still not good at it), Tailwind is still the most used CSS library (50% of respondents use it), and our podcast made the list for resources! Thanks, listeners!
+
+
+  Longtime favorite, CodePen, just launched CodePen 2.0. It does everything the original CodePen did and more, with one click deploys of Pens, file systems for extra HTML or CSS files, and versioning to name a few. It's been years in the making, but it's good to see the team is still hard at work.
+
+
+  There's a new JavaScript library in town named Octane, and it dubs itself "React's programming model, compiled." There's hooks, Suspense and actions, but no VDOM, no dependency arrays, and all compiled ahead of time for performance. Could this be the next big thing in React? Maybe.
+
+
+  In Lightning News this week: the State of Devs survey for 2026 is open now, LinkedIn has added a "Seems like AI slop" button in an effort to reduce the volume of slop on the platform, the TanStack site's gotten a slick new rebrand and launched a new charting library based off of D3, GitHub's introduced PR stacks to make reviewing all of the AI generated code easier by breaking them up into multiple, layered PRs, and Claude Opus 5 is out and half the cost of fable with almost the same benchmarks.
+duration: "1:01:16"
+chapters:
+  - title: State of CSS 2026 survey
+    start: "03:05"
+  - title: CodePen 2.0
+    start: "20:01"
+  - title: Octane JS framework
+    start: "32:55"
+  - title: State of Devs survey 2026
+    start: "38:37"
+  - title: LinkedIn adds a "Seems like AI slop" button
+    start: "39:30"
+  - title: TanStack rebrand, and a new charting library
+    start: "42:54"
+  - title: GitHub stacked pull requests
+    start: "45:38"
+  - title: Opus 5
+    start: "52:13"
+  - title: What's making us happy
+    start: "54:27"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: State of CSS 2026 survey
+    url: https://2026.stateofcss.com/en-US
+  - text: Octane JS framework
+    url: https://octanejs.dev/
+  - text: CodePen 2.0
+    url: https://blog.codepen.io/2026/07/23/two-point-oh/
+  - text: State of Devs survey 2026
+    url: https://survey.devographics.com/en-US/survey/state-of-devs/2026
+  - text: LinkedIn adds a "Seems like AI slop" button
+    url: https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button
+  - text: GitHub adds stacked pull requests
+    url: https://docs.github.com/en/pull-requests/get-started/about-stacked-prs
+  - text: TanStack rebrand!
+    url: https://tanstack.com/
+  - text: TanStack's new charting library
+    url: https://tanstack.com/charts/latest
+  - text: Anthropic's Claude Opus 5 model
+    url: https://www.anthropic.com/news/claude-opus-5
+  - text: His & Hers miniseries
+    url: https://www.imdb.com/title/tt33035373/
+  - text: The Vampire Lestat miniseries
+    url: https://www.imdb.com/title/tt43717420/
+  - text: Orbit Traveling Tractor Water Sprinkler
+    url: "https://www.amazon.com/dp/B000NJPUHG/ref=sp_asa_clp?th=1"
+audio: https://www.buzzsprout.com/2226499/episodes/19588651-156-the-state-of-css-is-in.mp3
+spotify: https://open.spotify.com/episode/5t5WKGpzukpC36eg2770NJ
+apple: https://podcasts.apple.com/us/podcast/156-the-state-of-css-is-in/id1700169000?i=1000779668968
+youtube: https://youtu.be/ovIWUTHy3QA?si=ELl81O9Mj7ch2a-o
