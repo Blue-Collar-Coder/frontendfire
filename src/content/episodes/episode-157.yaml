@@ -1,0 +1,70 @@
+number: 157
+type: news
+title: Shai-Hulud Is Back From the Dead
+date: 2026-08-10
+teaser: >
+  Next.js 16.3 promises "instant" navigation and faster builds, TanStack keeps shipping like it has something to prove, and Shai-Hulud reminds us npm security remains a cursed timeline. Also: Anthropic joins OpenAI in the "our AI touched the internet" club.
+description: >
+  It's been a minute since the last Next.js release, and the team is back again with Next.js 16.3. Highlights of the latest version include: "Instant Navigations" (tools to make server driven app navigations feel snappier), better AI tooling for agents, less memory hungry dev servers, and faster build times.
+
+
+  The TanStack team continues to deliver on its ever growing set of libraries with OG library TanStack Table reaching v9.0 and TanStack AI well on its way to v1.0 with offerings like tool calling, reasoning, code sandboxes, memory and more.
+
+
+  And on the flip side, a new variant of the Shai-Hulud worm compromised a major package maintainer last week, infecting a bunch of low-level packages around key value storage and caching with over 1B combined monthly downloads. Stay vigilant, folks.
+
+
+  For the Lightning News rounds: the Deno v Oracle JavaScript trademark lawsuit continues to drag on as Oracle asks for yet another extension, Anthropic shared how its Claude models also accessed the internet during cybersecurity exercises so as not to be outdone by OpenAI's story of ChatGPT hacking Hugging Face, Google Earth rolled out AI image features that had to be quickly rolled back when they were used to create new nuclear sites on maps and worse, and Sam Altman continues to try and shove AI into folks' everyday lives where it absolutely does not belong. Some things will never change.
+duration: "57:25"
+chapters:
+  - title: Next.js 16.3
+    start: "01:10"
+  - title: TanStack AI and TanStack Table 9.0
+    start: "09:22"
+  - title: Another npm supply chain attack
+    start: "15:55"
+  - title: An update on the Deno v. Oracle lawsuit
+    start: "27:07"
+  - title: Anthropic announced Claude broke containment too
+    start: "31:44"
+  - title: Google Earth has to roll back an AI feature
+    start: "37:41"
+  - title: An interesting Sam Altman tweet
+    start: "39:34"
+  - title: What's making us happy
+    start: "46:27"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Another day another npm supply chain attack
+    url: https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain
+  - text: TanStack AI
+    url: https://tanstack.com/ai/latest
+  - text: TanStack Table 9.0
+    url: https://tanstack.com/table/latest
+  - text: Next.js 16.3
+    url: https://nextjs.org/blog/next-16-3
+  - text: Not to be outdone by OpenAI, Anthropic announced Claude broke containment too
+    url: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+  - text: An update on the Deno v Oracle lawsuit
+    url: https://x.com/rough__sea/status/2083268304362496126
+  - text: Google Earth has to roll back an AI feature
+    url: https://www.bbc.com/news/articles/c9349yx2ydvo
+  - text: An interesting Sam Altman tweet
+    url: https://x.com/_AlexHirsch/status/2083268104742924484
+  - text: Ride or Die miniseries
+    url: https://www.imdb.com/title/tt30494226/
+  - text: Shin Kamen Rider movie
+    url: https://en.wikipedia.org/wiki/Shin_Kamen_Rider_(film)
+  - text: Vibe Island
+    url: https://vibeisland.app/
+  - text: OpenAI Shop
+    url: https://openai.com/supply/shop/
+  - text: Perplexity Supply
+    url: https://perplexity.supply/
+audio: https://www.buzzsprout.com/2226499/episodes/19623186-157-shai-hulud-is-back-from-the-dead.mp3
+spotify: https://open.spotify.com/episode/6xmnIgBYx6jmpYxViYr22p
+apple: https://podcasts.apple.com/us/podcast/157-shai-hulud-is-back-from-the-dead/id1700169000?i=1000781946809
+youtube: https://youtu.be/wqfQesHGwvI?si=6h7hWHijosVQOeqC
