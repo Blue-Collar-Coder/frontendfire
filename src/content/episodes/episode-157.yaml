@@ -3,7 +3,7 @@ type: news
 title: Shai-Hulud Is Back From the Dead
 date: 2026-08-10
 teaser: >
-  Next.js 16.3 promises "instant" navigation and faster builds, TanStack keeps shipping like it has something to prove, and Shai-Hulud reminds us npm security remains a cursed timeline. Also: Anthropic joins OpenAI in the "our AI touched the internet" club.
+  Next.js 16.3 promises "instant" navigation and faster builds, TanStack keeps shipping like it has something to prove, and Shai-Hulud reminds us npm security remains a cursed timeline.
 description: >
   It's been a minute since the last Next.js release, and the team is back again with Next.js 16.3. Highlights of the latest version include: "Instant Navigations" (tools to make server driven app navigations feel snappier), better AI tooling for agents, less memory hungry dev servers, and faster build times.
 
@@ -68,3 +68,4 @@ audio: https://www.buzzsprout.com/2226499/episodes/19623186-157-shai-hulud-is-ba
 spotify: https://open.spotify.com/episode/6xmnIgBYx6jmpYxViYr22p
 apple: https://podcasts.apple.com/us/podcast/157-shai-hulud-is-back-from-the-dead/id1700169000?i=1000781946809
 youtube: https://youtu.be/wqfQesHGwvI?si=6h7hWHijosVQOeqC
+clip: https://x.com/front_end_fire/status/2086808975538839630
