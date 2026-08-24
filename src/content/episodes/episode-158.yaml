@@ -1,0 +1,64 @@
+number: 158
+type: news
+title: The Browser Wars are Getting Weird
+date: 2026-08-24
+teaser: >
+  Cloudflare built a browser specifically for AI agents, Cursor ditches Solid.js for React, and Jack's firsthand account of RenderATL shows the weird state of web dev conferences in 2026.
+description: >
+  Cloudflare's done it again, this time releasing a new browser called Kitesurf that's purpose built for AI agents. Kitesurf does away with the things agents don't need like sync between devices and buttery smooth framerates in favor of more efficient CPU and memory consumption in Chromium for common agentic tasks like screenshots and HTML extraction. This might just be the future for the growing list of tasks we ask agents to online on our behalf.
+
+
+  AI coding editor Cursor announced its move from Solid.js to React this week for performance and maintainability reasons. Like it or not, today's agents are thoroughly versed in the ways of React (and the many workarounds for avoiding the footguns that come along with it), and the modern version of "Nobody ever got fired for buying IBM" may be "No dev ever got fired for choosing React".
+
+
+  Jack attended the Render ATL conference a couple weeks ago and reports back on the state of developer conferences in 2026. Attendance numbers and sponsorship dollars are down, interest in everything AI is up, and everyone's looking for ways to manage the burnout and emotional swings between feeling like an all powerful god at times and a glorified project manager of agents at others. Maybe the future of conferences is about softer skills like this and less about technical details? Who really knows.
+
+
+  Lightning News is a blast this week. Microsoft quietly retires AI features we've never even heard of before now, pnpm 12 gets rewritten in Rust (as is tradition), Claude attempts to solve an unsolvable math problem with encouraging words and 60 subagents, and another Claude accidentally hacked a gym's class registration system because the API endpoint was insecure (oops).
+duration: "1:02:39"
+chapters:
+  - title: Cloudflare introduces Kitesurf, an agent-first browser
+    start: "01:00"
+  - title: Cursor moves from Solid to React
+    start: "08:08"
+  - title: Render ATL recap
+    start: "17:08"
+  - title: pnpm 12
+    start: "30:44"
+  - title: Microsoft kills off unsuccessful AI features
+    start: "32:39"
+  - title: Claude, the Riemann hypothesis, and Jared Sumner?
+    start: "36:24"
+  - title: A Claude agent hacked into a gym
+    start: "42:37"
+  - title: What's making us happy
+    start: "48:40"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: "Cloudflare introduces Kitesurf: an agent-first browser"
+    url: https://blog.cloudflare.com/kitesurf/
+  - text: Render ATL recap
+    url: https://www.renderatl.com/
+  - text: Cursor moves from Solid to React
+    url: https://x.com/poteto/status/2089227731305464150
+  - text: pnpm 12 is Rust
+    url: https://pnpm.io/blog/whats-different-in-pnpm-12
+  - text: Microsoft kills off unsuccessful AI features
+    url: https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/
+  - text: The weird Mico video
+    url: https://www.youtube.com/watch?v=YDk96R_68aA
+  - text: Claude, the Riemann hypothesis, and Jared Sumner?
+    url: https://www.anthropic.com/research/riemann-zeta
+  - text: A Claude agent hacked into a gym
+    url: https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/
+  - text: ChatGPT Desktop App
+    url: https://learn.chatgpt.com/docs/app
+  - text: The coolest scroll animation I've ever seen
+    url: https://www.nytimes.com/interactive/2026/08/19/us/politics/trump-indycar-race-washington-dc.html
+audio: https://www.buzzsprout.com/2226499/episodes/19690526-158-the-browser-wars-are-getting-weird.mp3
+spotify: https://open.spotify.com/episode/5HfE0K3Vgm56bz4CTTMxo9
+apple: https://podcasts.apple.com/us/podcast/158-the-browser-wars-are-getting-weird/id1700169000?i=1000785502065
+youtube: https://youtu.be/tFRI22-GX1I?si=LfWgIjixCBkAoqr6
