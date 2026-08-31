@@ -1,0 +1,56 @@
+number: 159
+type: news
+title: Is AI Making Us Worse Devs?
+date: 2026-08-31
+teaser: >
+  The latest AI discourse asks whether agents are making us worse developers, Bun 1.4 arrives absolutely stacked, OpenAI is throwing money at WebMCP to make the web more agent-friendly.
+description: >
+  Another opinion article is making the Internet rounds this week about how the very AI tools meant to make us more effective as developers are actually making us less skilled - especially the early career devs who've not had to struggle and bleed to get their code to work. While the points are valid and many are expediting the answers instead of learning more deeply, the better question might be: will the skills that we think matter are important really matter to the next generation of devs or will they hone their own AI-focused skills to continue building working software in the future, just in a different way than it's been done up to now?
+
+
+  OpenAI is betting big on WebMCP, by running a WebMCP Challenge complete with prizes to encourage folks to build tools for their sites on the frontend specifically to help AI agents navigate them better. AEO is the future, and sites supporting WebMCP will probably start to rank better as it becomes more and more the norm.
+
+
+  Bun had its biggest, minor release yet with Bun 1.4. 2,900 issues fixed, 1,500 Node.js tests added, 5x less CPU usage, and a whole slew of new Bun features like cron, web view, markdown rendering and more. Jared and team are definitely on a roll over there.
+
+
+  In Lightning News, TanStack AI has entered release candidate stage and there's still more new features to come before it hits v1.0, and Hugging Face released the cutest little AI powered robot called Microduck that can walk around, learn, and even rollerblade. Gimmicky? Definitely. Did it also get so many pre-orders they won't be available until after Christmas? Also yes.
+duration: "53:51"
+chapters:
+  - title: AI Coding will Prevent Expertise
+    start: "01:03"
+  - title: WebMCP challenge
+    start: "21:40"
+  - title: Bun 1.4
+    start: "29:49"
+  - title: TanStack AI enters RC
+    start: "42:17"
+  - title: Microduck
+    start: "43:14"
+  - title: What's making us happy
+    start: "47:21"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: AI Coding will Prevent Expertise
+    url: https://larsfaye.com/articles/ai-coding-will-prevent-expertise
+  - text: WebMCP challenge
+    url: https://openai.com/webmcp-challenge/
+  - text: Bun 1.4
+    url: https://bun.com/blog/bun-v1.4
+  - text: Microduck
+    url: https://www.youtube.com/watch?v=reiTh7K4KSc
+  - text: TanStack AI enters RC
+    url: https://tanstack.com/blog/tanstack-ai-rc
+  - text: The Paradise Problem book
+    url: https://www.goodreads.com/en/book/show/199797582-the-paradise-problem
+  - text: Altoids guitar pick insert website
+    url: https://webmcp-pick-insert.netlify.app/
+  - text: Still Counting Podcast
+    url: https://variety.com/2026/digital/news/crooked-media-acquires-nate-silver-fivethirtyeight-politics-podcast-still-counting-1236840487/
+audio: https://www.buzzsprout.com/2226499/episodes/19726505-159-is-ai-making-us-worse-devs.mp3
+spotify: https://open.spotify.com/episode/4nBL8awdjJRMYtyVqxhX50
+apple: https://podcasts.apple.com/us/podcast/159-is-ai-making-us-worse-devs/id1700169000?i=1000786955688
+youtube: https://youtu.be/7YQlEJXJuGs?si=ihMnc6Ijt4Md0DX7
