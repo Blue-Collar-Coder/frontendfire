@@ -1,0 +1,49 @@
+number: 161
+type: news
+title: Tailwind Has a New Home
+date: 2026-09-14
+teaser: >
+  The guys behind the Shai-Hulud npm attacks have been arrested, Shopify acquires Tailwind CSS, and somehow the WordPress/Mullenweg saga is back for another season.
+description: >
+  Back in August, the Australian Federal Police and FBI arrested two men in Australia who were the masterminds behind TeamPCP, which has been carrying out Shai-Hulud supply chain attacks against npm since last year. While this won’t end the cyberattacks, perhaps it will give pause to future hackers now they know government bodies as big as these will come looking for them.
+
+
+  The OSS acquihires continue with Tailwind announcing it’s been bought by e-commerce giant Shopify. This is good news for everyone because Tailwind no longer has to worry about sustaining itself and its team financially, and everyone using Tailwind (including Shopify) gets to keep using it as it will remain MIT licensed forevermore.’
+
+
+  Lightning News is a real banger this week: the WordPress / WP Engine drama we covered way back in ‘24 - ‘25 on WordPress’s founder Matt Mullenweg resurfaces as Matt was ousted as CEO by his board at his company Automattic, an AI researcher from Anthropic loudly quit while publicly announcing AI could kill us all in the next 10 years, and OpenAI says it solved a millennium math problem with 10,000 AI agents and 88 hours of sustained effort.
+duration: "44:07"
+chapters:
+  - title: Shopify buys Tailwind
+    start: "01:07"
+  - title: Two men arrested for Shai-Hulud attacks
+    start: "07:24"
+  - title: Autommatic CEO Matt Mullenweg placed on leave of absence
+    start: "15:35"
+  - title: AI researchers think AI will kill us all
+    start: "23:37"
+  - title: OpenAI cracks a math millennium problem
+    start: "32:04"
+  - title: What's making us happy
+    start: "39:44"
+hosts:
+  - paige
+  - tj
+links:
+  - text: Shopify buys Tailwind
+    url: https://x.com/adamwathan/status/2097683633645482130
+  - text: Two men arrested for the TeamPCP Shai-Hulud supply chain attacks on npm
+    url: https://www.aikido.dev/blog/teampcp-arrested-supply-chain
+  - text: Autommatic CEO Matt Mullenweg placed on leave of absence
+    url: https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkZxNnJPazFXYWciLCJwIjoiL3RlY2gvOTkzMDIyL3dvcmRwcmVzcy1hdXRvbWF0dGljLWNlby1tYXR0LW11bGxlbndlZy1sZWF2ZS1vZi1hYnNlbmNlIiwiZXhwIjoxNzg5NDc2NDc5LCJpYXQiOjE3ODkwNDQ0Nzl9.Azw1MsjezJR_G_9AMsIjFzhcZqpyLnVoyBNf4_6i3D0&utm_medium=gift-link
+  - text: AI researchers think AI will kill us all
+    url: https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/
+  - text: OpenAI cracks a math millennium problem
+    url: https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html?unlocked_article_code=1._1A.ZGgr.ha0EUM3xzFPx&smid=url-share
+  - text: Reacher TV series
+    url: https://www.imdb.com/title/tt9288030/
+  - text: Wake Up Dead Man movie
+    url: https://www.imdb.com/title/tt14364480/
+audio: https://www.buzzsprout.com/2226499/episodes/19798950-161-tailwind-has-a-new-home.mp3
+spotify: https://open.spotify.com/episode/3K3BHs5sdyswNwWdb2E5Je
+apple: https://podcasts.apple.com/us/podcast/161-tailwind-has-a-new-home/id1700169000?i=1000789537359
