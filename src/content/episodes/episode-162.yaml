@@ -1,0 +1,56 @@
+number: 162
+type: news
+title: Shopify Breaks Up with React Native
+date: 2026-09-21
+teaser: >
+  AI model Jev is betting that not every software decision needs an LLM, React 19.3 quietly levels up, and Shopify is breaking up with React Native for Swift and Kotlin. Plus, Claude hacked OpenAI, and OpenAI's bug bounty math is looking a little questionable.
+description: >
+  We have a surprisingly React-filled episode this week as the React core team unveiled React 19.3 with some newly stabilized APIs: view transitions and fragment refs and even support for Context in server components. React’s been around long enough now that new minor updates while remaining stable for its massive user base is about the right balance it needs to maintain.
+
+
+  A startup named TypeSafe AI has released Jev: a “System One [AI] Model”, which is a new class of models built to make fast, structured decisions that software can use directly. Jev is fast and cheap, and a classifier for decision engines and excels at taking in unstructured data and returning structured, deterministic actions (like doing an immediate tool call or passing a question to an LLM). We’ll keep you posted if this starts to catch on.
+
+
+  In other React news, Shopify announced it’s moving away from React Native and back to Swift and Kotlin six years after it jumped on the RN bandwagon. Thanks to AI coding agents, building the same app twice in actual mobile native languages doesn’t require the investment in manpower that it used to, and in Shopify’s case, the benefits outweighed the costs.
+
+
+  Finally, in Lightning News, last episode we reported Automattic CEO Matt Mullenweg had been placed on leave by his board of directors for his public throwdown with competitor WP Engine, and hours after we recorded, a story broke that he was back in control. No further public comments since, but we’d love to know what’s going on internally. Also, white hat cyber security hackers were able to use Claude to hack OpenAI by exploiting a vulnerability in its ChatGPT Discourse and gaining access to employee credentials with access to the OpenAI GitHub codebases. The reward from OpenAI for finding such a major vulnerability? $6,500 US. Seems like it might be worth a bit more than that…
+duration: "55:31"
+chapters:
+  - title: React 19.3
+    start: "01:11"
+  - title: Shopify moves from React Native back to Swift and Kotlin
+    start: "07:22"
+  - title: Jev AI model
+    start: "21:12"
+  - title: Matt Mullenweg is back at Automattic
+    start: "30:07"
+  - title: Claude ethically hacked OpenAI
+    start: "33:45"
+  - title: What's making us happy
+    start: "41:32"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: React 19.3
+    url: https://react.dev/blog/2026/09/09/react-19-3
+  - text: Jev AI model
+    url: https://typesafe.ai/blog/introducing-system-one-models-and-jev
+  - text: Shopify moves from React Native back to Swift and Kotlin
+    url: https://shopify.engineering/back-to-native
+  - text: Matt Mullenweg was ousted from Automattic, but days later he was back
+    url: https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/
+  - text: Claude ethically hacked OpenAI
+    url: https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot
+  - text: Great British Bake Off starts next week
+    url: https://people.com/great-british-baking-show-return-date-exclusive-12122662
+  - text: Sumo is back in September Basho!
+    url: https://www.youtube.com/playlist?list=PLFEzXnIQVwV9JgQkOMJZM23G8g-wBBWKf
+  - text: Yesteryear novel
+    url: https://en.wikipedia.org/wiki/Yesteryear_(novel)
+audio: https://www.buzzsprout.com/2226499/episodes/19835504-162-shopify-breaks-up-with-react-native.mp3
+spotify: https://open.spotify.com/episode/2n7hRwU4x3pkOd6pjb4im1
+apple: https://podcasts.apple.com/us/podcast/162-shopify-breaks-up-with-react-native/id1700169000?i=1000790915786
+youtube: https://youtu.be/shkrlxK70FI?si=tp6muXYpzNsbORVq
