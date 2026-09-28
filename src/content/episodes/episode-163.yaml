@@ -1,0 +1,56 @@
+number: 163
+type: news
+title: Do Frameworks Still Matter Anymore?
+date: 2026-09-28
+teaser: >
+  Ruby on Rails creator DHH says he wouldn’t recommend it in 2026 🤯, Safari 27 brings the goods in WebKit, and the new burning question of the agentic AI era is: do frameworks even matter anymore?
+description: >
+  DHH made news this week when he announced in his keynote at Rails World that he (and his company BaseCamp) is no longer writing code by hand, he wouldn’t necessarily recommend Ruby on Rails for a new application, and he’s going all in on writing native apps just like Shopify. AI is truly reshaping how we view and create software in ways no one could have seen coming.
+
+
+  That segues perfectly to the next topic of the week: the great debate over if frameworks still matter in an era of agentic coding. The growing consensus is: they do, if only to keep agents from inventing their own framework-esque shims to fill in for the pieces of the web still unsupported without extra help and to keep codebases more maintainable and understandable.
+
+
+  Finally, after Apple’s yearly dev conference comes its yearly software update and Safari 27’s WebKit has some big features. Some highlights include: the Safari MCP for agents, customizable HTML select, the HTML model (previously only available for 3D model rendering in visionOS for the Apple Vision Pro), a lot of CSS improvements, and 844 browser fixes for the year. Quite the laundry list!
+
+
+  In Lightning News this week, GitHub Copilot’s runtime has migrated to Rust (as is tradition), and OpenAI’s agents hacked the Australian government’s Medicare health insurance portal in June, to which OpenAI replied the models displayed “misaligned” activity. That’s one way to put it.
+duration: "50:56"
+chapters:
+  - title: DHH's Rails World Keynote
+    start: "02:36"
+  - title: Do frameworks matter anymore?
+    start: "12:28"
+  - title: Safari 27 WebKit updates
+    start: "19:50"
+  - title: GitHub Copilot's runtime migrated to Rust
+    start: "37:32"
+  - title: OpenAI agents hacked an Australian government website
+    start: "39:23"
+  - title: What's making us happy
+    start: "44:30"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Safari 27 WebKit updates
+    url: https://frontendfoc.us/link/190725/148697cad8
+  - text: Do frameworks matter anymore article
+    url: https://brookslybrand.com/posts/do-frameworks-matter-anymore
+  - text: DHH's Rails World Keynote
+    url: https://www.youtube.com/watch?v=vDjW_dRyKXY
+  - text: GitHub Copilot's runtime migrated to Rust
+    url: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/
+  - text: OpenAI agents hacked an Australian government website
+    url: https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data
+  - text: "Star Trek: Strange New Worlds TV series"
+    url: https://www.imdb.com/title/tt12327578/
+  - text: Learning Blackbird on guitar
+    url: https://www.youtube.com/watch?v=5TnySn2KqD4
+  - text: Ted Lasso TV series
+    url: https://www.imdb.com/title/tt10986410/
+audio: https://www.buzzsprout.com/2226499/episodes/19871285-163-do-frameworks-still-matter-anymore.mp3
+spotify: https://open.spotify.com/episode/4I4H2T1maWZs9WA1NoBdTG
+apple: https://podcasts.apple.com/us/podcast/163-do-frameworks-still-matter-anymore/id1700169000?i=1000792002975
+youtube: https://youtu.be/MexN-gU3C9c?si=LoK6S4uU_EvlHLRR
