@@ -1,0 +1,54 @@
+number: 164
+type: news
+title: "Developers Are Tired of This Sh*t"
+date: 2026-10-05
+teaser: >
+  The State of Devs survey confirms it: we’re tired. 😩 Meanwhile, EmDash, Vinext & Vite+ hit 1.0, OpenAI dropped 30+ things at Dev Day, and AI agents still have a prompt-injection problem.
+description: >
+  For the second year in a row, the folks bringing us the State of surveys have released the results for the more general State of Devs survey, and the results, while not great, should at least make us feel less alone. Developers everywhere are feeling pretty exhausted, concerned for their job prospects within the next 5 years due to AI, and also say their overall health, friends and family, and hobbies are what make them happy day-to-day. While we don’t know what’s coming next, it’s nice to know we’re not alone in feeling that way.
+
+
+  In other news this week, it was 1.0 release week when EmDash 1.0, Vinext 1.0, and Vite+ 1.0 all dropped at the same time, OpenAI hosted its Dev Day and dropped 30+ new AI products to make AI an even bigger part of everyone’s day, and new studies showed almost all AI agents were vulnerable to a specific type of prompt injection until just recently, so update your agents folks!
+duration: "53:22"
+chapters:
+  - title: State of Devs 2026 survey
+    start: "01:12"
+  - title: EmDash 1.0
+    start: "28:26"
+  - title: Vinext 1.0
+    start: "30:37"
+  - title: Vite+ 1.0
+    start: "32:46"
+  - title: OpenAI Dev Day
+    start: "35:03"
+  - title: Agent safety
+    start: "40:55"
+  - title: "<model> element"
+    start: "42:38"
+  - title: What's making us happy
+    start: "46:15"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: State of Devs 2026 survey results are in
+    url: https://2026.stateofdevs.com/en-US/
+  - text: Vite+ 1.0
+    url: https://voidzero.dev/posts/announcing-vite-plus-1-0
+  - text: EmDash 1.0
+    url: https://emdashcms.com/blog/emdash-1-0
+  - text: Vinext 1.0
+    url: https://blog.cloudflare.com/vinext-nextjs-on-vite/
+  - text: OpenAI Dev Day
+    url: https://devday.openai.com/
+  - text: Agent safety
+    url: https://cybersecuritynews.com/plugin4shell-zero-click-rce/
+  - text: Shogun (Asian Saga #1) novel
+    url: https://www.goodreads.com/en/book/show/52382796-sh-gun
+  - text: Mike Tomlin’s Minecraft city
+    url: https://www.espn.com/nfl/story/_/id/50073098/former-steelers-coach-mike-tomlin-minecraft-city-12-year-reveal
+audio: https://www.buzzsprout.com/2226499/episodes/19909023-164-developers-are-tired-of-this-sh-t.mp3
+spotify: https://open.spotify.com/episode/0Fwv3XGWqQ0JSTyE2SW73N
+apple: https://podcasts.apple.com/us/podcast/164-developers-are-tired-of-this-sh-t/id1700169000?i=1000793224791
+youtube: https://youtu.be/8zErxLwWaSM?si=69x0D4jcKPyomDNu
