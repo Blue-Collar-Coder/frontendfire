@@ -1,0 +1,62 @@
+number: 165
+type: news
+title: "Open Source Was Fun While It Lasted"
+date: 2026-10-12
+teaser: >
+  AI-generated PRs are driving OSS maintainers to close the gates 🚪, Claude clones Adobe, and Pi 1.0 drops. Just another week in tech!
+description: >
+  Individual OSS maintainers are closing public PR contributions and corporate bug bounty programs shuttering thanks to AI inundating them with requests. And can we really blame them? As we’ve said before: the bottleneck has become people reviewing the code the agents write and the easiest way to reduce the amount of code to review is to stop accepting it in the first place.
+
+
+  Pi, best known as the minimalist coding agent harness behind OpenClaw released 1.0 this week with new, hardened features like Codemode (native support for MCP and non-LLM models like Jev), and extension support for virtual models. The team also introduced Pi Durable, a new framework for building long-running agentic apps in the cloud that can withstand crashes and use SQLite to handle durable storage and memory.
+
+
+  A particularly ambitious dev decided to reverse engineer Adobe Creative Suite with the help of Claude, and then published the whole software suite as open source. Although it’s glitchy and legally dubious, it’s also something that would have been unthinkable even a few years ago and does raise questions about the future of subscription SaaS products and the lengths they’ll have to go to protect their market share if AI agents can make something similar for a fraction of the price.
+
+
+  Lightning News this week brings an announcement we predicted a few months ago: Deno’s officially joined Cloudflare as their newest acquihire for their work on durable objects and self-hosted workers, the website example.com got a big facelift, and an infographic about US states’ favorite ice cream flavors was controversial amongst the hosts.
+duration: "55:56"
+chapters:
+  - title: OSS maintainers and companies are shutting off PRs and bug bounty programs
+    start: "01:45"
+  - title: Pi 1.0
+    start: "09:07"
+  - title: Someone vibe coded a free knockoff of Adobe Creative Suite
+    start: "16:06"
+  - title: Deno is joining Cloudflare
+    start: "36:31"
+  - title: example.com changes
+    start: "39:53"
+  - title: Controversial state-by-state ice cream infographic
+    start: "41:38"
+  - title: What's making us happy
+    start: "46:32"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Pi 1.0
+    url: https://earendil.com/posts/pi-1-0
+  - text: Pi Durable
+    url: https://earendil.com/posts/pi-durable/
+  - text: Someone vibe coded a free knockoff of Adobe Creative Suite
+    url: https://gizmodo.com/someone-vibe-coded-a-free-knockoff-of-adobe-creative-suite-2000823322
+  - text: OSS maintainers are shutting off external PRs
+    url: https://x.com/sindresorhus/status/2105693826690298314
+  - text: Companies are shutting off bug bounty programs
+    url: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
+  - text: Deno is joining Cloudflare
+    url: https://blog.cloudflare.com/deno-joins-cloudflare/
+  - text: example.com changes
+    url: https://www.debugbear.com/blog/example-dot-com-redesign-history
+  - text: Controversial state by state ice cream infographic
+    url: https://www.visualcapitalist.com/mapped-every-states-signature-ice-cream-flavor/
+  - text: Black Sails show
+    url: https://www.imdb.com/title/tt2375692/
+  - text: OSX shortcut to reorder the menu bar icons
+    url: https://www.reddit.com/r/MacOS/comments/x20h1g/til_that_you_can_rearrange_and_remove_menu_bar/
+audio: https://www.buzzsprout.com/2226499/episodes/19945787-165-open-source-was-fun-while-it-lasted.mp3
+spotify: https://open.spotify.com/episode/4cUl3YlG2Zn0IRjDtx2W22
+apple: https://podcasts.apple.com/us/podcast/165-open-source-was-fun-while-it-lasted/id1700169000?i=1000795928829
+youtube: https://youtu.be/LT9uQoL3mVM?si=ZVcq73xfJ3XusS4q
