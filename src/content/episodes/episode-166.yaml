@@ -1,0 +1,56 @@
+number: 166
+type: news
+title: "The AI Clone Wars Continue"
+date: 2026-10-19
+teaser: >
+  AI-powered software cloning is showing absolutely no chill 💀, TanStack Start goes stable in 1.0, OpenCode 2.0 levels up, and Meta joins the agent wars. Lawsuits incoming?
+description: >
+  TanStack Start has reached stability with its new 1.0 release and Jack gives us a crash course in how easy it is to spin up a brand new application with all the bells and whistles and customizations from the start. Mix and match rendering, typed server functions, full-stack middleware, build tool agnostic, deployment site agnostic, AI agent forward, and more. Keep doing the good work TanStack team, long may you reign.
+
+
+  Last week, we covered how a single developer vibe-cloned(?) Adobe Creative Suite and made it open source, and this week he’s vibe-cloned the Microsoft Office suite tools PowerPoint, Excel, and Word and open sourced those as well. Are the lawsuits and cease and desist letters impending? What big software tool will be vibe-cloned next? We’ll keep you posted!
+
+
+  The makers of open source, model agnostic AI coding agent OpenCode just released OpenCode 2.0, and it’s gotten a total makeover. A single background process is now used by browser, TUI, or desktop sessions, the API and plugin systems are completely redesigned, there’s SDKs, codemode and the ability to send foreground tasks to the background on demand now.
+
+
+  In this week’s Lightning News, we check out Meta’s new entree into the AI agent fray with its Muse models and share what sorts of administrative tasks and organization people are using them for, and tease how Anthropic’s redesigned source control. Stay tuned for more on that next week.
+duration: "1:05:38"
+chapters:
+  - title: TanStack Start 1.0
+    start: "01:00"
+  - title: The Office suite has been vibe cloned now too
+    start: "18:37"
+  - title: OpenCode 2.0
+    start: "31:11"
+  - title: Meta’s new “Wonder” models
+    start: "41:00"
+  - title: What's making us happy
+    start: "50:48"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: OpenCode 2.0
+    url: https://anoma.ly/notes/opencode-2-0
+  - text: TanStack Start 1.0 is stable
+    url: https://tanstack.com/blog/tanstack-start-1-0
+  - text: The Office suite has been vibe cloned now too
+    url: https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next
+  - text: Legal writeup on vibe coding AI software clones
+    url: https://frblaw.com/vibe-coding-intellectual-property-ai-software-clones/
+  - text: Meta’s new “Wonder” models
+    url: https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model
+  - text: Anthropic redesigns source control
+    url: https://www.anthropic.com/engineering/redesigning-source-control
+  - text: Whirlyball
+    url: https://en.wikipedia.org/wiki/Whirlyball
+  - text: University of Miami football
+    url: https://en.wikipedia.org/wiki/Miami_Hurricanes_football
+  - text: Video podcasts
+    url: https://www.youtube.com/podcasts
+audio: https://www.buzzsprout.com/2226499/episodes/19981768-166-the-ai-clone-wars-continue.mp3
+spotify: https://open.spotify.com/episode/2cOdTyauJcIljUJBIFt580
+apple: https://podcasts.apple.com/us/podcast/166-the-ai-clone-wars-continue/id1700169000?i=1000797053329
+youtube: https://youtu.be/_EJ5NnvUjzg?si=BsTuG28d61sOt8Ft
