@@ -1,0 +1,65 @@
+number: 167
+type: news
+title: "AI is Making Code Reviews Worse"
+date: 2026-10-26
+teaser: >
+  More AI-generated code, more review misery, zero easy answers. 🫠 Meanwhile, everything’s getting hacked, TypeScript’s getting forked into oblivion, and Anthropic reinvented source control.
+description: >
+  Another think piece on how code reviews suck made the rounds on the Internet this week, and while it’s true that AI has made way more code for humans to review and made it a way more isolating experience in general, no one really seems to have figured out how to make it better. Some of the potential solutions in the article sound good in theory, but are probably quite difficult to introduce in practice. If you have solutions you’ve found to beat the code burn out, we want to hear them!
+
+
+  Besides AI agents stealing our coding joy, the week also brought new hacks to PHP, Next.js, OpenCode, and a discovery of super weak encryption of TLS certificates, which could have resulted in mass-scale man-in-the-middle attacks.
+
+
+  In slightly lighter news, Anthropic revealed Claude Duet, its answer to Dots and Muse, and four different forks of the TypeScript compiler (mostly in Rust, of course) have sprung up because the Go implementation’s just not fast enough and AI agents can do the heavy lifting for us now.
+
+
+  And finally bringing the episode full circle, we discuss the new source control Anthropic had to build for itself called Scion to handle the 30,000 code changes it merges daily to its monorepo. While Anthropic’s speed to merge code is definitely an outlier, it does seem like another data point in favor of figuring out a new solution, because not all of us have the capacity to redesign our own source control from scratch.
+duration: "52:28"
+chapters:
+  - title: How can we make code review better?
+    start: "01:31"
+  - title: A roundup of this week’s hacks
+    start: "19:45"
+  - title: Claude Duet
+    start: "30:04"
+  - title: Everyone is forking TypeScript
+    start: "34:31"
+  - title: Anthropic’s new source control tool
+    start: "41:05"
+  - title: What’s making us happy
+    start: "47:00"
+hosts:
+  - paige
+  - tj
+links:
+  - text: Code reviews suck, but how do we actually make them better?
+    url: https://just-be.dev/blog/code-review-sucks-now/
+  - text: OpenCode hacked
+    url: https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/?_bhlid=e0e654bbd164039a3f32a994adcc34920cebef19
+  - text: PHP hacked
+    url: https://www.php.net/archive/2026.php#2026-10-21-5
+  - text: New CVEs in Next.js and React
+    url: https://www.netlify.com/changelog/2026-10-14-nextjs-react-security-vulnerabilities/
+  - text: eMudhra certificate hacks
+    url: https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/
+  - text: ts-rust
+    url: https://github.com/pingdotgg/ts-rust
+  - text: bun check
+    url: https://bun.sh/blog/bun-v1.4.3
+  - text: tsc-ts
+    url: https://tsc-ts.dev/
+  - text: tsrs
+    url: https://blog.cloudflare.com/typescript-rust-port
+  - text: TS 7.1 beta
+    url: https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/
+  - text: "Claude Duet: Anthropic’s Muse or Dots"
+    url: https://claude.com/product/claude-duet
+  - text: Anthropic’s new source control
+    url: https://www.anthropic.com/engineering/redesigning-source-control
+  - text: Ted Lasso season 4
+    url: https://www.imdb.com/title/tt10986410/episodes/?season=4
+audio: https://www.buzzsprout.com/2226499/episodes/20018119-167-ai-is-making-code-reviews-worse.mp3
+spotify: https://open.spotify.com/episode/7rauGPdwSA9Xhse27m1YdX
+apple: https://podcasts.apple.com/us/podcast/167-ai-is-making-code-reviews-worse/id1700169000?i=1000798156712
+youtube: https://youtu.be/CpT5SY1nyY4?si=P3uYS4Vp_3RlvQDD
