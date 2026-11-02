@@ -1,0 +1,56 @@
+number: 168
+type: news
+title: "Are Dev Conferences Dying?"
+date: 2026-11-02
+teaser: >
+  What even is a dev conference in the age of AI? We report back from React Advanced, unpack GitHub’s Copilot-everything strategy, and see how Claude Code reviews 30K PRs a day.
+description: >
+  Jack is back fresh from the React Advanced conference in London and just like the broader web development industry is in flux, so too are the conferences around them. Conference attendance has decreased since COVID and the rise of AI is causing organizers and speakers alike to rethink what makes for a good focus and talk. Technical deep dives, higher level strategy sessions, broader focuses than specific frameworks or languages? It’s all up for grabs right now, but we hope they don’t go away completely.
+
+
+  Speaking of conferences, GitHub Universe just hosted its yearly event, and if you couldn’t guess, the focus continues to be on AI. It feels like GitHub just took everything other AI companies are doing and rebranded its own versions: the GitHub Copilot desktop app, Copilot projects, Copilot automations, Copilot code review, among others. Nothing groundbreaking here, but since GH is the keeper of almost all the world’s code, it still could be a contender in this race for that reason alone.
+
+
+  Also, the Claude Code team released an article about how they do code review (and merge up to 30k PRs per day), and it involves lots of automated CI jobs, feature flagging most features to test internally, and deciding that some code changes are so low risk that humans don’t have to review them. There’s good advice in here for other teams looking to speed up the bottleneck code review has become.
+
+
+  In Lightning News this week, the CSS-Tricks website has a new, independent owner, and we are excited to see where it goes under new stewardship, and the Arc browser, a truly groundbreaking browser with a small loyal following announced it will officially shut down at the end of December so the company can focus on its success AI browser Dia. RIP, Arc.
+duration: "1:02:25"
+chapters:
+  - title: React Advanced conference update
+    start: "01:58"
+  - title: How the Claude Code team does code review
+    start: "12:40"
+  - title: GitHub Universe highlights
+    start: "21:34"
+  - title: CSS Tricks has a new owner
+    start: "38:58"
+  - title: RIP Arc
+    start: "41:34"
+  - title: What’s making us happy
+    start: "50:11"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: GitHub Universe 2026 highlights
+    url: https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/
+  - text: React Advanced conference update
+    url: https://reactadvanced.com/
+  - text: How the Claude Code team does code review
+    url: https://x.com/addyosmani/status/2114604912520921136
+  - text: RIP Arc
+    url: https://arc.net/
+  - text: CSS Tricks has a new owner
+    url: https://css-tricks.com/css-tricks-has-a-new-owner/
+  - text: The Diplomat TV series
+    url: https://www.imdb.com/title/tt17491088/
+  - text: Dungeon Crawler Carl book series
+    url: https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl
+  - text: The 7½ Deaths of Evelyn Hardcastle
+    url: https://www.goodreads.com/book/show/36337550-the-7-deaths-of-evelyn-hardcastle
+audio: https://www.buzzsprout.com/2226499/episodes/20057048-168-are-dev-conferences-dying.mp3?download=true
+spotify: https://open.spotify.com/episode/4VpDVAHl21F5ngVI43cR7i
+apple: https://podcasts.apple.com/us/podcast/168-are-dev-conferences-dying/id1700169000?i=1000799390508
+youtube: https://youtu.be/R3Qo93FCwbg?si=ve0MpWvhgApNRh4-
