@@ -1,0 +1,47 @@
+number: 169
+type: news
+title: "How the Heck Do We Hire Developers in 2026?"
+date: 2026-11-09
+teaser: >
+  Coding interviews are dead. So what actually makes a good developer in 2026? Meanwhile, Railway's AI agent goes rogue, the NYT sues Brave over its paywall, and Squarespace slashes jobs. 🔥
+description: >
+  We’ve talked before about the decline in companies hiring junior devs in recent years and how coding interviews weren’t great indicators of success on the job before AI hit the scene, but how the heck do we hire new devs today? An article proposing testing devs on their ability to think like product engineers and use AI customers and graders to evaluate the outcomes might be a good option to consider (it certainly sounds like a worthwhile startup to build and sell services to), but one thing is for certain at this point, if you’re not getting good at using AI as part of your toolset, you’re going to be harder and harder pressed to answer the question of “Why not?” Like it or not, today, it is the way.
+
+
+  Just weeks after getting hacked itself, development platform Railway was caught hacking a competitor with an AI agent that was doing competitive analysis. Malicious or not, this sort of hacking raises the question of who’s at fault and how serious the consequences are, because it’s only a matter of time before this happens again.
+
+
+  Another interesting headline is that the New York Times is suing the Brave browser for removing the paywall requiring people to sign in to read articles, and website builder Squarespace has laid off 20% of its workforce. In the world of AI enablement where anyone can build and deploy a website without that much technical know-how, it makes sense that these sorts of businesses would be struggling to stay relevant and competitive.
+duration: "1:00:09"
+chapters:
+  - title: How to hire junior engineers in an age of AI
+    start: "01:18"
+  - title: Railway admits an employee hacked a competitor
+    start: "25:02"
+  - title: The NY Times sues Brave
+    start: "37:09"
+  - title: 20-somethings and old phone OSes
+    start: "42:30"
+  - title: Squarespace is laying off 19% of its employees
+    start: "47:55"
+  - title: What’s making us happy
+    start: "51:01"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: How to hire junior engineers in an age of AI
+    url: https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/
+  - text: Railway got hacked then hacked a competitor with its AI
+    url: https://www.thestack.technology/railway-admits-employee-hacked-competitor-after-ai-model-jumped-the-rails/
+  - text: NY Times sues Brave
+    url: https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/
+  - text: Squarespace is laying off 19% of employees
+    url: https://www.theverge.com/tech/1024447/squarespace-layoffs-19-percent
+  - text: Blu-Tack Reusable Adhesive
+    url: https://www.amazon.com/Blu-Tack-S050Q-Reusable-Adhesive-75g/dp/B001FGLX72/ref=sr_1_1?
+audio: https://www.buzzsprout.com/2226499/episodes/20093897-169-how-the-heck-do-we-hire-developers-in-2026.mp3
+spotify: https://open.spotify.com/episode/48RNbXwUWdPR6lxZmle1D2
+apple: https://podcasts.apple.com/us/podcast/169-how-the-heck-do-we-hire-developers-in-2026/id1700169000?i=1000800749650
+youtube: https://youtu.be/D1eSohFzEt4?si=xMbTrAxPH3Spstoh
