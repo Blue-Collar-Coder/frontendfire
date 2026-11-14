@@ -53,7 +53,10 @@ const latestEpisode = (episodes ?? []).shift();
 
     <h2 class="section-heading">More Episodes</h2>
     <div class="past-episodes">
-      {episodes.map((entry) => <EpisodeCard episode={entry} />)}
+      {episodes.slice(0, 10).map((entry) => <EpisodeCard episode={entry} />)}
+    </div>
+    <div class="archive-action">
+      <a href="/all" class="view-all">View all</a>
     </div>
   </main>
 
@@ -135,5 +138,27 @@ const latestEpisode = (episodes ?? []).shift();
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 25em), 1fr));
     grid-gap: 2rem;
     margin: 2rem 0;
+  }
+
+  .archive-action {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .view-all {
+    display: inline-block;
+    padding: 0.65em 1.5em;
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 6px;
+    background: white;
+    color: var(--primary-color-dark);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .view-all:hover,
+  .view-all:focus-visible {
+    background: var(--primary-color-dark);
+    color: white;
   }
 </style>

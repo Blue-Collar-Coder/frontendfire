@@ -1,0 +1,100 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+
+const episodes = await getCollection("episodes");
+episodes.sort((a, b) => b.data.number - a.data.number);
+---
+
+<Layout
+  title="All Episodes | Front-End Fire"
+  description="Browse every episode of the Front-End Fire podcast, newest first."
+>
+  <main>
+    <h1>All Episodes</h1>
+    <p class="archive-intro">Every episode, newest first.</p>
+    <ul class="episode-list">
+      {
+        episodes.map(({ data: episode }) => (
+          <li>
+            <a href={`/episodes/${episode.number}`} class="episode-row">
+              <span class="episode-number">#{episode.number}</span>
+              <span class="episode-title">{episode.title}</span>
+              <time datetime={episode.date.toISOString()}>
+                {episode.date.toLocaleDateString("en-US", {
+                  month: "short",
+                  day: "numeric",
+                  year: "numeric",
+                  timeZone: "UTC"
+                })}
+              </time>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  h1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .archive-intro {
+    margin: 0 0 2rem;
+  }
+
+  .episode-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #d8d5d1;
+  }
+
+  .episode-row {
+    display: grid;
+    grid-template-columns: 4rem minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.85rem 0.75rem;
+    border-bottom: 1px solid #d8d5d1;
+    background: white;
+    color: var(--base-color);
+    text-decoration: none;
+  }
+
+  .episode-row:hover,
+  .episode-row:focus-visible {
+    background: #fff3e8;
+  }
+
+  .episode-row:hover .episode-title,
+  .episode-row:focus-visible .episode-title {
+    text-decoration: underline;
+  }
+
+  .episode-number,
+  .episode-title {
+    color: var(--primary-color-dark);
+    font-weight: 500;
+  }
+
+  time {
+    font-size: 0.85em;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 600px) {
+    .episode-row {
+      grid-template-columns: 3rem minmax(0, 1fr);
+      gap: 0.25rem 0.75rem;
+    }
+
+    time {
+      grid-column: 2;
+    }
+  }
+</style>
