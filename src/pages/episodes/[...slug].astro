@@ -32,16 +32,19 @@ const videoId = youtubeUrl?.hostname === "youtu.be"
 const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
   ? `https://www.youtube-nocookie.com/embed/${videoId}`
   : undefined;
-const title = `${episode.data.number}: ${episode.data.title} | Front-End Fire`;
+const title = `${episode.data.title} | Ep ${episode.data.number} | Front-End Fire`;
 const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
 // TODO: Bring back the hosts and guests
 // const hosts = await getEntries(episode.data.hosts);
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} contentMaxWidth="80rem">
+
+
+  <main class:list={{ "without-video": !embedUrl }}>
+    <div class="episode-content">
   <header class="episode-header">
     <div class="episode-header-content">
-
       <div class="episode-title-section">
         <div class="episode-number-display">
           <span class="episode-number">Episode {episode.data.number}</span>
@@ -64,9 +67,6 @@ const description = episode.data.teaser || episode.data.description.substring(0,
       </div>
     </div>
   </header>
-
-  <main class:list={{ "without-video": !embedUrl }}>
-    <div class="episode-content">
       <p class="episode-teaser">{episode.data.teaser || description}</p>
     </div>
 
@@ -257,17 +257,14 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
 <style>
   .episode-header {
-    padding: 3rem 0;
-    margin-bottom: 2.5rem;
-    background: #3d3c40 linear-gradient(#161619, #3d3c40);
-    color: var(--off-white);
+    margin-bottom: 1.5rem;
+    color: var(--base-color-dark);
   }
 
-  .episode-header-content,
   main {
     width: var(--content-width);
-    max-width: 80rem;
-    margin: 0 auto;
+    max-width: var(--max-width);
+    margin: 2.5rem auto 0;
   }
 
   .episode-number-display {
@@ -280,12 +277,12 @@ const description = episode.data.teaser || episode.data.description.substring(0,
   }
 
   .episode-number {
-    color: var(--primary-color-light);
+    color: var(--primary-color-dark);
     font-weight: 500;
   }
 
   .episode-date {
-    color: #d6d3da;
+    color: #66616b;
   }
 
   .episode-date-group {
@@ -293,12 +290,12 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     align-items: baseline;
     gap: 1.5rem;
     white-space: nowrap;
-    color: #d6d3da;
+    color: #66616b;
   }
 
   .episode-title {
     max-width: 24ch;
-    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(2rem, 3vw, 3rem);
     font-weight: 200;
     margin: 0;
     letter-spacing: -0.02em;
@@ -333,7 +330,7 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
   .episode-content {
     grid-area: content;
-    align-self: center;
+    align-self: start;
   }
 
   .episode-teaser {
@@ -346,6 +343,7 @@ const description = episode.data.teaser || episode.data.description.substring(0,
   .episode-sidebar {
     grid-area: sidebar;
     min-width: 0;
+    align-self: center;
   }
 
   .episode-video {
@@ -573,7 +571,6 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
   @media (max-width: 600px) {
     .episode-header {
-      padding: 2rem 0;
       margin-bottom: 1.5rem;
     }
 

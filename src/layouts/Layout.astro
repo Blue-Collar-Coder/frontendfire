@@ -1,13 +1,12 @@
 ---
-import { Image } from "astro:assets";
-import logo from "../assets/images/logo-horizontal.svg";
-
+import HeaderNav from "../components/HeaderNav.astro";
 interface Props {
   title: string;
   description: string;
+  contentMaxWidth?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, contentMaxWidth = "70rem" } = Astro.props;
 ---
 
 <!doctype html>
@@ -20,22 +19,28 @@ const { title, description } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
-    <nav class="main-nav">
-      <div class="nav-container">
-        <a href="/" class="nav-logo">
-          <Image src={logo} alt="Front-End Fire Logo" />
-          <span class="nav-title">Front-End Fire</span>
-        </a>
-        <div class="nav-links">
-          <a href="/about" class={`nav-link ${Astro.url.pathname === "/about" ? "current" : ""}`}>About</a>
-        </div>
+  <body style={{ "--max-width": contentMaxWidth }}>
+    {Astro.url.pathname !== "/" && (
+      <div class="site-masthead">
+        <div class="site-masthead-content"><HeaderNav /></div>
       </div>
-    </nav>
+    )}
     <slot />
   </body>
 </html>
 <style is:global>
+  .site-masthead {
+    padding: 0.375rem 0;
+    background: #161619;
+    border-bottom: 1px solid #ffffff26;
+  }
+
+  .site-masthead-content {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
   :root {
     --base-color: #3d3c40;
     --base-color-dark: #161619;
@@ -199,120 +204,4 @@ const { title, description } = Astro.props;
     border: 0;
   }
 
-  .main-nav {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--base-color-light);
-    background-image: repeating-linear-gradient(
-      45deg,
-      #f4ede5 0,
-      #f4ede5 1px,
-      #f5f5f5 0,
-      #f5f5f5 50%
-    );
-    background-size: 7px 7px;
-    background-color: var(--off-white);
-  }
-
-  .nav-container {
-    width: var(--content-width);
-    max-width: var(--max-width);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    gap: 1rem;
-  }
-
-  .nav-logo {
-    display: flex;
-    align-items: center;
-  }
-  .nav-logo:hover {
-    text-decoration: none;
-  }
-
-  .nav-logo .nav-title {
-    margin-left: 0.5rem;
-  }
-
-  .nav-logo img {
-    height: 2.5rem;
-    width: auto;
-    transition: opacity 0.2s ease;
-  }
-
-  .nav-logo:hover img {
-    opacity: 0.8;
-  }
-
-  .nav-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--base-color-dark);
-    letter-spacing: -0.02em;
-  }
-
-  .nav-logo:hover .nav-title {
-    color: var(--primary-color);
-    text-decoration: underline;
-    text-decoration-color: var(--primary-color);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.2em;
-  }
-
-  .nav-links {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-  }
-
-  .nav-link {
-    color: var(--base-color);
-    font-size: 1.1rem;
-    padding: 0.25rem 0;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-
-  .nav-link:visited {
-    color: var(--base-color);
-  }
-
-  .nav-link.current {
-    text-decoration: underline;
-    text-decoration-color: var(--primary-color);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.2em;
-  }
-
-  .nav-link:hover,
-  .nav-link:focus,
-  .nav-link:active {
-    color: var(--primary-color);
-    text-decoration: underline;
-    text-decoration-color: var(--primary-color);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.2em;
-  }
-
-  @media (max-width: 768px) {
-    .nav-container {
-      padding: 0.5rem 1rem;
-    }
-
-    .nav-logo img {
-      height: 2rem;
-    }
-
-    .nav-title {
-      font-size: 1.25rem;
-    }
-  }
-
-  @media (max-width: 1200px) {
-    .nav-container {
-      padding: 0 1rem;
-    }
-  }
 </style>

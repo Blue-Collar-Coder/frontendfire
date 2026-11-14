@@ -1,0 +1,48 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<header class="page-header">
+  <div class="page-header-content">
+    <h1>{title}</h1>
+    <div class="header-accent"></div>
+  </div>
+</header>
+
+<style>
+  .page-header {
+    padding: 3rem 0;
+    color: var(--base-color-dark);
+  }
+
+  .page-header-content {
+    width: var(--content-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
+
+  .header-accent {
+    width: 60px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+</style>
