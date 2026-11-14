@@ -20,8 +20,7 @@ const { showText = true } = Astro.props;
   title={showText ? "" : "Listen on Apple Podcasts"}
 >
   <Fragment set:html={apple} />
-  <!-- <Image src={apple} alt="Apple Podcast Icon" /> -->
-  {showText && "Apple"}
+  {showText && " Apple"}
 </a>
 <a
   href="https://open.spotify.com/show/0MFC3eW0j1U9HC5U1dUZ0Y"
@@ -31,7 +30,7 @@ const { showText = true } = Astro.props;
   title={showText ? "" : "Listen on Spotify"}
 >
   <Fragment set:html={spotify} />
-  {showText && "Spotify"}
+  {showText && " Spotify"}
 </a>
 
 <a
@@ -42,7 +41,7 @@ const { showText = true } = Astro.props;
   title={showText ? "" : "Subscribe on YouTube"}
 >
   <Fragment set:html={youtube} />
-  {showText && "YouTube"}
+  {showText && " YouTube"}
 </a>
 
 <a
@@ -53,7 +52,7 @@ const { showText = true } = Astro.props;
   title={showText ? "" : "Join our Discord Channel"}
 >
   <Fragment set:html={discord} />
-  {showText && "Discord"}
+  {showText && " Discord"}
 </a>
 
 <a
@@ -63,5 +62,5 @@ const { showText = true } = Astro.props;
   title={showText ? "" : "RSS Feed"}
 >
   <Fragment set:html={rss} />
-  {showText && "RSS Feed"}
+  {showText && " RSS Feed"}
 </a>

@@ -12,14 +12,13 @@ import youtubeIcon from "../../assets/images/youtube-icon.svg";
 import appleIcon from "../../assets/images/apple-icon.svg";
 import spotifyIcon from "../../assets/images/spotify-icon.svg";
 import xIcon from "../../assets/images/x-icon.svg";
-import { getEntries } from "astro:content";
 
 export async function getStaticPaths() {
   const entries = await getCollection("episodes");
   entries.sort((a, b) => a.data.number - b.data.number);
 
   return entries.map((episode, index, arr) => ({
-    params: { slug: episode.data.number },
+    params: { slug: String(episode.data.number) },
     props: { episode, previous: arr[index - 1], next: arr[index + 1] }
   }));
 }

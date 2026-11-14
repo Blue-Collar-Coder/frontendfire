@@ -1,7 +1,9 @@
-import { defineCollection, reference, z } from "astro:content";
+import { defineCollection, reference } from "astro:content";
+import { z } from "astro/zod";
+import { glob } from "astro/loaders";
 
 const hosts = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.yaml", base: "./src/content/hosts" }),
   schema: z.object({
     name: z.string(),
     website: z.string()
@@ -9,12 +11,12 @@ const hosts = defineCollection({
 });
 
 const episodes = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.yaml", base: "./src/content/episodes" }),
   schema: z.object({
     number: z.number(),
     type: z.enum(["news", "interview", "topic"]),
     title: z.string(),
-    date: z.date(),
+    date: z.coerce.date(),
     teaser: z.string().optional(),
     description: z.string(),
     duration: z.string(),

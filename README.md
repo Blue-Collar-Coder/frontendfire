@@ -1,4 +1,13 @@
-# Astro Starter Kit: Basics
+# Front-End Fire
+
+Requires Node.js 22.23.4 or newer.
+
+`npm run check` runs Astro diagnostics and the TypeScript 7 compiler. TypeScript 7
+is installed as `typescript-native` because `@astrojs/check` still requires the
+TypeScript 6 compiler API. Keep both dependencies until Astro's checker supports
+TypeScript 7: https://github.com/withastro/roadmap/discussions/1321.
+
+## Astro Starter Kit: Basics
 
 ```sh
 npm create astro@latest -- --template basics
