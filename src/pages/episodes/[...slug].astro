@@ -123,16 +123,17 @@ const description = episode.data.teaser || episode.data.description.substring(0,
             <Image src={xIcon} alt="Share on X" />
             <span>Share on X</span>
           </a>
-          <button
-            title="Copy Episode Link"
-            popovertarget="copied-popover"
-            class="copy-episode-link-action"
-            type="button"
-          >
-            <Image src={linkIcon} alt="Copy Episode Link" />
-            <span>Share Link</span>
-          </button>
-          <div popover id="copied-popover">Copied!</div>
+          <div class="copy-link-container">
+            <button
+              title="Copy Episode Link"
+              class="copy-episode-link-action"
+              type="button"
+            >
+              <Image src={linkIcon} alt="Copy Episode Link" />
+              <span>Share Link</span>
+            </button>
+            <div id="copy-link-status" role="status" aria-live="polite"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -191,15 +192,25 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 </Layout>
 
 <script>
-  document
-    .querySelector(".copy-episode-link-action")
-    ?.addEventListener("click", () => {
-      navigator.clipboard.writeText(location.href);
-      window.setTimeout(
-        () => document.getElementById("copied-popover")?.hidePopover(),
-        5000
-      );
-    });
+  const copyButton = document.querySelector<HTMLButtonElement>(".copy-episode-link-action");
+  const copyStatus = document.getElementById("copy-link-status");
+  let dismissTimer: number | undefined;
+
+  copyButton?.addEventListener("click", async () => {
+    if (!copyStatus) return;
+    window.clearTimeout(dismissTimer);
+
+    try {
+      await navigator.clipboard.writeText(location.href);
+      copyStatus.textContent = "Copied!";
+    } catch {
+      copyStatus.textContent = "Couldn’t copy link. Please try again.";
+    }
+
+    dismissTimer = window.setTimeout(() => {
+      copyStatus.textContent = "";
+    }, 5000);
+  });
 </script>
 
 <style>
@@ -288,14 +299,28 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     display: block;
   }
 
-  [popover] {
+  .copy-link-container {
+    position: relative;
+  }
+
+  #copy-link-status {
+    position: absolute;
+    bottom: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 1;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.35rem 0.65rem;
+    background: white;
+    color: var(--base-color-dark);
+    font-size: 0.875em;
     border: 1px solid var(--primary-color-dark);
     border-radius: 4px;
     box-shadow: 0 0 3px var(--primary-color-dark);
+    pointer-events: none;
 
-    &:popover-open {
-      position: absolute;
-      inset: unset;
+    &:empty {
+      display: none;
     }
   }
 
@@ -398,6 +423,14 @@ const description = episode.data.teaser || episode.data.description.substring(0,
   }
 
   .share-actions a,
+  .listen-links a,
+  .copy-episode-link-action {
+    display: flex;
+    align-items: center;
+    gap: 0.45em;
+  }
+
+  .share-actions a,
   .listen-links a {
     text-decoration: none;
   }
@@ -407,8 +440,8 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     height: 1.25em;
     width: 1.25em;
     filter: none;
-    display: inline-block;
-    margin-right: 0.125em;
+    display: block;
+    flex-shrink: 0;
   }
 
   .copy-episode-link-action {
@@ -420,17 +453,7 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     font-family: inherit;
     color: var(--primary-color-dark);
     opacity: 1;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding-top: 0.2rem;
-  }
-
-  /* Not sure why the button ends up having a different flex positioning
-  than the anchors, but this seems to adjust for it. */
-  .copy-episode-link-action span {
-    position: relative;
-    left: -0.2em;
+    text-align: left;
   }
 
   .listen-links a:hover span,
