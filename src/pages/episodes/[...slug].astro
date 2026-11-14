@@ -25,6 +25,13 @@ export async function getStaticPaths() {
 }
 
 const { episode, previous, next } = Astro.props;
+const youtubeUrl = episode.data.youtube ? new URL(episode.data.youtube) : undefined;
+const videoId = youtubeUrl?.hostname === "youtu.be"
+  ? youtubeUrl.pathname.slice(1)
+  : youtubeUrl?.searchParams.get("v") ?? youtubeUrl?.pathname.split("/").at(-1);
+const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
+  ? `https://www.youtube-nocookie.com/embed/${videoId}`
+  : undefined;
 const title = `${episode.data.number}: ${episode.data.title} | Front-End Fire`;
 const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
 // TODO: Bring back the hosts and guests
@@ -38,6 +45,19 @@ const description = episode.data.teaser || episode.data.description.substring(0,
       <div class="episode-title-section">
         <div class="episode-number-display">
           <span class="episode-number">Episode {episode.data.number}</span>
+          <span class="episode-date-group">
+            <span aria-hidden="true">|</span>
+            <time datetime={episode.data.date.toISOString()} class="episode-date">
+              {
+                episode.data.date.toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                  timeZone: "UTC"
+                })
+              }
+            </time>
+          </span>
         </div>
         <h1 class="episode-title">{episode.data.title}</h1>
         <div class="header-accent"></div>
@@ -45,29 +65,26 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     </div>
   </header>
 
-  <main>
+  <main class:list={{ "without-video": !embedUrl }}>
     <div class="episode-content">
-      <time datetime={episode.data.date.toISOString()} class="episode-date">
-        {
-          episode.data.date.toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-            timeZone: "UTC"
-          })
-        }
-      </time>
-
-      {
-        episode.data.teaser && (
-          <p class="episode-teaser">{episode.data.teaser}</p>
-        )
-      }
-
-      {episode.data.audio && <audio controls src={episode.data.audio} />}
+      <p class="episode-teaser">{episode.data.teaser || description}</p>
     </div>
 
-    <div class="episode-sidebar">
+    {
+      embedUrl && (
+        <div class="episode-sidebar">
+          <iframe
+            class="episode-video"
+            src={embedUrl}
+            title={`Watch episode ${episode.data.number}: ${episode.data.title}`}
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+          />
+        </div>
+      )
+    }
+      <div class="episode-actions">
       <div class="listen-section">
         <h3 class="section-heading">Listen</h3>
         <div class="listen-links">
@@ -102,55 +119,50 @@ const description = episode.data.teaser || episode.data.description.substring(0,
         <h3 class="section-heading">Share</h3>
         <div class="share-actions" data-episode-title={episode.data.title}>
           <a
-            title="Share on X"
+            title="Share on X" aria-label="Share on X"
             target="_blank"
             data-share-platform="x"
             href={Astro.url.pathname}
           >
-            <Image src={xIcon} alt="Share on X" />
-            <span>Share on X</span>
+            <Image src={xIcon} alt="" />
           </a>
           <a
-            title="Share on LinkedIn"
+            title="Share on LinkedIn" aria-label="Share on LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
             data-share-platform="linkedin"
             href={Astro.url.pathname}
           >
-            <Image src={linkedinIcon} alt="Share on LinkedIn" />
-            <span>Share on LinkedIn</span>
+            <Image src={linkedinIcon} alt="" />
           </a>
           <a
-            title="Share via email"
+            title="Share via email" aria-label="Share via email"
             data-share-platform="email"
             href={Astro.url.pathname}
           >
-            <Image src={emailIcon} alt="Share via email" />
-            <span>Share via email</span>
+            <Image src={emailIcon} alt="" />
           </a>
           <a
-            title="Share on Facebook"
+            title="Share on Facebook" aria-label="Share on Facebook"
             target="_blank"
             data-share-platform="facebook"
             href={Astro.url.pathname}
           >
-            <Image src={facebookIcon} alt="Share on Facebook" />
-            <span>Facebook</span>
+            <Image src={facebookIcon} alt="" />
           </a>
           <div class="copy-link-container">
             <button
-              title="Copy Episode Link"
+              title="Copy Episode Link" aria-label="Copy Episode Link"
               class="copy-episode-link-action"
               type="button"
             >
-              <Image src={linkIcon} alt="Copy Episode Link" />
-              <span>Share Link</span>
+              <Image src={linkIcon} alt="" />
             </button>
             <div id="copy-link-status" role="status" aria-live="polite"></div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
 
     <div class="episode-extras">
       <h2 class="section-heading">Full Description</h2>
@@ -245,37 +257,53 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
 <style>
   .episode-header {
-    padding: 4rem 0 3rem;
+    padding: 3rem 0;
+    margin-bottom: 2.5rem;
     background: #3d3c40 linear-gradient(#161619, #3d3c40);
     color: var(--off-white);
-    margin-bottom: 2rem;
   }
 
-  .episode-header-content {
+  .episode-header-content,
+  main {
     width: var(--content-width);
-    max-width: var(--max-width);
+    max-width: 80rem;
     margin: 0 auto;
-    padding: 0 1rem;
   }
 
-  .header-top {
+  .episode-number-display {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.75rem 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
   }
 
-  .episode-title-section {
-    margin-top: 1rem;
+  .episode-number {
+    color: var(--primary-color-light);
+    font-weight: 500;
+  }
+
+  .episode-date {
+    color: #d6d3da;
+  }
+
+  .episode-date-group {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    white-space: nowrap;
+    color: #d6d3da;
   }
 
   .episode-title {
-    font-size: 3.5rem;
+    max-width: 24ch;
+    font-size: clamp(2rem, 4vw, 3.5rem);
     font-weight: 200;
-    margin: 0.5rem 0 0 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
     letter-spacing: -0.02em;
-    line-height: 1.2;
+    line-height: 1.15;
+    text-wrap: balance;
   }
 
   .header-accent {
@@ -283,186 +311,104 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     height: 4px;
     background: var(--primary-color);
     border-radius: 2px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 
   main {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
       "content sidebar"
-      "extras sidebar"
+      "actions actions"
+      "extras extras"
       "nav nav";
-    grid-template-columns: 1fr 300px;
-    gap: 3rem;
-    width: var(--content-width);
-    max-width: var(--max-width);
-    margin: 0 auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 2.5rem;
   }
 
-  nav {
-    width: var(--content-width);
-    max-width: var(--max-width);
-    margin: auto;
-  }
-
-  nav {
-    margin-top: 3em;
-  }
-
-  audio {
-    display: block;
-    width: 100%;
-    margin: 1em 0;
-  }
-
-  audio::-webkit-media-controls-enclosure {
-    background: var(--primary-color);
-    border-radius: 4px;
-  }
-
-  ul {
-    margin: 0;
-    padding-left: 1em;
-  }
-
-  strong {
-    display: block;
-  }
-
-  .copy-link-container {
-    position: relative;
-  }
-
-  #copy-link-status {
-    position: absolute;
-    bottom: calc(100% + 0.5rem);
-    left: 0;
-    z-index: 1;
-    width: max-content;
-    max-width: 100%;
-    padding: 0.35rem 0.65rem;
-    background: white;
-    color: var(--base-color-dark);
-    font-size: 0.875em;
-    border: 1px solid var(--primary-color-dark);
-    border-radius: 4px;
-    box-shadow: 0 0 3px var(--primary-color-dark);
-    pointer-events: none;
-
-    &:empty {
-      display: none;
-    }
-  }
-
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  main.without-video {
+    grid-template-areas: "content" "actions" "extras" "nav";
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .episode-content {
     grid-area: content;
-    padding: 1.5rem;
-    background: var(--off-white);
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
+    align-self: center;
+  }
+
+  .episode-teaser {
+    margin: 0;
+    font-size: clamp(1.4rem, 2vw, 1.875rem);
+    line-height: 1.55;
+    color: var(--base-color-dark);
   }
 
   .episode-sidebar {
     grid-area: sidebar;
+    min-width: 0;
   }
 
-  .episode-extras {
-    grid-area: extras;
-  }
-
-  .episode-number-display {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 1rem;
-    color: var(--primary-color-light);
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1;
-  }
-
-  .episode-date {
+  .episode-video {
     display: block;
-    font-size: clamp(1.1rem, 1.375vw, 1.65rem);
-    font-weight: 400;
-    color: var(--base-color-light);
-    margin: 0 0 1rem 0;
-    text-align: left;
-  }
-
-  .episode-teaser {
-    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
-    line-height: 1.6;
-    margin: 0 0 2rem 0;
-    color: var(--base-color-dark);
-  }
-
-  .episode-links-section {
-    padding: 1.5rem;
-    background: var(--off-white);
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
     border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
+    background: var(--base-color-dark);
+  }
+
+  .episode-actions {
+    grid-area: actions;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-  .episode-links-section h2 {
-    margin-top: 0;
-  }
-  .episode-links {
-    margin: 1.5rem 0;
-  }
-  .episode-links li {
-    margin-bottom: 0.5rem;
   }
 
-  .listen-section {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    background: var(--off-white);
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
-  }
-  .listen-section h3, .share-section h3 {
-    margin-top: 0;
-  }
-
-  .listen-links {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
+  .listen-section,
   .share-section {
-    padding: 1rem;
-    background: var(--off-white);
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
-  }
-
-  .share-actions, .listen-links {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
-    margin-top: 1rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+    max-width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    background: #f4ede5;
+    color: var(--base-color);
+  }
+
+  .episode-actions .section-heading {
+    margin: 0;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: #66616b;
+    text-decoration: none;
+  }
+
+  .share-actions,
+  .listen-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.5rem;
+    font-size: 1rem;
   }
 
   .share-actions a,
   .listen-links a,
   .copy-episode-link-action {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.45em;
-  }
-
-  .share-actions a,
-  .listen-links a {
+    color: var(--base-color);
     text-decoration: none;
+    min-height: 2.75rem;
+    padding: 0.5rem 0;
+    line-height: 1.5;
   }
 
   .listen-links img,
@@ -477,28 +423,95 @@ const description = episode.data.teaser || episode.data.description.substring(0,
   .copy-episode-link-action {
     background: none;
     border: none;
-    padding: 0;
     cursor: pointer;
-    font-size: inherit;
-    font-family: inherit;
-    color: var(--primary-color-dark);
-    opacity: 1;
+    font: inherit;
     text-align: left;
   }
 
-  .listen-links a:hover span,
-  .share-actions a:hover span,
-  .copy-episode-link-action:hover span {
+  .share-actions {
+    gap: 0.25rem;
+  }
+
+  .share-actions a,
+  .share-actions button {
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+
+  .episode-actions a:hover,
+  .episode-actions button:hover {
+    color: var(--primary-color-dark);
     text-decoration: underline;
   }
 
-  .episode-description {
-    max-width: 40em;
-    margin-bottom: 0;
+  .share-actions a:hover,
+  .share-actions button:hover {
+    background: #e8ddd0;
+  }
+
+  .episode-actions a:focus-visible,
+  .episode-actions button:focus-visible {
+    outline: 2px solid var(--primary-color-light);
+    outline-offset: 4px;
+  }
+
+  .copy-link-container {
+    position: relative;
+  }
+
+  #copy-link-status {
+    position: absolute;
+    bottom: calc(100% + 0.5rem);
+    left: 0;
+    z-index: 1;
+    width: max-content;
+    max-width: min(18rem, 75vw);
+    padding: 0.35rem 0.65rem;
+    background: white;
+    color: var(--base-color-dark);
+    font-size: 0.875rem;
+    border: 1px solid var(--primary-color-dark);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px #0003;
+    pointer-events: none;
+  }
+
+  #copy-link-status:empty {
+    display: none;
+  }
+
+  .episode-extras {
+    grid-area: extras;
+    width: 100%;
+    max-width: 75ch;
+  }
+
+  .episode-extras .section-heading {
+    margin-top: 0;
   }
 
   .episode-description {
     white-space: pre-line;
+    margin: 0;
+    font-size: clamp(1.125rem, 1.4vw, 1.375rem);
+    line-height: 1.75;
+  }
+
+  .episode-links-section {
+    margin-top: 2.5rem;
+  }
+
+  .episode-links {
+    margin: 1rem 0 0;
+    padding-left: 1.25em;
+    overflow-wrap: anywhere;
+  }
+
+  .episode-links li {
+    margin-bottom: 0.75rem;
   }
 
   .episode-nav {
@@ -546,38 +559,31 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 900px) {
     main {
-      grid-template-areas: 
-        "content"
-        "sidebar"
-        "extras"
-        "nav";
-      grid-template-columns: 1fr;
+      grid-template-areas: "content" "sidebar" "actions" "extras" "nav";
+      grid-template-columns: minmax(0, 1fr);
       gap: 2rem;
-      padding: 0 1rem;
+    }
+
+    .episode-actions {
+      gap: 1rem;
     }
   }
 
-  @media (max-width: 768px) {
-    main {
-      gap: 1.5rem;
-      padding: 0 1rem;
-    }
-
-    .episode-title {
-      font-size: 2rem;
-    }
-    .episode-number-display {
-      font-size: 1.5rem;
-    }
-
-    .episode-header-content {
-      padding: 0 1rem;
-    }
-
+  @media (max-width: 600px) {
     .episode-header {
-      padding: 2rem 0 1.5rem;
+      padding: 2rem 0;
+      margin-bottom: 1.5rem;
+    }
+
+    .listen-section,
+    .share-section {
+      padding: 1rem;
+    }
+
+    .listen-links {
+      gap: 0.5rem 1rem;
     }
   }
 </style>
