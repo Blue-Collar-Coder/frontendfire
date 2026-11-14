@@ -6,10 +6,30 @@ interface Props {
 }
 
 const { episode } = Astro.props;
+const youtubeUrl = episode.data.youtube ? new URL(episode.data.youtube) : undefined;
+const videoId = youtubeUrl?.hostname === "youtu.be"
+  ? youtubeUrl.pathname.slice(1)
+  : youtubeUrl?.searchParams.get("v") ?? youtubeUrl?.pathname.split("/").at(-1);
+const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
+  ? `https://www.youtube-nocookie.com/embed/${videoId}`
+  : undefined;
 ---
 
-<a href={"/episodes/" + episode.data.number} class="episode-card-link">
-  <article class="episode-card">
+<article class="episode-card">
+  {
+    embedUrl && (
+      <iframe
+        class="episode-video"
+        src={embedUrl}
+        title={`Watch episode ${episode.data.number}: ${episode.data.title}`}
+        loading="lazy"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"
+      />
+    )
+  }
+  <a href={"/episodes/" + episode.data.number} class="episode-card-link">
     <div class="episode-info">
       <span class="episode-number">#{episode.data.number}</span>
 
@@ -31,57 +51,84 @@ const { episode } = Astro.props;
     <p class="episode-description">
       {episode.data.teaser ?? episode.data.description}
     </p>
-  </article>
-</a>
+  </a>
+</article>
 
 <style>
   .episode-card-link {
     text-decoration: none;
     color: inherit;
     display: block;
+    min-width: 0;
+    order: 0;
   }
 
   .episode-card {
-    padding: 1.5rem;
+    padding: clamp(1rem, 1.5vw, 1.5rem);
     border: 1px solid var(--base-color-light);
     border-radius: 8px;
     background: white;
     transition: all 0.2s ease;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, var(--episode-video-width, 1fr));
+    align-items: center;
+    gap: clamp(1rem, 1.5vw, 1.5rem);
+    font-size: 1rem;
+    overflow: hidden;
+  }
+
+  .episode-video {
+    order: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    border-radius: 4px;
+    background: var(--base-color-dark);
+  }
+
+  .episode-card:not(:has(.episode-video)) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (max-width: 640px) {
+    .episode-card {
+      grid-template-columns: minmax(0, 1fr);
+      padding: 1rem;
+      gap: 1rem;
+    }
   }
 
   .episode-card-link:hover .episode-title {
     text-decoration: underline;
   }
 
-  .episode-card-link:hover .episode-card {
+  .episode-card:focus-within,
+  .episode-card:hover {
     border-color: var(--primary-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .episode-card > * {
-    margin: 0.25rem 0;
-  }
-
   .episode-title {
-    font-size: 1.25em;
-    line-height: 1.2;
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+    line-height: 1.3;
     font-weight: 500;
     color: var(--primary-color-dark);
-    margin-bottom: 0.5rem;
   }
 
   .episode-info {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-    gap: 1em;
+    gap: 0.5rem 0.75rem;
     text-transform: uppercase;
     font-weight: 400;
     color: var(--base-color-light);
-    font-size: clamp(.875rem,.7em,.7em);
-    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    margin: 0 0 0.75rem;
   }
 
   .episode-number {
@@ -94,12 +141,9 @@ const { episode } = Astro.props;
   }
 
   .episode-description {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
     margin: 0;
-    font-size: clamp(1rem, 0.875em, 0.875em);
+    font-size: 1rem;
+    line-height: 1.55;
     color: var(--base-color);
   }
 </style>
