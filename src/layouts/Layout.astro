@@ -48,7 +48,7 @@ const { title, description, contentMaxWidth = "70rem" } = Astro.props;
     --primary-color-light: #f48b45;
     --primary-color: #e7823f;
     --primary-color-dark: #bc5008;
-    --off-white: #f5f5f5;
+    --off-white: #f7f4ef;
     --content-width: 90vw;
     --max-width: 70rem;
   }
@@ -75,14 +75,7 @@ const { title, description, contentMaxWidth = "70rem" } = Astro.props;
     min-height: 100%;
     margin: 0;
     font-size: clamp(1rem, 1.25vw, 1.5rem);
-    background-image: repeating-linear-gradient(
-      45deg,
-      #f4ede5 0,
-      #f4ede5 1px,
-      #f5f5f5 0,
-      #f5f5f5 50%
-    );
-    background-size: 7px 7px;
+    background-color: var(--off-white);
   }
 
   main {

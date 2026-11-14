@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader.astro";
 ---
 
 <Layout
-  title="About - Front-End Fire"
+  title="About | Front-End Fire"
   description="Learn more about Front-End Fire, a weekly podcast dedicated to keeping developers informed about the latest in the front-end development world."
 >
   <PageHeader title="About" />
@@ -38,7 +38,7 @@ import PageHeader from "../components/PageHeader.astro";
           <img src="/paige.jpg" alt="Paige Niedringhaus" class="host-image" />
           <div class="host-content">
             <h3>Paige Niedringhaus</h3>
-            <p>Paige Niedringhaus is a software engineer, technical writer, and podcast host. Currently a Staff Software Engineer for Blues, Paige has honed her skills at large enterprise companies like The Home Depot, and enjoys all things front-end development-related.</p>
+            <p>Paige Niedringhaus is a full-stack software engineer, technical writer, and podcast host. She is a Lead Software Engineer at AllSpice, working at the intersection of hardware and software. Previously a Staff Engineer at Blues and a Senior Engineer at The Home Depot, she enjoys exploring AI and modern web technologies.</p>
           </div>
         </div>
         
@@ -287,25 +287,21 @@ import PageHeader from "../components/PageHeader.astro";
   .intro {
     font-size: clamp(1.2rem, 1.5vw, 1.8rem);
     line-height: 1.6;
-    margin: 2rem 0 3rem 0;
-    padding: 1rem 2rem;
-    background: #f8f8f8;
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
+    margin: 0 0 4rem;
+  }
+
+  .intro > :first-child {
+    margin-top: 0;
   }
 
   .segment-tag {
     display: inline-block;
-    background: var(--primary-color);
-    color: white;
-    padding: 0.2rem 0.6rem;
-    border-radius: 12px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin: 0 0.2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #eee7de;
+    color: var(--base-color);
+    padding: 0.05em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: 500;
   }
 
   .hosts {
@@ -356,10 +352,6 @@ import PageHeader from "../components/PageHeader.astro";
 
   .sponsoring {
     margin-bottom: 3rem;
-    padding: 2rem;
-    background: #f8f8f8;
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
   }
 
   .sponsoring p {
