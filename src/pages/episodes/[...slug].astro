@@ -12,6 +12,7 @@ import youtubeIcon from "../../assets/images/youtube-icon.svg";
 import appleIcon from "../../assets/images/apple-icon.svg";
 import spotifyIcon from "../../assets/images/spotify-icon.svg";
 import xIcon from "../../assets/images/x-icon.svg";
+import linkedinIcon from "../../assets/images/linkedin-icon.svg";
 
 export async function getStaticPaths() {
   const entries = await getCollection("episodes");
@@ -99,10 +100,30 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 
       <div class="share-section">
         <h3 class="section-heading">Share</h3>
-        <div class="share-actions">
+        <div class="share-actions" data-episode-title={episode.data.title}>
+          <a
+            title="Share on X"
+            target="_blank"
+            data-share-platform="x"
+            href={Astro.url.pathname}
+          >
+            <Image src={xIcon} alt="Share on X" />
+            <span>Share on X</span>
+          </a>
+          <a
+            title="Share on LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-share-platform="linkedin"
+            href={Astro.url.pathname}
+          >
+            <Image src={linkedinIcon} alt="Share on LinkedIn" />
+            <span>Share on LinkedIn</span>
+          </a>
           <a
             title="Share via email"
-            href={`mailto:?subject=${encodeURIComponent(episode.data.title)}&body=Check out this episode from the Front-End Fire podcast%0D%0A%0D%0AApple Podcasts:%0D%0A${encodeURIComponent(episode.data.apple)}%0D%0A%0D%0ASpotify:%0D%0A${encodeURIComponent(episode.data.spotify)}`}
+            data-share-platform="email"
+            href={Astro.url.pathname}
           >
             <Image src={emailIcon} alt="Share via email" />
             <span>Share via email</span>
@@ -110,18 +131,11 @@ const description = episode.data.teaser || episode.data.description.substring(0,
           <a
             title="Share on Facebook"
             target="_blank"
-            href={`https://www.facebook.com/sharer/sharer.php?u=${episode.data.spotify}`}
+            data-share-platform="facebook"
+            href={Astro.url.pathname}
           >
             <Image src={facebookIcon} alt="Share on Facebook" />
             <span>Facebook</span>
-          </a>
-          <a
-            title="Share on X"
-            target="_blank"
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(episode.data.title)}%0D%0A${encodeURIComponent(episode.data.spotify)}`}
-          >
-            <Image src={xIcon} alt="Share on X" />
-            <span>Share on X</span>
           </a>
           <div class="copy-link-container">
             <button
@@ -192,6 +206,22 @@ const description = episode.data.teaser || episode.data.description.substring(0,
 </Layout>
 
 <script>
+  // Resolve in the browser so static builds share the actual page URL and origin.
+  const shareActions = document.querySelector<HTMLElement>(".share-actions");
+  const episodeTitle = shareActions?.dataset.episodeTitle ?? document.title;
+  const shareUrl = location.href;
+  const shareLinks: Record<string, string> = {
+    x: `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${episodeTitle}\r\n${shareUrl}`)}`,
+    linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`,
+    email: `mailto:?subject=${encodeURIComponent(episodeTitle)}&body=${encodeURIComponent(`Check out this episode from the Front-End Fire podcast\r\n\r\n${shareUrl}`)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`
+  };
+
+  shareActions?.querySelectorAll<HTMLAnchorElement>("[data-share-platform]").forEach((link) => {
+    const href = shareLinks[link.dataset.sharePlatform ?? ""];
+    if (href) link.href = href;
+  });
+
   const copyButton = document.querySelector<HTMLButtonElement>(".copy-episode-link-action");
   const copyStatus = document.getElementById("copy-link-status");
   let dismissTimer: number | undefined;
