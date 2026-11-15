@@ -66,4 +66,19 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
     outline-offset: 4px;
     border-radius: 2px;
   }
+
+  @media (max-width: 600px) {
+    nav {
+      font-size: 1rem;
+      column-gap: 1rem;
+    }
+
+    .home-link {
+      font-size: 1.125rem;
+    }
+
+    .nav-links {
+      gap: 1rem;
+    }
+  }
 </style>
