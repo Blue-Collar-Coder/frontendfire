@@ -35,6 +35,14 @@ const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
   : undefined;
 const title = `${episode.data.title} | Ep ${episode.data.number} | Front-End Fire`;
 const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
+const timestamps = episode.data.number === 169 && videoId
+  ? (episode.data.chapters ?? []).map((chapter) => ({
+      ...chapter,
+      url: `https://www.youtube.com/watch?v=${videoId}&t=${chapter.start
+        .split(":")
+        .reduce((seconds, part) => seconds * 60 + Number(part), 0)}s`
+    }))
+  : [];
 // TODO: Bring back the hosts and guests
 // const hosts = await getEntries(episode.data.hosts);
 ---
@@ -162,6 +170,23 @@ const description = episode.data.teaser || episode.data.description.substring(0,
       </div>
 
     <div class="episode-extras">
+      {
+        timestamps.length > 0 && (
+          <section class="timestamps-section" aria-labelledby="timestamps-heading">
+            <h2 class="section-heading" id="timestamps-heading">Timestamps</h2>
+            <ul class="timestamp-list">
+              {timestamps.map((chapter) => (
+                <li>
+                  <a href={chapter.url} target="_blank" rel="noopener noreferrer">
+                    <span class="timestamp-time">{chapter.start}</span>
+                    <span>{chapter.title}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
       <h2 class="section-heading">Full Description</h2>
       <p class="episode-description">
         {episode.data.description}
@@ -483,6 +508,31 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     margin: 0;
     font-size: clamp(1.125rem, 1.4vw, 1.375rem);
     line-height: 1.75;
+  }
+
+  .timestamps-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .timestamp-list {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.5em;
+  }
+
+  .timestamp-list a {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+  }
+
+  .timestamp-time {
+    flex-shrink: 0;
+    min-width: 5ch;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
   }
 
   .episode-links-section {
