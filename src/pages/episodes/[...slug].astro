@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 
 import Layout from "../../layouts/Layout.astro";
 import Footer from "../../components/Footer.astro";
+import YouTubePlayer from "../../components/YouTubePlayer.astro";
 
 import emailIcon from "../../assets/images/email-icon.svg";
 import facebookIcon from "../../assets/images/facebook-icon.svg";
@@ -73,13 +74,9 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     {
       embedUrl && (
         <div class="episode-sidebar">
-          <iframe
-            class="episode-video"
-            src={embedUrl}
+          <YouTubePlayer
+            videoId={videoId!}
             title={`Watch episode ${episode.data.number}: ${episode.data.title}`}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            referrerpolicy="strict-origin-when-cross-origin"
           />
         </div>
       )
@@ -344,16 +341,6 @@ const description = episode.data.teaser || episode.data.description.substring(0,
     grid-area: sidebar;
     min-width: 0;
     align-self: center;
-  }
-
-  .episode-video {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    border: 0;
-    border-radius: 8px;
-    background: var(--base-color-dark);
   }
 
   .episode-actions {

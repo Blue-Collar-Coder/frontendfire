@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import YouTubePlayer from "./YouTubePlayer.astro";
 
 interface Props {
   episode: CollectionEntry<"episodes">;
@@ -18,15 +19,13 @@ const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
 <article class="episode-card">
   {
     embedUrl && (
-      <iframe
-        class="episode-video"
-        src={embedUrl}
-        title={`Watch episode ${episode.data.number}: ${episode.data.title}`}
-        loading="lazy"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-        referrerpolicy="strict-origin-when-cross-origin"
-      />
+      <div class="episode-video">
+        <YouTubePlayer
+          videoId={videoId!}
+          title={`Watch episode ${episode.data.number}: ${episode.data.title}`}
+          loading="lazy"
+        />
+      </div>
     )
   }
   <a href={"/episodes/" + episode.data.number} class="episode-card-link">

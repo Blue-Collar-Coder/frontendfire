@@ -1,0 +1,108 @@
+---
+interface Props {
+  videoId: string;
+  title: string;
+  loading?: "eager" | "lazy";
+}
+
+const { videoId, title, loading = "eager" } = Astro.props;
+---
+
+<div class="youtube-player" data-video-id={videoId} data-player-title={title}>
+  <a class="video-preview" href={`https://www.youtube.com/watch?v=${videoId}`} aria-label={`Play ${title}`}>
+    <img
+      src={`https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`}
+      width="1280"
+      height="720"
+      alt=""
+      decoding="async"
+      loading={loading}
+    />
+    <span class="play-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="32" height="32"><path d="M8 5v14l11-7z" fill="currentColor" /></svg>
+    </span>
+  </a>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>(".youtube-player").forEach((player) => {
+    const videoId = player.dataset.videoId;
+    const preview = player.querySelector<HTMLAnchorElement>(".video-preview");
+    const image = player.querySelector("img");
+    if (!videoId || !preview || !image) return;
+
+    // Some videos lack maxres images; YouTube can return a tiny placeholder.
+    const fallbackSizes = ["sddefault", "hqdefault"];
+    const useFallback = () => {
+      const size = fallbackSizes.shift();
+      if (size) image.src = `https://i.ytimg.com/vi/${videoId}/${size}.jpg`;
+    };
+    image.addEventListener("error", useFallback);
+    image.addEventListener("load", () => {
+      if (image.naturalWidth <= 120) useFallback();
+    });
+    if (image.complete && image.naturalWidth <= 120) useFallback();
+
+    preview.addEventListener("click", (event) => {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      const iframe = document.createElement("iframe");
+      iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1`;
+      iframe.title = player.dataset.playerTitle ?? "YouTube video";
+      iframe.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      player.replaceChildren(iframe);
+      iframe.focus();
+    });
+  });
+</script>
+
+<style>
+  .youtube-player {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--base-color-dark);
+  }
+
+  .video-preview {
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+
+  img,
+  .youtube-player :global(iframe) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
+  }
+
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    width: 4.5rem;
+    height: 3.25rem;
+    border-radius: 12px;
+    background: #161619e6;
+    color: white;
+  }
+
+  .video-preview:hover .play-icon,
+  .video-preview:focus-visible .play-icon {
+    background: #c00;
+  }
+
+  .video-preview:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: -3px;
+  }
+</style>
