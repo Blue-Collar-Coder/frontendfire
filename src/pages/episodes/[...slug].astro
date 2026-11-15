@@ -35,7 +35,7 @@ const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
   : undefined;
 const title = `${episode.data.title} | Ep ${episode.data.number} | Front-End Fire`;
 const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
-const timestamps = episode.data.number === 169 && videoId
+const timestamps = embedUrl && videoId
   ? (episode.data.chapters ?? []).map((chapter) => ({
       ...chapter,
       url: `https://www.youtube.com/watch?v=${videoId}&t=${chapter.start
