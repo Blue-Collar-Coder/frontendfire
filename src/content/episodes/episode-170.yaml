@@ -35,10 +35,6 @@ hosts:
 links:
   - text: State of the tech market
     url: https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late
-  - text: Discord is ditching Electron for Rust
-    url: https://www.theverge.com/news/1027379/discord-ditching-electron-web-app
-  - text: Anthropic updates Claude to steer it away from letting users clone games
-    url: https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/
   - text: Buc-ee’s hoodie
     url: https://texassnax.com/collections/apparel/products/basic-grey-logo-hoodie
   - text: Black Doves season 2
