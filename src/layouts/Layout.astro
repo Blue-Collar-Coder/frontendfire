@@ -3,10 +3,12 @@ import HeaderNav from "../components/HeaderNav.astro";
 interface Props {
   title: string;
   description: string;
+  image?: string;
+  imageAlt?: string;
   contentMaxWidth?: string;
 }
 
-const { title, description, contentMaxWidth = "70rem" } = Astro.props;
+const { title, description, image, imageAlt = title, contentMaxWidth = "70rem" } = Astro.props;
 ---
 
 <!doctype html>
@@ -14,6 +16,21 @@ const { title, description, contentMaxWidth = "70rem" } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
+    <meta property="og:site_name" content="Front-End Fire" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {image && (
+      <>
+        <meta property="og:image" content={image} />
+        <meta property="og:image:alt" content={imageAlt} />
+        <meta name="twitter:image" content={image} />
+        <meta name="twitter:image:alt" content={imageAlt} />
+      </>
+    )}
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />

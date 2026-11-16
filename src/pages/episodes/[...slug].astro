@@ -35,6 +35,11 @@ const embedUrl = videoId && /^[\w-]{11}$/.test(videoId)
   : undefined;
 const title = `${episode.data.title} | Ep ${episode.data.number} | Front-End Fire`;
 const description = episode.data.teaser || episode.data.description.substring(0, 200) + "...";
+// Unlike maxresdefault, hqdefault is available even for videos without HD thumbnails.
+// Social crawlers cannot run the player’s client-side image fallback.
+const socialImage = embedUrl
+  ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`
+  : undefined;
 const timestamps = embedUrl && videoId
   ? (episode.data.chapters ?? []).map((chapter) => ({
       ...chapter,
@@ -47,7 +52,13 @@ const timestamps = embedUrl && videoId
 // const hosts = await getEntries(episode.data.hosts);
 ---
 
-<Layout title={title} description={description} contentMaxWidth="80rem">
+<Layout
+  title={title}
+  description={description}
+  image={socialImage}
+  imageAlt={`Episode ${episode.data.number}: ${episode.data.title}`}
+  contentMaxWidth="80rem"
+>
 
 
   <main class:list={{ "without-video": !embedUrl }}>
