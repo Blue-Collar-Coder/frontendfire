@@ -1,0 +1,53 @@
+number: 171
+type: news
+title: "Can We Fix AI Coding Burnout?"
+date: 2026-11-23
+teaser: >
+  AI coding is changing how we work, but why does it feel so unsatisfying? 😩 We dig into the science of AI coding burnout and how to get some of our joy back. Plus, Discord goes Rust, Claude stops cloning games, and Java reminds us that legacy code can still bite.
+description: >
+  AI has fundamentally reshaped how people write code today, there’s no denying it. But unlike many other YT videos bemoaning the fact and grieving the end of hand written code and providing no potential solutions, YouTuber Marina Wyss shares fact-backed reasons why AI-generated code just isn’t as satisfying for us and also shares some ideas for how to bring that satisfaction back.
+
+
+  Ideas include things like not trying to juggle more than 3 - 4 workflows at a time, reflecting on why something is being built / who is it meant to help, and checking in with yourself to determine if you need to take a short break before switching contexts or write down some notes of where you left off for a particular agent session to refresh your memory when you return. While this might not be the silver bullet some devs are looking for, it’s worth a try as we all try to adjust to this quickly changing AI coding world.
+
+
+  In Lightning News this week, Discord is ditching Electron to rebuild itself in Rust (because who isn’t these days), Anthropic gets on the slippery slope of steering Claude away from helping users clone games (and if Claude won’t clone games, what’s to say it won’t clone SaaSes next?), and Java, the world’s third most popular programming language, powering 90% of Fortune 500 companies, isn’t immune to critical vulnerabilities either, as detailed by cybersecurity firm Calif, who disclosed a doozy of a vulnerability in OpenJDK’s Base64 decoder with just a few hours of vibe coding. Nothing like digging through legacy code running our most critical systems to find new ways to hack us, right?
+duration: "40:30"
+chapters:
+  - title: Why we hate AI coding (and what to do about it)
+    start: "02:11"
+  - title: Discord is ditching Electron for Rust
+    start: "20:40"
+  - title: Anthropic updates Claude to steer it away from letting users clone games
+    start: "22:10"
+  - title: Java4Shell
+    start: "24:23"
+  - title: Atomattr
+    start: "29:09"
+  - title: What’s making us happy
+    start: "32:39"
+hosts:
+  - paige
+  - jack
+  - tj
+links:
+  - text: Why we hate AI coding (and what to do about it)
+    url: https://www.youtube.com/watch?v=gvfcWyCvHhI
+  - text: Discord is ditching Electron for Rust
+    url: https://www.theverge.com/news/1027379/discord-ditching-electron-web-app
+  - text: Anthropic updates Claude to steer it away from letting users clone games
+    url: https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/
+  - text: Java4Shell is a thing now
+    url: https://calif.io/java4shell
+  - text: Atomattr
+    url: https://devadetayo.github.io/atomattr/
+  - text: Twinkly Lights
+    url: https://www.amazon.com/Twinkly-App-Controlled-Mappable-Christmas-Compatible/dp/B086XJ1RSY/ref=sr_1_6
+  - text: npkill
+    url: https://npkill.js.org/
+  - text: Knip
+    url: https://knip.dev/
+audio: https://www.buzzsprout.com/2226499/episodes/20165031-171-can-we-fix-ai-coding-burnout.mp3
+spotify: https://open.spotify.com/episode/1XGvRGkuHlidJpaI7sxB3L
+apple: https://podcasts.apple.com/us/podcast/171-can-we-fix-ai-coding-burnout/id1700169000?i=1000803577433
+youtube: https://youtu.be/8tXF0MNcOkk?si=a_ANxs61Cz5rQejt
